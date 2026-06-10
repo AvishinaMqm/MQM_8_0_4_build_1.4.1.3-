@@ -771,7 +771,7 @@ object FJobHandle: TFJobHandle
           Margins.Top = 4
           Margins.Right = 4
           Margins.Bottom = 4
-          Caption = 'Current job quantity'
+          Caption = 'Current job remaining quantity'
         end
         object LblNrOfNewJob: TLabel
           Left = 303

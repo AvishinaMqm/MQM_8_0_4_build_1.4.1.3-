@@ -10,7 +10,7 @@ uses
   UMSchedView, ExtCtrls,
   UMRes, FMGrpSplit,
   UMUsrPropComp,
-  UMOpStack, Buttons, ComCtrls, Spin,UReShape, ExSpinEdit, Vcl.Menus;
+  UMOpStack, Buttons, ComCtrls, Spin,UReShape, ExSpinEdit, Vcl.Menus, Vcl.Grids;
 
 type
   TTGroupDetail = class(TForm)
@@ -96,6 +96,8 @@ type
     procedure BtnCalcSplitClick(Sender: TObject);
     procedure RgSplitTypeClick(Sender: TObject);
     procedure showAppendixClick(Sender: TObject);
+    procedure BtnAddLineClick(Sender: TObject);
+    procedure BtnRemoveLineClick(Sender: TObject);
   private
     m_grpId:         TSchedId;
     m_NewGroup : boolean;
@@ -112,6 +114,16 @@ type
     m_AlternativeUM : string;
     m_SplitWasClicked : boolean;
 
+    // multi-line "By both" split
+    GrdSplitLines : TStringGrid;
+    BtnAddLine    : TcxButton;
+    BtnRemoveLine : TcxButton;
+
+    procedure CreateSplitLinesGrid;
+    procedure LayoutSplitInputs(MultiLine: boolean);
+    procedure ResetSplitLinesGrid;
+    function  ReadSplitLines(out Lines: TSplitLineArray; out TotalSplit: currency; out Err: string): boolean;
+    procedure GetSplitBaseQty(out GroupQty, AvailQty: currency);
     procedure SetAppendixButtonIfNeeded;
     procedure SetCurrent(id: TSchedId; markStack : TStackMark);
     procedure AddToGroup(id: TSchedId);
@@ -448,9 +460,277 @@ begin
   PnlSplit.Height := 0;
   Height := 450;//360;
 
+  CreateSplitLinesGrid;
 
   ReShape(Self);
 
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TTGroupDetail.CreateSplitLinesGrid;
+begin
+  // Editable list of (number of jobs, quantity per group) lines, shown only for "By both".
+  GrdSplitLines := TStringGrid.Create(Self);
+  GrdSplitLines.Parent          := PnlSplit;
+  GrdSplitLines.ColCount        := 2;
+  GrdSplitLines.RowCount        := 2;
+  GrdSplitLines.FixedRows       := 1;
+  GrdSplitLines.FixedCols       := 0;
+  GrdSplitLines.DefaultRowHeight:= 22;
+  GrdSplitLines.ScrollBars      := ssVertical;
+  GrdSplitLines.Options         := GrdSplitLines.Options
+                                   + [goEditing, goTabs, goVertLine, goHorzLine, goColSizing]
+                                   - [goRangeSelect];
+  GrdSplitLines.ColWidths[0]    := 92;
+  GrdSplitLines.ColWidths[1]    := 150;
+  GrdSplitLines.Cells[0, 0]     := _('Number of jobs');
+  GrdSplitLines.Cells[1, 0]     := _('Quantity per group');
+  GrdSplitLines.Visible         := false;
+
+  BtnAddLine := TcxButton.Create(Self);
+  BtnAddLine.Parent       := PnlSplit;
+  BtnAddLine.Caption      := _('Add line');
+  BtnAddLine.Font.Assign(BtnCalcSplit.Font);
+  BtnAddLine.ParentFont   := false;
+  BtnAddLine.OnClick      := BtnAddLineClick;
+  BtnAddLine.Visible      := false;
+
+  BtnRemoveLine := TcxButton.Create(Self);
+  BtnRemoveLine.Parent     := PnlSplit;
+  BtnRemoveLine.Caption    := _('Remove line');
+  BtnRemoveLine.Font.Assign(BtnCalcSplit.Font);
+  BtnRemoveLine.ParentFont := false;
+  BtnRemoveLine.OnClick    := BtnRemoveLineClick;
+  BtnRemoveLine.Visible    := false;
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TTGroupDetail.ResetSplitLinesGrid;
+begin
+  if not Assigned(GrdSplitLines) then exit;
+  GrdSplitLines.RowCount    := 2;
+  GrdSplitLines.Cells[0, 1] := '';
+  GrdSplitLines.Cells[1, 1] := '';
+  GrdSplitLines.Row         := 1;
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TTGroupDetail.LayoutSplitInputs(MultiLine: boolean);
+begin
+  if not Assigned(GrdSplitLines) then exit;
+
+  if MultiLine then
+  begin
+    // hide the single-line number/quantity inputs
+    LblSplitNo.Visible      := false;
+    SEdtNumOfGroups.Visible := false;
+    LblQtyPerJob.Visible    := false;
+    EdtQtyPerJob.Visible    := false;
+
+    // hide fields that don't apply to a multi-line split:
+    //  - the "Quantity to" Split/Keep + "Quantity to split" inputs (the grid drives everything)
+    //  - the single-value result fields "Number of new group" / "Quantity of each new group"
+    RGQtyType.Visible       := false;
+    EdtQtyToSplit.Visible   := false;
+    LblNrOfNewGroup.Visible := false;
+    StNrOfNewGrp.Visible    := false;
+    LblQtyEachGroup.Visible := false;
+    StQtyEachGrp.Visible    := false;
+    // keep "Current group remaining quantity" -> it shows the quantity that stays on sub-step 0
+    LblCurrGroupQty.Visible := true;
+    StCurrGrpQty.Visible    := true;
+
+    // show the grid + its buttons
+    GrdSplitLines.SetBounds(12, 150, 256, 116);
+    BtnAddLine.SetBounds(12, 272, 80, 26);
+    BtnRemoveLine.SetBounds(98, 272, 110, 26);
+    GrdSplitLines.Visible := true;
+    BtnAddLine.Visible    := true;
+    BtnRemoveLine.Visible := true;
+
+    // push action buttons + error line down and grow the panel
+    BtnCalcSplit.SetBounds(311, 272, 128, 28);
+    BtnSplit.SetBounds(445, 272, 128, 28);
+    LblSplitErr.Top := 312;
+    EdtSplitError.SetBounds(55, 309, 482, 24);
+
+    PnlSplit.Height := 345;
+    Height := 760;
+  end
+  else
+  begin
+    GrdSplitLines.Visible := false;
+    BtnAddLine.Visible    := false;
+    BtnRemoveLine.Visible := false;
+
+    LblSplitNo.Visible      := true;
+    SEdtNumOfGroups.Visible := true;
+    LblQtyPerJob.Visible    := true;
+    EdtQtyPerJob.Visible    := true;
+
+    // restore the fields hidden for multi-line
+    RGQtyType.Visible       := true;
+    EdtQtyToSplit.Visible   := true;
+    LblNrOfNewGroup.Visible := true;
+    StNrOfNewGrp.Visible    := true;
+    LblQtyEachGroup.Visible := true;
+    StQtyEachGrp.Visible    := true;
+    LblCurrGroupQty.Visible := true;
+    StCurrGrpQty.Visible    := true;
+
+    // restore the original (DFM) positions
+    BtnCalcSplit.SetBounds(311, 177, 128, 28);
+    BtnSplit.SetBounds(445, 177, 128, 28);
+    LblSplitErr.Top := 215;
+    EdtSplitError.SetBounds(55, 212, 482, 24);
+
+    PnlSplit.Height := 240;
+    Height := 700;
+  end;
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TTGroupDetail.BtnAddLineClick(Sender: TObject);
+begin
+  GrdSplitLines.RowCount := GrdSplitLines.RowCount + 1;
+  GrdSplitLines.Cells[0, GrdSplitLines.RowCount - 1] := '';
+  GrdSplitLines.Cells[1, GrdSplitLines.RowCount - 1] := '';
+  GrdSplitLines.Row := GrdSplitLines.RowCount - 1;
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TTGroupDetail.BtnRemoveLineClick(Sender: TObject);
+var
+  r, c, sel: integer;
+begin
+  if GrdSplitLines.RowCount <= 2 then
+  begin
+    // keep one (blank) data row
+    GrdSplitLines.Cells[0, 1] := '';
+    GrdSplitLines.Cells[1, 1] := '';
+    exit;
+  end;
+
+  sel := GrdSplitLines.Row;
+  if sel < 1 then sel := 1;
+
+  for r := sel to GrdSplitLines.RowCount - 2 do
+    for c := 0 to GrdSplitLines.ColCount - 1 do
+      GrdSplitLines.Cells[c, r] := GrdSplitLines.Cells[c, r + 1];
+
+  GrdSplitLines.RowCount := GrdSplitLines.RowCount - 1;
+  if GrdSplitLines.Row > GrdSplitLines.RowCount - 1 then
+    GrdSplitLines.Row := GrdSplitLines.RowCount - 1;
+end;
+
+//----------------------------------------------------------------------------//
+
+function TTGroupDetail.ReadSplitLines(out Lines: TSplitLineArray; out TotalSplit: currency; out Err: string): boolean;
+var
+  r, n, cnt, DecMult, QtyInt: integer;
+  cntStr, qtyStr: string;
+  qtyVal: double;
+  qty: currency;
+begin
+  Result     := false;
+  Err        := '';
+  TotalSplit := 0;
+  SetLength(Lines, 0);
+  n := 0;
+  DecMult := Round(IntPower(10, p_sc.GetJobNumOfDecimals(m_grpId)));
+
+  for r := 1 to GrdSplitLines.RowCount - 1 do
+  begin
+    cntStr := Trim(GrdSplitLines.Cells[0, r]);
+    qtyStr := Trim(GrdSplitLines.Cells[1, r]);
+
+    if (cntStr = '') and (qtyStr = '') then continue;
+
+    if (cntStr = '') or (qtyStr = '') then
+    begin
+      Err := _('Each line must have both a number of jobs and a quantity');
+      exit;
+    end;
+
+    cnt := StrToIntDef(cntStr, -1);
+    if cnt <= 0 then
+    begin
+      Err := _('Number of jobs must be a positive whole number');
+      exit;
+    end;
+
+    qtyVal := StrToFloatDef(qtyStr, -1);
+    if qtyVal <= 0 then
+    begin
+      Err := _('Quantity per group must be greater than zero');
+      exit;
+    end;
+
+    QtyInt := trunc(qtyVal * DecMult);
+    qty    := QtyInt / DecMult;
+    if qty <= 0 then
+    begin
+      Err := _('Quantity per group must be greater than zero');
+      exit;
+    end;
+
+    SetLength(Lines, n + 1);
+    Lines[n].Count := cnt;
+    Lines[n].Qty   := qty;
+    TotalSplit     := TotalSplit + cnt * qty;
+    inc(n);
+  end;
+
+  if n = 0 then
+  begin
+    Err := _('Please enter at least one line');
+    exit;
+  end;
+
+  Result := true;
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TTGroupDetail.GetSplitBaseQty(out GroupQty, AvailQty: currency);
+var
+  I: integer;
+  SonId: TSchedId;
+  value: variant;
+  dataType: CBinColValType;
+  jq, sq, pq: currency;
+  SplitInfo: TSQSplitInfo;
+begin
+  GroupQty := 0;
+  AvailQty := 0;
+
+  if m_splitByAlternativeQty then
+  begin
+    for I := 0 to p_sc.GetGrpNumSons(m_grpId) - 1 do
+    begin
+      SonId := p_sc.GetGrpSon(m_grpId, I);
+      p_sc.GetSplitInfo(SonId, SplitInfo);
+      p_sc.GetFldValue(SonId, CSC_QtyToSched, value, dataType); jq := value;
+      p_sc.GetFldValue(SonId, CSC_IniQty,     value, dataType); sq := value;
+      p_sc.GetFldValue(SonId, CSC_ProgQty,    value, dataType); pq := value;
+      if sq <> 0 then
+      begin
+        GroupQty := GroupQty + jq / sq * SplitInfo.AlternativeQty;
+        AvailQty := AvailQty + (jq - pq) / sq * SplitInfo.AlternativeQty;
+      end;
+    end;
+  end
+  else
+  begin
+    p_sc.GetFldValue(m_grpId, CSC_QtyToSched, value, dataType); GroupQty := value;
+    p_sc.GetFldValue(m_grpId, CSC_ProgQty,    value, dataType); pq := value;
+    AvailQty := GroupQty - pq;
+  end;
 end;
 
 //----------------------------------------------------------------------------//
@@ -1273,6 +1553,8 @@ begin
 //  StCurrGrpQty.Caption   := '0';
   StQtyEachGrp.Caption   := '0';
   StNrOfNewGrp.Caption   := '0';
+
+  LayoutSplitInputs(RgSplitType.ItemIndex = 2);
 end;
 
 //----------------------------------------------------------------------------//
@@ -1295,7 +1577,101 @@ var
   JobQtyValue, stepqtyValue: variant;
   Err: string;
   JobQty, AlternativeJobQty : currency;
+  // exact proportional allocation ("By both" grid + main-UM "By number"/"By quantity")
+  Lines: TSplitLineArray;
+  TotalSplit, GroupQty, AvailQty, RemainQty: currency;
+  ErrStr: string;
+  K, ii, nSons: integer;
+  SonId: TSchedId;
+  v: variant;
+  Conv, mainAvail, jqv, pqv, iniq: currency;
+  AbsorbLast: boolean;
+  SplitInfo: TSQSplitInfo;
+  Rates: TCurrencyArray;
 begin
+  // ---- multi-line "By both": several (number of jobs, quantity per group) lines ----
+  if RgSplitType.ItemIndex = 2 then
+  begin
+    BtnSplit.Visible := false;
+
+    if not ReadSplitLines(Lines, TotalSplit, ErrStr) then
+    begin
+      EdtSplitError.Text   := ErrStr;
+      StCurrGrpQty.Caption := '0';
+      StQtyEachGrp.Caption := '0';
+      StNrOfNewGrp.Caption := '0';
+      exit;
+    end;
+
+    GetSplitBaseQty(GroupQty, AvailQty);
+
+    if TotalSplit > AvailQty then
+    begin
+      EdtSplitError.Text   := _('The split quantity is greater than the remaining quantity');
+      StCurrGrpQty.Caption := '0';
+      StQtyEachGrp.Caption := '0';
+      StNrOfNewGrp.Caption := '0';
+      exit;
+    end;
+
+    // full consumption: when the lines use the whole available quantity, the allocator carves
+    // every group except the last, and the original sub-step-0 group becomes that last group
+    // (so nothing is left as a 0-qty ghost job)
+    AbsorbLast := (AvailQty - TotalSplit) <= 0.0000001;
+    if AbsorbLast and (High(Lines) >= 0) then
+      RemainQty := (GroupQty - TotalSplit) + Lines[High(Lines)].Qty   // last group stays on sub-step 0
+    else
+      RemainQty := GroupQty - TotalSplit;
+
+    K := 0;
+    for ii := 0 to High(Lines) do
+      K := K + Lines[ii].Count;
+
+    // Conv translates a chosen-UM per-group quantity into the MAIN UM. The carve always happens
+    // in the MAIN UM, at the main-UM number of decimals (Conv = 1 for a main-UM split).
+    SetLength(Rates, 0);
+    if m_splitByAlternativeQty then
+    begin
+      nSons := p_sc.GetGrpNumSons(m_grpId);
+      SetLength(Rates, nSons);
+      mainAvail := 0;
+      for ii := 0 to nSons - 1 do
+      begin
+        SonId := p_sc.GetGrpSon(m_grpId, ii);
+        p_sc.GetFldValue(SonId, CSC_QtyToSched, v, dataType); jqv := v;
+        p_sc.GetFldValue(SonId, CSC_ProgQty,    v, dataType); pqv := v;
+        mainAvail := mainAvail + (jqv - pqv);
+        // per-demand rate = alternative-UM per 1 MAIN-UM unit (each demand has its OWN ratio)
+        p_sc.GetSplitInfo(SonId, SplitInfo);
+        p_sc.GetFldValue(SonId, CSC_IniQty, v, dataType); iniq := v;
+        if iniq = 0 then Rates[ii] := 0 else Rates[ii] := SplitInfo.AlternativeQty / iniq;
+      end;
+      if AvailQty = 0 then Conv := 1 else Conv := mainAvail / AvailQty;
+    end
+    else
+      Conv := 1;
+
+    EdtSplitError.Text   := '';
+    StCurrGrpQty.Caption := FloatToStr(RemainQty);
+
+    m_SplitGroupData.Id_Grp             := m_grpId;
+    m_SplitGroupData.MultiLine          := true;
+    m_SplitGroupData.GroupQtyForPercent := GroupQty;
+    m_SplitGroupData.Lines              := Lines;
+    m_SplitGroupData.NewGrpNr           := K;
+    m_SplitGroupData.Conv               := Conv;
+    m_SplitGroupData.NumDecimals        := p_sc.GetJobNumOfDecimals(m_grpId);
+    m_SplitGroupData.AbsorbLastGroup    := AbsorbLast;
+    m_SplitGroupData.IsAlternative      := m_splitByAlternativeQty;
+    m_SplitGroupData.ChildRates         := Rates;
+
+    BtnSplit.Enabled := true;
+    BtnSplit.Visible := true;
+    exit;
+  end;
+
+  m_SplitGroupData.MultiLine := false;
+
   if EdtQtyPerJob.Text = '' then
   begin
     EdtSplitError.Text := _('Quantity per group cannot be empty');
@@ -1341,6 +1717,30 @@ begin
     m_SplitGroupData.Id_Grp := m_grpId;
     m_SplitGroupData.SplitPercent := NewGrpNr*EachGrpQty/JobQty;
     m_SplitGroupData.NewGrpNr := NewGrpNr;
+
+    if m_splitByAlternativeQty then
+      // alternative-UM single-line split keeps its existing (percent) carving - left untouched
+      m_SplitGroupData.MultiLine := false
+    else
+    begin
+      // main-UM "By number"/"By quantity": carve via the exact proportional allocator so a
+      // multi-demand group totals exactly NewGrpNr x EachGrpQty (no per-demand rounding loss)
+      SetLength(Lines, 1);
+      Lines[0].Count := NewGrpNr;
+      Lines[0].Qty   := EachGrpQty;
+      // OrigGrpQty ~ 0 => the split consumes everything: carve one group less and leave that last
+      // group on sub-step 0 (instead of a 0-qty original job)
+      AbsorbLast := (OrigGrpQty <= 0.0000001);
+      m_SplitGroupData.MultiLine          := true;
+      m_SplitGroupData.Lines              := Lines;
+      m_SplitGroupData.GroupQtyForPercent := JobQty;
+      m_SplitGroupData.Conv               := 1;
+      m_SplitGroupData.NumDecimals        := p_sc.GetJobNumOfDecimals(m_grpId);
+      m_SplitGroupData.AbsorbLastGroup    := AbsorbLast;
+      m_SplitGroupData.IsAlternative      := false;
+      if AbsorbLast then
+        StCurrGrpQty.Caption := FloatToStr(EachGrpQty);   // the last group stays on sub-step 0
+    end;
   end else
   begin
     EdtSplitError.Text    := Err;
@@ -1555,24 +1955,49 @@ end;
 procedure TTGroupDetail.BtnSplitClick(Sender: TObject);
 var
   GrpSplit : TGrpSplit;
+  TotalSplit, GroupQty, AvailQty : currency;
+  ii : integer;
 begin
-  GrpSplit := TGrpSplit.CreateGrpSplit(self, m_SplitGroupData);
-  if GrpSplit.GetmsgError <> '' then
+  if m_SplitGroupData.MultiLine then
   begin
-    EdtSplitError.Text := GrpSplit.GetmsgError;
+    TotalSplit := 0;
+    for ii := 0 to High(m_SplitGroupData.Lines) do
+      TotalSplit := TotalSplit + m_SplitGroupData.Lines[ii].Count * m_SplitGroupData.Lines[ii].Qty;
+
+    // block when the requested quantity exceeds what is available (e.g. the grid was
+    // changed after the last Calculate) - always show a clear message
+    GetSplitBaseQty(GroupQty, AvailQty);
+    if TotalSplit > AvailQty then
+    begin
+      EdtSplitError.Text := _('The split quantity is greater than the remaining quantity');
+      MessageDlg(Format(_('The requested quantity (%s) is greater than the available quantity (%s).'),
+                        [FloatToStr(TotalSplit), FloatToStr(AvailQty)]),
+                 mtWarning, [mbOK], 0);
+      exit;
+    end;
+
+  end;
+
+  // perform the split directly (no separate preview window). The new groups are created on the
+  // op-stack right away; the user confirms ONCE on the group detail itself - OK keeps them,
+  // Abort rolls back the whole session (FormClose -> UndoByMark(m_markStack)).
+  GrpSplit := TGrpSplit.CreateGrpSplit(self, m_SplitGroupData);
+  try
+    if GrpSplit.GetmsgError <> '' then
+    begin
+      EdtSplitError.Text := GrpSplit.GetmsgError;
+      GrpSplit.UndoSplitMark;   // roll back the partial split so the user can adjust and retry
+      exit;
+    end;
+  finally
     GrpSplit.Free;
-    exit
   end;
 
   m_SplitWasClicked := true;
-
-  if GrpSplit.ShowModal = mrOk then
-  begin
-    p_sc.SetPropListFlag(m_grpId, true, false);
-    m_schedListView.RefreshList;
-    m_schedListView.Refresh;
-    SplitTypeChanged;
-  end;
+  p_sc.SetPropListFlag(m_grpId, true, false);
+  m_schedListView.RefreshList;
+  m_schedListView.Refresh;
+  SplitTypeChanged;
 end;
 
 //----------------------------------------------------------------------------//
@@ -1596,6 +2021,16 @@ begin
     STStCurrUmHandled.Caption := valueUM;
   end;
 
+  // in split mode the side action buttons (Remove / Details selected / Change quantity /
+  // Job messages / Split) are not relevant - hide the whole side panel: it is either split or not
+  PanOp.Visible := false;
+
+  // likewise hide the bottom action buttons, leaving only OK / Abort
+  BtnMove.Visible            := false;   // Move on plan
+  BtnShowRequiremants.Visible := false;  // Show requirements
+  BtnShowComp.Visible        := false;   // Show compatible
+  ButtonAppendix.Visible     := false;   // Formula result
+
   PnlSplit.Height := 240;
   Height := 700;
   LblSplitErr.Top := 215;
@@ -1606,6 +2041,8 @@ begin
   SetComponent(StQtyEachGrp, comp_Descr, false);
 
   BtnSplit.Visible := false;
+
+  ResetSplitLinesGrid;
 
   SplitTypeChanged;
 

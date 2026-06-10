@@ -188,7 +188,7 @@ var
   NewId, ChildId : TSchedID;
   List : TList;
   ChecksplitGroup : boolean;
-  NumOfres, groupQtyInt : Integer;
+  NumOfres, DecMult : Integer;
 begin
   List := nil;
   ChecksplitGroup := true;
@@ -218,8 +218,12 @@ begin
         NumOfres := FieldVal;
         p_sc.GetFldValue(Id, CSC_QtyToSched, value, dataType);
         GroupQty := value;
-        groupQtyInt := trunc(groupQty/NumOfres * 100);
-        groupQty := groupQtyInt / 100;
+        // per-resource portion, floored to the job's own decimal precision (was hardcoded to 2
+        // decimals). The remainder stays on the last (original) group; SplitGroup carves each
+        // peeled group exactly to this quantity.
+        DecMult := 1;
+        for G := 1 to p_sc.GetJobNumOfDecimals(Id) do DecMult := DecMult * 10;
+        groupQty := trunc(groupQty / NumOfres * DecMult) / DecMult;
         for G := 0 to NumOfres - 2 do
           SplitGroup(id, groupQty, true);
       end;

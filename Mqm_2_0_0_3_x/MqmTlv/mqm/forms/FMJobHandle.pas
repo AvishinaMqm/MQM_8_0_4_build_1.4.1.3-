@@ -16,6 +16,13 @@ type
   TOperationHandle = (Split, Join);
   RoundToType = (Non, Up, Down);
 
+  // multi-line "By both" job split: several (number of jobs, quantity per job) lines
+  TJobSplitLine = record
+    Count : integer;
+    Qty   : currency;   // quantity per job, in the chosen UM (main or alternative)
+  end;
+  TJobSplitLineArray = array of TJobSplitLine;
+
   TBalanceQty = record
     framePtr: PTframePtr;
     id: TSchedId;
@@ -209,6 +216,19 @@ type
     m_AlternativeStepQty :  currency;
 
 //    m_CalcWithNoDecimals : boolean;
+
+    // runtime "By both" multi-line grid (mirrors the group split)
+    GrdSplitLines : TStringGrid;
+    BtnAddLine    : TcxButton;
+    BtnRemoveLine : TcxButton;
+    procedure CreateSplitLinesGrid;
+    procedure ResetSplitLinesGrid;
+    procedure LayoutSplitInputs(MultiLine: boolean);
+    procedure BtnAddLineClick(Sender: TObject);
+    procedure BtnRemoveLineClick(Sender: TObject);
+    function  ReadSplitLines(out Lines: TJobSplitLineArray; out TotalSplit: currency; out Err: string): boolean;
+    procedure GetMultiLineBase(out jobMain, availMain, Conv: currency; out DecMult: integer);
+    function  DoMultiLineSplit(out List: TList; out Err: string): boolean;
 
     procedure InitCaptions;
     procedure InitHeader;
@@ -877,6 +897,7 @@ begin
 
   SEdtNumOfJobs.Value := 0;
   EdtQtyPerJob.Text  := '0';
+  ResetSplitLinesGrid;
   SplitTypeChanged;
 
   StCurrJobQty.Caption := EdtQtyToSplit.Text;
@@ -896,7 +917,46 @@ var
   Err: string;
   jobqty, stepqty : variant;
   dataType: CBinColValType;
+  Lines: TJobSplitLineArray;
+  totalChosen, jobMain, availMain, Conv, totalMain, remainChosen: currency;
+  DecMult, li: integer;
+  AbsorbLast: boolean;
 begin
+  // ---- multi-line "By both": several (number of jobs, quantity per job) lines ----
+  if RgSplitType.ItemIndex = 2 then
+  begin
+    BtnConfirmSplit.Enabled := false;
+    BtnSplitBalance.Enabled := false;
+    if not ReadSplitLines(Lines, totalChosen, Err) then
+    begin
+      STSplitErr.Caption   := Err;
+      StCurrJobQty.Caption := '0';
+      exit;
+    end;
+    GetMultiLineBase(jobMain, availMain, Conv, DecMult);
+    totalMain := 0;
+    for li := 0 to High(Lines) do
+      totalMain := totalMain + (trunc(Lines[li].Qty * Conv * DecMult + 0.5) / DecMult) * Lines[li].Count;
+    if totalMain > availMain + 0.0000001 then
+    begin
+      STSplitErr.Caption   := _('The split quantity is greater than the remaining quantity');
+      StCurrJobQty.Caption := '0';
+      exit;
+    end;
+    AbsorbLast := (availMain - totalMain) <= 0.0000001;
+    if AbsorbLast then
+      remainChosen := Lines[High(Lines)].Qty            // the last job stays on the original
+    else if Conv = 0 then
+      remainChosen := availMain - totalMain
+    else
+      remainChosen := (availMain - totalMain) / Conv;   // remaining, back in the chosen UM
+    STSplitErr.Caption      := '';
+    StCurrJobQty.Caption    := FloatToStr(remainChosen);
+    BtnConfirmSplit.Enabled := true;
+    BtnSplitBalance.Enabled := true;
+    exit;
+  end;
+
   if (EdtQtyPerJob.Text = '') and (RgSplitType.ItemIndex <> 0) then
   begin
     STSplitErr.Caption := _('Quantity per job cannot be empty');
@@ -990,48 +1050,68 @@ var
   DeltaSetupObjToMove: double;
   ErrorFound : boolean;
   moveChgInfo: TSQmoveChgInfo;
+  FreeList : boolean;
 begin
   m_OperationHandle := split;
   List := nil;
-  SplitQty  := StrToFloat(EdtQtyToSplit.Text);
-  SplitNo   := SEdtNumOfJobs.Value;
-  QtyPerJob := StrToFloat(EdtQtyPerJob.Text);
-  ErrorFound := true;
+  FreeList := false;
 
-  if m_SplitByUM then
+  if RgSplitType.ItemIndex = 2 then
   begin
-    if not CalcSplitQtyAlternative(m_id, RgSplitType.ItemIndex, RGQtyType.ItemIndex, SplitQty, SplitNo, QtyPerJob, OrigJobQty, EachJobQty, NewJobNr, Err, OrigJobQtyAlt, EachJobQtyAlt) then
-       ErrorFound := false;
+    // multi-line "By both": carve every requested job (the combined List is ours to free)
+    if not DoMultiLineSplit(List, Err) then
+    begin
+      STSplitErr.Caption := Err;
+      BtnConfirmSplit.Enabled := false;
+      BtnSplitBalance.Enabled := false;
+      if Assigned(List) then List.Free;
+      exit;
+    end;
+    FreeList := true;
   end
   else
   begin
-     if not CalcSplitQty(m_id, RgSplitType.ItemIndex, RGQtyType.ItemIndex, SplitQty, SplitNo, QtyPerJob, OrigJobQty, EachJobQty, NewJobNr, Err) then
-        ErrorFound := false;
-  end;
-
-  if not ErrorFound then
-  begin
-    STSplitErr.Caption := Err;
+    SplitQty  := StrToFloat(EdtQtyToSplit.Text);
+    SplitNo   := SEdtNumOfJobs.Value;
+    QtyPerJob := StrToFloat(EdtQtyPerJob.Text);
+    ErrorFound := true;
 
     if m_SplitByUM then
     begin
-      StCurrJobQty.Caption  := FloatToStr(OrigJobQtyAlt);
-      StQtyEachJob.Caption  := FloatToStr(EachJobQtyAlt);
+      if not CalcSplitQtyAlternative(m_id, RgSplitType.ItemIndex, RGQtyType.ItemIndex, SplitQty, SplitNo, QtyPerJob, OrigJobQty, EachJobQty, NewJobNr, Err, OrigJobQtyAlt, EachJobQtyAlt) then
+         ErrorFound := false;
     end
     else
     begin
-      StCurrJobQty.Caption  := FloatToStr(OrigJobQty);
-      StQtyEachJob.Caption  := FloatToStr(EachJobQty);
+       if not CalcSplitQty(m_id, RgSplitType.ItemIndex, RGQtyType.ItemIndex, SplitQty, SplitNo, QtyPerJob, OrigJobQty, EachJobQty, NewJobNr, Err) then
+          ErrorFound := false;
     end;
-    StNrOfNewJob.Caption  := IntToStr(NewJobNr);
-    BtnConfirmSplit.Enabled := false;
-    BtnSplitBalance.Enabled := false;
 
-    exit;
+    if not ErrorFound then
+    begin
+      STSplitErr.Caption := Err;
+
+      if m_SplitByUM then
+      begin
+        StCurrJobQty.Caption  := FloatToStr(OrigJobQtyAlt);
+        StQtyEachJob.Caption  := FloatToStr(EachJobQtyAlt);
+      end
+      else
+      begin
+        StCurrJobQty.Caption  := FloatToStr(OrigJobQty);
+        StQtyEachJob.Caption  := FloatToStr(EachJobQty);
+      end;
+      StNrOfNewJob.Caption  := IntToStr(NewJobNr);
+      BtnConfirmSplit.Enabled := false;
+      BtnSplitBalance.Enabled := false;
+
+      exit;
+    end;
+
+    p_opStack.SplitJob(m_Id, OrigJobQty, EachJobQty, NewJobNr, NewId, List);
   end;
 
-  p_opStack.SplitJob(m_Id, OrigJobQty, EachJobQty, NewJobNr, NewId, List);
-
+  try
   p_sc.GetSplitInfo(m_Id, SplitInfo);
 
   if ((SplitInfo.SplitAllow = CSB_Son) or (SplitInfo.SplitAllow = CSB_father)) and (SplitInfo.SplitFamilyCode <> '') then
@@ -1107,6 +1187,9 @@ begin
   end;
 //  end;
 
+  finally
+    if FreeList and Assigned(List) then List.Free;
+  end;
 end;
 
 //----------------------------------------------------------------------------//
@@ -1271,7 +1354,279 @@ begin
   EdtQtyToSplitTemp := (EdtQtyToSplitTemp * 100)/100;
   EdtQtyToSplit.Text := FloatToStr(EdtQtyToSplitTemp);
 
+  LayoutSplitInputs(RgSplitType.ItemIndex = 2);
+end;
 
+//----------------------------------------------------------------------------//
+
+procedure TFJobHandle.CreateSplitLinesGrid;
+begin
+  // editable list of (number of jobs, quantity per job) lines, shown only for "By both"
+  GrdSplitLines := TStringGrid.Create(Self);
+  GrdSplitLines.Parent          := PnlSplit;
+  GrdSplitLines.ColCount        := 2;
+  GrdSplitLines.RowCount        := 2;
+  GrdSplitLines.FixedRows       := 1;
+  GrdSplitLines.FixedCols       := 0;
+  GrdSplitLines.DefaultRowHeight:= 22;
+  GrdSplitLines.ScrollBars      := ssVertical;
+  GrdSplitLines.Options         := GrdSplitLines.Options
+                                   + [goEditing, goTabs, goVertLine, goHorzLine, goColSizing]
+                                   - [goRangeSelect];
+  GrdSplitLines.ColWidths[0]    := 92;
+  GrdSplitLines.ColWidths[1]    := 150;
+  GrdSplitLines.Cells[0, 0]     := _('Number of jobs');
+  GrdSplitLines.Cells[1, 0]     := _('Quantity per job');
+  GrdSplitLines.Visible         := false;
+
+  BtnAddLine := TcxButton.Create(Self);
+  BtnAddLine.Parent     := PnlSplit;
+  BtnAddLine.Caption    := _('Add line');
+  BtnAddLine.Font.Assign(BtnCalcSplit.Font);
+  BtnAddLine.ParentFont := false;
+  BtnAddLine.OnClick    := BtnAddLineClick;
+  BtnAddLine.Visible    := false;
+
+  BtnRemoveLine := TcxButton.Create(Self);
+  BtnRemoveLine.Parent     := PnlSplit;
+  BtnRemoveLine.Caption    := _('Remove line');
+  BtnRemoveLine.Font.Assign(BtnCalcSplit.Font);
+  BtnRemoveLine.ParentFont := false;
+  BtnRemoveLine.OnClick    := BtnRemoveLineClick;
+  BtnRemoveLine.Visible    := false;
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TFJobHandle.ResetSplitLinesGrid;
+begin
+  if not Assigned(GrdSplitLines) then exit;
+  GrdSplitLines.RowCount    := 2;
+  GrdSplitLines.Cells[0, 1] := '';
+  GrdSplitLines.Cells[1, 1] := '';
+  GrdSplitLines.Row         := 1;
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TFJobHandle.LayoutSplitInputs(MultiLine: boolean);
+begin
+  if not Assigned(GrdSplitLines) then exit;
+
+  if MultiLine then
+  begin
+    // hide the single-line inputs + the single-value result rows; the grid drives everything
+    RGQtyType.Visible     := false;
+    EdtQtyToSplit.Visible := false;
+    SEdtNumOfJobs.Visible := false;
+    EdtQtyPerJob.Visible  := false;
+    LblSplitNo.Visible    := false;
+    LblQtyPerJob.Visible  := false;
+    LblNrOfNewJob.Visible := false;
+    StNrOfNewJob.Visible  := false;
+    LblQtyEachJob.Visible := false;
+    StQtyEachJob.Visible  := false;
+    // keep LblCurrJobQty / StCurrJobQty (remaining) + STUmCode + RgSplitType + the error line
+
+    GrdSplitLines.SetBounds(12, 69, 270, 120);
+    BtnAddLine.SetBounds(12, 196, 80, 26);
+    BtnRemoveLine.SetBounds(98, 196, 110, 26);
+    GrdSplitLines.Visible := true;
+    BtnAddLine.Visible    := true;
+    BtnRemoveLine.Visible := true;
+  end
+  else
+  begin
+    GrdSplitLines.Visible := false;
+    BtnAddLine.Visible    := false;
+    BtnRemoveLine.Visible := false;
+
+    RGQtyType.Visible     := true;
+    EdtQtyToSplit.Visible := true;
+    SEdtNumOfJobs.Visible := true;
+    EdtQtyPerJob.Visible  := true;
+    LblSplitNo.Visible    := true;
+    LblQtyPerJob.Visible  := true;
+    LblNrOfNewJob.Visible := true;
+    StNrOfNewJob.Visible  := true;
+    LblQtyEachJob.Visible := true;
+    StQtyEachJob.Visible  := true;
+  end;
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TFJobHandle.BtnAddLineClick(Sender: TObject);
+begin
+  GrdSplitLines.RowCount := GrdSplitLines.RowCount + 1;
+  GrdSplitLines.Cells[0, GrdSplitLines.RowCount - 1] := '';
+  GrdSplitLines.Cells[1, GrdSplitLines.RowCount - 1] := '';
+  GrdSplitLines.Row := GrdSplitLines.RowCount - 1;
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TFJobHandle.BtnRemoveLineClick(Sender: TObject);
+var
+  r, c, sel: integer;
+begin
+  if GrdSplitLines.RowCount <= 2 then
+  begin
+    GrdSplitLines.Cells[0, 1] := '';
+    GrdSplitLines.Cells[1, 1] := '';
+    exit;
+  end;
+
+  sel := GrdSplitLines.Row;
+  if sel < 1 then sel := 1;
+
+  for r := sel to GrdSplitLines.RowCount - 2 do
+    for c := 0 to GrdSplitLines.ColCount - 1 do
+      GrdSplitLines.Cells[c, r] := GrdSplitLines.Cells[c, r + 1];
+
+  GrdSplitLines.RowCount := GrdSplitLines.RowCount - 1;
+  if GrdSplitLines.Row > GrdSplitLines.RowCount - 1 then
+    GrdSplitLines.Row := GrdSplitLines.RowCount - 1;
+end;
+
+//----------------------------------------------------------------------------//
+
+function TFJobHandle.ReadSplitLines(out Lines: TJobSplitLineArray; out TotalSplit: currency; out Err: string): boolean;
+var
+  r, n, cnt, DecMult, QtyInt: integer;
+  cntStr, qtyStr: string;
+  qtyVal: double;
+  qty: currency;
+begin
+  Result     := false;
+  Err        := '';
+  TotalSplit := 0;
+  SetLength(Lines, 0);
+  n := 0;
+  DecMult := Round(IntPower(10, p_sc.GetJobNumOfDecimals(m_Id)));
+  if DecMult <= 0 then DecMult := 1;
+
+  for r := 1 to GrdSplitLines.RowCount - 1 do
+  begin
+    cntStr := Trim(GrdSplitLines.Cells[0, r]);
+    qtyStr := Trim(GrdSplitLines.Cells[1, r]);
+    if (cntStr = '') and (qtyStr = '') then continue;
+    if (cntStr = '') or (qtyStr = '') then
+    begin
+      Err := _('Each line must have both a number of jobs and a quantity');
+      exit;
+    end;
+    cnt := StrToIntDef(cntStr, -1);
+    if cnt <= 0 then
+    begin
+      Err := _('Number of jobs must be a positive whole number');
+      exit;
+    end;
+    qtyVal := StrToFloatDef(qtyStr, -1);
+    if qtyVal <= 0 then
+    begin
+      Err := _('Quantity per job must be greater than zero');
+      exit;
+    end;
+    QtyInt := trunc(qtyVal * DecMult);
+    qty    := QtyInt / DecMult;
+    if qty <= 0 then
+    begin
+      Err := _('Quantity per job must be greater than zero');
+      exit;
+    end;
+    SetLength(Lines, n + 1);
+    Lines[n].Count := cnt;
+    Lines[n].Qty   := qty;
+    TotalSplit     := TotalSplit + cnt * qty;
+    inc(n);
+  end;
+
+  if n = 0 then
+  begin
+    Err := _('Please enter at least one line');
+    exit;
+  end;
+  Result := true;
+end;
+
+//----------------------------------------------------------------------------//
+
+// MAIN-UM basis for a multi-line job split. Conv = MAIN-UM qty per 1 chosen-UM unit
+// (1.0 for a main-UM split; IniQty/AlternativeQty for an alternative-UM split). The carve
+// always happens in the MAIN UM at the main-UM number of decimals.
+procedure TFJobHandle.GetMultiLineBase(out jobMain, availMain, Conv: currency; out DecMult: integer);
+var
+  v: variant;
+  dataType: CBinColValType;
+  progMain, iniQty: currency;
+  SplitInfo: TSQSplitInfo;
+begin
+  p_sc.GetFldValue(m_Id, CSC_QtyToSched, v, dataType); jobMain  := v;
+  p_sc.GetFldValue(m_Id, CSC_ProgQty,    v, dataType); progMain := v;
+  availMain := jobMain - progMain;
+  if availMain < 0 then availMain := 0;
+
+  DecMult := Round(IntPower(10, p_sc.GetJobNumOfDecimals(m_Id)));
+  if DecMult <= 0 then DecMult := 1;
+
+  if m_SplitByUM then
+  begin
+    p_sc.GetSplitInfo(m_Id, SplitInfo);
+    p_sc.GetFldValue(m_Id, CSC_IniQty, v, dataType); iniQty := v;
+    if SplitInfo.AlternativeQty = 0 then Conv := 1 else Conv := iniQty / SplitInfo.AlternativeQty;
+  end
+  else
+    Conv := 1;
+end;
+
+//----------------------------------------------------------------------------//
+
+function TFJobHandle.DoMultiLineSplit(out List: TList; out Err: string): boolean;
+var
+  Lines: TJobSplitLineArray;
+  totalChosen, jobMain, availMain, Conv, totalMain, pieceMain, origRemaining: currency;
+  DecMult, li, cnt, k: integer;
+  AbsorbLast: boolean;
+  NewId: TSchedID;
+  oneList: TList;
+begin
+  Result := false;
+  List   := nil;
+  if not ReadSplitLines(Lines, totalChosen, Err) then exit;
+
+  GetMultiLineBase(jobMain, availMain, Conv, DecMult);
+
+  // total requested, in MAIN UM
+  totalMain := 0;
+  for li := 0 to High(Lines) do
+    totalMain := totalMain + (trunc(Lines[li].Qty * Conv * DecMult + 0.5) / DecMult) * Lines[li].Count;
+
+  if totalMain > availMain + 0.0000001 then
+  begin
+    Err := _('The split quantity is greater than the remaining quantity');
+    exit;
+  end;
+
+  // full consumption -> carve every job except the last; the original job becomes that last one
+  AbsorbLast := (availMain - totalMain) <= 0.0000001;
+
+  List          := TList.Create;
+  origRemaining := jobMain;
+  for li := 0 to High(Lines) do
+  begin
+    cnt := Lines[li].Count;
+    if AbsorbLast and (li = High(Lines)) then dec(cnt);   // leave the last job as the original
+    if cnt <= 0 then continue;
+    pieceMain     := trunc(Lines[li].Qty * Conv * DecMult + 0.5) / DecMult;
+    origRemaining := origRemaining - pieceMain * cnt;
+    p_opStack.SplitJob(m_Id, origRemaining, pieceMain, cnt, NewId, oneList);
+    if Assigned(oneList) then
+      for k := 0 to oneList.Count - 1 do
+        List.Add(oneList[k]);
+  end;
+
+  Result := true;
 end;
 
 //----------------------------------------------------------------------------//
@@ -2518,6 +2873,7 @@ begin
   BtnSplitBalance.StyleName := 'VLargeButton320x30';
   TranslateComponent (self);
 //  ScaleFormSize(Self, Screen.PixelsPerInch);
+  CreateSplitLinesGrid;
   p_sc.GetSplitInfo(m_Id, SplitInfo);
   p_opStack.MarkStackForButtonUndo(_('Split Job')); //aviadd
   if ((SplitInfo.SplitAllow = CSB_Son) or (SplitInfo.SplitAllow = CSB_father)) then

@@ -807,7 +807,7 @@ object TGroupDetail: TTGroupDetail
       Margins.Top = 4
       Margins.Right = 4
       Margins.Bottom = 4
-      Caption = 'Current group quantity'
+      Caption = 'Current group remaining quantity'
     end
     object LblNrOfNewGroup: TLabel
       Left = 303
