@@ -1,0 +1,1125 @@
+#  Doesn't have any letters
+#. FBin..PopUpBin..N5..Caption
+#: mqm/bin/FMbin.dfm:44
+#. FBin..PopUpBin..N3..Caption
+#: mqm/bin/FMbin.dfm:58
+#. FBin..PopUpBin..N4..Caption
+#: mqm/bin/FMbin.dfm:74
+#. FBin..PopUpBin..N1..Caption
+#: mqm/bin/FMbin.dfm:88
+#. FBin..PopUpBin..N2..Caption
+#: mqm/bin/FMbin.dfm:107
+#. FBin..PopUpBin..MIBinTab..N6..Caption
+#: mqm/bin/FMbin.dfm:173
+#. FBin..PopUpBin..MIBinTab..N7..Caption
+#: mqm/bin/FMbin.dfm:187
+#. FMQMPlan..PupJob..N2..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:609
+#. FMQMPlan..PupJob..N1..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:623
+#. FMQMPlan..PupJob..N3..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:637
+#. FMQMPlan..PupJob..N6..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:681
+#. FMQMPlan..PopRes..N4..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:704
+#. FMQMPlan..PopRes..N5..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:718
+#. FMQMPlan..PupActArea..N7..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:6580
+#. FSrvLoad..MainMenu..IService..N1..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:248
+msgid "-"
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: NOT_EXIST
+#: mqm/forms/FMstepdetails.pas:237
+msgid "--------------"
+msgstr ""
+
+#  Doesn't have any letters
+#: mqm/forms/FMstepdetails.pas:416
+#: mqm/forms/FMstepdetails.pas:417
+#: mqm/forms/FMstepdetails.pas:418
+#: mqm/forms/FMstepdetails.pas:419
+msgid "  "
+msgstr ""
+
+#  Doesn't have any letters
+#. ChangeWc..StaticWC..Caption
+#: mqm/forms/FMChangeWC.dfm:45
+#. ChangeWc..StaticProcess..Caption
+#: mqm/forms/FMChangeWC.dfm:79
+msgid "            "
+msgstr ""
+
+#  Doesn't have any letters
+#. MWkst..EdPswd..PasswordChar
+#: mqm/forms/FMworkstation.dfm:67
+#. FormWkst..PanelMain..PanelTop..ScrollBox1..LbeWkPasswd..PasswordChar
+#: mqm/MqmArc/FMWkst.dfm:139
+msgid "*"
+msgstr ""
+
+#  Doesn't have any letters
+#. FormAltWkc..PanelMain..PanelTop..ScrollBox1..BitBtnWkc..Caption
+#: mqm/MqmArc/FMAltWkc.dfm:52
+#. FormAltWkc..PanelMain..PanelTop..ScrollBox1..BitBtnProc..Caption
+#: mqm/MqmArc/FMAltWkc.dfm:76
+#. FormAltWkc..PanelMain..PanelTop..ScrollBox1..BitBtn1..Caption
+#: mqm/MqmArc/FMAltWkc.dfm:114
+#. FormPropRes..PanelMain..PanelTop..ScrollBox1..BitBtnWkc..Caption
+#: mqm/MqmArc/FMPropRes.dfm:65
+#. FormRes..PanelMain..PanelTop..ScrollBox1..BitBtnWkc..Caption
+#: mqm/MqmArc/FMRes.dfm:133
+#. FormRes..PanelMain..PanelTop..ScrollBox1..BitBtnRescat..Caption
+#: mqm/MqmArc/FMRes.dfm:154
+#. FormRes..PanelMain..PanelTop..ScrollBox1..BitBtnCal..Caption
+#: mqm/MqmArc/FMRes.dfm:255
+#. FormRuleResToOcc..PanelMain..PanelTop..ScrollBox1..BitBtnWkc..Caption
+#: mqm/MqmArc/FMRuleResToOcc.dfm:257
+#. FormRuleResToOcc..PanelMain..PanelTop..ScrollBox1..BitBtnProp..Caption
+#: mqm/MqmArc/FMRuleResToOcc.dfm:279
+#. FormRuleResToOcc..PanelMain..PanelTop..ScrollBox1..BitBtnRescat..Caption
+#: mqm/MqmArc/FMRuleResToOcc.dfm:301
+#. FormRuleResToOcc..PanelMain..PanelTop..ScrollBox1..BitBtnRes..Caption
+#: mqm/MqmArc/FMRuleResToOcc.dfm:323
+#. FormRuleResToOcc..PanelMain..PanelTop..ScrollBox1..BitBtnWkcProc..Caption
+#: mqm/MqmArc/FMRuleResToOcc.dfm:345
+#. FormRuleResToOcc..PanelMain..PanelTop..ScrollBox1..BitBtnArty..Caption
+#: mqm/MqmArc/FMRuleResToOcc.dfm:367
+#. FormRuleResToOccKeySelect..PanelMain..PanelTop..ScrollBox1..BitBtnWkc..Caption
+#: mqm/MqmArc/FMRuleResToOccKeySelect.dfm:264
+#. FormRuleResToOccKeySelect..PanelMain..PanelTop..ScrollBox1..BitBtnProp..Caption
+#: mqm/MqmArc/FMRuleResToOccKeySelect.dfm:286
+#. FormRuleResToOccKeySelect..PanelMain..PanelTop..ScrollBox1..BitBtnRescat..Caption
+#: mqm/MqmArc/FMRuleResToOccKeySelect.dfm:307
+#. FormRuleResToOccKeySelect..PanelMain..PanelTop..ScrollBox1..BitBtnRes..Caption
+#: mqm/MqmArc/FMRuleResToOccKeySelect.dfm:328
+#. FormRuleResToOccKeySelect..PanelMain..PanelTop..ScrollBox1..BitBtnWkcProc..Caption
+#: mqm/MqmArc/FMRuleResToOccKeySelect.dfm:349
+#. FormRuleResToOccKeySelect..PanelMain..PanelTop..ScrollBox1..BitBtnArty..Caption
+#: mqm/MqmArc/FMRuleResToOccKeySelect.dfm:370
+#. FormWkcPriority..PanelMain..PanelTop..ScrollBox1..BitBtnWkc..Caption
+#: mqm/MqmArc/FMWkcPriority.dfm:65
+#. FormWkcPriority..PanelMain..PanelTop..ScrollBox1..BitBtnWkcProc..Caption
+#: mqm/MqmArc/FMWkcPriority.dfm:177
+#. FormWorkCenterProcesses..PanelMain..PanelTop..ScrollBox1..BitBtnWkc..Caption
+#: mqm/MqmArc/FMWkcProc.dfm:41
+#. FormWorkCenterProcesses..PanelMain..PanelTop..ScrollBox1..BitBtnProc..Caption
+#: mqm/MqmArc/FMWkcProc.dfm:64
+#. FormWksWkc..PanelMain..PanelTop..ScrollBox1..BitBtnWkCtrCode..Caption
+#: mqm/MqmArc/FMWksWkc.dfm:166
+msgid "..."
+msgstr ""
+
+
+#  Seems like a Font.Name extract
+#. SplashForm..Panel1..Label2..Font.Name
+#: mqm/lib/FMsplash.dfm:1417
+#. SplashForm..Panel1..Label3..Font.Name
+#: mqm/lib/FMsplash.dfm:1435
+#. SplashForm..Panel1..Label4..Font.Name
+#: mqm/lib/FMsplash.dfm:1452
+msgid "Arial"
+msgstr ""
+
+#  Doesn't look like text
+#. FBinToExcel..Button1..Caption
+#: mqm/bin/FMBinToExcel.dfm:21
+#. Form1..Button1..Caption
+#: mqm/lib/UFrameTest.dfm:21
+msgid "Button1"
+msgstr ""
+
+#  Doesn't look like text
+#. Form1..Button2..Caption
+#: mqm/lib/UFrameTest.dfm:38
+msgid "Button2"
+msgstr ""
+
+#  Doesn't look like text
+#. Frame1..Panel2..CheckBox5..Caption
+#: mqm/forms/FMFrameBar.dfm:33
+msgid "CheckBox5"
+msgstr ""
+
+#  Doesn't look like text
+#. FBarConfig..GroupBox2..ComboBox1..Text
+#: mqm/forms/FMBarConfig.dfm:124
+msgid "ComboBox1"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. FViewLic..MmLic..Font.Name
+#: mqm/MqmConfig/FMViewLic.dfm:69
+msgid "Courier New"
+msgstr ""
+
+#  Seems like a Database field name or index field name
+#. FSrvLoad..IBDatabase..DatabaseName
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:29
+msgid "D:\\Environments\\Mqm\\Mqm.gdb"
+msgstr ""
+
+#  Seems like a Database field name or index field name
+#. FSrvLoad..DBAs400..SessionName
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:51
+#: mqm/forms/FMBarConfig.pas:315
+#: mqm/forms/FMBarConfig.pas:701
+msgid "Default"
+msgstr ""
+
+#  Doesn't look like text
+#. Frame1..Panel2..Edit9..Text
+#: mqm/forms/FMFrameBar.dfm:42
+#. Frame1..Panel2..Edit10..Text
+#: mqm/forms/FMFrameBar.dfm:50
+msgid "Edit1"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. InfoForm..InfoMemo..Font.Name
+#: lib/FGinfo.dfm:31
+msgid "Fixedsys"
+msgstr ""
+
+#  Doesn't look like text
+#. Form1..Caption
+#: mqm/lib/UFrameTest.dfm:6
+msgid "Form1"
+msgstr ""
+
+#  Doesn't look like text
+#. Form1..edit2..Text
+#: mqm/lib/UFrameTest.dfm:57
+msgid "frame1"
+msgstr ""
+
+#. FViewLic..Caption
+#: mqm/MqmConfig/FMViewLic.dfm:6
+msgid "FViewLic"
+msgstr ""
+
+#. DMib..OpenDialogDB..DefaultExt
+#: mqm/db/DMsrvPc.dfm:10
+#. SplashForm..OpenDialogDB..DefaultExt
+#: mqm/lib/FMsplash.dfm:1501
+msgid "gdb"
+msgstr ""
+
+#. FDbConf..OpnDlg..Filter
+#: mqm/MqmConfig/FMdbConf.dfm:118
+msgid "Interbase|*.gdb"
+msgstr ""
+
+#  Doesn't look like text
+#. Frame1..Panel2..Label10..Caption
+#: mqm/forms/FMFrameBar.dfm:26
+msgid "Label10"
+msgstr ""
+
+#  Doesn't look like text
+#. Frame1..Panel2..Label9..Caption
+#: mqm/forms/FMFrameBar.dfm:19
+msgid "Label9"
+msgstr ""
+
+# added by Itzik - no need to translate
+#. FAutoSched..LblObj..Caption
+#: mqm/forms/FMAutoSched.dfm:85
+msgid "LblObj"
+msgstr ""
+
+#. FAutoSched..LblRes..Caption
+#: mqm/forms/FMAutoSched.dfm:62
+msgid "LblRes"
+msgstr ""
+
+# added by Itzik - no need to translate
+#. FAutoSched..LblSons..Caption
+#: mqm/forms/FMAutoSched.dfm:78
+msgid "LblSons"
+msgstr ""
+
+#. MainForm..SDlock..DefaultExt
+#: mqm/MqmConfig/FMcfgMain.dfm:173
+#. FCreateLic..ODkey..DefaultExt
+#: mqm/MqmLic/FMCreateLic.dfm:207
+msgid "lck"
+msgstr ""
+
+#. MainForm..SDlock..Filter
+#: mqm/MqmConfig/FMcfgMain.dfm:175
+msgid "lock file|lck"
+msgstr ""
+
+#  Doesn't look like text
+#. Form1..Memo1....Lines.Strings
+#: mqm/lib/UFrameTest.dfm:48
+msgid "Memo1"
+msgstr ""
+
+#. FCreateLic..SaveLic..Filter
+#: mqm/MqmLic/FMCreateLic.dfm:202
+msgid "MQM licence|*.mlc"
+msgstr ""
+
+#. FViewLic..OpenLic..Filter
+#: mqm/MqmConfig/FMViewLic.dfm:77
+msgid "MQM licence|*.mlc|MQM lock|*.lck"
+msgstr ""
+
+#. FCreateLic..SaveLic..FileName
+#: mqm/MqmLic/FMCreateLic.dfm:201
+msgid "MQMlic"
+msgstr ""
+
+#. FViewLic..OpenLic..FileName
+#: mqm/MqmConfig/FMViewLic.dfm:76
+msgid "MQMlic.mlc"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. InfoForm..Font.Name
+#: lib/FGinfo.dfm:13
+#. FBin..Font.Name
+#: mqm/bin/FMbin.dfm:14
+#. FBinToExcel..Font.Name
+#: mqm/bin/FMBinToExcel.dfm:11
+#. FConfigBin..Font.Name
+#: mqm/bin/FMcfgBin.dfm:13
+#. FConfigBin..grbColLabel..Font.Name
+#: mqm/bin/FMcfgBin.dfm:39
+#. FConfigBin..grbColLabel..lblIntMaxChar..Font.Name
+#: mqm/bin/FMcfgBin.dfm:52
+#. FConfigBin..grbColLabel..lboxColLabel..Font.Name
+#: mqm/bin/FMcfgBin.dfm:65
+#. FConfigBin..grbColLabel..EdtColLabel..Font.Name
+#: mqm/bin/FMcfgBin.dfm:80
+#. FConfigBin..grbColLabel..btnRefColLabel..Font.Name
+#: mqm/bin/FMcfgBin.dfm:95
+#. FConfigBin..grbColLabel..btnRestoreColLabel..Font.Name
+#: mqm/bin/FMcfgBin.dfm:110
+#. FConfigBin..grbVisibleCol..Font.Name
+#: mqm/bin/FMcfgBin.dfm:126
+#. FConfigBin..grbVisibleCol..cboxColVis..Font.Name
+#: mqm/bin/FMcfgBin.dfm:139
+#. FConfigBin..grbVisibleCol..btnRestoreColVis..Font.Name
+#: mqm/bin/FMcfgBin.dfm:154
+#. FConfigBin..grbColPos..Font.Name
+#: mqm/bin/FMcfgBin.dfm:170
+#. FConfigBin..grbColPos..grdColPos..Font.Name
+#: mqm/bin/FMcfgBin.dfm:187
+#. FConfigBin..grbColPos..btnRestoreColPos..Font.Name
+#: mqm/bin/FMcfgBin.dfm:209
+#. FConfigBin..grbColPos..btnRestoreVColWidth..Font.Name
+#: mqm/bin/FMcfgBin.dfm:224
+#. FConfigBin..grbColOrder..Font.Name
+#: mqm/bin/FMcfgBin.dfm:240
+#. FConfigBin..grbColOrder..grdOrdCol..Font.Name
+#: mqm/bin/FMcfgBin.dfm:256
+#. FConfigBin..grbColOrder..btnRestoreOrdCol..Font.Name
+#: mqm/bin/FMcfgBin.dfm:281
+#. EditTabsBin..Font.Name
+#: mqm/bin/FMEditTabsBin.dfm:11
+#. EditTabsBin..Panel1..Label1..Font.Name
+#: mqm/bin/FMEditTabsBin.dfm:35
+#. EditTabsBin..Panel1..Label2..Font.Name
+#: mqm/bin/FMEditTabsBin.dfm:48
+#. EditTabsBin..Panel1..CheckListBox1..Font.Name
+#: mqm/bin/FMEditTabsBin.dfm:60
+#. EditTabsBin..Panel1..CheckListBox2..Font.Name
+#: mqm/bin/FMEditTabsBin.dfm:74
+#. FAutoSched..Font.Name
+#: mqm/forms/FMAutoSched.dfm:13
+#. FAutoSchedCfg..Font.Name
+#: mqm/forms/FMAutoSchedCfg.dfm:13
+#. FAutoSchedRpt..Font.Name
+#: mqm/forms/FMAutoSchedReport.dfm:11
+#. FBarConfig..Font.Name
+#: mqm/forms/FMBarConfig.dfm:11
+#. TBinFilter..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:11
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LblProdLine..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:45
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LabelWctr..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:58
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LabelMinStp..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:71
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LabelProcces..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:84
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LabelMaterialFamily..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:97
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LabelProdFamily..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:110
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LblProdType..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:124
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LblStepType..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:137
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LblProdReq..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:150
+#. TBinFilter..PageControl1..TabSheet1..Label3..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:438
+#. TBinFilter..PageControl1..TabSheet1..LblProdLDT..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:451
+#. TBinFilter..PageControl1..TabSheet1..Label10..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:464
+#. TBinFilter..PageControl1..TabSheet1..Label5..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:477
+#. TBinFilter..PageControl1..TabSheet1..LblProdHDT..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:490
+#. TBinFilter..PageControl1..TabSheet1..Label6..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:503
+#. TBinFilter..PageControl1..TabSheet1..LblPlannedSDT..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:516
+#. TBinFilter..PageControl1..TabSheet1..Label4..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:535
+#. TBinFilter..PageControl1..TabSheet1..Label7..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:548
+#. TBinFilter..PageControl1..TabSheet1..LblLowestSDT..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:561
+#. TBinFilter..PageControl1..TabSheet1..Label9..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:574
+#. TBinFilter..PageControl1..TabSheet1..Label8..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:587
+#. TBinFilter..Panel1..TabName..Font.Name
+#: mqm/forms/FMBinFiltTabs.dfm:765
+#. FrmBintotals..Font.Name
+#: mqm/forms/FmBinTotals.dfm:11
+#. FormCapResDesc..Font.Name
+#: mqm/forms/FMCapResDescription.dfm:11
+#. ChangeWc..Font.Name
+#: mqm/forms/FMChangeWC.dfm:11
+#. FColors..Font.Name
+#: mqm/forms/FMColors.dfm:13
+#. FCreateCapRes..Font.Name
+#: mqm/forms/FMCreateCapRes.dfm:13
+#. FCrtDownTime..Font.Name
+#: mqm/forms/FMCrtDownTime.dfm:13
+#. DispoDet..Font.Name
+#: mqm/forms/FMDispoDet.dfm:11
+#. MEditCal..Font.Name
+#: mqm/forms/FMEditCal.dfm:13
+#. TGroupDetail..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:12
+#. TGroupDetail..PanInfo..StGrpNo..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:66
+#. TGroupDetail..PanInfo..StGrpQty..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:83
+#. TGroupDetail..PanInfo..StGrpType..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:100
+#. TGroupDetail..PanInfo..StBatchQty..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:117
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..StTgtWkc..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:254
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..StTgtRes..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:271
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..StTgtSubRes..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:288
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..PanBch..GroupBox2..StBchStdLev..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:328
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..PanBch..GroupBox2..StBchStdToLev..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:346
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..PanBch..GroupBox3..StBchMinLev..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:373
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..PanBch..GroupBox4..StBchMaxLev..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:407
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..PanBch..GroupBox4..StBchMaxToLev..Font.Name
+#: mqm/forms/FMGroupDetail.dfm:425
+#. FJobHandle..Font.Name
+#: mqm/forms/FMJobHandle.dfm:13
+#. FJobHandle..PgCtrl..TbsSplit..Panel2..Font.Name
+#: mqm/forms/FMJobHandle.dfm:542
+#. FJobHandle..PgCtrl..TbsReproc..Panel3..Font.Name
+#: mqm/forms/FMJobHandle.dfm:562
+#. FJobHandle..PgCtrl..TbsConnect..PnlConnHead..Font.Name
+#: mqm/forms/FMJobHandle.dfm:662
+#. FMOccMove..Font.Name
+#: mqm/forms/FMOccMov.dfm:13
+#. FMOccMove..PGCmove..TbsGen..StSetup..Font.Name
+#: mqm/forms/FMOccMov.dfm:104
+#. FMOccMove..PGCmove..TbsGen..StExec..Font.Name
+#: mqm/forms/FMOccMov.dfm:121
+#. FMOccMove..PGCmove..TbsGen..STQty..Font.Name
+#: mqm/forms/FMOccMov.dfm:138
+#. FMOccMove..PGCmove..TbsGen..StSupOvlp..Font.Name
+#: mqm/forms/FMOccMov.dfm:155
+#. FMOccMove..PGCmove..TbsGen..STBatchQuantity..Font.Name
+#: mqm/forms/FMOccMov.dfm:183
+#. FMOccMove..PGCmove..TabDet..PnlQty..StBchMinLev..Font.Name
+#: mqm/forms/FMOccMov.dfm:256
+#. FMOccMove..PGCmove..TabDet..PnlQty..StBchStdLev..Font.Name
+#: mqm/forms/FMOccMov.dfm:274
+#. FMOccMove..PGCmove..TabDet..PnlQty..StBchMaxLev..Font.Name
+#: mqm/forms/FMOccMov.dfm:292
+#. FMOccMove..PGCmove..TabDet..PnlQty..StBchMaxToLev..Font.Name
+#: mqm/forms/FMOccMov.dfm:310
+#. FMOccMove..PGCmove..TabDet..PnlQty..StBchStdToLev..Font.Name
+#: mqm/forms/FMOccMov.dfm:328
+#. FMOccMove..PGCmove..TabDet..PnlQty..StBatchQty..Font.Name
+#: mqm/forms/FMOccMov.dfm:346
+#. FMOccMove..PGCmove..TabDet..PnlResData..StTgtSubRes..Font.Name
+#: mqm/forms/FMOccMov.dfm:393
+#. FMOccMove..PGCmove..TabDet..PnlResData..StTgtRes..Font.Name
+#: mqm/forms/FMOccMov.dfm:410
+#. FMOccMove..PGCmove..TabDet..PnlResData..StTgtWkc..Font.Name
+#: mqm/forms/FMOccMov.dfm:427
+#. FMOccMove..Panel1..StOcc..Font.Name
+#: mqm/forms/FMOccMov.dfm:562
+#. FOORulesCase..Font.Name
+#: mqm/forms/FMOORulesCase.dfm:11
+#. FOORulesCase..Panel1..StCalcsetupTime..Font.Name
+#: mqm/forms/FMOORulesCase.dfm:62
+#. FOptions..Font.Name
+#: mqm/forms/FMOptions.dfm:11
+#. ProdImage..Font.Name
+#: mqm/forms/FMProdImage.dfm:11
+#. FRankReport..Font.Name
+#: mqm/forms/FMRankReport.dfm:13
+#. FResDetails..Font.Name
+#: mqm/forms/FMResDetails.dfm:11
+#. FResDetails..PGCres..Font.Name
+#: mqm/forms/FMResDetails.dfm:49
+#. FResDetails..PGCres..TBgen..Font.Name
+#: mqm/forms/FMResDetails.dfm:58
+#. FResDetails..Panel1..LblResCode..Font.Name
+#: mqm/forms/FMResDetails.dfm:305
+#. FResDetails..Panel1..LblResDescr..Font.Name
+#: mqm/forms/FMResDetails.dfm:318
+#. FResFilter..Font.Name
+#: mqm/forms/FMresFilter.dfm:11
+#. FResFilter..Panel1..LableName..Font.Name
+#: mqm/forms/FMresFilter.dfm:94
+#. FResourceReport..Font.Name
+#: mqm/forms/FMResourceReport.dfm:11
+#. FRORulesCase..Font.Name
+#: mqm/forms/FMRORulesCase.dfm:11
+#. Search..Font.Name
+#: mqm/forms/FMSearch.dfm:11
+#. Search..PgCtrl..TabSearch..Panel1..LblFieldDesc..Font.Name
+#: mqm/forms/FMSearch.dfm:190
+#. Search..PgCtrl..TabSearch..Panel1..LblCond..Font.Name
+#: mqm/forms/FMSearch.dfm:203
+#. Search..PgCtrl..TabSearch..Panel1..LblFrom..Font.Name
+#: mqm/forms/FMSearch.dfm:216
+#. Search..PgCtrl..TabSearch..Panel1..LblTo..Font.Name
+#: mqm/forms/FMSearch.dfm:229
+#. SearchSet..Font.Name
+#: mqm/forms/FMSearchSetting.dfm:11
+#. FMSeleTab..Font.Name
+#: mqm/forms/FMSelePlanTbs.dfm:12
+#. FStepDetails..Font.Name
+#: mqm/forms/FMstepdetails.dfm:12
+#. FStepDetails..PGStepDetails..Tb..SGStepsView..Font.Name
+#: mqm/forms/FMstepdetails.dfm:1231
+#. FWkcDetails..Font.Name
+#: mqm/forms/FMWkcDetails.dfm:13
+#. MWkst..Font.Name
+#: mqm/forms/FMworkstation.dfm:12
+#. SplashForm..Font.Name
+#: mqm/lib/FMsplash.dfm:12
+#. Form1..Font.Name
+#: mqm/lib/UFrameTest.dfm:11
+#. FCreateCal..Font.Name
+#: mqm/MqmArc/FMCreateCal.dfm:13
+#. Form1..Font.Name
+#: mqm/MqmArc/FMMainArc.dfm:11
+#. FormMainTab..Font.Name
+#: mqm/MqmArc/FMMainTab.dfm:14
+#. FormMainTab..PanelMain..PanelBottom..DBGrid1..TitleFont.Name
+#: mqm/MqmArc/FMMainTab.dfm:161
+#. MainForm..Font.Name
+#: mqm/MqmConfig/FMcfgMain.dfm:11
+#. CreateTables..Font.Name
+#: mqm/MqmConfig/FMcreateTables.dfm:11
+#. FDbConf..Font.Name
+#: mqm/MqmConfig/FMdbConf.dfm:13
+#. FSettings..Font.Name
+#: mqm/MqmConfig/FMSettings.dfm:13
+#. FViewLic..Font.Name
+#: mqm/MqmConfig/FMViewLic.dfm:11
+#. FCreateLic..Font.Name
+#: mqm/MqmLic/FMCreateLic.dfm:11
+#. FLicHdl..Font.Name
+#: mqm/MqmLic/FMLicMain.dfm:11
+#. FLock..Font.Name
+#: mqm/MqmLic/FMlock.dfm:11
+#. FMQMPlan..Font.Name
+#: mqm/MqmMain/FMMainPlan.dfm:10
+#. FMQMPlan..ExcelFontBold..Font.Name
+#: mqm/MqmMain/FMMainPlan.dfm:45
+#. FMQMPlan..TBMain..PnlZoom..StSizePercent..Font.Name
+#: mqm/MqmMain/FMMainPlan.dfm:225
+#. FMQMPlan..TBMain..StMouseDate..Font.Name
+#: mqm/MqmMain/FMMainPlan.dfm:347
+#. FDloadCalendars..Font.Name
+#: mqm/MqmSrv/FMLoadCalendars.dfm:11
+#. FSrvLoad..Font.Name
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:11
+#. FSrvSettings..Font.Name
+#: mqm/MqmSrv/FMSrvSettings.dfm:11
+#. FSrvLoad..Font.Name
+#: mqm/MqmSrv/UMsrvLoad.dfm:13
+#. FSrvLoad..PGCmain..TBSctrl..PanRun..StRunning..Font.Name
+#: mqm/MqmSrv/UMsrvLoad.dfm:59
+#. FSrvLoad..PGCmain..TBSctrl..PanLoad..STfromAS400..Font.Name
+#: mqm/MqmSrv/UMsrvLoad.dfm:92
+#. FSrvLoad..PGCmain..TBSctrl..PanSend..StToAS400..Font.Name
+#: mqm/MqmSrv/UMsrvLoad.dfm:125
+#. FSrvLoad..PGCmain..TBSctrl..PanBtn..LblTable..Font.Name
+#: mqm/MqmSrv/UMsrvLoad.dfm:154
+#. FSrvLoad..PGCmain..TBSctrl..PanBtn..LabelDownOp..Font.Name
+#: mqm/MqmSrv/UMsrvLoad.dfm:170
+#. FSrvLoad..PGCmain..TBSctrl..PanLocal..StLocal..Font.Name
+#: mqm/MqmSrv/UMsrvLoad.dfm:211
+msgid "MS Sans Serif"
+msgstr ""
+
+#  Doesn't look like text
+#. SplashForm..Panel1..Caption
+#: mqm/lib/FMsplash.dfm:27
+msgid "Panel1"
+msgstr ""
+
+#  Doesn't look like text
+#. Frame1..Panel2..Caption
+#: mqm/forms/FMFrameBar.dfm:12
+#. FResFilter..Panel2..Caption
+#: mqm/forms/FMresFilter.dfm:173
+msgid "Panel2"
+msgstr ""
+
+#. FSrvLoad..IBDatabase....Params.Strings
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:31
+msgid "password=masterkey"
+msgstr ""
+
+msgid "ScheduleType"
+msgstr ""
+
+#  Doesn't look like text
+#. FSrvLoad..DBAs400..DatabaseName
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:49
+msgid "SRV_DBAS400"
+msgstr ""
+
+#  Doesn't look like text
+#. MEditCal..grbActual..grbActual1..stActual1From..Caption
+#: mqm/forms/FMEditCal.dfm:138
+msgid "stActual1From"
+msgstr ""
+
+#  Doesn't look like text
+#. MEditCal..grbActual..grbActual1..stActual1To..Caption
+#: mqm/forms/FMEditCal.dfm:147
+msgid "stActual1To"
+msgstr ""
+
+#  Doesn't look like text
+#. MEditCal..grbActual..grbActual2..stActual2From..Caption
+#: mqm/forms/FMEditCal.dfm:178
+msgid "stActual2From"
+msgstr ""
+
+#  Doesn't look like text
+#. MEditCal..grbActual..grbActual2..stActual2To..Caption
+#: mqm/forms/FMEditCal.dfm:187
+msgid "stActual2To"
+msgstr ""
+
+#  Doesn't look like text
+#. MEditCal..grbActual..grbActual3..stActual3From..Caption
+#: mqm/forms/FMEditCal.dfm:218
+msgid "stActual3From"
+msgstr ""
+
+#  Doesn't look like text
+#. MEditCal..grbActual..grbActual3..stActual3To..Caption
+#: mqm/forms/FMEditCal.dfm:227
+msgid "stActual3To"
+msgstr ""
+
+#  Doesn't look like text
+#. MEditCal..grbActual..grbActual4..stActual4From..Caption
+#: mqm/forms/FMEditCal.dfm:258
+msgid "stActual4From"
+msgstr ""
+
+#  Doesn't look like text
+#. MEditCal..grbActual..grbActual4..stActual4To..Caption
+#: mqm/forms/FMEditCal.dfm:267
+msgid "stActual4To"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STCalCode..Caption
+#: mqm/forms/FMstepdetails.dfm:1120
+msgid "STCalCode"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STClosed..Caption
+#: mqm/forms/FMstepdetails.dfm:1186
+msgid "STClosed"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STComment..Caption
+#: mqm/forms/FMstepdetails.dfm:667
+msgid "STComment"
+msgstr ""
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..StCurrJobQty..Caption
+#: mqm/forms/FMJobHandle.dfm:481
+msgid "StCurrJobQty"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TBHeader..STDeldate..Caption
+#: mqm/forms/FMstepdetails.dfm:86
+msgid "STDeldate"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STExecTime..Caption
+#: mqm/forms/FMstepdetails.dfm:591
+msgid "STExecTime"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STFinalQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:1076
+msgid "STFinalQuantity"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STGroupNumber..Caption
+#: mqm/forms/FMstepdetails.dfm:482
+msgid "STGroupNumber"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STHighestEndingDatePos..Caption
+#: mqm/forms/FMstepdetails.dfm:1021
+msgid "STHighestEndingDatePos"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STHighestSchedEndingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:1032
+msgid "STHighestSchedEndingDate"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STIniQty..Caption
+#: mqm/forms/FMJobHandle.dfm:229
+msgid "STIniQty"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STInitialQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:1065
+msgid "STInitialQuantity"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TBHeader..STLowestDate..Caption
+#: mqm/forms/FMstepdetails.dfm:141
+msgid "STLowestDate"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STLowestSchedStartingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:999
+msgid "STLowestSchedStartingDate"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STLowestStartingDatePos..Caption
+#: mqm/forms/FMstepdetails.dfm:988
+msgid "STLowestStartingDatePos"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STMaterialsArrivalDate..Caption
+#: mqm/forms/FMstepdetails.dfm:966
+msgid "STMaterialsArrivalDate"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TBHeader..STMaterialsFam..Caption
+#: mqm/forms/FMstepdetails.dfm:130
+msgid "STMaterialsFam"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STNextConnReProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:711
+msgid "STNextConnReProcess"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STNextConnSubStep..Caption
+#: mqm/forms/FMstepdetails.dfm:700
+msgid "STNextConnSubStep"
+msgstr ""
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..StNrOfNewJob..Caption
+#: mqm/forms/FMJobHandle.dfm:499
+msgid "StNrOfNewJob"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedEndingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:1010
+msgid "STPlannedEndingDate"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedNumberOfRes..Caption
+#: mqm/forms/FMstepdetails.dfm:1153
+msgid "STPlannedNumberOfRes"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedStartingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:977
+msgid "STPlannedStartingDate"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedWCProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:1054
+msgid "STPlannedWCProcess"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedWorkCenter..Caption
+#: mqm/forms/FMstepdetails.dfm:1043
+msgid "STPlannedWorkCenter"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedWorkStation..Caption
+#: mqm/forms/FMstepdetails.dfm:944
+msgid "STPlannedWorkStation"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STPrevConnReProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:689
+msgid "STPrevConnReProcess"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STPrevConnSubStep..Caption
+#: mqm/forms/FMstepdetails.dfm:678
+msgid "STPrevConnSubStep"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TBHeader..STProdFamily..Caption
+#: mqm/forms/FMstepdetails.dfm:119
+msgid "STProdFamily"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TBHeader..STProdLine..Caption
+#: mqm/forms/FMstepdetails.dfm:152
+msgid "STProdLine"
+msgstr ""
+
+#. FJobHandle..PnlHeader..StProdReq..Caption
+#: mqm/forms/FMJobHandle.dfm:185
+#. FStepDetails..Panel1..StProdReq..Caption
+#: mqm/forms/FMstepdetails.dfm:1327
+msgid "StProdReq"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TBHeader..STProdType..Caption
+#: mqm/forms/FMstepdetails.dfm:97
+msgid "STProdType"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STProgEnd..Caption
+#: mqm/forms/FMstepdetails.dfm:635
+msgid "STProgEnd"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STProgressed..Caption
+#: mqm/forms/FMstepdetails.dfm:1175
+msgid "STProgressed"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STProgStart..Caption
+#: mqm/forms/FMstepdetails.dfm:624
+msgid "STProgStart"
+msgstr ""
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..StQtyEachJob..Caption
+#: mqm/forms/FMJobHandle.dfm:510
+msgid "StQtyEachJob"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STQuantity..Caption
+#: mqm/forms/FMJobHandle.dfm:152
+#. FStepDetails..PGStepDetails..TbSchedDetails..STQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:569
+msgid "STQuantity"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STQuantityProg..Caption
+#: mqm/forms/FMJobHandle.dfm:163
+#. FStepDetails..PGStepDetails..TbSchedDetails..STQuantityProg..Caption
+#: mqm/forms/FMstepdetails.dfm:646
+msgid "STQuantityProg"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STRePro..Caption
+#: mqm/forms/FMJobHandle.dfm:218
+#. FStepDetails..Panel1..STRePro..Caption
+#: mqm/forms/FMstepdetails.dfm:1360
+msgid "STRePro"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STRes..Caption
+#: mqm/forms/FMJobHandle.dfm:130
+msgid "STRes"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STResComp..Caption
+#: mqm/forms/FMstepdetails.dfm:558
+msgid "STResComp"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STResSubLine..Caption
+#: mqm/forms/FMJobHandle.dfm:141
+#. FStepDetails..PGStepDetails..TbSchedDetails..STResSubLine..Caption
+#: mqm/forms/FMstepdetails.dfm:547
+msgid "STResSubLine"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STRuleToConnectToPrevJob..Caption
+#: mqm/forms/FMstepdetails.dfm:1164
+msgid "STRuleToConnectToPrevJob"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STSchedEnd..Caption
+#: mqm/forms/FMstepdetails.dfm:613
+msgid "STSchedEnd"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STSchedStart..Caption
+#: mqm/forms/FMstepdetails.dfm:602
+msgid "STSchedStart"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STScheduledQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:1109
+msgid "STScheduledQuantity"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STSetupTime..Caption
+#: mqm/forms/FMstepdetails.dfm:580
+msgid "STSetupTime"
+msgstr ""
+
+#. FJobHandle..PnlHeader..StStepNum..Caption
+#: mqm/forms/FMJobHandle.dfm:196
+#. FStepDetails..Panel1..StStepNum..Caption
+#: mqm/forms/FMstepdetails.dfm:1338
+msgid "StStepNum"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STStepType..Caption
+#: mqm/forms/FMstepdetails.dfm:955
+msgid "STStepType"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STSubStep..Caption
+#: mqm/forms/FMJobHandle.dfm:207
+#. FStepDetails..Panel1..STSubStep..Caption
+#: mqm/forms/FMstepdetails.dfm:1349
+msgid "STSubStep"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STTotalPlannedExecTime..Caption
+#: mqm/forms/FMstepdetails.dfm:1142
+msgid "STTotalPlannedExecTime"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STTotalPlannedSetupTime..Caption
+#: mqm/forms/FMstepdetails.dfm:1131
+msgid "STTotalPlannedSetupTime"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STTotJobs..Caption
+#: mqm/forms/FMJobHandle.dfm:240
+msgid "STTotJobs"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TBHeader..STUmDesc..Caption
+#: mqm/forms/FMstepdetails.dfm:108
+msgid "STUmDesc"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STWCProcess..Caption
+#: mqm/forms/FMJobHandle.dfm:174
+#. FStepDetails..PGStepDetails..TbSchedDetails..STWCProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:526
+msgid "STWCProcess"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STWeight..Caption
+#: mqm/forms/FMstepdetails.dfm:1087
+msgid "STWeight"
+msgstr ""
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STWeighUMDescription..Caption
+#: mqm/forms/FMstepdetails.dfm:1098
+msgid "STWeighUMDescription"
+msgstr ""
+
+#. FJobHandle..PnlHeader..STWorkCenter..Caption
+#: mqm/forms/FMJobHandle.dfm:119
+#. FStepDetails..PGStepDetails..TbSchedDetails..STWorkCenter..Caption
+#: mqm/forms/FMstepdetails.dfm:515
+msgid "STWorkCenter"
+msgstr ""
+
+#: mqm/plan/UMPlan.pas:2425
+#: mqm/plan/UMPlan.pas:2426
+#: mqm/plan/UMPlan.pas:2427
+#: mqm/plan/UMPlan.pas:2428
+#: mqm/plan/UMPlan.pas:2429
+#: mqm/plan/UMPlan.pas:2430
+msgid "sup.mult."
+msgstr ""
+
+#: mqm/plan/UMPlan.pas:2425
+#: mqm/plan/UMPlan.pas:2426
+#: mqm/plan/UMPlan.pas:2427
+#: mqm/plan/UMPlan.pas:2428
+#: mqm/plan/UMPlan.pas:2429
+#: mqm/plan/UMPlan.pas:2430
+msgid "sup.over"
+msgstr ""
+
+#: mqm/plan/UMPlan.pas:2425
+#: mqm/plan/UMPlan.pas:2426
+#: mqm/plan/UMPlan.pas:2427
+#: mqm/plan/UMPlan.pas:2428
+#: mqm/plan/UMPlan.pas:2429
+#: mqm/plan/UMPlan.pas:2430
+msgid "sup.over.mult"
+msgstr ""
+
+#: mqm/plan/UMPlan.pas:2425
+#: mqm/plan/UMPlan.pas:2426
+#: mqm/plan/UMPlan.pas:2427
+#: mqm/plan/UMPlan.pas:2428
+#: mqm/plan/UMPlan.pas:2429
+#: mqm/plan/UMPlan.pas:2430
+msgid "sup.time"
+msgstr ""
+
+#: mqm/plan/UMPlan.pas:2425
+#: mqm/plan/UMPlan.pas:2426
+#: mqm/plan/UMPlan.pas:2427
+#: mqm/plan/UMPlan.pas:2428
+#: mqm/plan/UMPlan.pas:2429
+#: mqm/plan/UMPlan.pas:2430
+msgid "sup.type"
+msgstr ""
+
+#. FMQMPlan..TBMain..TBSpcCrtCap..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:92
+msgid "TBSpcCrtCap"
+msgstr ""
+
+#. FMQMPlan..TBMain..TBtnDynamic..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:136
+msgid "TBtnDynamic"
+msgstr ""
+
+#  Doesn't look like text
+#. InfoForm..NoteBar..ToolButton1..Caption
+#: lib/FGinfo.dfm:121
+#. FMQMPlan..TBMain..ToolButton1..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:146
+msgid "ToolButton1"
+msgstr ""
+
+#  Doesn't look like text
+#. FMQMPlan..TBMain..ToolButton10..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:329
+msgid "ToolButton10"
+msgstr ""
+
+#  Doesn't look like text
+#. FMQMPlan..TBMain..ToolButton11..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:110
+msgid "ToolButton11"
+msgstr ""
+
+#  Doesn't look like text
+#. FMQMPlan..TBMain..ToolButton3..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:128
+msgid "ToolButton3"
+msgstr ""
+
+#  Doesn't look like text
+#. FMQMPlan..TBMain..ToolButton4..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:184
+msgid "ToolButton4"
+msgstr ""
+
+#  Doesn't look like text
+#. FMQMPlan..TBMain..ToolButton5..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:253
+msgid "ToolButton5"
+msgstr ""
+
+#  Doesn't look like text
+#. FMQMPlan..TBMain..ToolButton6..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:202
+msgid "ToolButton6"
+msgstr ""
+
+#  Doesn't look like text
+#. FMQMPlan..TBMain..ToolButton8..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:268
+msgid "ToolButton8"
+msgstr ""
+
+msgid "TSetupTime without materials"
+msgstr ""
+
+#. FSrvLoad..IBDatabase....Params.Strings
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:32
+msgid "USER_NAME=SYSDBA"
+msgstr ""
+
+#  Doesn't look like text
+#. FSrvLoad..DBAs400..AliasName
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:48
+msgid "VIP2DB2"
+msgstr ""
+
+msgid "STScheduleType"
+msgstr ""
+
+msgid "STWorkStation"
+msgstr ""
+
+msgid "STSetupTime without materials"
+msgstr ""
+
+msgid "mlc"
+msgstr ""
+
+msgid "MQMlock"
+msgstr ""
+
+msgid "MQM lock|*.lck"
+msgstr ""
+
+msgid "ExcelFontBold"
+msgstr ""
+
+msgid "FLock"
+msgstr ""
+
+msgid "TBSpcLowWndw"
+msgstr ""
+
+msgid "Ricarica da database"
+msgstr ""
+
+msgid "Html"
+msgstr ""
+
+msgid "Excel"
+msgstr ""
+
+
+msgid "FBinToExcel"
+msgstr ""
+
+
+msgid "StCalCode"
+msgstr ""

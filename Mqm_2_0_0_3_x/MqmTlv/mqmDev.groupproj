@@ -1,0 +1,132 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F77A945D-F0ED-4562-97F6-2DF845F5748F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="mqm\UDF\MqmAppUdf.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mqm\CustomCompat\MqmCustomCompat.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mqm\MqmLic\MqmLic.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mqm\MqmConfig\MqmConfig.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mqm\MqmMain\MQM.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mqm\MqmSrvPrj\MqmSrvLoad.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mqm\UDF\McmAppUdf.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mqm\MqmService\MqmSrvLoadService.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mqm\MqmServiceInstallation\MQMServiceInstallation.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MqmAppUdf">
+        <MSBuild Projects="mqm\UDF\MqmAppUdf.dproj"/>
+    </Target>
+    <Target Name="MqmAppUdf:Clean">
+        <MSBuild Projects="mqm\UDF\MqmAppUdf.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MqmAppUdf:Make">
+        <MSBuild Projects="mqm\UDF\MqmAppUdf.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MqmCustomCompat">
+        <MSBuild Projects="mqm\CustomCompat\MqmCustomCompat.dproj"/>
+    </Target>
+    <Target Name="MqmCustomCompat:Clean">
+        <MSBuild Projects="mqm\CustomCompat\MqmCustomCompat.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MqmCustomCompat:Make">
+        <MSBuild Projects="mqm\CustomCompat\MqmCustomCompat.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MqmLic">
+        <MSBuild Projects="mqm\MqmLic\MqmLic.dproj"/>
+    </Target>
+    <Target Name="MqmLic:Clean">
+        <MSBuild Projects="mqm\MqmLic\MqmLic.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MqmLic:Make">
+        <MSBuild Projects="mqm\MqmLic\MqmLic.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MqmConfig">
+        <MSBuild Projects="mqm\MqmConfig\MqmConfig.dproj"/>
+    </Target>
+    <Target Name="MqmConfig:Clean">
+        <MSBuild Projects="mqm\MqmConfig\MqmConfig.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MqmConfig:Make">
+        <MSBuild Projects="mqm\MqmConfig\MqmConfig.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MQM">
+        <MSBuild Projects="mqm\MqmMain\MQM.dproj"/>
+    </Target>
+    <Target Name="MQM:Clean">
+        <MSBuild Projects="mqm\MqmMain\MQM.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MQM:Make">
+        <MSBuild Projects="mqm\MqmMain\MQM.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MqmSrvLoad">
+        <MSBuild Projects="mqm\MqmSrvPrj\MqmSrvLoad.dproj"/>
+    </Target>
+    <Target Name="MqmSrvLoad:Clean">
+        <MSBuild Projects="mqm\MqmSrvPrj\MqmSrvLoad.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MqmSrvLoad:Make">
+        <MSBuild Projects="mqm\MqmSrvPrj\MqmSrvLoad.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="McmAppUdf">
+        <MSBuild Projects="mqm\UDF\McmAppUdf.dproj"/>
+    </Target>
+    <Target Name="McmAppUdf:Clean">
+        <MSBuild Projects="mqm\UDF\McmAppUdf.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="McmAppUdf:Make">
+        <MSBuild Projects="mqm\UDF\McmAppUdf.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MqmSrvLoadService">
+        <MSBuild Projects="mqm\MqmService\MqmSrvLoadService.dproj"/>
+    </Target>
+    <Target Name="MqmSrvLoadService:Clean">
+        <MSBuild Projects="mqm\MqmService\MqmSrvLoadService.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MqmSrvLoadService:Make">
+        <MSBuild Projects="mqm\MqmService\MqmSrvLoadService.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MQMServiceInstallation">
+        <MSBuild Projects="mqm\MqmServiceInstallation\MQMServiceInstallation.dproj"/>
+    </Target>
+    <Target Name="MQMServiceInstallation:Clean">
+        <MSBuild Projects="mqm\MqmServiceInstallation\MQMServiceInstallation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MQMServiceInstallation:Make">
+        <MSBuild Projects="mqm\MqmServiceInstallation\MQMServiceInstallation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MqmAppUdf;MqmCustomCompat;MqmLic;MqmConfig;MQM;MqmSrvLoad;McmAppUdf;MqmSrvLoadService;MQMServiceInstallation"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MqmAppUdf:Clean;MqmCustomCompat:Clean;MqmLic:Clean;MqmConfig:Clean;MQM:Clean;MqmSrvLoad:Clean;McmAppUdf:Clean;MqmSrvLoadService:Clean;MQMServiceInstallation:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MqmAppUdf:Make;MqmCustomCompat:Make;MqmLic:Make;MqmConfig:Make;MQM:Make;MqmSrvLoad:Make;McmAppUdf:Make;MqmSrvLoadService:Make;MQMServiceInstallation:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

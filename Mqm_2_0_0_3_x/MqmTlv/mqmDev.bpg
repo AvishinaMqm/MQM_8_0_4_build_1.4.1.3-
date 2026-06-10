@@ -1,0 +1,39 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = MqmUDF.dll MqmCustomCompat.dll MqmLic.exe MqmSrvLoad.exe \
+  MqmConfig.exe MQM.exe MqmArc.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+MQM.exe: mqm\MqmMain\MQM.dpr
+  $(DCC)
+
+MqmConfig.exe: mqm\MqmConfig\MqmConfig.dpr
+  $(DCC)
+
+MqmSrvLoad.exe: mqm\MqmSrv\MqmSrvLoad.dpr
+  $(DCC)
+
+MqmUDF.dll: mqm\UDF\MqmUDF.dpr
+  $(DCC)
+
+MqmLic.exe: mqm\MqmLic\MqmLic.dpr
+  $(DCC)
+
+MqmCustomCompat.dll: mqm\CustomCompat\MqmCustomCompat.dpr
+  $(DCC)
+
+MqmArc.exe: mqm\MqmArc\MqmArc.dpr
+  $(DCC)
+
+

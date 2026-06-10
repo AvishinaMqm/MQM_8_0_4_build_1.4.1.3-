@@ -1,0 +1,7 @@
+*.~*
+*.dsk
+*.drc
+*.~pas
+*.cvsignore
+*.dcu
+dcu

@@ -1,0 +1,6882 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2005-03-09 16:29\n"
+"PO-Revision-Date: 2005-04-10 16:06+0200\n"
+"Last-Translator: Itzik Zinner <zinner@datatx.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#  InfoForm..Caption
+#. InfoForm..Caption
+#: lib/FGinfo.dfm:6
+msgid "Notes"
+msgstr "注释"
+
+#. InfoForm..Font.Name
+#. FConfigBin..grbColLabel..btnRefColLabel..Font.Name
+#. FConfigBin..grbColPos..btnRestoreVColWidth..Font.Name
+#. EditTabsBin..Panel1..CheckListBox2..Font.Name
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LabelProcces..Font.Name
+#. TBinFilter..PageControl1..TabSheet1..Label10..Font.Name
+#. TBinFilter..PageControl1..TabSheet1..Label9..Font.Name
+#. FCrtDownTime..Font.Name
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..StTgtWkc..Font.Name
+#. FJobHandle..Font.Name
+#. FMOccMove..PGCmove..TbsGen..StSupOvlp..Font.Name
+#. FMOccMove..PGCmove..TabDet..PnlResData..StTgtSubRes..Font.Name
+#. FRankReport..Font.Name
+#. FResourceReport..Font.Name
+#. FMSeleTab..Font.Name
+#. FDbConf..Font.Name
+#. FMQMPlan..TBMain..PnlZoom..StSizePercent..Font.Name
+#. FSrvLoad..PGCmain..TBSctrl..PanSend..StToAS400..Font.Name
+#: lib/FGinfo.dfm:13
+#: mqm/bin/FMcfgBin.dfm:13
+#: mqm/bin/FMcfgBin.dfm:39
+#: mqm/bin/FMcfgBin.dfm:52
+#: mqm/bin/FMcfgBin.dfm:65
+#: mqm/bin/FMcfgBin.dfm:80
+#: mqm/bin/FMcfgBin.dfm:95
+#: mqm/bin/FMcfgBin.dfm:110
+#: mqm/bin/FMcfgBin.dfm:126
+#: mqm/bin/FMcfgBin.dfm:139
+#: mqm/bin/FMcfgBin.dfm:154
+#: mqm/bin/FMcfgBin.dfm:170
+#: mqm/bin/FMcfgBin.dfm:187
+#: mqm/bin/FMcfgBin.dfm:209
+#: mqm/bin/FMcfgBin.dfm:224
+#: mqm/bin/FMcfgBin.dfm:240
+#: mqm/bin/FMcfgBin.dfm:256
+#: mqm/bin/FMcfgBin.dfm:281
+#: mqm/bin/FMEditTabsBin.dfm:11
+#: mqm/bin/FMEditTabsBin.dfm:35
+#: mqm/bin/FMEditTabsBin.dfm:48
+#: mqm/bin/FMEditTabsBin.dfm:60
+#: mqm/bin/FMEditTabsBin.dfm:74
+#: mqm/forms/FMAutoSched.dfm:13
+#: mqm/forms/FMAutoSchedCfg.dfm:13
+#: mqm/forms/FMAutoSchedReport.dfm:11
+#: mqm/forms/FMBinFiltTabs.dfm:11
+#: mqm/forms/FMBinFiltTabs.dfm:45
+#: mqm/forms/FMBinFiltTabs.dfm:58
+#: mqm/forms/FMBinFiltTabs.dfm:71
+#: mqm/forms/FMBinFiltTabs.dfm:84
+#: mqm/forms/FMBinFiltTabs.dfm:97
+#: mqm/forms/FMBinFiltTabs.dfm:110
+#: mqm/forms/FMBinFiltTabs.dfm:124
+#: mqm/forms/FMBinFiltTabs.dfm:137
+#: mqm/forms/FMBinFiltTabs.dfm:150
+#: mqm/forms/FMBinFiltTabs.dfm:438
+#: mqm/forms/FMBinFiltTabs.dfm:451
+#: mqm/forms/FMBinFiltTabs.dfm:464
+#: mqm/forms/FMBinFiltTabs.dfm:477
+#: mqm/forms/FMBinFiltTabs.dfm:490
+#: mqm/forms/FMBinFiltTabs.dfm:503
+#: mqm/forms/FMBinFiltTabs.dfm:516
+#: mqm/forms/FMBinFiltTabs.dfm:535
+#: mqm/forms/FMBinFiltTabs.dfm:548
+#: mqm/forms/FMBinFiltTabs.dfm:561
+#: mqm/forms/FMBinFiltTabs.dfm:574
+#: mqm/forms/FMBinFiltTabs.dfm:587
+#: mqm/forms/FMBinFiltTabs.dfm:794
+#: mqm/forms/FmBinTotals.dfm:11
+#: mqm/forms/FMCapResDescription.dfm:11
+#: mqm/forms/FMChangeWC.dfm:11
+#: mqm/forms/FMColors.dfm:13
+#: mqm/forms/FMCreateCapRes.dfm:13
+#: mqm/forms/FMCrtDownTime.dfm:13
+#: mqm/forms/FMDispoDet.dfm:11
+#: mqm/forms/FMEditCal.dfm:13
+#: mqm/forms/FMGroupDetail.dfm:12
+#: mqm/forms/FMGroupDetail.dfm:66
+#: mqm/forms/FMGroupDetail.dfm:83
+#: mqm/forms/FMGroupDetail.dfm:100
+#: mqm/forms/FMGroupDetail.dfm:117
+#: mqm/forms/FMGroupDetail.dfm:254
+#: mqm/forms/FMGroupDetail.dfm:271
+#: mqm/forms/FMGroupDetail.dfm:288
+#: mqm/forms/FMGroupDetail.dfm:328
+#: mqm/forms/FMGroupDetail.dfm:346
+#: mqm/forms/FMGroupDetail.dfm:373
+#: mqm/forms/FMGroupDetail.dfm:407
+#: mqm/forms/FMGroupDetail.dfm:425
+#: mqm/forms/FMJobHandle.dfm:13
+#: mqm/forms/FMJobHandle.dfm:542
+#: mqm/forms/FMJobHandle.dfm:562
+#: mqm/forms/FMJobHandle.dfm:662
+#: mqm/forms/FMOccMov.dfm:13
+#: mqm/forms/FMOccMov.dfm:104
+#: mqm/forms/FMOccMov.dfm:121
+#: mqm/forms/FMOccMov.dfm:138
+#: mqm/forms/FMOccMov.dfm:155
+#: mqm/forms/FMOccMov.dfm:183
+#: mqm/forms/FMOccMov.dfm:256
+#: mqm/forms/FMOccMov.dfm:274
+#: mqm/forms/FMOccMov.dfm:292
+#: mqm/forms/FMOccMov.dfm:310
+#: mqm/forms/FMOccMov.dfm:328
+#: mqm/forms/FMOccMov.dfm:346
+#: mqm/forms/FMOccMov.dfm:393
+#: mqm/forms/FMOccMov.dfm:410
+#: mqm/forms/FMOccMov.dfm:427
+#: mqm/forms/FMOccMov.dfm:561
+#: mqm/forms/FMOORulesCase.dfm:11
+#: mqm/forms/FMOORulesCase.dfm:59
+#: mqm/forms/FMOptions.dfm:11
+#: mqm/forms/FMProdImage.dfm:11
+#: mqm/forms/FMRankReport.dfm:13
+#: mqm/forms/FMResDetails.dfm:11
+#: mqm/forms/FMResDetails.dfm:46
+#: mqm/forms/FMResDetails.dfm:55
+#: mqm/forms/FMResDetails.dfm:302
+#: mqm/forms/FMResDetails.dfm:315
+#: mqm/forms/FMresFilter.dfm:11
+#: mqm/forms/FMresFilter.dfm:91
+#: mqm/forms/FMResourceReport.dfm:11
+#: mqm/forms/FMRORulesCase.dfm:11
+#: mqm/forms/FMSearch.dfm:11
+#: mqm/forms/FMSearch.dfm:190
+#: mqm/forms/FMSearch.dfm:203
+#: mqm/forms/FMSearch.dfm:216
+#: mqm/forms/FMSearch.dfm:229
+#: mqm/forms/FMSearchSetting.dfm:11
+#: mqm/forms/FMSelePlanTbs.dfm:12
+#: mqm/forms/FMstepdetails.dfm:12
+#: mqm/forms/FMstepdetails.dfm:1231
+#: mqm/forms/FMWkcDetails.dfm:13
+#: mqm/forms/FMworkstation.dfm:12
+#: mqm/lib/FMsplash.dfm:12
+#: mqm/MqmConfig/FMcfgMain.dfm:11
+#: mqm/MqmConfig/FMcreateTables.dfm:11
+#: mqm/MqmConfig/FMdbConf.dfm:13
+#: mqm/MqmConfig/FMSettings.dfm:13
+#: mqm/MqmConfig/FMViewLic.dfm:11
+#: mqm/MqmLic/FMCreateLic.dfm:11
+#: mqm/MqmLic/FMLicMain.dfm:11
+#: mqm/MqmLic/FMlock.dfm:11
+#: mqm/MqmMain/FMMainPlan.dfm:10
+#: mqm/MqmMain/FMMainPlan.dfm:46
+#: mqm/MqmMain/FMMainPlan.dfm:226
+#: mqm/MqmMain/FMMainPlan.dfm:357
+#: mqm/MqmSrv/FMLoadCalendars.dfm:11
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:11
+#: mqm/MqmSrv/FMSrvSettings.dfm:11
+#: mqm/MqmSrv/UMsrvLoad.dfm:13
+#: mqm/MqmSrv/UMsrvLoad.dfm:59
+#: mqm/MqmSrv/UMsrvLoad.dfm:92
+#: mqm/MqmSrv/UMsrvLoad.dfm:125
+#: mqm/MqmSrv/UMsrvLoad.dfm:151
+#: mqm/MqmSrv/UMsrvLoad.dfm:167
+#: mqm/MqmSrv/UMsrvLoad.dfm:208
+msgid "MS Sans Serif"
+msgstr "MS Sans Serif"
+
+#. InfoForm..InfoMemo..Font.Name
+#: lib/FGinfo.dfm:31
+msgid "Fixedsys"
+msgstr "Fixedsys"
+
+#. InfoForm..NoteBar..SpeedFore..Hint
+#: lib/FGinfo.dfm:49
+msgid "Stay on top"
+msgstr "位于顶部"
+
+#. InfoForm..NoteBar..SpeedClear..Hint
+#: lib/FGinfo.dfm:73
+msgid "Cancel"
+msgstr "取消"
+
+#. InfoForm..NoteBar..SpeedPrint..Hint
+#: lib/FGinfo.dfm:97
+msgid "Print"
+msgstr "打印"
+
+#. InfoForm..NoteBar..ToolButton1..Caption
+#: lib/FGinfo.dfm:121
+msgid "ToolButton1"
+msgstr "工具按钮1"
+
+#. FBin..Caption
+#: mqm/bin/FMbin.dfm:6
+msgid "Bin"
+msgstr "池"
+
+#. FBin..PopUpBin..MIMoveOnPlan..Caption
+#: mqm/bin/FMbin.dfm:27
+msgid "Move on Plan"
+msgstr "在计划上移动"
+
+#. FBin..PopUpBin..MIMoveToBin..Caption
+#: mqm/bin/FMbin.dfm:31
+#: mqm/MqmMain/FMMainPlan.dfm:6516
+msgid "Unschedule"
+msgstr "非排产的"
+
+#. FBin..PopUpBin..MIMoveAllJobstobin..Caption
+#: mqm/bin/FMbin.dfm:35
+#: mqm/MqmMain/FMMainPlan.dfm:6552
+msgid "Unschedule jobs in current bin"
+msgstr "当前池的非排产作业"
+
+#. FBin..PopUpBin..N5..Caption
+#. FMQMPlan..PupJob..N6..Caption
+#: mqm/bin/FMbin.dfm:39
+#: mqm/bin/FMbin.dfm:75
+#: mqm/bin/FMbin.dfm:90
+#: mqm/MqmMain/FMMainPlan.dfm:583
+#: mqm/MqmMain/FMMainPlan.dfm:594
+#: mqm/MqmMain/FMMainPlan.dfm:605
+#: mqm/MqmMain/FMMainPlan.dfm:647
+#: mqm/MqmMain/FMMainPlan.dfm:666
+#: mqm/MqmMain/FMMainPlan.dfm:677
+#: mqm/MqmSrv/UMsrvLoad.dfm:245
+msgid "-"
+msgstr "-"
+
+#. FBin..PopUpBin..MIShowOnPlan..Caption
+#: mqm/bin/FMbin.dfm:42
+msgid "Show On Plan"
+msgstr "在计划上显示"
+
+#. FBin..PopUpBin..MIJobHandling..Caption
+#: mqm/bin/FMbin.dfm:46
+msgid "Step jobs handling"
+msgstr "作业处理步骤"
+
+#. FBin..PopUpBin..MIStartAutoSched..Caption
+#: mqm/bin/FMbin.dfm:53
+#: mqm/MqmMain/FMMainPlan.dfm:488
+msgid "Automatic sequencing"
+msgstr "自动排序"
+
+#. FBin..PopUpBin..MIStartAutoSched..MIAutoSchedAll..Caption
+#: mqm/bin/FMbin.dfm:55
+msgid "All jobs in bin"
+msgstr "池中的全部作业"
+
+#. FBin..PopUpBin..MIStartAutoSched..MIAutoSchedSelected..Caption
+#: mqm/bin/FMbin.dfm:59
+msgid "Only selected job"
+msgstr "只有已选择的作业"
+
+#. FBin..PopUpBin..MiJobDetails..Caption
+#: mqm/bin/FMbin.dfm:67
+#: mqm/forms/FMstepdetails.dfm:7
+#: mqm/MqmMain/FMMainPlan.dfm:586
+msgid "Job Details"
+msgstr "作业详述"
+
+#. FBin..PopUpBin..DisDet..Caption
+#: mqm/bin/FMbin.dfm:71
+#: mqm/MqmMain/FMMainPlan.dfm:590
+msgid "Dispo Details"
+msgstr "生产单明细"
+
+#. FBin..PopUpBin..MINewGroup..Caption
+#: mqm/bin/FMbin.dfm:78
+msgid "Create group"
+msgstr "建立组"
+
+#. FBin..PopUpBin..MIAddToGroup..Caption
+#: mqm/bin/FMbin.dfm:82
+msgid "Add to group"
+msgstr "加入到组"
+
+#. FBin..PopUpBin..MIModiGrp..Caption
+#: mqm/bin/FMbin.dfm:86
+msgid "Group Handling"
+msgstr "组处理"
+
+#. FBin..PopUpBin..MISearchBy..Caption
+#: mqm/bin/FMbin.dfm:93
+msgid "Search By"
+msgstr "搜索通过..."
+
+#. FBin..PopUpBin..MISearchBy..MIProdReq..Caption
+#: mqm/bin/FMbin.dfm:95
+#: mqm/MqmMain/FMMainPlan.dfm:614
+msgid "Production Request"
+msgstr "生产需求"
+
+#. FBin..PopUpBin..MISearchBy..MIProdType..Caption
+#: mqm/bin/FMbin.dfm:99
+#: mqm/MqmMain/FMMainPlan.dfm:618
+msgid "Product Type"
+msgstr "产品类型"
+
+#. FBin..PopUpBin..MISearchBy..MIStepType..Caption
+#: mqm/bin/FMbin.dfm:103
+#: mqm/MqmMain/FMMainPlan.dfm:622
+#: mqm/bin/UMBinFunc.pas:193
+#: mqm/bin/UMBinToExcel.pas:98
+msgid "Step Type"
+msgstr "步骤类型"
+
+#. FBin..PopUpBin..MISearchBy..MIWorkCenter..Caption
+#: mqm/bin/FMbin.dfm:107
+#: mqm/forms/FMBinFiltTabs.dfm:54
+#: mqm/forms/FMCreateCapRes.dfm:37
+#: mqm/forms/FMCrtDownTime.dfm:27
+#: mqm/forms/FMJobHandle.dfm:34
+#: mqm/forms/FMstepdetails.dfm:334
+#: mqm/MqmMain/FMMainPlan.dfm:626
+#: mqm/forms/FMChangeWC.pas:107
+msgid "Work Center"
+msgstr "工作中心"
+
+#. FBin..PopUpBin..MISearchBy..MIProcess..Caption
+#: mqm/bin/FMbin.dfm:111
+#: mqm/forms/FMCreateCapRes.dfm:44
+#: mqm/forms/FMCrtDownTime.dfm:34
+#: mqm/MqmMain/FMMainPlan.dfm:630
+#: mqm/bin/UMBinFunc.pas:177
+#: mqm/forms/FMChangeWC.pas:108
+#: mqm/forms/FMWkcDetails.pas:62
+#: mqm/plan/UMPlan.pas:2219
+#: mqm/plan/UMPlan.pas:2223
+#: mqm/plan/UMPlan.pas:2280
+#: mqm/plan/UMPlan.pas:2284
+#: mqm/plan/UMPlan.pas:2350
+#: mqm/plan/UMPlan.pas:2354
+msgid "Process"
+msgstr "过程"
+
+#. FBin..PopUpBin..MISearchBy..MIProdFamily..Caption
+#: mqm/bin/FMbin.dfm:115
+#: mqm/MqmMain/FMMainPlan.dfm:634
+msgid "Product Family"
+msgstr "产品系列"
+
+#. FBin..PopUpBin..MISearchBy..MIMatFamily..Caption
+#: mqm/bin/FMbin.dfm:119
+#: mqm/MqmMain/FMMainPlan.dfm:638
+msgid "Material Family"
+msgstr "物料系列"
+
+#. FBin..PopUpBin..MISearchBy..MIProdLine..Caption
+#: mqm/bin/FMbin.dfm:123
+#: mqm/MqmMain/FMMainPlan.dfm:642
+msgid "Production Line"
+msgstr "生产线"
+
+#. FBin..PopUpBin..MIBinTab..Caption
+#: mqm/bin/FMbin.dfm:128
+msgid "Bin Tab"
+msgstr "池标签"
+
+#. FBin..PopUpBin..MIBinTab..MINewTab..Caption
+#: mqm/bin/FMbin.dfm:130
+msgid "Create New Tab "
+msgstr "建立新标签"
+
+#. FBin..PopUpBin..MIBinTab..MICopyCnfg..Caption
+#: mqm/bin/FMbin.dfm:134
+msgid "Create New Tab (Duplicate Current Bin Configuration)"
+msgstr "建立新标签（复制当前池配置）"
+
+#. FBin..PopUpBin..MIBinTab..MIDftValProdReq..Caption
+#: mqm/bin/FMbin.dfm:138
+msgid "Create with Default"
+msgstr "建立缺省..."
+
+#. FBin..PopUpBin..MIBinTab..EditTab..Caption
+#: mqm/bin/FMbin.dfm:142
+msgid "Edit Tab"
+msgstr "编辑标签"
+
+#. FBin..PopUpBin..MIBinTab..MiBinCong..Caption
+#: mqm/bin/FMbin.dfm:146
+msgid "Set Bin Configuration"
+msgstr "设置池配置"
+
+#. FBin..PopUpBin..MIBinTab..MISearchResult..Caption
+#: mqm/bin/FMbin.dfm:150
+msgid "Remove search Tabs"
+msgstr "移动搜索标签"
+
+#. FBin..PopUpBin..MIBinTab..MIClose..Caption
+#: mqm/bin/FMbin.dfm:154
+msgid "Delete Tab"
+msgstr "删除标签"
+
+#. FBin..PopUpBin..MIShowtabtotals..Caption
+#: mqm/bin/FMbin.dfm:159
+msgid "Tab totals"
+msgstr "标签统计"
+
+#. FBin..PopUpBin..MIWCenterHandle..MIChangeWC..Caption
+#: mqm/bin/FMbin.dfm:165
+msgid "Change planed Work Center"
+msgstr "变更已做计划的工作中心"
+
+#. FBin..PopUpBin..MIWCenterHandle..MIReturnWCOriginal..Caption
+#: mqm/bin/FMbin.dfm:169
+msgid "Return to Original Work Center"
+msgstr "回到原工作中心"
+
+#. FBinToExcel..Caption
+#: mqm/bin/FMBinToExcel.dfm:6
+msgid "FBinToExcel"
+msgstr "从池到Excel表格"
+
+#. FBinToExcel..Button1..Caption
+#: mqm/bin/FMBinToExcel.dfm:21
+#, fuzzy
+msgid "Button1"
+msgstr "工具按钮1"
+
+#. FConfigBin..Caption
+#: mqm/bin/FMcfgBin.dfm:6
+msgid "Bin Configuration"
+msgstr "池配置"
+
+#. FConfigBin..grbColLabel..Caption
+#: mqm/bin/FMcfgBin.dfm:35
+msgid "Title Columns"
+msgstr "标题栏"
+
+#. FConfigBin..grbColLabel..lblIntMaxChar..Caption
+#: mqm/bin/FMcfgBin.dfm:48
+msgid "Title (max 16 Car.)"
+msgstr "标题（最大16位字符）"
+
+#. FConfigBin..grbColLabel..btnRefColLabel..Caption
+#: mqm/bin/FMcfgBin.dfm:91
+#: mqm/forms/FMworkstation.pas:51
+msgid "Apply"
+msgstr "应用"
+
+#. FConfigBin..grbColLabel..btnRestoreColLabel..Caption
+#. LngStr(S_000165); // '
+#: mqm/bin/FMcfgBin.dfm:106
+#: mqm/bin/FMcfgBin.dfm:277
+#: mqm/forms/FMAutoSchedCfg.dfm:242
+#: mqm/forms/FMAutoSchedCfg.dfm:427
+#: mqm/forms/FMAutoSchedCfg.dfm:602
+#: mqm/forms/FMAutoSchedCfg.dfm:787
+#: mqm/bin/FMcfgBin.pas:681
+#: mqm/bin/FMcfgBin.pas:683
+#: mqm/bin/FMcfgBin.pas:688
+#: mqm/bin/FMcfgBin.pas:691
+msgid "Restore"
+msgstr "恢复"
+
+#. FConfigBin..grbVisibleCol..Caption
+#: mqm/bin/FMcfgBin.dfm:122
+msgid "Visible Columns"
+msgstr "可见栏位"
+
+#. FConfigBin..grbColPos..Caption
+#: mqm/bin/FMcfgBin.dfm:166
+msgid "Position/Width Columns"
+msgstr "列位置/宽度"
+
+#. FConfigBin..grbColPos..btnRestoreColPos..Caption
+#: mqm/bin/FMcfgBin.dfm:205
+msgid "Restore Pos."
+msgstr "恢复位置"
+
+#. FConfigBin..grbColPos..btnRestoreVColWidth..Caption
+#: mqm/bin/FMcfgBin.dfm:220
+msgid "Restore Width"
+msgstr "恢复宽度"
+
+#. FConfigBin..grbColOrder..Caption
+#: mqm/bin/FMcfgBin.dfm:236
+msgid "Columns Sort"
+msgstr "列排序"
+
+#. FConfigBin..bbtnOk..Caption
+#. LngStr(S_000002); // ''OK'
+#: mqm/bin/FMcfgBin.dfm:293
+#: mqm/forms/FMCapResDescription.dfm:35
+#: mqm/forms/FMEditCal.dfm:53
+#: mqm/forms/FMRankReport.dfm:89
+#: mqm/forms/FMresFilter.dfm:101
+#: mqm/forms/FMSearch.dfm:44
+#: mqm/MqmSrv/FMLoadCalendars.dfm:69
+#: mqm/bin/FMcfgBin.pas:689
+#: mqm/forms/FMresFilter.pas:87
+#: mqm/lib/UMGridComptClr.pas:605
+msgid "OK"
+msgstr "OK"
+
+#. FConfigBin..bbtnAbort..Caption
+#. LngStr(S_000001); // '
+#: mqm/bin/FMcfgBin.dfm:323
+#: mqm/forms/FMAutoSchedCfg.dfm:104
+#: mqm/forms/FMAutoSchedReport.dfm:79
+#: mqm/forms/FMEditCal.dfm:82
+#: mqm/forms/FMRankReport.dfm:119
+#: mqm/forms/FMresFilter.dfm:131
+#: mqm/MqmSrv/FMLoadCalendars.dfm:98
+#: mqm/bin/FMcfgBin.pas:690
+#: mqm/forms/FMresFilter.pas:88
+msgid "Abort"
+msgstr "异常中断"
+
+#. FConfigBin..mnuReload..Ripristina1..Caption
+#: mqm/bin/FMcfgBin.dfm:350
+msgid "&Restore"
+msgstr "&R恢复"
+
+#. FConfigBin..mnuReload..Ripristina1..UltimaConfSalvata1..Caption
+#: mqm/bin/FMcfgBin.dfm:352
+msgid "&Last Configuration Saved"
+msgstr "&L最后保存的设置"
+
+#. FConfigBin..mnuReload..Ripristina1..ConfigurazioneDefault1..Caption
+#: mqm/bin/FMcfgBin.dfm:355
+msgid "&Default Configuration"
+msgstr "&D缺省配置"
+
+#. EditTabsBin..Caption
+#: mqm/bin/FMEditTabsBin.dfm:6
+msgid "EditTabsBin"
+msgstr "编辑池标签"
+
+#. EditTabsBin..Panel1..Label1..Caption
+#: mqm/bin/FMEditTabsBin.dfm:31
+msgid "Visible"
+msgstr "可见"
+
+#. EditTabsBin..Panel1..Label2..Caption
+#: mqm/bin/FMEditTabsBin.dfm:44
+#: mqm/MqmMain/FMMainPlan.dfm:570
+#: lib/UGPropComp.pas:171
+msgid "Delete"
+msgstr "删除"
+
+#. FAutoSched..LblRes..Caption
+#: mqm/forms/FMAutoSched.dfm:62
+msgid "LblRes"
+msgstr "资源标签"
+
+#. FAutoSched..LblSons..Caption
+#: mqm/forms/FMAutoSched.dfm:78
+msgid "LblSons"
+msgstr "LblSons"
+
+#. FAutoSched..LblObj..Caption
+#: mqm/forms/FMAutoSched.dfm:85
+msgid "LblObj"
+msgstr "物体标签"
+
+#. FAutoSchedCfg..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:6
+msgid "Automatic sequencing configuration"
+msgstr "自动顺序配置"
+
+#. FAutoSchedCfg..LblConfigs..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:44
+msgid "Saved configurations"
+msgstr "保存过的配置"
+
+#. FAutoSchedCfg..LblName..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:51
+msgid "Name"
+msgstr "姓名"
+
+#. FAutoSchedCfg..LblDescr..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:58
+#: mqm/forms/FMResDetails.dfm:91
+#: mqm/forms/FMSearch.dfm:186
+#: mqm/lib/UMDevPropComp.pas:94
+#: mqm/lib/UMGridComptClr.pas:142
+#: mqm/lib/UMGridComptClr.pas:428
+#: mqm/lib/UMUsrPropComp.pas:90
+msgid "Description"
+msgstr "描述"
+
+#. FAutoSchedCfg..PageControl1..TbsCompLimits..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:172
+msgid "Compatibility limits"
+msgstr "兼容性限制"
+
+#. FAutoSchedCfg..PageControl1..TbsCompLimits..GBMinComp..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:179
+msgid "Minimum compatibility levels allowed"
+msgstr "允许的最小兼容级别"
+
+#. FAutoSchedCfg..PageControl1..TbsCompLimits..GBMinComp..LblMinToResComp..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:186
+msgid "Job to resource (1-98)"
+msgstr "作业到资源（1-98）"
+
+#. FAutoSchedCfg..PageControl1..TbsCompLimits..GBMinComp..LblMinToJobComp..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:193
+msgid "Job to job (1-98)"
+msgstr "作业到作业（1-98）"
+
+#. FAutoSchedCfg..PageControl1..TbsCompLimits..GBMinComp..LblMinToCapResComp.Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:200
+msgid "Job to capacity reservation (1-98)"
+msgstr "作业到生产能力预留（1-98）"
+
+#. FAutoSchedCfg..PageControl1..TbsWeights..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:266
+msgid "Weights"
+msgstr "重量"
+
+#. FAutoSchedCfg..PageControl1..TbsWeights..LblDate..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:281
+#: mqm/forms/FMRankReport.pas:217
+#: mqm/forms/FMRankReport.pas:218
+msgid "Date"
+msgstr "日期"
+
+#. FAutoSchedCfg..PageControl1..TbsWeights..LblDelDate..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:289
+msgid "Target Date"
+msgstr "目标日期"
+
+#. FAutoSchedCfg..PageControl1..TbsWeights..LblEffic..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:296
+msgid "Efficency"
+msgstr "效率"
+
+#. FAutoSchedCfg..PageControl1..TbsWeights..LblToResComp..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:311
+msgid "Job to resource comp."
+msgstr "作业到资源兼容"
+
+#. FAutoSchedCfg..PageControl1..TbsWeights..LblToJobComp..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:320
+msgid "Job to job comp."
+msgstr "作业到作业兼容"
+
+#. FAutoSchedCfg..PageControl1..TbsWeights..LblToCapResComp..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:329
+msgid "Job to capacity reserv. comp."
+msgstr "作业到生产能力预留兼容"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:451
+msgid "Date definitions"
+msgstr "日期定义"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:459
+msgid "Limits"
+msgstr "限制"
+
+#  FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..LblTollAfterDelDate..Caption
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..LblTollAfterDelDate..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:466
+msgid "Tolerance days after prod. req. delivery date"
+msgstr "允许晚于产品交货期的天数"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..LblTollAfterHighEnd..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:473
+msgid "Tolerance days after highest end date"
+msgstr "允许晚于最后完成日期的天数"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..LblTollBeforeLowStart..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:480
+msgid "Tolerance days before lowest start date"
+msgstr "允许早于最早开始日期的天数"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..RGBeforeLowStart..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:520
+msgid "Schedule before lowest start date"
+msgstr "预定时间早于最早开始日期"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..RGBeforeLowStart...Items.Strings
+#: mqm/forms/FMAutoSchedCfg.dfm:523
+#: mqm/forms/FMAutoSchedCfg.dfm:550
+#: mqm/forms/FMAutoSchedCfg.dfm:563
+#: mqm/forms/FMAutoSchedCfg.dfm:576
+msgid "Allowed"
+msgstr "允许"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..RGBeforeLowStart...Items.Strings
+#: mqm/forms/FMAutoSchedCfg.dfm:524
+#: mqm/forms/FMAutoSchedCfg.dfm:551
+msgid "Within tolerance"
+msgstr "在公差范围之内"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..RGBeforeLowStart...Items.Strings
+#: mqm/forms/FMAutoSchedCfg.dfm:525
+#: mqm/forms/FMAutoSchedCfg.dfm:552
+#: mqm/forms/FMAutoSchedCfg.dfm:565
+#: mqm/forms/FMAutoSchedCfg.dfm:577
+msgid "Not allowed"
+msgstr "不允许"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..RGAfterHighEnd..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:533
+msgid "Schedule after highest end date"
+msgstr "预定时间晚于最后完成时间"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..RGAfterDelDate..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:547
+msgid "Schedule after prod. req. delivery date"
+msgstr "预定时间晚于产品交货期"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..RGMoveObjs..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:560
+msgid "Move already scheduled entities"
+msgstr "移动已预定的实体"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..RGMoveObjs....Items.Strings
+#: mqm/forms/FMAutoSchedCfg.dfm:564
+msgid "Within highest end"
+msgstr "在最后完成的范围之内"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..GBDateLimits..RGMoveFinalSched..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:573
+msgid "Move final scheduled entities"
+msgstr "移动最后排产的实体"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..RGPrefTgtDate..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:587
+msgid "Target date"
+msgstr "目标日期"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..RGPrefTgtDate....Items.Strings
+#: mqm/forms/FMAutoSchedCfg.dfm:590
+msgid "Lowest start date"
+msgstr "最早开始日期"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..RGPrefTgtDate....Items.Strings
+#: mqm/forms/FMAutoSchedCfg.dfm:591
+msgid "Planned start date"
+msgstr "计划开始时间"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..RGPrefTgtDate....Items.Strings
+#: mqm/forms/FMAutoSchedCfg.dfm:592
+msgid "Planned end date"
+msgstr "计划完成时间"
+
+#. FAutoSchedCfg..PageControl1..TbsDateDef..RGPrefTgtDate....Items.Strings
+#: mqm/forms/FMAutoSchedCfg.dfm:593
+msgid "Highest end date"
+msgstr "最晚完成时间"
+
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:626
+msgid "Algorithm"
+msgstr "算法"
+
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:634
+msgid "Algorithm gradients"
+msgstr "算法梯度"
+
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradBfrTollLSD.Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:641
+msgid "Before tolerance of lowest start date"
+msgstr "最早开始日期公差之前"
+
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradBtwToll_LSD..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:648
+msgid "Between tolerance and lowest start date"
+msgstr "在最早开始日期和公差之间"
+
+#  FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradBtwLSD_TGTD..Caption
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradBtwLSD_TGTD..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:655
+msgid "Between lowest start date and target date"
+msgstr "在最早开始日期和目标日期之间"
+
+#  FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradBtwTollHED_Del..Caption
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradBtwTollHED_Del..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:662
+msgid "Between highest end tolerance date and delivery date"
+msgstr "在最晚完成公差日期和交货日期之间"
+
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradBtwTGTD_HED..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:669
+msgid "Between target date and higest end date"
+msgstr "在目标日期和最晚完成日期之间"
+
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradBtwHED_Toll..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:676
+msgid "Between higest end date and its tolerance"
+msgstr "在最晚完成日期和它的公差之间"
+
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradBtwDel_Toll..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:683
+msgid "Between delivery date and its tolerance"
+msgstr "在交货期和它的公差之间"
+
+#. FAutoSchedCfg..PageControl1..TbsAlgorithm..GBGradients..LblGradAftTollDel.Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:690
+msgid "After delivery date tolerance"
+msgstr "交货日期公差之后"
+
+#. FAutoSchedCfg..PageControl1..TbsOthers..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:811
+msgid "Other"
+msgstr "其他"
+
+#. FAutoSchedCfg..PageControl1..TbsOthers..LblSleep..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:818
+msgid "Waiting time for each position tested"
+msgstr "等待时间用于每个位置的测试"
+
+#  FAutoSchedCfg..PageControl1..TbsOthers..CBoxRankReport..Caption
+#. FAutoSchedCfg..PageControl1..TbsOthers..CBoxRankReport..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:836
+msgid "Show the rank report of the last scheduled object"
+msgstr "显示最后预定的物料级别报告"
+
+#. FAutoSchedCfg..PageControl1..TbsOthers..CBoxLoopErrors..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:844
+msgid "Loop priority errors"
+msgstr "循环优先级错误"
+
+#. FAutoSchedCfg..BtnRstAll..Caption
+#: mqm/forms/FMAutoSchedCfg.dfm:855
+msgid "Restore all"
+msgstr "全部恢复"
+
+#. FAutoSchedRpt..Caption
+#: mqm/forms/FMAutoSchedReport.dfm:6
+msgid "Automatic sequencing results"
+msgstr "自动排序结果"
+
+#. TBinFilter..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:6
+msgid "Bin filter"
+msgstr "池筛选"
+
+#. TBinFilter..PageControl1..TabFiltGen..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:28
+msgid "General Filter"
+msgstr "一般筛选"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LblProdLine..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:41
+msgid "Production line"
+msgstr "生产线"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LabelMinStp..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:67
+msgid "Min / Max Qty  "
+msgstr "最小/最大数量"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LabelProdFamily..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:106
+msgid "Production Family "
+msgstr "产品系列"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LblProdType..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:120
+#: mqm/lib/UMDevPropComp.pas:109
+#: mqm/lib/UMUsrPropComp.pas:105
+#: mqm/plan/UMPlan.pas:2220
+#: mqm/plan/UMPlan.pas:2222
+#: mqm/plan/UMPlan.pas:2223
+#: mqm/plan/UMPlan.pas:2281
+#: mqm/plan/UMPlan.pas:2283
+#: mqm/plan/UMPlan.pas:2284
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "Product type"
+msgstr "产品类型"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..LblStepType..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:133
+msgid "Step type "
+msgstr "步骤类型"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupSched..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:240
+msgid "Show Scheduled"
+msgstr "显示预定的"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupSched....Items.Strings
+#. Programmer's name for it: CSTR_NO
+#: mqm/forms/FMBinFiltTabs.dfm:244
+#: mqm/forms/FMBinFiltTabs.dfm:272
+#: mqm/forms/FMBinFiltTabs.dfm:286
+#: mqm/forms/FMBinFiltTabs.dfm:300
+#: mqm/forms/FMBinFiltTabs.dfm:384
+#: mqm/forms/FMBinFiltTabs.dfm:397
+#: mqm/forms/FMBinFiltTabs.dfm:410
+#: mqm/forms/FMStepDetails.pas:1016
+#: mqm/forms/FMStepDetails.pas:1182
+#: mqm/lib/UMDevPropComp.pas:92
+#: mqm/lib/UMRulesComp.pas:289
+#: mqm/lib/UMRulesComp.pas:299
+#: mqm/lib/UMUsrPropComp.pas:87
+msgid "No"
+msgstr "不"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupSched....Items.Strings
+#: mqm/forms/FMBinFiltTabs.dfm:245
+#: mqm/forms/FMBinFiltTabs.dfm:273
+#: mqm/forms/FMBinFiltTabs.dfm:287
+#: mqm/forms/FMBinFiltTabs.dfm:385
+msgid "Also"
+msgstr "也"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupSched....Items.Strings
+#: mqm/forms/FMBinFiltTabs.dfm:246
+#: mqm/forms/FMBinFiltTabs.dfm:274
+#: mqm/forms/FMBinFiltTabs.dfm:288
+msgid "Only"
+msgstr "仅仅"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupClosed..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:254
+msgid "Show Closed"
+msgstr "显示已关闭的"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupReadOnly..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:268
+msgid "Show Read-Only Jobs"
+msgstr "显示只读作业"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupGroups..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:282
+msgid "Show Groups"
+msgstr "显示组"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupReProcess..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:296
+msgid "Show Only Re-Process"
+msgstr "仅显示再加工"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupReProcess....Items.Strings
+#: mqm/forms/FMBinFiltTabs.dfm:301
+#: mqm/forms/FMBinFiltTabs.dfm:411
+#: mqm/lib/UMDevPropComp.pas:91
+#: mqm/lib/UMRulesComp.pas:297
+#: mqm/lib/UMUsrPropComp.pas:86
+msgid "Yes"
+msgstr "是"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupAlternativeWc.Caption
+#: mqm/forms/FMBinFiltTabs.dfm:380
+msgid "Show Alternative  Work Center"
+msgstr "显示可选的工作中心"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RadioGroupActivWcFromGantt..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:393
+msgid "Active Work Center from Gantt"
+msgstr "甘特图中的活动工作中心"
+
+#. TBinFilter..PageControl1..TabFiltGen..ScrollBox1..RGFltJobsOnGantt..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:406
+msgid "Filter scheduled jobs"
+msgstr "筛选已排产作业"
+
+#. TBinFilter..PageControl1..TabProperty..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:417
+msgid "Properties Filter"
+msgstr "属性筛选"
+
+#. TBinFilter..PageControl1..TabSheet1..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:421
+msgid "Dates Filter"
+msgstr "日期筛选"
+
+#. TBinFilter..PageControl1..TabSheet1..Label3..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:434
+#: mqm/forms/FMBinFiltTabs.dfm:544
+#: mqm/forms/FMBinFiltTabs.dfm:583
+msgid "from"
+msgstr "从"
+
+#. TBinFilter..PageControl1..TabSheet1..LblProdLDT..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:447
+msgid "Production lowest dates:"
+msgstr "最早生产日期"
+
+#. TBinFilter..PageControl1..TabSheet1..Label10..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:460
+#: mqm/forms/FMBinFiltTabs.dfm:531
+#: mqm/forms/FMBinFiltTabs.dfm:570
+msgid "to"
+msgstr "到"
+
+#. TBinFilter..PageControl1..TabSheet1..LblProdHDT..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:486
+msgid "Production Delivery date :"
+msgstr "生产交货日期："
+
+#. TBinFilter..PageControl1..TabSheet1..LblPlannedSDT..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:512
+msgid "Planned starting date/time :"
+msgstr "计划开始日期/时间："
+
+#. TBinFilter..PageControl1..TabSheet1..LblLowestSDT..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:557
+msgid "Lowest starting date/time :"
+msgstr "最早开始日期/时间："
+
+#. TBinFilter..Panel1..TabName..Caption
+#: mqm/forms/FMBinFiltTabs.dfm:790
+msgid "Tab Name"
+msgstr "标签名称"
+
+#. FrmBintotals..Caption
+#: mqm/forms/FmBinTotals.dfm:6
+msgid "Bin Totals"
+msgstr "池汇总"
+
+#. FrmBintotals..LblSched..Caption
+#: mqm/forms/FmBinTotals.dfm:22
+msgid "Scheduled"
+msgstr "预定的"
+
+#. FrmBintotals..LblNotSched..Caption
+#: mqm/forms/FmBinTotals.dfm:29
+msgid "Not Scheduled"
+msgstr "非预定的"
+
+#. FrmBintotals..LblJobs..Caption
+#: mqm/forms/FmBinTotals.dfm:36
+msgid "Jobs/Groups"
+msgstr "作业/组"
+
+#. FrmBintotals..LblQty..Caption
+#: mqm/forms/FmBinTotals.dfm:43
+#: mqm/forms/FMOccMov.dfm:69
+#: mqm/forms/FMstepdetails.dfm:376
+msgid "Quantity"
+msgstr "数量"
+
+#. FormCapResDesc..Caption
+#: mqm/forms/FMCapResDescription.dfm:6
+msgid "Description entry"
+msgstr "描述入口"
+
+#. FormCapResDesc..LblDescription..Caption
+#: mqm/forms/FMCapResDescription.dfm:21
+msgid "Enter the description:"
+msgstr "进入描述："
+
+#. ChangeWc..Caption
+#: mqm/forms/FMChangeWC.dfm:6
+msgid "Change Work Center"
+msgstr "变更工作中心"
+
+#. ChangeWc..LabelWc..Caption
+#: mqm/forms/FMChangeWC.dfm:24
+msgid "Work Center : "
+msgstr "工作中心"
+
+#. ChangeWc..LabelProcess..Caption
+#: mqm/forms/FMChangeWC.dfm:31
+msgid "Process : "
+msgstr "进程："
+
+#. ChangeWc..Label1..Caption
+#: mqm/forms/FMChangeWC.dfm:38
+msgid "Alternatives"
+msgstr "可选的"
+
+#. ChangeWc..StaticWC..Caption
+#: mqm/forms/FMChangeWC.dfm:45
+msgid "            "
+msgstr "      "
+
+#. FColors..Caption
+#: mqm/forms/FMColors.dfm:6
+msgid "Colors"
+msgstr "颜色"
+
+#. FColors..PGCmain..TBJobtCmpt..Caption
+#: mqm/forms/FMColors.dfm:57
+msgid "Compatibility"
+msgstr "兼容性"
+
+#. FColors..PGCmain..TBJobtCmpt..LblJobToJob..Caption
+#: mqm/forms/FMColors.dfm:64
+msgid "Job To Job"
+msgstr "作业到作业"
+
+#. FColors..PGCmain..TBJobtCmpt..LblJobToRes..Caption
+#: mqm/forms/FMColors.dfm:71
+msgid "Job/Cap.Res. To Resource"
+msgstr "作业/生产能力预留到资源"
+
+#. FColors..PGCmain..TBJobtCmpt..LblJobToCap..Caption
+#: mqm/forms/FMColors.dfm:78
+msgid "Job To Capacity Reservation"
+msgstr "作业到生产能力预留"
+
+#. FColors..PGCmain..TbsErrors..Caption
+#: mqm/forms/FMColors.dfm:106
+msgid "Job"
+msgstr "作业"
+
+#. FColors..PGCmain..TabResColor..Caption
+#: mqm/forms/FMColors.dfm:118
+#: mqm/forms/FMJobHandle.dfm:41
+#: mqm/forms/FMOccMov.dfm:373
+#: mqm/forms/FMstepdetails.dfm:348
+#: mqm/bin/UMBinFunc.pas:210
+#: mqm/forms/FMAutoSchedReport.pas:157
+#: mqm/lib/UMUsrPropComp.pas:158
+#: mqm/plan/UMRes.pas:301
+#: mqm/plan/UMRes.pas:1383
+msgid "Resource"
+msgstr "恢复"
+
+#. FColors..PGCmain..TabCapResColor..Caption
+#: mqm/forms/FMColors.dfm:130
+#: mqm/forms/FMCrtDownTime.dfm:6
+msgid "Capacity Reservation"
+msgstr "生产能力预留"
+
+#. FCreateCapRes..PageControl1..tbsParams..Caption
+#: mqm/forms/FMCreateCapRes.dfm:31
+msgid "Parameters"
+msgstr "参数"
+
+#. FCreateCapRes..PageControl1..tbsParams..LblComment..Caption
+#: mqm/forms/FMCreateCapRes.dfm:51
+#: mqm/forms/FMstepdetails.dfm:432
+#: mqm/bin/UMBinFunc.pas:190
+msgid "Comment"
+msgstr "评注"
+
+#. FCreateCapRes..PageControl1..tbsParams..LblUpToCase..Caption
+#: mqm/forms/FMCreateCapRes.dfm:58
+msgid "\"Capacity to job\" up-most case"
+msgstr "“生产能力到作业”大多数情况"
+
+#. FCreateCapRes..PageControl1..tbsParams..LblClrDesc..Caption
+#: mqm/forms/FMCreateCapRes.dfm:72
+msgid "Color Description"
+msgstr "颜色定义"
+
+#. FCreateCapRes..PageControl1..tbsParams..GroupBox1..Caption
+#: mqm/forms/FMCreateCapRes.dfm:99
+msgid "Times"
+msgstr "次数"
+
+#. FCreateCapRes..PageControl1..tbsParams..GroupBox1..LblDuration..Caption
+#: mqm/forms/FMCreateCapRes.dfm:106
+msgid "Duration"
+msgstr "为期"
+
+#. FCreateCapRes..PageControl1..tbsParams..GroupBox1..LblStDate..Caption
+#: mqm/forms/FMCreateCapRes.dfm:113
+msgid "Start Date"
+msgstr "开始日期"
+
+#. FCreateCapRes..PageControl1..tbsParams..GroupBox1..LblEndDate..Caption
+#: mqm/forms/FMCreateCapRes.dfm:120
+msgid "End Date"
+msgstr "完成日期"
+
+#. FCreateCapRes..PageControl1..tbsParams..GroupBox1..StStartDate..Caption
+#: mqm/forms/FMCreateCapRes.dfm:128
+msgid "StStartDate"
+msgstr "StStartDate"
+
+#. FCreateCapRes..PageControl1..tbsParams..GroupBox1..StEndDate..Caption
+#: mqm/forms/FMCreateCapRes.dfm:145
+msgid "StEndDate"
+msgstr "StEndDate"
+
+#. FCreateCapRes..PageControl1..TabProp..Caption
+#: mqm/forms/FMCreateCapRes.dfm:187
+#: mqm/forms/FMResDetails.dfm:269
+#: mqm/forms/FMSearch.dfm:130
+#: mqm/forms/FMWkcDetails.dfm:117
+msgid "Properties"
+msgstr "属性"
+
+#. FCrtDownTime..LblNumber..Caption
+#: mqm/forms/FMCrtDownTime.dfm:41
+msgid "Number"
+msgstr "号码"
+
+#. FCrtDownTime..CBoxDataFromRes..Caption
+#: mqm/forms/FMCrtDownTime.dfm:141
+msgid "Get data from active planning area"
+msgstr "从活动的计划区域取值"
+
+#. FCrtDownTime..StNumber..Caption
+#: mqm/forms/FMCrtDownTime.dfm:168
+msgid "StNumber"
+msgstr "StNumber"
+
+#. DispoDet..Panel1..LblProdreq..Caption
+#: mqm/forms/FMDispoDet.dfm:30
+msgid "Production Request    "
+msgstr "生产需求"
+
+#. DispoDet..Panel1..LblWcSDispoCode..Caption
+#: mqm/forms/FMDispoDet.dfm:37
+msgid "Division Code "
+msgstr "分区号码"
+
+#. DispoDet..Panel1..LblDispoCode..Caption
+#: mqm/forms/FMDispoDet.dfm:44
+msgid "Dispo Code"
+msgstr "生产单号码"
+
+#. DispoDet..Panel1..LblBatchCode..Caption
+#: mqm/forms/FMDispoDet.dfm:51
+msgid "Batch Code"
+msgstr "批号"
+
+#. DispoDet..Panel1..LblBatchRePro..Caption
+#: mqm/forms/FMDispoDet.dfm:58
+msgid "Batch Re - Process"
+msgstr "批量再加工"
+
+#. MEditCal..Caption
+#: mqm/forms/FMEditCal.dfm:6
+msgid "Edit Calendar"
+msgstr "编辑日历"
+
+#. MEditCal..grbActual..Caption
+#: mqm/forms/FMEditCal.dfm:109
+msgid "Actual Values"
+msgstr "实际价格"
+
+#. MEditCal..grbActual..grbActual1..Caption
+#: mqm/forms/FMEditCal.dfm:116
+msgid "First Shift"
+msgstr "第一班"
+
+#. MEditCal..grbActual..grbActual1..lblFrom..Caption
+#: mqm/forms/FMEditCal.dfm:123
+#: mqm/forms/FMEditCal.dfm:203
+#: mqm/forms/FMEditCal.dfm:243
+#: mqm/forms/FMEditCal.dfm:291
+#: mqm/forms/FMEditCal.dfm:341
+#: mqm/forms/FMEditCal.dfm:391
+#: mqm/forms/FMEditCal.dfm:441
+msgid "From"
+msgstr "从"
+
+#. MEditCal..grbActual..grbActual1..Label2..Caption
+#: mqm/forms/FMEditCal.dfm:130
+#: mqm/forms/FMEditCal.dfm:210
+#: mqm/forms/FMEditCal.dfm:250
+#: mqm/forms/FMEditCal.dfm:298
+#: mqm/forms/FMEditCal.dfm:348
+#: mqm/forms/FMEditCal.dfm:398
+#: mqm/forms/FMEditCal.dfm:448
+msgid "To"
+msgstr "到"
+
+#. MEditCal..grbActual..grbActual1..stActual1From..Caption
+#: mqm/forms/FMEditCal.dfm:138
+msgid "stActual1From"
+msgstr "stActual1From"
+
+#. MEditCal..grbActual..grbActual1..stActual1To..Caption
+#: mqm/forms/FMEditCal.dfm:147
+msgid "stActual1To"
+msgstr "stActual1To"
+
+#. MEditCal..grbActual..grbActual2..Caption
+#: mqm/forms/FMEditCal.dfm:156
+msgid "Second Shift"
+msgstr "第二班"
+
+#. MEditCal..grbActual..grbActual2..stActual2From..Caption
+#: mqm/forms/FMEditCal.dfm:178
+msgid "stActual2From"
+msgstr "stActual2From"
+
+#. MEditCal..grbActual..grbActual2..stActual2To..Caption
+#: mqm/forms/FMEditCal.dfm:187
+msgid "stActual2To"
+msgstr "stActual2To"
+
+#. MEditCal..grbActual..grbActual3..Caption
+#: mqm/forms/FMEditCal.dfm:196
+msgid "Third Shift"
+msgstr "第三班"
+
+#. MEditCal..grbActual..grbActual3..stActual3From..Caption
+#: mqm/forms/FMEditCal.dfm:218
+msgid "stActual3From"
+msgstr "stActual3From"
+
+#. MEditCal..grbActual..grbActual3..stActual3To..Caption
+#: mqm/forms/FMEditCal.dfm:227
+msgid "stActual3To"
+msgstr "stActual3To"
+
+#. MEditCal..grbActual..grbActual4..Caption
+#: mqm/forms/FMEditCal.dfm:236
+msgid "Fourth Shift"
+msgstr "第四班"
+
+#. MEditCal..grbActual..grbActual4..stActual4From..Caption
+#: mqm/forms/FMEditCal.dfm:258
+msgid "stActual4From"
+msgstr "stActual4From"
+
+#. MEditCal..grbActual..grbActual4..stActual4To..Caption
+#: mqm/forms/FMEditCal.dfm:267
+msgid "stActual4To"
+msgstr "stActual4To"
+
+#. MEditCal..grbNew..Caption
+#: mqm/forms/FMEditCal.dfm:277
+msgid "New Values"
+msgstr "新价格"
+
+#. MEditCal..grbNew..rgTypeWorkDay..Caption
+#: mqm/forms/FMEditCal.dfm:484
+msgid "Type of Working day"
+msgstr "工作日类型"
+
+#. MEditCal..grbNew..rgTypeWorkDay....Items.Strings
+#: mqm/forms/FMEditCal.dfm:487
+msgid "Totally not working day"
+msgstr "非工作日统计"
+
+#. MEditCal..grbNew..rgTypeWorkDay....Items.Strings
+#: mqm/forms/FMEditCal.dfm:488
+msgid "Totally working day"
+msgstr "工作日统计"
+
+#. MEditCal..grbNew..rgTypeWorkDay....Items.Strings
+#: mqm/forms/FMEditCal.dfm:489
+msgid "Partially working day"
+msgstr "部分工作日"
+
+#. MEditCal..grbCalInfo..Caption
+#: mqm/forms/FMEditCal.dfm:499
+msgid "Calendar Information"
+msgstr "日历信息"
+
+#. MEditCal..grbCalInfo..Label4..Caption
+#: mqm/forms/FMEditCal.dfm:506
+msgid "Select Date (From)"
+msgstr "选择日期（从）"
+
+#. MEditCal..grbCalInfo..Label18..Caption
+#: mqm/forms/FMEditCal.dfm:513
+msgid "Select Date (To)"
+msgstr "选择日期（到）"
+
+#. MEditCal..grbCalInfo..Label1..Caption
+#: mqm/forms/FMEditCal.dfm:521
+msgid "Calendar Code"
+msgstr "日历编码"
+
+#. MEditCal..grbCalInfo..StCalCode..Caption
+#: mqm/forms/FMEditCal.dfm:559
+msgid "StCalCode"
+msgstr "StCalCode"
+
+#. MEditCal..grbCalInfo..chbModEndCal..Caption
+#: mqm/forms/FMEditCal.dfm:567
+msgid "End Of Calendar"
+msgstr "日历末尾"
+
+#. MEditCal..grbCalOpt..Caption
+#: mqm/forms/FMEditCal.dfm:577
+#: mqm/forms/FMOptions.dfm:6
+msgid "Options"
+msgstr "选项"
+
+#. MEditCal..grbCalOpt..Label19..Caption
+#: mqm/forms/FMEditCal.dfm:584
+msgid "Do not modify these days"
+msgstr "不要修改这些天"
+
+#. MEditCal..grbCalOpt..clstBoxOptDays....Items.Strings
+#: mqm/forms/FMEditCal.dfm:593
+msgid "Monday"
+msgstr "周一"
+
+#. MEditCal..grbCalOpt..clstBoxOptDays....Items.Strings
+#: mqm/forms/FMEditCal.dfm:594
+msgid "Tuesday"
+msgstr "周二"
+
+#. MEditCal..grbCalOpt..clstBoxOptDays....Items.Strings
+#: mqm/forms/FMEditCal.dfm:595
+msgid "Wednesday"
+msgstr "周三"
+
+#. MEditCal..grbCalOpt..clstBoxOptDays....Items.Strings
+#: mqm/forms/FMEditCal.dfm:596
+msgid "Thursday"
+msgstr "周四"
+
+#. MEditCal..grbCalOpt..clstBoxOptDays....Items.Strings
+#: mqm/forms/FMEditCal.dfm:597
+msgid "Friday"
+msgstr "周五"
+
+#. MEditCal..grbCalOpt..clstBoxOptDays....Items.Strings
+#: mqm/forms/FMEditCal.dfm:598
+msgid "Saturday"
+msgstr "周六"
+
+#. MEditCal..grbCalOpt..clstBoxOptDays....Items.Strings
+#: mqm/forms/FMEditCal.dfm:599
+msgid "Sunday"
+msgstr "周日"
+
+#. MEditCal..grbCalOpt..rgOptNotWorkDay..Caption
+#: mqm/forms/FMEditCal.dfm:607
+msgid "Not working day option"
+msgstr "非工作日选项"
+
+#. MEditCal..grbCalOpt..rgOptNotWorkDay....Items.Strings
+#: mqm/forms/FMEditCal.dfm:610
+msgid "Exclude"
+msgstr "不包括"
+
+#. MEditCal..grbCalOpt..rgOptNotWorkDay....Items.Strings
+#: mqm/forms/FMEditCal.dfm:611
+msgid "Include"
+msgstr "包括"
+
+#. TGroupDetail..Caption
+#: mqm/forms/FMGroupDetail.dfm:7
+msgid "Group detail"
+msgstr "组明细"
+
+#. TGroupDetail..PanInfo..LblGrpNo..Caption
+#: mqm/forms/FMGroupDetail.dfm:32
+msgid "Group number"
+msgstr "组号"
+
+#. TGroupDetail..PanInfo..LblGrpQty..Caption
+#: mqm/forms/FMGroupDetail.dfm:39
+msgid "Group quantity"
+msgstr "组数量"
+
+#. TGroupDetail..PanInfo..LblGrpType..Caption
+#: mqm/forms/FMGroupDetail.dfm:46
+msgid "Group type"
+msgstr "组类型"
+
+#. TGroupDetail..PanInfo..LblBatchQty..Caption
+#: mqm/forms/FMGroupDetail.dfm:53
+msgid "Batch quantity"
+msgstr "批量"
+
+#. TGroupDetail..PanBtn..BtnShowComp..Caption
+#: mqm/forms/FMGroupDetail.dfm:155
+msgid "Show comp."
+msgstr "显示兼容性"
+
+#. TGroupDetail..PanBtn..BtnMove..Caption
+#: mqm/forms/FMGroupDetail.dfm:164
+msgid "Move on plan"
+msgstr "在计划上移动"
+
+#. TGroupDetail..PgcGrp..TBSched..Caption
+#: mqm/forms/FMGroupDetail.dfm:178
+msgid "Jobs"
+msgstr "作业"
+
+#. TGroupDetail..PgcGrp..TBSched..PanOp..BtnRemove..Caption
+#: mqm/forms/FMGroupDetail.dfm:192
+msgid "Remove"
+msgstr "移动"
+
+#. TGroupDetail..PgcGrp..TBSched..PanOp..BtnSelected..Caption
+#: mqm/forms/FMGroupDetail.dfm:201
+msgid "Details selected"
+msgstr "明细选择"
+
+#. TGroupDetail..PgcGrp..TBsValues..Caption
+#: mqm/forms/FMGroupDetail.dfm:212
+msgid "Values"
+msgstr "价格"
+
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..Caption
+#: mqm/forms/FMGroupDetail.dfm:220
+msgid "Target res"
+msgstr "目标资源"
+
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..Label5..Caption
+#: mqm/forms/FMGroupDetail.dfm:227
+msgid "workcenter"
+msgstr "工作中心"
+
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..Label6..Caption
+#: mqm/forms/FMGroupDetail.dfm:234
+msgid "resource"
+msgstr "资源"
+
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..LblSubRes..Caption
+#: mqm/forms/FMGroupDetail.dfm:241
+msgid "subresource"
+msgstr "子资源"
+
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..PanBch..GroupBox2..Caption
+#: mqm/forms/FMGroupDetail.dfm:307
+msgid "batch std"
+msgstr "批量"
+
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..PanBch..GroupBox2..LblStdAvail..Caption
+#: mqm/forms/FMGroupDetail.dfm:314
+#: mqm/forms/FMOccMov.dfm:214
+#: mqm/forms/FMOccMov.dfm:221
+msgid "available"
+msgstr "可利用的"
+
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..PanBch..GroupBox3..Caption
+#: mqm/forms/FMGroupDetail.dfm:359
+msgid "batch min"
+msgstr "最小批量"
+
+#. TGroupDetail..PgcGrp..TBsValues..GPBtgtRes..PanBch..GroupBox4..Caption
+#: mqm/forms/FMGroupDetail.dfm:386
+msgid "batch max"
+msgstr "最大批量"
+
+#. FJobHandle..Caption
+#: mqm/forms/FMJobHandle.dfm:6
+msgid "Job handling"
+msgstr "作业处理"
+
+#. FJobHandle..PnlHeader..LblResSubLine..Caption
+#: mqm/forms/FMJobHandle.dfm:48
+msgid "Resource Sub-Line"
+msgstr "资源子行"
+
+#. FJobHandle..PnlHeader..LblQuantityProg..Caption
+#: mqm/forms/FMJobHandle.dfm:62
+msgid "Quantity Progressed"
+msgstr "已生产数量"
+
+#. FJobHandle..PnlHeader..LblWCProcessDesc..Caption
+#: mqm/forms/FMJobHandle.dfm:69
+msgid "W.C. Process"
+msgstr "工作中心处理"
+
+#. FJobHandle..PnlHeader..LblProdReq..Caption
+#: mqm/forms/FMJobHandle.dfm:76
+#: mqm/forms/FMOccMov.pas:411
+#: mqm/forms/FMOccMov.pas:412
+#: mqm/forms/FMResourceReport.pas:239
+#: mqm/forms/FMSearch.pas:153
+#: mqm/plan/UMSchedCont.pas:7274
+#: mqm/plan/UMSchedCont.pas:7372
+msgid "Request"
+msgstr "需求"
+
+#. FJobHandle..PnlHeader..LblStepnum..Caption
+#: mqm/forms/FMJobHandle.dfm:83
+#: mqm/bin/UMBinFunc.pas:171
+#: mqm/forms/FMJobHandle.pas:743
+#: mqm/forms/FMSearch.pas:168
+#: mqm/plan/UMSchedCont.pas:7274
+#: mqm/plan/UMSchedCont.pas:7372
+#: mqm/plan/UMSchedOnPlan.pas:559
+msgid "Step"
+msgstr "步骤"
+
+#. FJobHandle..PnlHeader..LblSubStep..Caption
+#: mqm/forms/FMJobHandle.dfm:90
+#: mqm/forms/FMSearch.pas:183
+msgid "Sub Step"
+msgstr "子步骤"
+
+#. FJobHandle..PnlHeader..LblRePro..Caption
+#: mqm/forms/FMJobHandle.dfm:97
+#: mqm/forms/FMSearch.pas:198
+msgid "Re Process"
+msgstr "再处理"
+
+#. FJobHandle..PnlHeader..LblStpIniQty..Caption
+#: mqm/forms/FMJobHandle.dfm:104
+msgid "Step initial qantity"
+msgstr "步骤开始数量"
+
+#. FJobHandle..PnlHeader..LblTotJobs..Caption
+#: mqm/forms/FMJobHandle.dfm:111
+msgid "Total number of jobs"
+msgstr "作业号统计"
+
+#. FJobHandle..PnlHeader..STWorkCenter..Caption
+#: mqm/forms/FMJobHandle.dfm:119
+msgid "STWorkCenter"
+msgstr "STWorkCenter"
+
+#. FJobHandle..PnlHeader..STRes..Caption
+#: mqm/forms/FMJobHandle.dfm:130
+msgid "STRes"
+msgstr "STRes"
+
+#. FJobHandle..PnlHeader..STResSubLine..Caption
+#: mqm/forms/FMJobHandle.dfm:141
+msgid "STResSubLine"
+msgstr "STResSubLine"
+
+#. FJobHandle..PnlHeader..STQuantity..Caption
+#: mqm/forms/FMJobHandle.dfm:152
+msgid "STQuantity"
+msgstr "STQuantity"
+
+#. FJobHandle..PnlHeader..STQuantityProg..Caption
+#: mqm/forms/FMJobHandle.dfm:163
+msgid "STQuantityProg"
+msgstr "STQuantityProg"
+
+#. FJobHandle..PnlHeader..STWCProcess..Caption
+#: mqm/forms/FMJobHandle.dfm:174
+msgid "STWCProcess"
+msgstr "STWCProcess"
+
+#. FJobHandle..PnlHeader..StProdReq..Caption
+#: mqm/forms/FMJobHandle.dfm:185
+msgid "StProdReq"
+msgstr "StProdReq"
+
+#. FJobHandle..PnlHeader..StStepNum..Caption
+#: mqm/forms/FMJobHandle.dfm:196
+msgid "StStepNum"
+msgstr "StStepNum"
+
+#. FJobHandle..PnlHeader..STSubStep..Caption
+#: mqm/forms/FMJobHandle.dfm:207
+msgid "STSubStep"
+msgstr "STSubStep"
+
+#. FJobHandle..PnlHeader..STRePro..Caption
+#: mqm/forms/FMJobHandle.dfm:218
+msgid "STRePro"
+msgstr "STRePro"
+
+#. FJobHandle..PnlHeader..STIniQty..Caption
+#: mqm/forms/FMJobHandle.dfm:229
+msgid "STIniQty"
+msgstr "STIniQty"
+
+#. FJobHandle..PnlHeader..STTotJobs..Caption
+#: mqm/forms/FMJobHandle.dfm:240
+msgid "STTotJobs"
+msgstr "STTotJobs"
+
+#. FJobHandle..PgCtrl..TbsSchedList..Caption
+#: mqm/forms/FMJobHandle.dfm:256
+msgid "Job list"
+msgstr "作业列表"
+
+#. FJobHandle..PgCtrl..TbsSchedList..PanelBtns..BtnSplit..Caption
+#: mqm/forms/FMJobHandle.dfm:270
+#: mqm/forms/FMJobHandle.dfm:375
+#: mqm/forms/FMJobHandle.dfm:538
+msgid "Split"
+msgstr "拆分"
+
+#. FJobHandle..PgCtrl..TbsSchedList..PanelBtns..BtnJoin..Caption
+#: mqm/forms/FMJobHandle.dfm:279
+msgid "Join"
+msgstr "加入"
+
+#. FJobHandle..PgCtrl..TbsSchedList..PanelBtns..BtnReproc..Caption
+#: mqm/forms/FMJobHandle.dfm:288
+#: mqm/forms/FMJobHandle.dfm:558
+#: mqm/forms/FMJobHandle.dfm:581
+#: mqm/plan/UMSchedCont.pas:7275
+#: mqm/plan/UMSchedCont.pas:7373
+#: mqm/plan/UMSchedOnPlan.pas:561
+msgid "Reprocess"
+msgstr "再处理"
+
+#. FJobHandle..PgCtrl..TbsSchedList..PanelBtns..BtnConnectPrev..Caption
+#: mqm/forms/FMJobHandle.dfm:297
+msgid "Connect prev."
+msgstr "联系前面的步骤"
+
+#. FJobHandle..PgCtrl..TbsSchedList..PanelBtns..BtnUndo..Caption
+#: mqm/forms/FMJobHandle.dfm:325
+msgid "Undo"
+msgstr "取消"
+
+#. FJobHandle..PgCtrl..TbsSchedList..PanelBtns..BtnDetails..Caption
+#: mqm/forms/FMJobHandle.dfm:334
+msgid "Details"
+msgstr "明细"
+
+#. FJobHandle..PgCtrl..TbsSchedList..PanelBtns..BtnConnectNext..Caption
+#: mqm/forms/FMJobHandle.dfm:343
+msgid "Connect next"
+msgstr "连接下一个"
+
+#. FJobHandle..PgCtrl..TbsSplit..Panel1..BtnCalcSplit..Caption
+#: mqm/forms/FMJobHandle.dfm:365
+msgid "Calculate"
+msgstr "计算"
+
+#. FJobHandle..PgCtrl..TbsSplit..Panel1..BtnSplitBack..Caption
+#: mqm/forms/FMJobHandle.dfm:386
+#: mqm/forms/FMJobHandle.dfm:691
+#: mqm/forms/FMSearch.dfm:160
+msgid "<<-- Back"
+msgstr "<<--后退"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..LblSplitNo..Caption
+#: mqm/forms/FMJobHandle.dfm:404
+msgid "Number of jobs"
+msgstr "作业号"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..LblQtyToSplit..Caption
+#: mqm/forms/FMJobHandle.dfm:411
+msgid "Qantity to split"
+msgstr "数量拆分"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..LblSplitErr..Caption
+#: mqm/forms/FMJobHandle.dfm:419
+#: mqm/forms/FMJobHandle.dfm:617
+#: mqm/forms/FMJobHandle.dfm:633
+#: mqm/forms/FMOccMov.dfm:468
+msgid "Errors"
+msgstr "错误"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..LblQtyPerJob..Caption
+#: mqm/forms/FMJobHandle.dfm:426
+msgid "Qantity per job"
+msgstr "每个作业的数量"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..LblCurrJobQty..Caption
+#: mqm/forms/FMJobHandle.dfm:433
+msgid "Current job quantity"
+msgstr "当前作业数量"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..LblNrOfNewJob..Caption
+#: mqm/forms/FMJobHandle.dfm:440
+msgid "Number of new job"
+msgstr "新作业号"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..LblQtyEachJob..Caption
+#: mqm/forms/FMJobHandle.dfm:447
+msgid "Quantity of each new job"
+msgstr "每个新作业的数量"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..StCurrJobQty..Caption
+#: mqm/forms/FMJobHandle.dfm:481
+msgid "StCurrJobQty"
+msgstr "StCurrJobQty"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..StNrOfNewJob..Caption
+#: mqm/forms/FMJobHandle.dfm:499
+msgid "StNrOfNewJob"
+msgstr "StNrOfNewJob"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..StQtyEachJob..Caption
+#: mqm/forms/FMJobHandle.dfm:510
+msgid "StQtyEachJob"
+msgstr "StQtyEachJob"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..RgSplitType..Caption
+#: mqm/forms/FMJobHandle.dfm:520
+msgid "Split type"
+msgstr "拆分类型"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..RgSplitType....Items.Strings
+#: mqm/forms/FMJobHandle.dfm:524
+msgid "By number of jobs"
+msgstr "按照作业号"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..RgSplitType....Items.Strings
+#: mqm/forms/FMJobHandle.dfm:525
+msgid "By quantity"
+msgstr "按照数量"
+
+#. FJobHandle..PgCtrl..TbsSplit..PnlSplit..RgSplitType....Items.Strings
+#: mqm/forms/FMJobHandle.dfm:526
+msgid "By both"
+msgstr "按照以上两者"
+
+#. FJobHandle..PgCtrl..TbsReproc..Panel5..LblQtytoReproc..Caption
+#: mqm/forms/FMJobHandle.dfm:609
+msgid "Qantity to reprocess"
+msgstr "再处理数量"
+
+#. FJobHandle..PgCtrl..TbsConnect..Caption
+#: mqm/forms/FMJobHandle.dfm:641
+msgid "Step connection"
+msgstr "步骤连接"
+
+#. FJobHandle..PgCtrl..TbsConnect..Panel7..BtnConnect..Caption
+#: mqm/forms/FMJobHandle.dfm:681
+msgid "Confirm"
+msgstr "确定"
+
+#. FJobHandle..PgCtrl..TbsConnect..GBConn..Caption
+#: mqm/forms/FMJobHandle.dfm:702
+msgid "Connected"
+msgstr "已被连接"
+
+#. FJobHandle..PgCtrl..TbsConnect..GBToConn..Caption
+#: mqm/forms/FMJobHandle.dfm:711
+msgid "Not Connected"
+msgstr "没有被连接"
+
+#. FJobHandle..PUpToConn..MIConnect..Caption
+#: mqm/forms/FMJobHandle.dfm:720
+msgid "Connect"
+msgstr "连接"
+
+#. FJobHandle..PUpConn..MIDisconnect..Caption
+#: mqm/forms/FMJobHandle.dfm:728
+msgid "Disconnect"
+msgstr "非连接"
+
+#. FMOccMove..Caption
+#: mqm/forms/FMOccMov.dfm:6
+msgid "Occupation move"
+msgstr "移动占用"
+
+#. FMOccMove..PGCmove..TbsGen..Caption
+#: mqm/forms/FMOccMov.dfm:49
+#: mqm/forms/FMstepdetails.dfm:159
+#: mqm/forms/FMWkcDetails.dfm:46
+msgid "General"
+msgstr "常规"
+
+#. FMOccMove..PGCmove..TbsGen..LblSetup..Caption
+#: mqm/forms/FMOccMov.dfm:55
+msgid "Setup time"
+msgstr "设置时间"
+
+#. FMOccMove..PGCmove..TbsGen..LblExe..Caption
+#: mqm/forms/FMOccMov.dfm:62
+msgid "Execution time"
+msgstr "执行时间"
+
+#. FMOccMove..PGCmove..TbsGen..LblSupOvlp..Caption
+#: mqm/forms/FMOccMov.dfm:76
+msgid "Setup overlap"
+msgstr "重叠设置"
+
+#. FMOccMove..PGCmove..TbsGen..LblTimeSele..Caption
+#: mqm/forms/FMOccMov.dfm:83
+msgid "Time selection"
+msgstr "时间选择"
+
+#. FMOccMove..PGCmove..TbsGen..LblBatchQuantity..Caption
+#: mqm/forms/FMOccMov.dfm:90
+msgid "Batch Quantity"
+msgstr "批量"
+
+#. FMOccMove..PGCmove..TabDet..Caption
+#: mqm/forms/FMOccMov.dfm:192
+msgid "Detail"
+msgstr "明细"
+
+#. FMOccMove..PGCmove..TabDet..PnlQty..LblBatchMin..Caption
+#: mqm/forms/FMOccMov.dfm:207
+msgid "Batch Min"
+msgstr "最小批量"
+
+#. FMOccMove..PGCmove..TabDet..PnlQty..LblBatchStd..Caption
+#: mqm/forms/FMOccMov.dfm:228
+msgid "Batch Std"
+msgstr "批量"
+
+#. FMOccMove..PGCmove..TabDet..PnlQty..LblBatchMax..Caption
+#: mqm/forms/FMOccMov.dfm:235
+msgid "Batch Max"
+msgstr "最大批量"
+
+#. FMOccMove..PGCmove..TabDet..PnlQty..LblBatchQty..Caption
+#: mqm/forms/FMOccMov.dfm:242
+msgid "Batch Qty"
+msgstr "批量"
+
+#. FMOccMove..PGCmove..TabDet..PnlResData..LblSubRes..Caption
+#: mqm/forms/FMOccMov.dfm:366
+msgid "Subresource"
+msgstr "子资源"
+
+#. FMOccMove..PGCmove..TabDet..PnlResData..Label5..Caption
+#: mqm/forms/FMOccMov.dfm:380
+msgid "Workcenter"
+msgstr "工作中心"
+
+#. FMOccMove..PGCmove..TbsOptions..LblComments..Caption
+#: mqm/forms/FMOccMov.dfm:443
+msgid "Comments"
+msgstr "评注"
+
+#. FMOccMove..PGCmove..TbsOptions..RGSchedType..Caption
+#: mqm/forms/FMOccMov.dfm:458
+msgid "Schedule type"
+msgstr "预定类型"
+
+#. FMOccMove..PGCmove..TbsOptions..RGSchedType....Items.Strings
+#: mqm/forms/FMOccMov.dfm:461
+msgid "Temporary"
+msgstr "临时的"
+
+#. FMOccMove..PGCmove..TbsOptions..RGSchedType....Items.Strings
+#: mqm/forms/FMOccMov.dfm:462
+#: mqm/forms/FMStepDetails.pas:1020
+msgid "Final"
+msgstr "最终"
+
+#. FMOccMove..PGCmove..TbsActions..Caption
+#: mqm/forms/FMOccMov.dfm:480
+msgid "Actions"
+msgstr "开始"
+
+#. FMOccMove..PGCmove..TbsActions..LblNext..Caption
+#: mqm/forms/FMOccMov.dfm:487
+msgid "next"
+msgstr "下一个"
+
+#. FMOccMove..PGCmove..TbsActions..LblDays..Caption
+#: mqm/forms/FMOccMov.dfm:494
+msgid "Days"
+msgstr "天数"
+
+#. FMOccMove..PGCmove..TbsActions..BtnCompactEnt..Caption
+#: mqm/forms/FMOccMov.dfm:501
+msgid "Compact following entities"
+msgstr "紧接后面的实体"
+
+#. FMOccMove..PGCmove..TbsActions..RGMoveActions..Caption
+#: mqm/forms/FMOccMov.dfm:510
+msgid "Attach / Move Job to:"
+msgstr "附加/移动作业到："
+
+#. FMOccMove..PGCmove..TbsActions..RGMoveActions....Items.Strings
+#: mqm/forms/FMOccMov.dfm:514
+msgid "Selected date"
+msgstr "已选择的日期"
+
+#. FMOccMove..PGCmove..TbsActions..RGMoveActions....Items.Strings
+#: mqm/forms/FMOccMov.dfm:515
+msgid "Earliest date possible"
+msgstr "可能的最早日期"
+
+#. FMOccMove..PGCmove..TbsActions..RGMoveActions....Items.Strings
+#: mqm/forms/FMOccMov.dfm:516
+msgid "Latest date possible"
+msgstr "可能的最晚日期"
+
+#. FMOccMove..PGCmove..TbsActions..RGMoveActions....Items.Strings
+#: mqm/forms/FMOccMov.dfm:517
+msgid "Lowest limit"
+msgstr "最低限制"
+
+#. FMOccMove..PGCmove..TbsActions..RGMoveActions....Items.Strings
+#: mqm/forms/FMOccMov.dfm:518
+msgid "Highest limit"
+msgstr "最高限制"
+
+#. FMOccMove..PGCmove..TbsActions..RGMoveActions....Items.Strings
+#: mqm/forms/FMOccMov.dfm:519
+msgid "Planned start"
+msgstr "计划开始"
+
+#. FMOccMove..PGCmove..TbsActions..RGMoveActions....Items.Strings
+#: mqm/forms/FMOccMov.dfm:520
+msgid "Planned end"
+msgstr "计划结束"
+
+#. FMOccMove..Panel1..LblOcc..Caption
+#: mqm/forms/FMOccMov.dfm:548
+msgid "Occupation"
+msgstr "占有"
+
+#. FOORulesCase..Caption
+#: mqm/forms/FMOORulesCase.dfm:6
+msgid "Cases Found"
+msgstr "发现特殊情况"
+
+#. FOORulesCase..PageControl1..TbsBefore..Caption
+#: mqm/forms/FMOORulesCase.dfm:28
+msgid "Before"
+msgstr "之前"
+
+#. FOORulesCase..PageControl1..TbsAfter..Caption
+#: mqm/forms/FMOORulesCase.dfm:31
+msgid "After"
+msgstr "以后"
+
+#. FOptions..PGCconfig..TbsPref..Caption
+#: mqm/forms/FMOptions.dfm:53
+msgid "Preferences"
+msgstr "优先选择"
+
+#. FOptions..PGCconfig..TbsPref..ChkBxSequece..Caption
+#: mqm/forms/FMOptions.dfm:60
+msgid "Check step sequence"
+msgstr "检查步骤顺序"
+
+#. FOptions..PGCconfig..TbsPref..RGFixTemp..Caption
+#: mqm/forms/FMOptions.dfm:68
+msgid "Default schedule type"
+msgstr "缺省预定类型"
+
+#. FOptions..PGCconfig..TbsPref..ChkCenterStartOnMove..Caption
+#: mqm/forms/FMOptions.dfm:80
+msgid "Center planned start date on move"
+msgstr "工作中心在计划开始时间上移动"
+
+#. FOptions..PGCconfig..TbsPref..ChkWarnOnMoveFinal..Caption
+#: mqm/forms/FMOptions.dfm:88
+msgid "Show warning message when final scheduled jobs need to be moved"
+msgstr "最后一个排产作业需要被移除时，显示警告信息！"
+
+#. FOptions..PGCconfig..TbsPref..GroupBox1..Caption
+#: mqm/forms/FMOptions.dfm:96
+msgid "Fix column visible in bin"
+msgstr "在池中固定可见栏"
+
+#. FOptions..PGCconfig..TbsPref..GroupBox1..ChKBLowDate..Caption
+#: mqm/forms/FMOptions.dfm:111
+msgid "Low limit date forced"
+msgstr "最小日期限制"
+
+#. FOptions..PGCconfig..TbsPref..GroupBox1..ChkBHighDate..Caption
+#: mqm/forms/FMOptions.dfm:119
+msgid "High limit date forced"
+msgstr "最大日期限制"
+
+#. FOptions..PGCconfig..TbsPref..GroupBox1..ChKBOverlaps..Caption
+#: mqm/forms/FMOptions.dfm:127
+msgid "Overlaps forced"
+msgstr "强制叠加"
+
+#. FOptions..PGCconfig..TbsPref..GroupBox1..ChkBMaterialDate..Caption
+#: mqm/forms/FMOptions.dfm:135
+msgid "Material arrival date forced"
+msgstr "强制物料到达日期"
+
+#. FOptions..PGCconfig..TbsPref..GroupBox1..ChkBDeliveryDate..Caption
+#: mqm/forms/FMOptions.dfm:143
+msgid "Delivery date forced"
+msgstr "强制交货日期"
+
+#. FOptions..PGCconfig..TbsPref..GroupBox1..ChkBStatus..Caption
+#: mqm/forms/FMOptions.dfm:151
+#: mqm/bin/UMBinReport.pas:102
+#: mqm/bin/UMBinToExcel.pas:85
+msgid "Status"
+msgstr "状态"
+
+#. FOptions..PGCconfig..TbsPref..GroupBox1..ChkBDatesWarn..Caption
+#: mqm/forms/FMOptions.dfm:159
+msgid "Dates warnings"
+msgstr "日期警告"
+
+#. FOptions..PGCconfig..TBSBinProp..Caption
+#: mqm/forms/FMOptions.dfm:165
+msgid "Bin properties"
+msgstr "池属性"
+
+#. FOptions..PGCconfig..TBSresFilter..Caption
+#: mqm/forms/FMOptions.dfm:168
+msgid "Resource filter"
+msgstr "资源筛选"
+
+#. FOptions..PGCconfig..TBSresFilter..ChkSort..Caption
+#: mqm/forms/FMOptions.dfm:175
+msgid "sort when moving jobs on plan"
+msgstr "在计划上移动作业时排序"
+
+#. FOptions..PGCconfig..TBSresFilter..GPBfilter..Caption
+#: mqm/forms/FMOptions.dfm:183
+msgid "Filter selection"
+msgstr "筛选选择"
+
+#. FOptions..PGCconfig..TBSresFilter..GPBfilter..ChkFilterRead..Caption
+#: mqm/forms/FMOptions.dfm:190
+msgid "don't show read-only resources"
+msgstr "不显示只读资源"
+
+#. FOptions..PGCconfig..TBSresFilter..GPBfilter..ChkWorkcenter..Caption
+#: mqm/forms/FMOptions.dfm:198
+msgid "don't show workcenter not compatible"
+msgstr "不显示不兼容的工作中心"
+
+#. FOptions..PGCconfig..TBSresFilter..GPBfilter..ChkNoTimings..Caption
+#: mqm/forms/FMOptions.dfm:206
+msgid "don't show no timings resources"
+msgstr "不显示非定时的资源"
+
+#. FOptions..PGCconfig..TBSresFilter..GPBfilter..ChkNoCompat..Caption
+#: mqm/forms/FMOptions.dfm:214
+msgid "don't show not compatible resources"
+msgstr "不显示不兼容的资源"
+
+#. FOptions..PGCconfig..TBSresFilter..ChkKeepSort..Caption
+#: mqm/forms/FMOptions.dfm:223
+msgid "keep sorting"
+msgstr "继续排序"
+
+#. FOptions..PGCconfig..TBSdir..Caption
+#: mqm/forms/FMOptions.dfm:228
+msgid "Directories"
+msgstr "目录"
+
+#. ProdImage..Caption
+#: mqm/forms/FMProdImage.dfm:6
+msgid "ProdImage"
+msgstr "ProdImage"
+
+#. FRankReport..Caption
+#: mqm/forms/FMRankReport.dfm:6
+msgid "Automatic schedulation results"
+msgstr "自动预定结果"
+
+#. FRankReport..ChartScore..Series1..Title
+#: mqm/forms/FMRankReport.dfm:55
+msgid "Base algorithm"
+msgstr "基本的运算法则"
+
+#. FRankReport..ChartScore..Series1..XValues.Name
+#: mqm/forms/FMRankReport.dfm:58
+msgid "X"
+msgstr "X"
+
+#. FRankReport..ChartScore..Series1..YValues.Name
+#: mqm/forms/FMRankReport.dfm:62
+msgid "Bar"
+msgstr "条目"
+
+#. FRankReport..ChartScore..Series2..Title
+#: mqm/forms/FMRankReport.dfm:71
+msgid "Customized algorithm"
+msgstr "客户化的运算法则"
+
+#. FRankReport..GBPosRank..Caption
+#: mqm/forms/FMRankReport.dfm:148
+msgid "Valid positions rank"
+msgstr "有效位置等级"
+
+#. FResDetails..Caption
+#: mqm/forms/FMResDetails.dfm:6
+msgid "Resource details"
+msgstr "资源明细"
+
+#. FResDetails..PGCres..TBgen..LblWcCode..Caption
+#: mqm/forms/FMResDetails.dfm:63
+msgid "W.center Code"
+msgstr "工作中心编号"
+
+#. FResDetails..PGCres..TBgen..LblWcSDescCode..Caption
+#: mqm/forms/FMResDetails.dfm:70
+msgid "Short Description  "
+msgstr "简短描述"
+
+#. FResDetails..PGCres..TBgen..LblWcLDescCode..Caption
+#: mqm/forms/FMResDetails.dfm:77
+msgid "Resource Cat."
+msgstr "资源目录"
+
+#. FResDetails..PGCres..TBgen..LblCalCod..Caption
+#: mqm/forms/FMResDetails.dfm:98
+#: mqm/bin/UMBinFunc.pas:199
+msgid "Calendar"
+msgstr "日历"
+
+#. FResDetails..PGCres..TBgen..LblStndBachSize..Caption
+#: mqm/forms/FMResDetails.dfm:105
+msgid "Standard Batch Size"
+msgstr "标准批大小"
+
+#. FResDetails..PGCres..TBgen..Label1..Caption
+#: mqm/forms/FMResDetails.dfm:112
+msgid "Min Batch Size"
+msgstr "最小批量"
+
+#. FResDetails..PGCres..TBgen..LblMaxBatchSize..Caption
+#: mqm/forms/FMResDetails.dfm:119
+msgid "Max Batch"
+msgstr "最大批量"
+
+#. FResDetails..PGCres..TBgen..LblBatchSizeUm..Caption
+#: mqm/forms/FMResDetails.dfm:126
+msgid "Batch Um"
+msgstr "批单位"
+
+#. FResDetails..PGCres..TBgen..LblNumResCompo..Caption
+#: mqm/forms/FMResDetails.dfm:133
+msgid "Nr. Resource Components"
+msgstr "资源组件个数"
+
+#. FResDetails..PGCres..TBrulesRtoO..Caption
+#: mqm/forms/FMResDetails.dfm:273
+msgid "Rules R to O"
+msgstr "R到O标准"
+
+#. FResDetails..PGCres..TBrulesOtoO..Caption
+#: mqm/forms/FMResDetails.dfm:279
+msgid "Rules O to O"
+msgstr "O到O标准"
+
+#. FResDetails..Panel1..LblResCode..Caption
+#: mqm/forms/FMResDetails.dfm:298
+msgid "Code"
+msgstr "编号"
+
+#. FResDetails..Panel1..LblResDescr..Caption
+#: mqm/forms/FMResDetails.dfm:311
+msgid "Long Description"
+msgstr "长描述"
+
+#. FResFilter..Caption
+#: mqm/forms/FMresFilter.dfm:6
+msgid "Resource Filter"
+msgstr "资源筛选"
+
+#. FResFilter..Panel3..StaticText1..Caption
+#: mqm/forms/FMresFilter.dfm:51
+msgid "Work Centers"
+msgstr "工作中心"
+
+#. FResFilter..Panel3..StaticText2..Caption
+#: mqm/forms/FMresFilter.dfm:60
+msgid "Category"
+msgstr "种类"
+
+#. FResFilter..Panel3..StaticText3..Caption
+#: mqm/forms/FMresFilter.dfm:69
+msgid "Resources"
+msgstr "资源"
+
+#. FResFilter..Panel1..EditTabName..Text
+#: mqm/forms/FMresFilter.dfm:161
+msgid "Plan View"
+msgstr "计划浏览"
+
+#. FResFilter..Panel2..Caption
+#: mqm/forms/FMresFilter.dfm:170
+msgid "Panel2"
+msgstr "面板2"
+
+#. FResourceReport..Caption
+#: mqm/forms/FMResourceReport.dfm:6
+msgid "Resource report generator"
+msgstr "资源报告生成器"
+
+#. FResourceReport..Panel1..BtnGenReport..Caption
+#: mqm/forms/FMResourceReport.dfm:32
+msgid "Generate report"
+msgstr "生成报告"
+
+#. FResourceReport..Panel2..LbltoDate..Caption
+#: mqm/forms/FMResourceReport.dfm:65
+msgid "To Date"
+msgstr "到日期"
+
+#. FResourceReport..Panel2..LblFromDate..Caption
+#: mqm/forms/FMResourceReport.dfm:72
+msgid "From Date"
+msgstr "从日期"
+
+#. Search..Caption
+#: mqm/forms/FMSearch.dfm:6
+msgid "Search"
+msgstr "搜索"
+
+#. Search..PgCtrl..TabMain..Caption
+#: mqm/forms/FMSearch.dfm:28
+msgid "TabMain"
+msgstr "主标签"
+
+#. Search..PgCtrl..TabMain..PanelBtns..BtnSearch..Caption
+#: mqm/forms/FMSearch.dfm:81
+msgid " Search >>"
+msgstr "搜索>>"
+
+#. Search..PgCtrl..TabMain..PanelBtns..BtnSearchJob..Caption
+#: mqm/forms/FMSearch.dfm:90
+msgid " Search  with Job data >>"
+msgstr "用作业数据搜索>>"
+
+#. Search..PgCtrl..TabMain..PanelBtns..BtnNewSearch..Caption
+#: mqm/forms/FMSearch.dfm:99
+msgid "New Search >>"
+msgstr "新搜索>>"
+
+#. Search..PgCtrl..TabMain..PanelMain..PanelTitleMain..LabelMainTitleFields.Caption
+#: mqm/forms/FMSearch.dfm:123
+msgid "Search Fields"
+msgstr "搜索字段"
+
+#. Search..PgCtrl..TabSearch..Caption
+#: mqm/forms/FMSearch.dfm:136
+msgid "TabSearch"
+msgstr "标签搜索"
+
+#. Search..PgCtrl..TabSearch..Panel1..LblCond..Caption
+#: mqm/forms/FMSearch.dfm:199
+msgid "Condition"
+msgstr "条件"
+
+#. Search..PgCtrl..TabSearch..Panel1..LblFrom..Caption
+#: mqm/forms/FMSearch.dfm:212
+msgid "Value "
+msgstr "价格"
+
+#. Search..PgCtrl..TabSearch..Panel1..LblTo..Caption
+#: mqm/forms/FMSearch.dfm:225
+msgid "To value"
+msgstr "到价格"
+
+#. SearchSet..Caption
+#: mqm/forms/FMSearchSetting.dfm:6
+msgid "SearchSet"
+msgstr "搜索设置"
+
+#. FMSeleTab..Caption
+#: mqm/forms/FMSelePlanTbs.dfm:5
+msgid "Select tabsheet"
+msgstr "选择标签表单"
+
+#. FStepDetails..PGStepDetails..TBHeader..Caption
+#: mqm/forms/FMstepdetails.dfm:30
+msgid "Header"
+msgstr "标题"
+
+#. FStepDetails..PGStepDetails..TBHeader..LblDelDate..Caption
+#: mqm/forms/FMstepdetails.dfm:36
+msgid "Delivery Date"
+msgstr "交货日期"
+
+#. FStepDetails..PGStepDetails..TBHeader..LblUmdesc..Caption
+#: mqm/forms/FMstepdetails.dfm:50
+msgid "Um"
+msgstr "单位"
+
+#. FStepDetails..PGStepDetails..TBHeader..LblMaterialsFam..Caption
+#: mqm/forms/FMstepdetails.dfm:64
+msgid "Materials Family"
+msgstr "物料系列"
+
+#. FStepDetails..PGStepDetails..TBHeader..LblLowestDate..Caption
+#: mqm/forms/FMstepdetails.dfm:71
+msgid "Earliest Date"
+msgstr "最早日期"
+
+#. FStepDetails..PGStepDetails..TBHeader..STDeldate..Caption
+#: mqm/forms/FMstepdetails.dfm:86
+msgid "STDeldate"
+msgstr "STDeldate"
+
+#. FStepDetails..PGStepDetails..TBHeader..STProdType..Caption
+#: mqm/forms/FMstepdetails.dfm:97
+msgid "STProdType"
+msgstr "STProdType"
+
+#. FStepDetails..PGStepDetails..TBHeader..STUmDesc..Caption
+#: mqm/forms/FMstepdetails.dfm:108
+msgid "STUmDesc"
+msgstr "STUmDesc"
+
+#. FStepDetails..PGStepDetails..TBHeader..STProdFamily..Caption
+#: mqm/forms/FMstepdetails.dfm:119
+msgid "STProdFamily"
+msgstr "STProdFamily"
+
+#. FStepDetails..PGStepDetails..TBHeader..STMaterialsFam..Caption
+#: mqm/forms/FMstepdetails.dfm:130
+msgid "STMaterialsFam"
+msgstr "STMaterialsFam"
+
+#. FStepDetails..PGStepDetails..TBHeader..STLowestDate..Caption
+#: mqm/forms/FMstepdetails.dfm:141
+msgid "STLowestDate"
+msgstr "STLowestDate"
+
+#. FStepDetails..PGStepDetails..TBHeader..STProdLine..Caption
+#: mqm/forms/FMstepdetails.dfm:152
+msgid "STProdLine"
+msgstr "STProdLine"
+
+#. FStepDetails..PGStepDetails..TBProductsInfo..Caption
+#: mqm/forms/FMstepdetails.dfm:178
+msgid "Products"
+msgstr "产品"
+
+#. FStepDetails..PGStepDetails..TBmaterials..Caption
+#: mqm/forms/FMstepdetails.dfm:197
+msgid "Materials"
+msgstr "材料"
+
+#. FStepDetails..PGStepDetails..TBInstructionInfo..Caption
+#: mqm/forms/FMstepdetails.dfm:216
+msgid "Instruction"
+msgstr "说明"
+
+#. FStepDetails..PGStepDetails..TbOthersInfo..Caption
+#: mqm/forms/FMstepdetails.dfm:254
+msgid "Others"
+msgstr "其他"
+
+#. FStepDetails..PGStepDetails..TbConnectedReq..Caption
+#: mqm/forms/FMstepdetails.dfm:274
+msgid "Connected. Request"
+msgstr "已连接的需求"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..Caption
+#: mqm/forms/FMstepdetails.dfm:306
+msgid "Schedule Details"
+msgstr "预定明细"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblGroupNumber..Caption
+#: mqm/forms/FMstepdetails.dfm:313
+msgid "Group Number"
+msgstr "组号"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LlbScheduleType..Caption
+#: mqm/forms/FMstepdetails.dfm:320
+msgid "Schedule Type"
+msgstr "预定类型"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblWorkStation..Caption
+#: mqm/forms/FMstepdetails.dfm:327
+msgid "Work Station"
+msgstr "工作站"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblResComp..Caption
+#: mqm/forms/FMstepdetails.dfm:362
+msgid "Resource Components"
+msgstr "资源构成"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblSetupTime..Caption
+#: mqm/forms/FMstepdetails.dfm:369
+#: mqm/lib/UMUsrPropComp.pas:117
+msgid "Setup Time"
+msgstr "设置时间"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblExecTime..Caption
+#: mqm/forms/FMstepdetails.dfm:383
+msgid "Execution Time"
+msgstr "执行时间"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblSchedStart..Caption
+#: mqm/forms/FMstepdetails.dfm:390
+msgid "Scheduled Start"
+msgstr "预定开始"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblSchedEnd..Caption
+#: mqm/forms/FMstepdetails.dfm:397
+msgid "Scheduled End"
+msgstr "预定结束"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblProgStart..Caption
+#: mqm/forms/FMstepdetails.dfm:404
+msgid "Progress Start"
+msgstr "过程开始"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblProgEnd..Caption
+#: mqm/forms/FMstepdetails.dfm:411
+msgid "Progress End"
+msgstr "过程结束"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblRecalcExecTime..Caption
+#: mqm/forms/FMstepdetails.dfm:425
+msgid "Recalculated Execution Time"
+msgstr "重新计算执行时间"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblPrevConnSubStep..Caption
+#: mqm/forms/FMstepdetails.dfm:439
+msgid "Prev. Conn Sub-Step"
+msgstr "返回前一子步骤"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblPrevConnReProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:446
+msgid "Prev. Conn. Re-Process"
+msgstr "前一个再处理"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblNextConnSubStep..Caption
+#: mqm/forms/FMstepdetails.dfm:453
+msgid "Next Conn. Sub-Steo"
+msgstr "下一个子步骤"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblNextConnReProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:460
+msgid "Next Conn. Re-Process"
+msgstr "下一个再加工"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblErrorInfo..Caption
+#: mqm/forms/FMstepdetails.dfm:467
+msgid "Warning Info."
+msgstr "警告信息"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..LblSetupTimeWithOutMaterials.Caption
+#: mqm/forms/FMstepdetails.dfm:474
+msgid "Setup Time without Materials"
+msgstr "不结合物料设置时间"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STGroupNumber..Caption
+#: mqm/forms/FMstepdetails.dfm:482
+msgid "STGroupNumber"
+msgstr "STGroupNumber"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STScheduleType..Caption
+#: mqm/forms/FMstepdetails.dfm:493
+msgid "STScheduleType"
+msgstr "STScheduleType"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STWorkStation..Caption
+#: mqm/forms/FMstepdetails.dfm:504
+msgid "STWorkStation"
+msgstr "STWorkStation"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STResComp..Caption
+#: mqm/forms/FMstepdetails.dfm:558
+msgid "STResComp"
+msgstr "STResComp"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STSetupTime..Caption
+#: mqm/forms/FMstepdetails.dfm:580
+msgid "STSetupTime"
+msgstr "STSetupTime"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STExecTime..Caption
+#: mqm/forms/FMstepdetails.dfm:591
+msgid "STExecTime"
+msgstr "STExecTime"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STSchedStart..Caption
+#: mqm/forms/FMstepdetails.dfm:602
+msgid "STSchedStart"
+msgstr "STSchedStart"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STSchedEnd..Caption
+#: mqm/forms/FMstepdetails.dfm:613
+msgid "STSchedEnd"
+msgstr "STSchedEnd"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STProgStart..Caption
+#: mqm/forms/FMstepdetails.dfm:624
+msgid "STProgStart"
+msgstr "STProgStart"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STProgEnd..Caption
+#: mqm/forms/FMstepdetails.dfm:635
+msgid "STProgEnd"
+msgstr "STProgEnd"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STComment..Caption
+#: mqm/forms/FMstepdetails.dfm:667
+msgid "STComment"
+msgstr "STComment"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STPrevConnSubStep..Caption
+#: mqm/forms/FMstepdetails.dfm:678
+msgid "STPrevConnSubStep"
+msgstr "STPrevConnSubStep"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STPrevConnReProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:689
+msgid "STPrevConnReProcess"
+msgstr "STPrevConnReProcess"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STNextConnSubStep..Caption
+#: mqm/forms/FMstepdetails.dfm:700
+msgid "STNextConnSubStep"
+msgstr "STNextConnSubStep"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STNextConnReProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:711
+msgid "STNextConnReProcess"
+msgstr "STNextConnReProcess"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..STSetupTimeWithoutMaterials.Caption
+#: mqm/forms/FMstepdetails.dfm:732
+msgid "STSetupTime without materials"
+msgstr "STSetupTime without materials"
+
+#. FStepDetails..PGStepDetails..TbSchedDetails..GBTimeBar..Caption
+#: mqm/forms/FMstepdetails.dfm:743
+msgid "Time Bar"
+msgstr "时间条"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..Caption
+#: mqm/forms/FMstepdetails.dfm:775
+msgid "Step Details"
+msgstr "步骤明细"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblPlannedWorkStation..Caption
+#: mqm/forms/FMstepdetails.dfm:782
+msgid "Planned Work Station"
+msgstr "计划工作站"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblMaterialsArrivalDate..Caption
+#: mqm/forms/FMstepdetails.dfm:796
+msgid "Materials Arrival Date"
+msgstr "物料到达时间"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblPlannedStartingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:803
+msgid "Planned Starting Date"
+msgstr "计划开始时间"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblLowestStartingDatePoss..Caption
+#: mqm/forms/FMstepdetails.dfm:810
+msgid "Earliest starting"
+msgstr "最早开始时间"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblLowestSchedStartingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:817
+msgid "Scheduled start"
+msgstr "预定开始"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblPlannedEndingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:824
+msgid "Planned Ending Date"
+msgstr "计划完成日期"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblHighestEndingDatePos..Caption
+#: mqm/forms/FMstepdetails.dfm:831
+msgid "Latest Ending"
+msgstr "最晚完成日期"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblHighestSchedEndingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:838
+msgid "Scheduled end"
+msgstr "预定完成"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblPlannedWorkCenter..Caption
+#: mqm/forms/FMstepdetails.dfm:845
+msgid "Planned Work Center"
+msgstr "计划工作中心"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblPlannedWCProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:852
+msgid "Planned W.C. Process"
+msgstr "计划工作中心处理"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblInitialQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:859
+msgid "Initial Quantity"
+msgstr "初始的数量"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblFinalQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:866
+msgid "Final Quantity"
+msgstr "最后数量"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblWeight..Caption
+#: mqm/forms/FMstepdetails.dfm:873
+msgid "Weight"
+msgstr "重量"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblWeighUMDescription..Caption
+#: mqm/forms/FMstepdetails.dfm:880
+msgid "Weigh UM Description"
+msgstr "重量单位描述"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblScheduledQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:887
+msgid "Scheduled Quantity"
+msgstr "预定数量"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblTotalPlannedSetupTime..Caption
+#: mqm/forms/FMstepdetails.dfm:901
+msgid "Total Planned Setup Time"
+msgstr "计划设置时间统计"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblTotalPlannedExecTime..Caption
+#: mqm/forms/FMstepdetails.dfm:908
+msgid "Total Planned Exec. Time"
+msgstr "计划执行时间统计"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblPlannedNumberOfRes..Caption
+#: mqm/forms/FMstepdetails.dfm:915
+msgid "Planned Number Of Res."
+msgstr "资源计划号"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblRuleToConnectToPrevJob..Caption
+#: mqm/forms/FMstepdetails.dfm:922
+msgid "Rule To Connect To Prev Job"
+msgstr "连接到前一个作业的规则"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblProgressed..Caption
+#: mqm/forms/FMstepdetails.dfm:929
+#: mqm/bin/UMBinReport.pas:150
+#: mqm/bin/UMBinToExcel.pas:124
+msgid "Progressed"
+msgstr "已进行的"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..LblClosed..Caption
+#: mqm/forms/FMstepdetails.dfm:936
+#: mqm/bin/UMBinReport.pas:166
+#: mqm/bin/UMBinToExcel.pas:140
+msgid "Closed"
+msgstr "已关闭的"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedWorkStation..Caption
+#: mqm/forms/FMstepdetails.dfm:944
+msgid "STPlannedWorkStation"
+msgstr "步计划的工作站"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STStepType..Caption
+#: mqm/forms/FMstepdetails.dfm:955
+msgid "STStepType"
+msgstr "STStepType"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STMaterialsArrivalDate..Caption
+#: mqm/forms/FMstepdetails.dfm:966
+msgid "STMaterialsArrivalDate"
+msgstr "步物料到达日期"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedStartingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:977
+msgid "STPlannedStartingDate"
+msgstr "STPlannedStartingDate"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STLowestStartingDatePos..Caption
+#: mqm/forms/FMstepdetails.dfm:988
+msgid "STLowestStartingDatePos"
+msgstr "STLowestStartingDatePos"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STLowestSchedStartingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:999
+msgid "STLowestSchedStartingDate"
+msgstr "STLowestSchedStartingDate"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedEndingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:1010
+msgid "STPlannedEndingDate"
+msgstr "STPlannedEndingDate"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STHighestEndingDatePos..Caption
+#: mqm/forms/FMstepdetails.dfm:1021
+msgid "STHighestEndingDatePos"
+msgstr "STHighestEndingDatePos"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STHighestSchedEndingDate..Caption
+#: mqm/forms/FMstepdetails.dfm:1032
+msgid "STHighestSchedEndingDate"
+msgstr "STHighestSchedEndingDate"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedWorkCenter..Caption
+#: mqm/forms/FMstepdetails.dfm:1043
+msgid "STPlannedWorkCenter"
+msgstr "STPlannedWorkCenter"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedWCProcess..Caption
+#: mqm/forms/FMstepdetails.dfm:1054
+msgid "STPlannedWCProcess"
+msgstr "STPlannedWCProcess"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STInitialQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:1065
+msgid "STInitialQuantity"
+msgstr "STInitialQuantity"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STFinalQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:1076
+msgid "STFinalQuantity"
+msgstr "STFinalQuantity"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STWeight..Caption
+#: mqm/forms/FMstepdetails.dfm:1087
+msgid "STWeight"
+msgstr "STWeight"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STWeighUMDescription..Caption
+#: mqm/forms/FMstepdetails.dfm:1098
+msgid "STWeighUMDescription"
+msgstr "STWeighUMDescription"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STScheduledQuantity..Caption
+#: mqm/forms/FMstepdetails.dfm:1109
+msgid "STScheduledQuantity"
+msgstr "STScheduledQuantity"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STCalCode..Caption
+#: mqm/forms/FMstepdetails.dfm:1120
+msgid "STCalCode"
+msgstr "STCalCode"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STTotalPlannedSetupTime..Caption
+#: mqm/forms/FMstepdetails.dfm:1131
+msgid "STTotalPlannedSetupTime"
+msgstr "STTotalPlannedSetupTime"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STTotalPlannedExecTime..Caption
+#: mqm/forms/FMstepdetails.dfm:1142
+msgid "STTotalPlannedExecTime"
+msgstr "STTotalPlannedExecTime"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STPlannedNumberOfRes..Caption
+#: mqm/forms/FMstepdetails.dfm:1153
+msgid "STPlannedNumberOfRes"
+msgstr "STPlannedNumberOfRes"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STRuleToConnectToPrevJob..Caption
+#: mqm/forms/FMstepdetails.dfm:1164
+msgid "STRuleToConnectToPrevJob"
+msgstr "STRuleToConnectToPrevJob"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STProgressed..Caption
+#: mqm/forms/FMstepdetails.dfm:1175
+msgid "STProgressed"
+msgstr "STProgressed"
+
+#. FStepDetails..PGStepDetails..TbStepDetails..STClosed..Caption
+#: mqm/forms/FMstepdetails.dfm:1186
+msgid "STClosed"
+msgstr "STClosed"
+
+#. FStepDetails..PGStepDetails..TbStepProperties..Caption
+#: mqm/forms/FMstepdetails.dfm:1193
+msgid "Step Properties"
+msgstr "步骤属性"
+
+#. FStepDetails..PGStepDetails..TBRelatedOrders..Caption
+#: mqm/forms/FMstepdetails.dfm:1197
+msgid "Related Orders"
+msgstr "相关订单"
+
+#. FStepDetails..PGStepDetails..Tb..Caption
+#: mqm/forms/FMstepdetails.dfm:1217
+msgid "Steps View"
+msgstr "步骤预览"
+
+#. FStepDetails..PGStepDetails..TabSheet1..Caption
+#: mqm/forms/FMstepdetails.dfm:1255
+msgid "Jobs View"
+msgstr "作业浏览"
+
+#. FWkcDetails..Caption
+#: mqm/forms/FMWkcDetails.dfm:6
+msgid "Workcenter details"
+msgstr "工作中心明细"
+
+#. FWkcDetails..PGCres..TbAlt..Caption
+#: mqm/forms/FMWkcDetails.dfm:103
+msgid "Alternative"
+msgstr "可选的"
+
+#. FWkcDetails..Panel1..LblResCode..Caption
+#: mqm/forms/FMWkcDetails.dfm:162
+msgid "Resource Code"
+msgstr "资源代码"
+
+#. FWkcDetails..Panel1..LblResDescr..Caption
+#: mqm/forms/FMWkcDetails.dfm:169
+msgid "Resource Description"
+msgstr "资源描述"
+
+#. MWkst..EdPswd..PasswordChar
+#: mqm/forms/FMworkstation.dfm:67
+msgid "*"
+msgstr "*"
+
+#. SplashForm..Panel1..Caption
+#: mqm/lib/FMsplash.dfm:27
+msgid "Panel1"
+msgstr "面板1"
+
+#. SplashForm..Panel1..Label2..Font.Name
+#: mqm/lib/FMsplash.dfm:1414
+#: mqm/lib/FMsplash.dfm:1449
+msgid "Arial"
+msgstr "Arial"
+
+#. SplashForm..Panel1..Label3..Caption
+#: mqm/lib/FMsplash.dfm:1427
+msgid "1.0.1 build 0 BETA"
+msgstr "1.0.1 build 0 BETA"
+
+#. SplashForm..Panel1..Label4..Caption
+#: mqm/lib/FMsplash.dfm:1444
+msgid "Release"
+msgstr "释放"
+
+#. SplashForm..Panel1..LblDb..Caption
+#: mqm/lib/FMsplash.dfm:1460
+#: mqm/MqmConfig/FMcfgMain.dfm:145
+#: mqm/MqmSrv/FMSrvSettings.dfm:95
+msgid "Database"
+msgstr "数据库"
+
+#. SplashForm..Panel1..LblSrv..Caption
+#: mqm/lib/FMsplash.dfm:1467
+msgid "Server status"
+msgstr "服务器状态"
+
+#. SplashForm..OpenDialogDB..DefaultExt
+#: mqm/lib/FMsplash.dfm:1498
+msgid "gdb"
+msgstr "gdb"
+
+#. MainForm..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:6
+msgid "MQM Configuration"
+msgstr "MQM配置"
+
+#. MainForm..LblMainSrv..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:24
+msgid "Main Server status"
+msgstr "主服务器状态"
+
+#. MainForm..LblMainDb..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:31
+msgid "Main Database"
+msgstr "主数据库"
+
+#. MainForm..LblCfgSrv..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:38
+msgid "CFG Server status"
+msgstr "配置服务器状态"
+
+#. MainForm..LblCfgDB..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:45
+msgid "CFG Database"
+msgstr "配置数据库"
+
+#. MainForm..MainMenu..IFile..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:95
+msgid "&File"
+msgstr "&F文件"
+
+#. MainForm..MainMenu..IFile..IExit..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:97
+msgid "Exit"
+msgstr "退出"
+
+#. MainForm..MainMenu..IFile..IResExchg..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:100
+msgid "Reset DB lock"
+msgstr "重置数据库锁"
+
+#. MainForm..MainMenu..IFile..IClearLic..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:104
+msgid "Clear licence"
+msgstr "清除许可"
+
+#. MainForm..MainMenu..IConfig..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:109
+msgid "&Configuration"
+msgstr "&C配置"
+
+#. MainForm..MainMenu..IConfig..MISettings..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:115
+#: mqm/MqmSrv/FMSrvSettings.dfm:6
+msgid "Settings"
+msgstr "设置"
+
+#. MainForm..MainMenu..IConfig..Languages1..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:119
+msgid "Languages"
+msgstr "语言"
+
+#. MainForm..MainMenu..IConfig..Languages1..MIEnglish..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:121
+msgid "English"
+msgstr "英语"
+
+#. MainForm..MainMenu..IConfig..Languages1..MiChinese..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:125
+msgid "Chinese"
+msgstr "中文"
+
+#. MainForm..MainMenu..IConfig..Languages1..MIItalian..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:129
+msgid "Italian"
+msgstr "意大利语"
+
+#. MainForm..MainMenu..IConfig..Languages1..MISpanish..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:133
+msgid "Spanish"
+msgstr "西班牙语"
+
+#. MainForm..MainMenu..IConfig..Languages1..MiTurkish..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:137
+msgid "Turkish"
+msgstr "土耳其语"
+
+#. MainForm..MainMenu..ICreate..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:143
+msgid "C&reate"
+msgstr "&C建立"
+
+#. MainForm..MainMenu..ICreate..MICrtStored..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:149
+msgid "Stored Procedures"
+msgstr "存储程序"
+
+#. MainForm..MainMenu..ILicence..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:154
+msgid "&Licencing"
+msgstr "&L许可"
+
+#. MainForm..MainMenu..ILicence..ICreateLock..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:156
+msgid "Create lock"
+msgstr "建立锁"
+
+#. MainForm..MainMenu..ILicence..IViewLic..Caption
+#: mqm/MqmConfig/FMcfgMain.dfm:160
+msgid "View licence"
+msgstr "许可证浏览"
+
+#. MainForm..SDlock..DefaultExt
+#: mqm/MqmConfig/FMcfgMain.dfm:173
+msgid "lck"
+msgstr "锁"
+
+#. MainForm..SDlock..FileName
+#: mqm/MqmConfig/FMcfgMain.dfm:174
+msgid "mqmLock"
+msgstr "MQM 锁"
+
+#. MainForm..SDlock..Filter
+#: mqm/MqmConfig/FMcfgMain.dfm:175
+msgid "lock file|lck"
+msgstr "锁文件|锁"
+
+#. CreateTables..Caption
+#: mqm/MqmConfig/FMcreateTables.dfm:6
+msgid "Create Local Tables"
+msgstr "建立本地表格"
+
+#. CreateTables..CrtMainDB..Caption
+#: mqm/MqmConfig/FMcreateTables.dfm:22
+msgid "Create Main Database"
+msgstr "建立主数据库"
+
+#. CreateTables..CrtCfgDB..Caption
+#: mqm/MqmConfig/FMcreateTables.dfm:31
+msgid "Create Cfg Database"
+msgstr "建立配置数据库"
+
+#. FDbConf..Caption
+#: mqm/MqmConfig/FMdbConf.dfm:6
+msgid "Database configuration"
+msgstr "数据库配置"
+
+#. FDbConf..GPBserver..Caption
+#: mqm/MqmConfig/FMdbConf.dfm:25
+msgid "Server"
+msgstr "服务器"
+
+#. FDbConf..GPBmain..Caption
+#: mqm/MqmConfig/FMdbConf.dfm:50
+msgid "Main database"
+msgstr "主数据库"
+
+#. FDbConf..GPBmain..LblMainPath..Caption
+#: mqm/MqmConfig/FMdbConf.dfm:57
+msgid "Path"
+msgstr "路径"
+
+#. FDbConf..GPBconfig..Caption
+#: mqm/MqmConfig/FMdbConf.dfm:74
+msgid "Configuration database"
+msgstr "配置数据库"
+
+#. FDbConf..OpnDlg..Filter
+#: mqm/MqmConfig/FMdbConf.dfm:118
+msgid "Interbase|*.gdb"
+msgstr "Interbase|*.gdb"
+
+#. FSettings..Panel1..CBoxCapRes..Caption
+#: mqm/MqmConfig/FMSettings.dfm:61
+msgid "Disable Capacity Reservations"
+msgstr "不能进行生产能力预留"
+
+#. FViewLic..Caption
+#: mqm/MqmConfig/FMViewLic.dfm:6
+msgid "FViewLic"
+msgstr "F预览许可"
+
+#. FViewLic..PanBtn..BtnViewCurr..Caption
+#: mqm/MqmConfig/FMViewLic.dfm:37
+msgid "View current"
+msgstr "浏览当前"
+
+#. FViewLic..PanBtn..BtnInstall..Caption
+#: mqm/MqmConfig/FMViewLic.dfm:46
+msgid "Install"
+msgstr "安装"
+
+#. FViewLic..PanBtn..BtnLoad..Caption
+#: mqm/MqmConfig/FMViewLic.dfm:55
+#: mqm/MqmSrv/UMsrvLoad.dfm:259
+msgid "Load"
+msgstr "加载"
+
+#. FViewLic..MmLic..Font.Name
+#: mqm/MqmConfig/FMViewLic.dfm:69
+msgid "Courier New"
+msgstr "Courier New"
+
+#. FViewLic..OpenLic..DefaultExt
+#: mqm/MqmConfig/FMViewLic.dfm:75
+msgid "mlc"
+msgstr "MLC"
+
+#. FViewLic..OpenLic..FileName
+#: mqm/MqmConfig/FMViewLic.dfm:76
+msgid "MQMlic.mlc"
+msgstr "MQMMLC.mlc"
+
+#. FViewLic..OpenLic..Filter
+#: mqm/MqmConfig/FMViewLic.dfm:77
+msgid "MQM licence|*.mlc|MQM lock|*.lck"
+msgstr "MQM许可证|*.mlc|MQM锁|*.lck"
+
+#. FCreateLic..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:6
+msgid "Licence creation"
+msgstr "建立许可证"
+
+#. FCreateLic..LblIssuer..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:23
+msgid "Issuer"
+msgstr "发行者"
+
+#. FCreateLic..LblCust..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:30
+msgid "Customer"
+msgstr "客户"
+
+#. FCreateLic..LblReleDate..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:37
+msgid "Release date"
+msgstr "释放日期"
+
+#. FCreateLic..LblLock..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:44
+msgid "Lock number"
+msgstr "锁号"
+
+#. FCreateLic..LblInst..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:51
+msgid "Installation type"
+msgstr "安装类型"
+
+#. FCreateLic..LblMax..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:58
+msgid "Max user supported"
+msgstr "支持最大用户数"
+
+#. FCreateLic..LblMaxCont..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:65
+msgid "Max contemporary users"
+msgstr "最大并发用户数"
+
+#. FCreateLic..LblExpDate..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:72
+msgid "Expiry date"
+msgstr "有效期"
+
+#. FCreateLic..LblMqmConfig..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:79
+msgid "MQM config enable level"
+msgstr "MQM 配置级别"
+
+#. FCreateLic..LblMqmSrvLoad..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:86
+msgid "MQM server load enabled"
+msgstr "MQM 服务器可以加载"
+
+#. FCreateLic..CBinst....Items.Strings
+#: mqm/MqmLic/FMCreateLic.dfm:144
+msgid "no save for nw PS"
+msgstr "没有保存新的已预定生产需求"
+
+#. FCreateLic..CBinst....Items.Strings
+#: mqm/MqmLic/FMCreateLic.dfm:145
+msgid "no save"
+msgstr "没保存"
+
+#. FCreateLic..CBinst....Items.Strings
+#: mqm/MqmLic/FMCreateLic.dfm:146
+msgid "everything allowed"
+msgstr "全部允许"
+
+#. FCreateLic..BtnImpLock..Caption
+#: mqm/MqmLic/FMCreateLic.dfm:169
+msgid "Import lock"
+msgstr "输入锁"
+
+#. FCreateLic..SaveLic..FileName
+#: mqm/MqmLic/FMCreateLic.dfm:211
+msgid "MQMlic"
+msgstr "MQM许可证"
+
+#. FCreateLic..SaveLic..Filter
+#: mqm/MqmLic/FMCreateLic.dfm:212
+msgid "MQM licence|*.mlc"
+msgstr "MQM许可证|*.mlc"
+
+#. FCreateLic..ODkey..FileName
+#: mqm/MqmLic/FMCreateLic.dfm:218
+msgid "MQMlock"
+msgstr "MQM锁"
+
+#. FCreateLic..ODkey..Filter
+#: mqm/MqmLic/FMCreateLic.dfm:219
+msgid "MQM lock|*.lck"
+msgstr "MQM锁|*.lck"
+
+#. FLicHdl..Caption
+#: mqm/MqmLic/FMLicMain.dfm:6
+msgid "Licence Handling"
+msgstr "许可证处理"
+
+#. FLicHdl..MainMenu..IHandle..Caption
+#: mqm/MqmLic/FMLicMain.dfm:21
+msgid "Handle"
+msgstr "处理"
+
+#. FLicHdl..MainMenu..IHandle..ILicCreate..Caption
+#: mqm/MqmLic/FMLicMain.dfm:23
+msgid "Create licence"
+msgstr "建立许可证"
+
+#. FLock..Caption
+#: mqm/MqmLic/FMlock.dfm:6
+msgid "FLock"
+msgstr "F锁"
+
+#. FMQMPlan..ExcelFontBold..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:41
+msgid "ExcelFontBold"
+msgstr "Excel字体粗体"
+
+#. FMQMPlan..TBMain..TBSave..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:64
+#: mqm/MqmMain/FMMainPlan.dfm:425
+#: mqm/MqmMain/FMMainPlan.dfm:426
+msgid "Save"
+msgstr "保存"
+
+#. FMQMPlan..TBMain..ToolButton2..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:75
+msgid "ToolButton2"
+msgstr "工具按钮2"
+
+#. FMQMPlan..TBMain..TBLogWindow..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:82
+msgid "Open log window"
+msgstr "打开日志窗口"
+
+#. FMQMPlan..TBMain..TBLogWindow..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:83
+msgid "Log window"
+msgstr "日志窗口"
+
+#. FMQMPlan..TBMain..ToolButton7..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:93
+msgid "ToolButton7"
+msgstr "工具按钮7"
+
+#. FMQMPlan..TBMain..TBCrtCap..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:100
+#: mqm/MqmMain/FMMainPlan.dfm:6525
+msgid "Create capacity reservation"
+msgstr "建立生产能力预留"
+
+#. FMQMPlan..TBMain..TBCrtCap..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:101
+#: mqm/forms/FMCreateCapRes.pas:215
+msgid "Capacity reservation"
+msgstr "生产能力预留"
+
+#. FMQMPlan..TBMain..ToolButton11..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:111
+msgid "ToolButton11"
+msgstr "工具按钮11"
+
+#. FMQMPlan..TBMain..TBResources..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:118
+msgid "Create Gantt tabs"
+msgstr "建立干特图标签"
+
+#. FMQMPlan..TBMain..TBResources..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:119
+msgid "Edit Tabs"
+msgstr "编辑标签"
+
+#. FMQMPlan..TBMain..ToolButton3..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:129
+msgid "ToolButton3"
+msgstr "工具按钮3"
+
+#. FMQMPlan..TBMain..TBtnDynamic..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:136
+msgid "Open Dynamic bin view"
+msgstr "预览活动的池"
+
+#. FMQMPlan..TBMain..TBtnDynamic..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:137
+msgid "TBtnDynamic"
+msgstr "TBtn动态"
+
+#. FMQMPlan..TBMain..TBShoBin..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:154
+msgid "Show bin"
+msgstr "显示池"
+
+#. FMQMPlan..TBMain..TBShoBin..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:155
+msgid "Show Bin"
+msgstr "显示池"
+
+#. FMQMPlan..TBMain..TBShowCal..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:164
+msgid "Paint working hours"
+msgstr "给工时涂颜色"
+
+#. FMQMPlan..TBMain..TBShowCal..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:165
+msgid "Resource Calendar"
+msgstr "资源日历"
+
+#. FMQMPlan..TBMain..TBSetColors..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:174
+msgid "Set color"
+msgstr "调整颜色"
+
+#. FMQMPlan..TBMain..TBSetColors..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:175
+msgid "Set colors"
+msgstr "调整颜色"
+
+#. FMQMPlan..TBMain..ToolButton4..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:185
+msgid "ToolButton4"
+msgstr "工具按钮4"
+
+#. FMQMPlan..TBMain..TBConfig..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:192
+#: mqm/MqmMain/FMMainPlan.dfm:472
+#: mqm/MqmMain/FMMainPlan.dfm:473
+msgid "Configuration"
+msgstr "配置"
+
+#. FMQMPlan..TBMain..ToolButton6..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:203
+msgid "ToolButton6"
+msgstr "工具按钮6"
+
+#. FMQMPlan..TBMain..PnlZoom..TrcBarZoom..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:237
+msgid "Zoom"
+msgstr "放大"
+
+#. FMQMPlan..TBMain..ToolButton9..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:260
+msgid "ToolButton9"
+msgstr "工具按钮9"
+
+#. FMQMPlan..TBMain..ToolButton8..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:278
+msgid "ToolButton8"
+msgstr "工具按钮8"
+
+#. FMQMPlan..TBMain..PanStatus..ShServerLoad..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:295
+msgid "Server load on"
+msgstr "服务器加载"
+
+#. FMQMPlan..TBMain..PanStatus..ShCanRead..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:306
+msgid "Can read from server"
+msgstr "能从服务器中读取"
+
+#. FMQMPlan..TBMain..PanStatus..ShCanWrite..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:317
+msgid "Can write to server"
+msgstr "能写到服务器中"
+
+#. FMQMPlan..TBMain..PanStatus..ShAutoUpdate..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:328
+msgid "Updating automatically"
+msgstr "自动更新"
+
+#. FMQMPlan..TBMain..ToolButton10..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:339
+msgid "ToolButton10"
+msgstr "工具按钮10"
+
+#. FMQMPlan..MainMenu..MIFile..MIReload..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:432
+msgid "Reload From database"
+msgstr "从数据库重新加载"
+
+#. FMQMPlan..MainMenu..MIFile..MIReload..Hint
+#: mqm/MqmMain/FMMainPlan.dfm:433
+msgid "Ricarica da database"
+msgstr "Ricarica da database"
+
+#. FMQMPlan..MainMenu..MICreat..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:442
+msgid "&Create"
+msgstr "&C建立"
+
+#. FMQMPlan..MainMenu..MIShow..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:451
+msgid "&Show"
+msgstr "&S显示"
+
+#. FMQMPlan..MainMenu..MIShow..MIAutoSeqResult..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:465
+msgid "Last Auto Sequencing results"
+msgstr "最后自动排序结果"
+
+#. FMQMPlan..MainMenu..MISetting..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:470
+msgid "S&etting"
+msgstr "&S设置"
+
+#. FMQMPlan..MainMenu..MISetting..MiSetBinConficuration..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:478
+msgid "Default Bin Configuration"
+msgstr "缺省池配置"
+
+#. FMQMPlan..MainMenu..MISetting..MILangauge..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:492
+msgid "Language"
+msgstr "语言"
+
+#. FMQMPlan..MainMenu..MISetting..MILangauge..MIChinese..MISimplified..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:501
+msgid "Simplified"
+msgstr "简体"
+
+#. FMQMPlan..MainMenu..MISetting..MILangauge..MIChinese..MITraditional..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:505
+msgid "Traditional"
+msgstr "传统的"
+
+#. FMQMPlan..MainMenu..MIVerify..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:528
+msgid "&Verify"
+msgstr "&V校验"
+
+#. FMQMPlan..MainMenu..MIVerify..MIPlanPropRepo..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:530
+msgid "Plan properties report"
+msgstr "计划属性报告"
+
+#. FMQMPlan..MainMenu..MIResourceReport..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:535
+msgid "&Report"
+msgstr "&R报告"
+
+#. FMQMPlan..MainMenu..MIResourceReport..MIResourceReport1..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:537
+msgid "Resource report"
+msgstr "资源报告"
+
+#. FMQMPlan..MainMenu..MIResourceReport..MIBinReport2..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:541
+msgid "Bin extraction"
+msgstr "池摘要"
+
+#. FMQMPlan..MainMenu..MIResourceReport..MIBinReport2..MIBinHtmlReport..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:543
+msgid "Html"
+msgstr "Html"
+
+#. FMQMPlan..MainMenu..MIResourceReport..MIBinReport2..MIBinExcelReport..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:547
+msgid "Excel"
+msgstr "Excel表格"
+
+#. FMQMPlan..PUpPlan..ICloseTbs..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:558
+msgid "Delete gantt tab"
+msgstr "删除干特图标签"
+
+#. FMQMPlan..PupJob..IMSearchProdReqby..MIDltProdReqVal..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:610
+msgid "Set of values"
+msgstr "价格组"
+
+#. FMQMPlan..PupJob..Findjobinbin1..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:650
+msgid "Find job in bin"
+msgstr "池中查找作业"
+
+#. FMQMPlan..PopRes..ICompatInBin..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:669
+msgid "Compatible in bin"
+msgstr "在池内的一致性"
+
+#. FMQMPlan..PopRes..IClearCompInBin..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:673
+msgid "Clear compatible in bin"
+msgstr "在池中清除一致性"
+
+#  FMQMPlan..PupActArea..MIApaCrtDownTime..Caption
+#. FMQMPlan..PupActArea..MIApaCrtDownTime..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:6529
+msgid "Create down time"
+msgstr "建立停机时间"
+
+#  FMQMPlan..PupActArea..Sortresourcesby1..Caption
+#. FMQMPlan..PupActArea..Sortresourcesby1..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:6533
+msgid "Sort Resource by "
+msgstr "资源排序以"
+
+#  FMQMPlan..PupActArea..Sortresourcesby1..MISortResourceCode..Caption
+#. FMQMPlan..PupActArea..Sortresourcesby1..MISortResourceCode..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:6535
+msgid "Resource code"
+msgstr "资源代码"
+
+#. FMQMPlan..PupActArea..Sortresourcesby1..Categoryresourcecode1..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:6539
+msgid "Category and  Resource code"
+msgstr "目录和资源编号"
+
+#. FMQMPlan..PupActArea..Sortresourcesby1..WCresourcecode1..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:6543
+msgid "Work Center and Resource code"
+msgstr "工作中心和资源编号"
+
+#. FMQMPlan..PupActArea..Sortresourcesby1..Wccategoryresource1..Caption
+#: mqm/MqmMain/FMMainPlan.dfm:6547
+msgid "Work Center Category and Resource"
+msgstr "工作中心目录和资源"
+
+#. FDloadCalendars..Caption
+#: mqm/MqmSrv/FMLoadCalendars.dfm:6
+msgid "Download Calendars"
+msgstr "下载日历"
+
+#. FDloadCalendars..LblSelCal..Caption
+#: mqm/MqmSrv/FMLoadCalendars.dfm:23
+msgid "Select calendars"
+msgstr "选择日历"
+
+#. FDloadCalendars..LblFromDate..Caption
+#: mqm/MqmSrv/FMLoadCalendars.dfm:30
+msgid "From date"
+msgstr "从日期"
+
+#. FSrvLoad..Caption
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:6
+msgid "Server load"
+msgstr "服务器加载"
+
+#. FSrvLoad..IBDatabase..DatabaseName
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:29
+msgid "D:\\Environments\\Mqm\\Mqm.gdb"
+msgstr "D:\\Environments\\Mqm\\Mqm.gdb"
+
+#. FSrvLoad..IBDatabase....Params.Strings
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:31
+msgid "password=masterkey"
+msgstr "password=masterkey"
+
+#. FSrvLoad..IBDatabase....Params.Strings
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:32
+msgid "USER_NAME=SYSDBA"
+msgstr "USER_NAME=SYSDBA"
+
+#. FSrvLoad..DBAs400..AliasName
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:48
+msgid "VIP2DB2"
+msgstr "VIP2DB2"
+
+#. FSrvLoad..DBAs400..DatabaseName
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:49
+msgid "SRV_DBAS400"
+msgstr "SRV_DBAS400"
+
+#. FSrvLoad..DBAs400..SessionName
+#: mqm/MqmSrv/FMsrvLoadMain.dfm:51
+msgid "Default"
+msgstr "缺省"
+
+#. FSrvSettings..PGCset..TBOper..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:26
+msgid "Operating"
+msgstr "操作"
+
+#. FSrvSettings..PGCset..TBOper..StLoadMode..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:32
+msgid "Transfer Mode"
+msgstr "运输模式"
+
+#. FSrvSettings..PGCset..TBOper..STTypeOp..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:58
+msgid "Operation Type"
+msgstr "操作类型"
+
+#. FSrvSettings..PGCset..TbDatabase..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:63
+msgid "Databases"
+msgstr "数据库"
+
+#. FSrvSettings..PGCset..TbDatabase..GPBasAlias..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:71
+msgid "AS400 ODBC alias"
+msgstr "AS400 ODBC 别名"
+
+#. FSrvSettings..PGCset..TbDatabase..GPBasAlias..StAs400alias..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:78
+msgid "AS400 alias"
+msgstr "AS400 别名"
+
+#. FSrvSettings..PGCset..TbDatabase..GPBdb..StDbPath..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:102
+msgid "Database path"
+msgstr "数据库路径"
+
+#. FSrvSettings..PGCset..TbDatabase..GPBdb..StcfgPath..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:132
+msgid "Configuration path"
+msgstr "配置路径"
+
+#. FSrvSettings..PGCset..TBTimings..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:145
+msgid "Timings"
+msgstr "定时"
+
+#. FSrvSettings..PGCset..TBTimings..RadioGroupTimeScalAuto..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:152
+msgid "Automatic download cycle"
+msgstr "自动下载"
+
+#. FSrvSettings..PGCset..TBTimings..RadioGroupTimeScalAuto....Items.Strings
+#: mqm/MqmSrv/FMSrvSettings.dfm:156
+msgid "5  Min"
+msgstr "5分钟"
+
+#. FSrvSettings..PGCset..TBTimings..RadioGroupTimeScalAuto....Items.Strings
+#: mqm/MqmSrv/FMSrvSettings.dfm:157
+msgid "15 Min"
+msgstr "15分钟"
+
+#. FSrvSettings..PGCset..TBTimings..RadioGroupTimeScalAuto....Items.Strings
+#: mqm/MqmSrv/FMSrvSettings.dfm:158
+msgid "30 Min"
+msgstr "30分钟"
+
+#. FSrvSettings..PGCset..TBTimings..RadioGroupTimeScalAuto....Items.Strings
+#: mqm/MqmSrv/FMSrvSettings.dfm:159
+msgid "45 Min"
+msgstr "45分钟"
+
+#. FSrvSettings..PGCset..TBTimings..RadioGroupTimeScalAuto....Items.Strings
+#: mqm/MqmSrv/FMSrvSettings.dfm:160
+msgid "1 Hour"
+msgstr "1小时"
+
+#. FSrvSettings..PGCset..TBTimings..RadioGroupTimeScalAuto....Items.Strings
+#: mqm/MqmSrv/FMSrvSettings.dfm:161
+msgid "2 Hour"
+msgstr "2小时"
+
+#. FSrvSettings..PGCset..TBTimings..RadioGroupTimeScalAuto....Items.Strings
+#: mqm/MqmSrv/FMSrvSettings.dfm:162
+msgid "4 Hour"
+msgstr "4小时"
+
+#. FSrvSettings..PGCset..TbsStoredProc..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:167
+msgid "Stored Procedure"
+msgstr "存储程序"
+
+#. FSrvSettings..PGCset..TbsStoredProc..LblLib..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:174
+msgid "Library"
+msgstr "库"
+
+#. FSrvSettings..PGCset..TbsStoredProc..BtnCrtStoredProc..Caption
+#: mqm/MqmSrv/FMSrvSettings.dfm:181
+msgid "Create"
+msgstr "建立"
+
+#. FSrvLoad..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:6
+msgid "Server loader"
+msgstr "服务器加载设备"
+
+#. FSrvLoad..PGCmain..TBSctrl..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:31
+msgid "Control"
+msgstr "控制"
+
+#. FSrvLoad..PGCmain..TBSctrl..PanRun..StRunning..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:55
+msgid "Running"
+msgstr "运行"
+
+#. FSrvLoad..PGCmain..TBSctrl..PanLoad..STfromAS400..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:88
+msgid "Loading from AS400"
+msgstr "从AS400上加载"
+
+#. FSrvLoad..PGCmain..TBSctrl..PanSend..StToAS400..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:121
+msgid "Sending to AS400"
+msgstr "发送到AS400"
+
+#. FSrvLoad..PGCmain..TBSctrl..PanLocal..StLocal..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:204
+msgid "Updating Local Server"
+msgstr "正在更新本地服务器"
+
+#. FSrvLoad..PGCmain..TBSerrRepo..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:216
+msgid "Error report"
+msgstr "错误报告"
+
+#. FSrvLoad..MainMenu..IConfig..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:234
+msgid "&Configure"
+msgstr "&C配置"
+
+#. FSrvLoad..MainMenu..IService..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:238
+msgid "&Service"
+msgstr "&S服务"
+
+#. FSrvLoad..MainMenu..IService..MiDonwUpload..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:241
+msgid "Download/Upload"
+msgstr "下载/上传"
+
+#. FSrvLoad..MainMenu..IService..ILoadManual..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:248
+msgid "Download"
+msgstr "下载"
+
+#. FSrvLoad..MainMenu..IService..MiDloadPS..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:252
+msgid "Download scheduled "
+msgstr "预定下载"
+
+#. FSrvLoad..MainMenu..MICalendars..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:257
+msgid "Ca&lendars"
+msgstr "&C日历"
+
+#. FSrvLoad..MainMenu..IExit..Caption
+#: mqm/MqmSrv/UMsrvLoad.dfm:264
+msgid "&Exit"
+msgstr "&E退出"
+
+#: mqm/MqmConfig/MqmConfig.dpr:47
+#: mqm/MqmSrv/MqmSrvLoad.dpr:58
+msgid "bad server connection"
+msgstr "与服务器联系失败"
+
+#: mqm/MqmMain/MQM.dpr:173
+msgid "No Calendars have been loaded. Do you wish to Abort or Ignore ?"
+msgstr "没有下载日历，想要中断或忽略吗？"
+
+#: mqm/MqmMain/MQM.dpr:186
+msgid "workstation unavailable"
+msgstr "不可使用的工作站"
+
+#: mqm/MqmSrv/MqmSrvLoad.dpr:78
+msgid "server load not enabled"
+msgstr "服务器不能加载"
+
+#. needs polarization for trunc
+#: lib/UGbaseCal.pas:132
+msgid "Exception on the EncodeTime of UGbaseCal.RoundDate"
+msgstr "UGbaseCal.RoundDate编码时间例外"
+
+#: lib/UGcal.pas:138
+msgid "1h"
+msgstr "1小时"
+
+#: lib/UGcal.pas:139
+msgid "4h"
+msgstr "4小时"
+
+#: lib/UGcal.pas:140
+msgid "1d"
+msgstr "1天"
+
+#: lib/UGcal.pas:141
+msgid "1w"
+msgstr "1周"
+
+#. 6;
+#: lib/UGcal.pas:209
+msgid "Time Scale"
+msgstr "时间度量"
+
+#: lib/UGcal.pas:250
+msgid "Horizontal Zoom"
+msgstr "水平放大"
+
+#: lib/UGcal.pas:290
+msgid "Today"
+msgstr "今天"
+
+#: lib/UGcal.pas:543
+msgid "Prev. day"
+msgstr "前天"
+
+#: lib/UGcal.pas:544
+msgid "Prev. hour"
+msgstr "前一个小时"
+
+#: lib/UGcal.pas:545
+msgid "Next hour"
+msgstr "下个小时"
+
+#: lib/UGcal.pas:546
+msgid "Next day"
+msgstr "转天"
+
+#: lib/UGcal.pas:551
+msgid "Prev. 4h"
+msgstr "前4个小时"
+
+#: lib/UGcal.pas:552
+msgid "Next 4h"
+msgstr "下4个小时"
+
+#: lib/UGcal.pas:557
+msgid "Prev. week"
+msgstr "前一周"
+
+#: lib/UGcal.pas:560
+msgid "Next week"
+msgstr "下周"
+
+#: lib/UGcal.pas:564
+msgid "Prev. 4w"
+msgstr "前4个星期"
+
+#: lib/UGcal.pas:567
+msgid "Next 4w"
+msgstr "下4个星期"
+
+#: lib/UGcal.pas:756
+msgid "January"
+msgstr "一月"
+
+#: lib/UGcal.pas:757
+msgid "February"
+msgstr "二月"
+
+#: lib/UGcal.pas:758
+msgid "March"
+msgstr "三月"
+
+#: lib/UGcal.pas:759
+msgid "April"
+msgstr "四月"
+
+#: lib/UGcal.pas:760
+msgid "May"
+msgstr "五月"
+
+#: lib/UGcal.pas:761
+msgid "June"
+msgstr "六月"
+
+#: lib/UGcal.pas:762
+msgid "July"
+msgstr "七月"
+
+#: lib/UGcal.pas:763
+msgid "August"
+msgstr "八月"
+
+#: lib/UGcal.pas:764
+msgid "September"
+msgstr "九月"
+
+#: lib/UGcal.pas:765
+msgid "October"
+msgstr "十月"
+
+#: lib/UGcal.pas:766
+msgid "November"
+msgstr "十一月"
+
+#: lib/UGcal.pas:767
+msgid "December"
+msgstr "十二月"
+
+#: lib/UGcal.pas:959
+msgid "Sun"
+msgstr "周日"
+
+#: lib/UGcal.pas:960
+msgid "Mon"
+msgstr "周一"
+
+#: lib/UGcal.pas:961
+msgid "Tue"
+msgstr "周二"
+
+#: lib/UGcal.pas:962
+msgid "Wed"
+msgstr "Wed"
+
+#: lib/UGcal.pas:963
+msgid "Thu"
+msgstr "Thu"
+
+#: lib/UGcal.pas:964
+msgid "Fri"
+msgstr "周五"
+
+#: lib/UGcal.pas:965
+msgid "Sat"
+msgstr "周六"
+
+#: lib/UGLicensing.pas:291
+msgid "Bad key structure"
+msgstr "坏健结构"
+
+#: lib/UGLicensing.pas:301
+msgid "Not a Datatex MQM licence"
+msgstr "非Datatex MQM许可证"
+
+#: lib/UGLicensing.pas:350
+msgid "Unknown licence type"
+msgstr "未知的许可证类型"
+
+#: lib/UGLicensing.pas:363
+msgid "Too many characters"
+msgstr "太多字符"
+
+#: lib/UGLicensing.pas:442
+msgid "Not a \"Version 1\" Datatex MQM licence"
+msgstr "非Datatex MQM许可证“版本1”"
+
+#: lib/UGLicensing.pas:581
+msgid "Licence version         : 1.00"
+msgstr "许可证版本：1.00"
+
+#: lib/UGLicensing.pas:591
+msgid "Licence type            : lock"
+msgstr "许可类型：锁"
+
+#: lib/UGLicensing.pas:592
+msgid "Customer                : "
+msgstr "客户："
+
+#: lib/UGLicensing.pas:593
+msgid "Release date            : "
+msgstr "释放日期："
+
+#: lib/UGLicensing.pas:594
+msgid "Lock number             : "
+msgstr "锁号："
+
+#: lib/UGLicensing.pas:598
+msgid "Licence type            : access"
+msgstr "许可证类型：存取"
+
+#: lib/UGLicensing.pas:599
+msgid "Issuer                  : "
+msgstr "出库人："
+
+#: lib/UGLicensing.pas:605
+msgid "Access type             : no save for new PS"
+msgstr "存取类型：不保存已预定的产品需求"
+
+#: lib/UGLicensing.pas:607
+msgid "Access type             : no save"
+msgstr "存取类型：不保存"
+
+#: lib/UGLicensing.pas:609
+msgid "Access type             : everything allowed"
+msgstr "存取类型：全部允许"
+
+#: lib/UGLicensing.pas:611
+msgid "Supported workstations  : "
+msgstr "支持的工作站："
+
+#: lib/UGLicensing.pas:612
+msgid "Maximum concurrent wkst : "
+msgstr "允许的最多并发工作站数目："
+
+#: lib/UGLicensing.pas:615
+msgid "Expiry date             : none"
+msgstr "有效期：无"
+
+#: lib/UGLicensing.pas:617
+msgid "Expiry date             : "
+msgstr "有效期："
+
+#: lib/UGLicensing.pas:619
+msgid "MQM config enable level : "
+msgstr "MQM配置级别："
+
+#: lib/UGLicensing.pas:622
+msgid "MQM server load enabled : yes"
+msgstr "MQM服务器允许加载：是"
+
+#: lib/UGLicensing.pas:624
+msgid "MQM server load enabled : no"
+msgstr "MQM服务器允许加载：不"
+
+#: lib/UGLicensing.pas:628
+msgid "Unsupported version"
+msgstr "不支持版本"
+
+#: lib/UGPropComp.pas:93
+msgid "Property List"
+msgstr "属性列表"
+
+#: lib/UGPropComp.pas:313
+msgid "Property code already exist"
+msgstr "属性代码已存在"
+
+#: lib/UGPropComp.pas:403
+msgid " Property Code"
+msgstr "属性代码"
+
+#: lib/UGPropComp.pas:404
+msgid " Short Desc"
+msgstr "短描述"
+
+#: lib/UGPropComp.pas:405
+msgid "Type"
+msgstr "类型"
+
+#: lib/UGPropComp.pas:406
+msgid " Values"
+msgstr "价格"
+
+#: lib/UGPropComp.pas:414
+msgid " Value From"
+msgstr "价格从"
+
+#: lib/UGPropComp.pas:415
+msgid " Value To"
+msgstr "价格到"
+
+#: lib/UGPropComp.pas:416
+msgid " Res. Code"
+msgstr "参考编号"
+
+#: lib/UGPropComp.pas:419
+msgid " Value"
+msgstr "价格"
+
+#: lib/UGPropComp.pas:447
+msgid "Can not insert more then 30 properties"
+msgstr "不能插入多于30个属性"
+
+#. or (CBProcess.Text = '')
+#: lib/UGPropComp.pas:542
+#: mqm/forms/FMCrtDownTime.pas:302
+msgid "Warning"
+msgstr "警告"
+
+#: mqm/bin/FMbin.pas:646
+msgid "Delete Bin tab ?"
+msgstr "删除池标签？"
+
+#: mqm/bin/FMbin.pas:966
+msgid "You cannot add a group to a group"
+msgstr "你不能增加一个组到另一个组"
+
+#: mqm/bin/FMbin.pas:968
+msgid "Already belonging to a group"
+msgstr "已属于一个组"
+
+#: mqm/bin/FMbin.pas:1181
+msgid "TabBin"
+msgstr "池标签"
+
+#: mqm/bin/FMbin.pas:1446
+msgid "This job will belong to another work station, are you sure ?"
+msgstr "此作业将属于另一个工作站，你确信吗？"
+
+#: mqm/bin/FMbin.pas:1497
+msgid "The job was not found in bin !"
+msgstr "作业不在池中！"
+
+#: mqm/bin/FMBinToExcel.pas:88
+#: mqm/bin/UMBinToExcel.pas:82
+msgid "Row No."
+msgstr "行号"
+
+#. Print Status
+#: mqm/bin/FMBinToExcel.pas:128
+#: mqm/bin/UMBinToExcel.pas:123
+msgid "Started"
+msgstr "已开始"
+
+#: mqm/bin/FMBinToExcel.pas:131
+#: mqm/bin/UMBinToExcel.pas:126
+msgid "Ended"
+msgstr "已完成"
+
+#: mqm/bin/FMBinToExcel.pas:138
+#: mqm/bin/UMBinToExcel.pas:133
+#: mqm/forms/FMStepDetails.pas:1018
+msgid "Temporarily"
+msgstr "临时"
+
+#: mqm/bin/FMBinToExcel.pas:140
+#: mqm/bin/UMBinToExcel.pas:135
+msgid "Fixed"
+msgstr "Fixed"
+
+#: mqm/bin/FMBinToExcel.pas:165
+#: mqm/bin/UMBinToExcel.pas:160
+#: mqm/lib/UMglobal.pas:496
+msgid "Batch"
+msgstr "批"
+
+#: mqm/bin/FMBinToExcel.pas:166
+msgid "Continious"
+msgstr "持续的"
+
+#. column must have almost a char
+#: mqm/bin/FMcfgBin.pas:410
+msgid "At least one char must be enter"
+msgstr "至少输入一个字符"
+
+#. Label already exist
+#: mqm/bin/FMcfgBin.pas:422
+msgid "Label already exist"
+msgstr "标签已经存在"
+
+#. almost a column must be visible
+#: mqm/bin/FMcfgBin.pas:567
+msgid "At Least one column must be visible"
+msgstr "至少一列被显示"
+
+#  you must apply the title modified before exit
+#. you must apply the title modified before exit
+#: mqm/bin/FMcfgBin.pas:575
+msgid "you must apply the title modified before exit"
+msgstr "退出前必须应用修改的标题"
+
+#. LngStr(S_000162); //
+#: mqm/bin/FMcfgBin.pas:678
+msgid "Column Title"
+msgstr "列标题"
+
+#. LngStr(S_000163); // caption title (max 16 char.)
+#: mqm/bin/FMcfgBin.pas:679
+msgid "Caption Title"
+msgstr "标题"
+
+#. LngStr(S_000166); // '
+#: mqm/bin/FMcfgBin.pas:682
+msgid " Visible Column  "
+msgstr "可见列"
+
+#. LngStr(S_000167); // ''
+#: mqm/bin/FMcfgBin.pas:684
+msgid "Pos/Width Columns"
+msgstr "列位/列宽"
+
+#. LngStr(S_000170); // '
+#: mqm/bin/FMcfgBin.pas:687
+msgid " Column Orders "
+msgstr "列顺序"
+
+#. LngStr(S_000172); // ''&
+#: mqm/bin/FMcfgBin.pas:692
+msgid "Last Saved Configuration"
+msgstr "最后保存的配置"
+
+#. LngStr(S_000173); // ''&
+#: mqm/bin/FMcfgBin.pas:693
+msgid "Default Configuration"
+msgstr "缺省配置"
+
+#. for the translation extraction purpose
+#: mqm/bin/UMBinFunc.pas:170
+msgid "Production Req."
+msgstr "生产需求"
+
+#: mqm/bin/UMBinFunc.pas:172
+msgid "Sub step"
+msgstr "子步骤"
+
+#: mqm/bin/UMBinFunc.pas:173
+msgid "Re-Process"
+msgstr "再加工"
+
+#: mqm/bin/UMBinFunc.pas:174
+msgid "Step Group"
+msgstr "步骤组"
+
+#: mqm/bin/UMBinFunc.pas:175
+msgid "Actual Work center"
+msgstr "实际工作中心"
+
+#: mqm/bin/UMBinFunc.pas:176
+msgid "Actual Work center Description"
+msgstr "实际工作中心描述"
+
+#: mqm/bin/UMBinFunc.pas:178
+msgid "Process Description"
+msgstr "处理描述"
+
+#: mqm/bin/UMBinFunc.pas:179
+msgid "Planed Work Center"
+msgstr "计划工作中心"
+
+#: mqm/bin/UMBinFunc.pas:180
+msgid "Planned Work Center Descr."
+msgstr "计划工作中心描述"
+
+#: mqm/bin/UMBinFunc.pas:181
+msgid "Planed Process"
+msgstr "计划处理"
+
+#: mqm/bin/UMBinFunc.pas:182
+msgid "Planed Process Description"
+msgstr "资源处理描述"
+
+#: mqm/bin/UMBinFunc.pas:184
+msgid "Product type Description"
+msgstr "产品类型描述"
+
+#: mqm/bin/UMBinFunc.pas:186
+msgid "Product family"
+msgstr "产品系列"
+
+#: mqm/bin/UMBinFunc.pas:187
+msgid "Material family"
+msgstr "材料系列"
+
+#: mqm/bin/UMBinFunc.pas:188
+msgid "Production um"
+msgstr "产品单位"
+
+#: mqm/bin/UMBinFunc.pas:189
+msgid "Um Description"
+msgstr "单位描述"
+
+#: mqm/bin/UMBinFunc.pas:191
+msgid "Prod.Req lowest date"
+msgstr "产品需求最早日期"
+
+#: mqm/bin/UMBinFunc.pas:192
+msgid "Prod.Req delivery Date"
+msgstr "产品交货日期"
+
+#: mqm/bin/UMBinFunc.pas:194
+msgid "Materials arrival date"
+msgstr "物料到达日期"
+
+#: mqm/bin/UMBinFunc.pas:195
+msgid "Plan start"
+msgstr "计划开始"
+
+#: mqm/bin/UMBinFunc.pas:196
+msgid "Lowest start"
+msgstr "最早开始"
+
+#: mqm/bin/UMBinFunc.pas:197
+msgid "Plan end"
+msgstr "计划完成"
+
+#: mqm/bin/UMBinFunc.pas:198
+msgid "Highest end"
+msgstr "最晚完成"
+
+#: mqm/bin/UMBinFunc.pas:201
+msgid "Final quantity"
+msgstr "最终产量"
+
+#: mqm/bin/UMBinFunc.pas:202
+msgid "Weight + Um"
+msgstr "重量单位"
+
+#: mqm/bin/UMBinFunc.pas:203
+msgid "Step setup time"
+msgstr "步骤建立时间"
+
+#: mqm/bin/UMBinFunc.pas:204
+msgid "Step execution time"
+msgstr "步骤执行时间"
+
+#: mqm/bin/UMBinFunc.pas:205
+msgid "Planed Nbr. of resources"
+msgstr "资源计划号"
+
+#: mqm/bin/UMBinFunc.pas:206
+msgid "Connection type previous step"
+msgstr "以前步骤的连接类型"
+
+#: mqm/bin/UMBinFunc.pas:207
+msgid "Quantity {to} schedule"
+msgstr "数量（到）预定"
+
+#: mqm/bin/UMBinFunc.pas:208
+msgid "Scheduled execution time"
+msgstr "预定执行时间"
+
+#: mqm/bin/UMBinFunc.pas:209
+msgid "Scheduled set up time"
+msgstr "预定建立时间"
+
+#: mqm/bin/UMBinFunc.pas:214
+msgid "Actual Start"
+msgstr "实际开始"
+
+#: mqm/bin/UMBinFunc.pas:215
+msgid "Actual End"
+msgstr "实际完成"
+
+#: mqm/bin/UMBinFunc.pas:216
+msgid "Progress Quantity"
+msgstr "进程数量"
+
+#: mqm/bin/UMBinFunc.pas:217
+msgid "Progress type"
+msgstr "进程类型"
+
+#: mqm/bin/UMBinFunc.pas:218
+msgid "Actual resource"
+msgstr "实际资源"
+
+#: mqm/bin/UMBinFunc.pas:219
+msgid "Actual resource Description"
+msgstr "实际资源描述"
+
+#: mqm/bin/UMBinFunc.pas:220
+msgid "Forward connected sub step"
+msgstr "向前联系子步骤"
+
+#: mqm/bin/UMBinFunc.pas:221
+msgid "Forward connect re-process"
+msgstr "向前联系再加工"
+
+#: mqm/bin/UMBinFunc.pas:222
+msgid "Backward connected sub step"
+msgstr "向后联系子步骤"
+
+#: mqm/bin/UMBinFunc.pas:223
+msgid "Backward connected re-process"
+msgstr "向后联系再加工"
+
+#: mqm/bin/UMBinFunc.pas:224
+msgid "Prop 1"
+msgstr "属性1"
+
+#: mqm/bin/UMBinFunc.pas:225
+msgid "Prop 2"
+msgstr "属性2"
+
+#: mqm/bin/UMBinFunc.pas:226
+msgid "Prop 3"
+msgstr "属性3"
+
+#: mqm/bin/UMBinFunc.pas:227
+msgid "Prop 4"
+msgstr "属性4"
+
+#: mqm/bin/UMBinFunc.pas:228
+msgid "Prop 5"
+msgstr "属性5"
+
+#: mqm/bin/UMBinFunc.pas:229
+msgid "Prop 6"
+msgstr "属性6"
+
+#: mqm/bin/UMBinFunc.pas:230
+msgid "Prop 7"
+msgstr "属性7"
+
+#: mqm/bin/UMBinFunc.pas:231
+msgid "Prop 8"
+msgstr "属性8"
+
+#: mqm/bin/UMBinFunc.pas:232
+msgid "Prop 9"
+msgstr "属性9"
+
+#: mqm/bin/UMBinFunc.pas:233
+msgid "Prop 10"
+msgstr "属性10"
+
+#: mqm/bin/UMBinFunc.pas:234
+msgid "Prop 11"
+msgstr "属性11"
+
+#: mqm/bin/UMBinFunc.pas:235
+msgid "Prop 12"
+msgstr "属性12"
+
+#: mqm/bin/UMBinFunc.pas:236
+msgid "Prop 13"
+msgstr "属性13"
+
+#: mqm/bin/UMBinFunc.pas:237
+msgid "Prop 14"
+msgstr "属性14"
+
+#: mqm/bin/UMBinFunc.pas:238
+msgid "Prop 15"
+msgstr "属性15"
+
+#: mqm/bin/UMBinFunc.pas:239
+msgid "Prop 16"
+msgstr "属性16"
+
+#: mqm/bin/UMBinFunc.pas:240
+msgid "Prop 17"
+msgstr "属性17"
+
+#: mqm/bin/UMBinFunc.pas:241
+msgid "Prop 18"
+msgstr "属性18"
+
+#: mqm/bin/UMBinFunc.pas:242
+msgid "Prop 19"
+msgstr "属性19"
+
+#: mqm/bin/UMBinFunc.pas:243
+msgid "Prop 20"
+msgstr "属性20"
+
+#: mqm/bin/UMBinFunc.pas:244
+msgid "Prop 21"
+msgstr "属性21"
+
+#: mqm/bin/UMBinFunc.pas:245
+msgid "Prop 22"
+msgstr "属性22"
+
+#: mqm/bin/UMBinFunc.pas:246
+msgid "Prop 23"
+msgstr "属性23"
+
+#: mqm/bin/UMBinFunc.pas:247
+msgid "Prop 24"
+msgstr "属性24"
+
+#: mqm/bin/UMBinFunc.pas:248
+msgid "Prop 25"
+msgstr "属性25"
+
+#: mqm/bin/UMBinFunc.pas:249
+msgid "Prop 26"
+msgstr "属性26"
+
+#: mqm/bin/UMBinFunc.pas:250
+msgid "Prop 27"
+msgstr "属性27"
+
+#: mqm/bin/UMBinFunc.pas:251
+msgid "Prop 28"
+msgstr "属性28"
+
+#: mqm/bin/UMBinFunc.pas:252
+msgid "Prop 29"
+msgstr "属性29"
+
+#: mqm/bin/UMBinFunc.pas:253
+msgid "Prop 30"
+msgstr "属性30"
+
+#: mqm/bin/UMBinFunc.pas:356
+msgid "It was not possible to unschedule this job because following jobs reorganization failed"
+msgstr "后续作业重组失败，此作业必须进行排产。"
+
+#: mqm/bin/UMbinGrid.pas:506
+msgid "Comp"
+msgstr "兼容性"
+
+#: mqm/bin/UMBinReport.pas:69
+msgid "MQM - bin extraction"
+msgstr "MQM - 池摘要"
+
+#: mqm/bin/UMBinReport.pas:85
+msgid "Not scheduled jobs, Total quantity"
+msgstr "未排产作业数量统计"
+
+#: mqm/bin/UMBinReport.pas:87
+msgid "Scheduled jobs, Total quantity"
+msgstr "已排产作业数量统计"
+
+#: mqm/bin/UMBinReport.pas:188
+msgid "Continuous"
+msgstr "持续的"
+
+#: mqm/db/DMsrvPc.pas:300
+msgid "unknown"
+msgstr "未知"
+
+#: mqm/db/UMStoredProc.pas:1506
+msgid "Tampered UDF"
+msgstr "篡改 UDF"
+
+#: mqm/db/UMStoredProc.pas:1513
+msgid "Invalid UDF"
+msgstr "无效 UDF"
+
+#: mqm/db/UMStoredProc.pas:1529
+msgid "Invalid lock configuration"
+msgstr "无效锁配置"
+
+#: mqm/db/UMStoredProc.pas:1542
+msgid "No licence for the configuration"
+msgstr "无配置许可"
+
+#: mqm/db/UMStoredProc.pas:1566
+msgid "No licence for the main database"
+msgstr "无主数据库许可"
+
+#: mqm/db/UMStoredProc.pas:1588
+msgid "Main and configuration string differ"
+msgstr "主要部分和配置行不同"
+
+#: mqm/db/UMStoredProc.pas:1600
+msgid "Invalid lock code"
+msgstr "无效锁编号"
+
+#: mqm/db/UMStoredProc.pas:1608
+msgid "entered in demo mode"
+msgstr "进入演示模式"
+
+#: mqm/db/UMStoredProc.pas:1741
+msgid "MQM License was valid till"
+msgstr "MQM 许可证有效期到"
+
+#: mqm/db/UMStoredProc.pas:1742
+msgid "and has expired. MQM will abort"
+msgstr "已经终止，MQM 将中断"
+
+#: mqm/db/UMStoredProc.pas:1782
+msgid "More workstations than supported"
+msgstr "工作站多于被支持的"
+
+#: mqm/db/UMStoredProc.pas:1788
+msgid " workstations are already working"
+msgstr "工作站已经开始工作"
+
+#. look for jobs to split
+#: mqm/forms/FMAutoSched.pas:95
+msgid "There are steps in the bin that are planned to be produced on more then one resource,"
+msgstr "池中一些步骤被安排在多个资源上进行生产。"
+
+#: mqm/forms/FMAutoSched.pas:96
+msgid "do you want to split these steps before proceeding?"
+msgstr "开始之前需要拆分这些步骤吗？"
+
+#: mqm/forms/FMAutoSched.pas:105
+msgid "Errors splitting the job"
+msgstr "作业拆分错误"
+
+#: mqm/forms/FMAutoSched.pas:130
+msgid "Waiting for process end..."
+msgstr "等待处理完成"
+
+#: mqm/forms/FMAutoSched.pas:140
+#: mqm/forms/FMAutoSched.pas:156
+msgid "Processing: "
+msgstr "正在处理："
+
+#: mqm/forms/FMAutoSched.pas:156
+msgid "Valid positions of the resource"
+msgstr "资源有效位"
+
+#: mqm/forms/FMAutoSchedCfg.pas:612
+msgid "Is not possible to delete the Default configuration"
+msgstr "不能删除缺省配置"
+
+#: mqm/forms/FMAutoSchedCfg.pas:618
+msgid "Is not possible to delete last configuration"
+msgstr "不能删除上一次的配置"
+
+#: mqm/forms/FMAutoSchedCfg.pas:622
+msgid "Do you want to delete the configuration selected?"
+msgstr "你要删除已选择的配置吗？"
+
+#: mqm/forms/FMAutoSchedCfg.pas:627
+msgid "Is not possible to delete the selected configuration"
+msgstr "不能删除已选择的配置"
+
+#: mqm/forms/FMAutoSchedReport.pas:153
+msgid "Scheduled object"
+msgstr "预定对象"
+
+#: mqm/forms/FMAutoSchedReport.pas:161
+msgid "Start date"
+msgstr "开始日期"
+
+#: mqm/forms/FMAutoSchedReport.pas:165
+msgid "End date"
+msgstr "结束日期"
+
+#: mqm/forms/FMAutoSchedReport.pas:169
+msgid "Planned start date gap"
+msgstr "计划开始日期差距"
+
+#: mqm/forms/FMAutoSchedReport.pas:173
+msgid "Planned end date gap"
+msgstr "计划结束日期差距"
+
+#: mqm/forms/FMAutoSchedReport.pas:177
+msgid "Lowest start date gap"
+msgstr "最早开始日期差距"
+
+#: mqm/forms/FMAutoSchedReport.pas:181
+msgid "Highest end date gap"
+msgstr "最晚开始日期差距"
+
+#: mqm/forms/FMAutoSchedReport.pas:185
+msgid "Dalivery date gap"
+msgstr "交货日期差距"
+
+#: mqm/forms/FMAutoSchedReport.pas:189
+msgid "Job to Res compat. case"
+msgstr "任务与资源一致性"
+
+#: mqm/forms/FMAutoSchedReport.pas:193
+msgid "Job to job compat. case"
+msgstr "任务与任务一致性"
+
+#: mqm/forms/FMAutoSchedReport.pas:197
+msgid "Job to Cap. Res. compat. case"
+msgstr "任务与生产能力预留一致性"
+
+#: mqm/forms/FMAutoSchedReport.pas:201
+msgid "Added setup"
+msgstr "附加的设置"
+
+#: mqm/forms/FMAutoSchedReport.pas:214
+msgid "Object to be scheduled"
+msgstr "被预定的对象"
+
+#: mqm/forms/FMAutoSchedReport.pas:226
+msgid "Warning description"
+msgstr "警告描述"
+
+#: mqm/forms/FMAutoSchedReport.pas:247
+msgid "On Plan"
+msgstr "在计划上"
+
+#: mqm/forms/FMAutoSchedReport.pas:252
+msgid "Below lowest start date"
+msgstr "早于最早开始日期"
+
+#: mqm/forms/FMAutoSchedReport.pas:272
+msgid "Within lowest start date tolerance"
+msgstr "在最早开始日期公差之内"
+
+#: mqm/forms/FMAutoSchedReport.pas:293
+msgid "On time"
+msgstr "及时"
+
+#: mqm/forms/FMAutoSchedReport.pas:314
+msgid "Within highest end date tolerance"
+msgstr "在最晚完成日期公差之内"
+
+#: mqm/forms/FMAutoSchedReport.pas:335
+msgid "Over highest end date tolerance"
+msgstr "晚于最晚结束日期公差"
+
+#: mqm/forms/FMAutoSchedReport.pas:356
+msgid "Within delivery date tolerance"
+msgstr "在交货日期公差范围之内"
+
+#: mqm/forms/FMAutoSchedReport.pas:377
+msgid "Over delivery date tolerance"
+msgstr "晚于交货日期公差"
+
+#: mqm/forms/FMAutoSchedReport.pas:402
+msgid "Not scheduled"
+msgstr "非预定"
+
+#. No valid positions found
+#: mqm/forms/FMAutoSchedReport.pas:406
+#: mqm/lib/UMAutoSched.pas:386
+msgid "No valid positions found"
+msgstr "发现无效位置"
+
+#: mqm/forms/FMAutoSchedReport.pas:421
+msgid "Already on plan"
+msgstr "已经在计划上"
+
+#: mqm/forms/FMAutoSchedReport.pas:436
+msgid "Priority Warning"
+msgstr "优先级警告"
+
+#: mqm/forms/FMAutoSchedReport.pas:491
+msgid "Group "
+msgstr "组"
+
+#: mqm/forms/FMAutoSchedReport.pas:493
+msgid "Prod. Req. "
+msgstr "产品需求"
+
+#: mqm/forms/FMAutoSchedReport.pas:588
+msgid "All the modificatons of the automatic sequencing will be lost. Do you want to continue?"
+msgstr "自动顺序的全部更改将丢失，要继续吗？"
+
+#. Default name
+#: mqm/forms/FMBinFiltTabs.pas:223
+msgid "Bin View"
+msgstr "池预览"
+
+#: mqm/forms/FMChangeWC.pas:109
+msgid "Station"
+msgstr "位置"
+
+#: mqm/forms/FMChangeWC.pas:163
+msgid "No Alternative Work Centers available"
+msgstr "没有可供选择的工作中心"
+
+#: mqm/forms/FMChangeWC.pas:167
+msgid "Please choose an Alternative work Center"
+msgstr "请选择一个工作中心"
+
+#: mqm/forms/FMChangeWC.pas:175
+msgid "Work Center was not defined"
+msgstr "工作中心没有被定义"
+
+#: mqm/forms/FMChangeWC.pas:184
+msgid "This job will belong to another work station, are you sure ? "
+msgstr "此作业将属于另一个工作点，确定吗？"
+
+#: mqm/forms/FMCreateCapRes.pas:195
+msgid "No description"
+msgstr "无描述"
+
+#: mqm/forms/FMCreateCapRes.pas:387
+msgid "Property code errors , unable to create capacity reservation."
+msgstr "属性代码错误，不能建立生产能力预留。"
+
+#: mqm/forms/FMCreateCapRes.pas:506
+msgid "Please select a Work Center first"
+msgstr "请先选择一个工作中心"
+
+#: mqm/forms/FMCreateCapRes.pas:511
+msgid "Please select the properties first"
+msgstr "请先选择属性"
+
+#: mqm/forms/FMCreateCapRes.pas:644
+msgid "The Capacity reservation case"
+msgstr "生产能力预留情况："
+
+#: mqm/forms/FMCreateCapRes.pas:645
+msgid "is higher than required in up most case"
+msgstr "is higher than required in up most case"
+
+#: mqm/forms/FMCrtDownTime.pas:158
+msgid "Down Time"
+msgstr "停机"
+
+#: mqm/forms/FMCrtDownTime.pas:162
+msgid "New"
+msgstr "新"
+
+#  Check if the start and end date are congruent
+#. Check if the start and end date are congruent
+#: mqm/forms/FMEditCal.pas:253
+msgid "The start date and the end date of calendar are not congruent"
+msgstr "日历上的开始日期和结束日期不一致"
+
+#  Check if start and the end date are into calendar
+#. Check if start and the end date are into calendar
+#: mqm/forms/FMEditCal.pas:262
+msgid "The start date or/and end date of calendar are out of range"
+msgstr "日历上的开始或/和结束日期超出范围"
+
+#  Check if exist an empty shift before one filled
+#. Check if exist an empty shift before one filled
+#: mqm/forms/FMEditCal.pas:271
+msgid "There is a non working shift before a working one"
+msgstr "在工作开始之前没有班次"
+
+#. Check if the hours are in sequence (only if not midnight)
+#: mqm/forms/FMEditCal.pas:281
+msgid "The hours are not in sequence"
+msgstr "小时数不在序列中"
+
+#  Check if the user select partially worked with all empty
+#. Check if the user select partially worked with all empty
+#: mqm/forms/FMEditCal.pas:302
+msgid "Is not possible to select partially working day with all shifts empty"
+msgstr "在全部班次状态为空时不能部分选择工作日"
+
+#  Check if the start and end shift are equal
+#. Check if the start and end shift are equal
+#: mqm/forms/FMEditCal.pas:312
+msgid "In one or more shifts the start date and the end date are equal"
+msgstr "一班或多班轮换的开始和完成日期相同"
+
+#: mqm/forms/FMEditCal.pas:317
+msgid "One or more data are not correct"
+msgstr "一或多个日期不正确"
+
+#. Programmer's name for it: STR_GRP_CONT
+#: mqm/forms/FMGroupDetail.pas:106
+msgid "continuous"
+msgstr "继续"
+
+#. Programmer's name for it: STR_GRP_BATCH
+#: mqm/forms/FMGroupDetail.pas:107
+msgid "batch"
+msgstr "批"
+
+#. Programmer's name for it: STR_GRP_PRINT
+#: mqm/forms/FMGroupDetail.pas:108
+msgid "printing"
+msgstr "正在打印"
+
+#: mqm/forms/FMJobHandle.pas:545
+msgid "Please, select more than one job"
+msgstr "请选择多个作业"
+
+#: mqm/forms/FMJobHandle.pas:551
+msgid "Is not possible to join jobs on plan"
+msgstr "不能在计划上加入作业"
+
+#: mqm/forms/FMJobHandle.pas:598
+msgid "Is not possible to reprocess not secheduled jobs"
+msgstr "不能再加工非预定作业"
+
+#: mqm/forms/FMJobHandle.pas:640
+msgid "The reprocess quantity is greater than the job quantity"
+msgstr "再加工数量大于作业数量"
+
+#: mqm/forms/FMJobHandle.pas:646
+msgid "The reprocess quantity must be greater than zero"
+msgstr "再加工数量必须大于零"
+
+#: mqm/forms/FMJobHandle.pas:732
+msgid "Connecting jobs of previous step"
+msgstr "连接前面步骤的作业"
+
+#: mqm/forms/FMJobHandle.pas:736
+msgid "Connecting jobs of next step"
+msgstr "连接后面步骤的作业"
+
+#: mqm/forms/FMJobHandle.pas:741
+msgid "This step"
+msgstr "此步骤"
+
+#. 0=no 1=many 2=one 3=one to one
+#: mqm/forms/FMJobHandle.pas:751
+msgid "connections are automatically managed"
+msgstr "自动管理连接"
+
+#: mqm/forms/FMJobHandle.pas:755
+msgid "allow to connect many previous jobs"
+msgstr "允许连接前面的一些作业"
+
+#: mqm/forms/FMJobHandle.pas:756
+msgid "allow to connect one previous job"
+msgstr "允许连接到前一个作业"
+
+#: mqm/forms/FMJobHandle.pas:757
+msgid "allow to connect jobs one to one"
+msgstr "允许作业连接"
+
+#: mqm/forms/FMOccMov.pas:141
+msgid "This step is planned to be produced on"
+msgstr "此步骤安排用于生产"
+
+#: mqm/forms/FMOccMov.pas:142
+msgid "resources,"
+msgstr "资源,"
+
+#: mqm/forms/FMOccMov.pas:143
+msgid "do you want to split before proceeding?"
+msgstr "开始之前要拆分吗？"
+
+#: mqm/forms/FMOccMov.pas:285
+msgid "This job must be scheduled on time"
+msgstr "作业必须被及时预定"
+
+#: mqm/forms/FMOccMov.pas:291
+msgid "This operation involves final scheduled jobs to be moved. Do you want to procede?"
+msgstr "最后的排产作业将被取消，要继续吗？"
+
+#: mqm/forms/FMOccMov.pas:301
+#: mqm/forms/FMOccMov.pas:303
+msgid "Warning!"
+msgstr "警告!"
+
+#: mqm/forms/FMOccMov.pas:407
+msgid "Group"
+msgstr "组"
+
+#. 920;
+#: mqm/forms/FMOORulesCase.pas:94
+msgid "Compatibility check results for "
+msgstr "兼容性检查结果"
+
+#: mqm/forms/FMOptions.pas:224
+msgid "This Operation will put the default Order/Position , In all Bin Tabs"
+msgstr "此操作会在所有的池标签中放入缺省的顺序/位置"
+
+#: mqm/forms/FMRankReport.pas:99
+msgid "Score gap"
+msgstr "获得差距"
+
+#: mqm/forms/FMRankReport.pas:100
+msgid "Destination Object"
+msgstr "目标对象"
+
+#: mqm/forms/FMRankReport.pas:101
+msgid "Start date/hour"
+msgstr "开始日期/小时"
+
+#: mqm/forms/FMRankReport.pas:102
+msgid "End date/hour"
+msgstr "完成日期/小时"
+
+#: mqm/forms/FMRankReport.pas:107
+msgid "Delivery date gap"
+msgstr "交货日期差距"
+
+#: mqm/forms/FMRankReport.pas:108
+msgid "Setup"
+msgstr "建立"
+
+#: mqm/forms/FMRankReport.pas:220
+msgid "Resource comp."
+msgstr "资源一致性"
+
+#: mqm/forms/FMRankReport.pas:223
+msgid "Job to Job comp."
+msgstr "作业与作业一致性"
+
+#: mqm/forms/FMRankReport.pas:226
+msgid "Cap. res to job comp."
+msgstr "生产能力预留与作业一致性"
+
+#: mqm/forms/FMresFilter.pas:263
+msgid "One Resource at least must be choosen"
+msgstr "至少一个资源被选择"
+
+#: mqm/forms/FMResourceReport.pas:87
+msgid "Save resource report as:"
+msgstr "令存资源报告为："
+
+#. 'Text file|*.txt|Word file|*.doc';
+#: mqm/forms/FMResourceReport.pas:93
+msgid "Resource report saved"
+msgstr "保存的资源报告"
+
+#: mqm/forms/FMResourceReport.pas:96
+#: mqm/MqmMain/FMMainPlan.pas:2387
+msgid "Save file was cancelled"
+msgstr "保存文件被取消"
+
+#: mqm/forms/FMResourceReport.pas:150
+msgid "MQM plan resources report"
+msgstr "MQM 计划资源报告"
+
+#: mqm/forms/FMResourceReport.pas:241
+msgid "Step:"
+msgstr "步骤："
+
+#: mqm/forms/FMResourceReport.pas:243
+msgid " Substep:"
+msgstr " 子步骤："
+
+#: mqm/forms/FMResourceReport.pas:245
+msgid " Re-Process:"
+msgstr "再加工："
+
+#: mqm/forms/FMResourceReport.pas:252
+msgid " Group:"
+msgstr " 组："
+
+#: mqm/forms/FMResourceReport.pas:262
+msgid " Product Family:"
+msgstr "产品系列："
+
+#: mqm/forms/FMResourceReport.pas:264
+msgid " Starting:"
+msgstr "开始："
+
+#: mqm/forms/FMResourceReport.pas:273
+msgid "Setup "
+msgstr "建立"
+
+#: mqm/forms/FMResourceReport.pas:280
+msgid " Execution:"
+msgstr "执行："
+
+#: mqm/forms/FMResourceReport.pas:286
+msgid " Progressed:"
+msgstr "已进行："
+
+#: mqm/forms/FMResourceReport.pas:289
+msgid " Scheduled: "
+msgstr "预定的："
+
+#: mqm/forms/FMResourceReport.pas:298
+msgid " Comment"
+msgstr "评注"
+
+#. end i2 - Properties Loop
+#: mqm/forms/FMResourceReport.pas:325
+msgid "End"
+msgstr "完成"
+
+#. 700;
+#: mqm/forms/FMRORulesCase.pas:68
+msgid "Compatibility check results for resource "
+msgstr "资源兼容性检查结果"
+
+#: mqm/forms/FMStepDetails.pas:416
+msgid "  Connection Type"
+msgstr "连接类型"
+
+#: mqm/forms/FMStepDetails.pas:417
+msgid "  Due Date"
+msgstr "到期日"
+
+#: mqm/forms/FMStepDetails.pas:418
+msgid "  Number Of Levels"
+msgstr "等级号码"
+
+#: mqm/forms/FMStepDetails.pas:419
+msgid "  Connection Certainty"
+msgstr "确定连接"
+
+#: mqm/forms/FMStepDetails.pas:420
+msgid "  Entity"
+msgstr "实体"
+
+#: mqm/forms/FMStepDetails.pas:425
+msgid "  Step Number"
+msgstr "步骤号"
+
+#: mqm/forms/FMStepDetails.pas:426
+msgid "  Planned Work Station"
+msgstr "已做计划的工作站"
+
+#: mqm/forms/FMStepDetails.pas:427
+#: mqm/forms/FMStepDetails.pas:466
+msgid "  Planned W.C"
+msgstr "已做计划的工作中心"
+
+#: mqm/forms/FMStepDetails.pas:428
+msgid "  Closed"
+msgstr "关闭"
+
+#: mqm/forms/FMStepDetails.pas:429
+msgid "  Initial Qty"
+msgstr "最初数量"
+
+#: mqm/forms/FMStepDetails.pas:430
+msgid "  Scheduled Qty"
+msgstr "预定数量"
+
+#: mqm/forms/FMStepDetails.pas:431
+msgid "  Planned Start Date"
+msgstr "计划开始日期"
+
+#: mqm/forms/FMStepDetails.pas:432
+msgid "  Lowest Scheduled Start"
+msgstr "最早预定开始"
+
+#: mqm/forms/FMStepDetails.pas:433
+msgid "  Planned End Date"
+msgstr "计划完成日期"
+
+#: mqm/forms/FMStepDetails.pas:434
+msgid "  Highest Scheduled End"
+msgstr "最晚预定完成"
+
+#: mqm/forms/FMStepDetails.pas:435
+msgid " Planned No. of Resources"
+msgstr "资源计划号"
+
+#: mqm/forms/FMStepDetails.pas:436
+msgid " Progress Start"
+msgstr "开始处理"
+
+#: mqm/forms/FMStepDetails.pas:437
+msgid " Progress General"
+msgstr "一般处理"
+
+#: mqm/forms/FMStepDetails.pas:438
+msgid " Progress Final"
+msgstr "最后处理"
+
+#: mqm/forms/FMStepDetails.pas:439
+msgid " Progress Final & Split"
+msgstr "最后处理及拆分"
+
+#: mqm/forms/FMStepDetails.pas:440
+msgid " Priority"
+msgstr "优先级"
+
+#: mqm/forms/FMStepDetails.pas:446
+msgid "  Sub Step No"
+msgstr "子步骤号"
+
+#: mqm/forms/FMStepDetails.pas:447
+msgid "  Re.process. No "
+msgstr "再加工号码"
+
+#: mqm/forms/FMStepDetails.pas:448
+msgid "  Group No   "
+msgstr "组号码"
+
+#: mqm/forms/FMStepDetails.pas:449
+msgid "  Sched. Work Station"
+msgstr "预定工作站"
+
+#: mqm/forms/FMStepDetails.pas:451
+msgid "  Resource Code"
+msgstr "资源编号"
+
+#: mqm/forms/FMStepDetails.pas:452
+msgid "  Progressed Status"
+msgstr "处理状态"
+
+#: mqm/forms/FMStepDetails.pas:453
+msgid "  Sched./Progress Start"
+msgstr "预定/处理开始"
+
+#: mqm/forms/FMStepDetails.pas:454
+msgid "  Sched./Progress End"
+msgstr "预定/处理结束"
+
+#: mqm/forms/FMStepDetails.pas:455
+msgid "  Qty to sched"
+msgstr "产量预定"
+
+#: mqm/forms/FMStepDetails.pas:456
+msgid "  Sched. Setup Time"
+msgstr "预定建立时间"
+
+#: mqm/forms/FMStepDetails.pas:457
+msgid "  Sched. Exc Time"
+msgstr "预定执行时间"
+
+#: mqm/forms/FMStepDetails.pas:458
+msgid "  Priority"
+msgstr "优先级"
+
+#: mqm/forms/FMStepDetails.pas:463
+msgid "  Production Request"
+msgstr "生产需求"
+
+#: mqm/forms/FMStepDetails.pas:464
+msgid "  Relationship"
+msgstr "关系"
+
+#: mqm/forms/FMStepDetails.pas:474
+msgid "  Planned No. of Resources"
+msgstr "资源计划号码"
+
+#: mqm/forms/FMStepDetails.pas:880
+msgid "Current First/Last Step"
+msgstr "当前第一/最后步骤"
+
+#: mqm/forms/FMStepDetails.pas:924
+msgid "Previous Request"
+msgstr "以前的需求"
+
+#: mqm/forms/FMStepDetails.pas:926
+msgid "Current First Step"
+msgstr "当前第一步"
+
+#: mqm/forms/FMStepDetails.pas:927
+msgid "Current Last Step"
+msgstr "当前最后一步"
+
+#: mqm/forms/FMStepDetails.pas:928
+msgid "Next Request"
+msgstr "下一个需求"
+
+#: mqm/forms/FMStepDetails.pas:943
+msgid "  No"
+msgstr " 不"
+
+#: mqm/forms/FMStepDetails.pas:945
+msgid "  Yes"
+msgstr " 是"
+
+#: mqm/forms/FMStepDetails.pas:1022
+msgid "Forced"
+msgstr "强制的"
+
+#: mqm/forms/FMStepDetails.pas:1096
+msgid "Step ends after delivery date"
+msgstr "步骤在交货期以后结束"
+
+#: mqm/forms/FMStepDetails.pas:1097
+msgid "Step starts before material arrival"
+msgstr "步骤在物料到达前开始"
+
+#: mqm/forms/FMStepDetails.pas:1098
+msgid "Step ends after highest date"
+msgstr "步骤在最晚完成日期之后结束"
+
+#: mqm/forms/FMStepDetails.pas:1099
+msgid "Step starts before lower limit"
+msgstr "步骤在最低限制之前开始"
+
+#: mqm/forms/FMStepDetails.pas:1100
+msgid "Step ends after planning date"
+msgstr "步骤在计划日期以后结束"
+
+#: mqm/forms/FMStepDetails.pas:1101
+msgid "Step starts before planning date"
+msgstr "步骤在计划日期前开始"
+
+#: mqm/forms/FMStepDetails.pas:1184
+msgid "Many previous jobs"
+msgstr "多个前面的作业"
+
+#: mqm/forms/FMStepDetails.pas:1186
+msgid "One previous job"
+msgstr "一个前面的作业"
+
+#: mqm/forms/FMStepDetails.pas:1188
+msgid "One to one"
+msgstr "一个到另一个"
+
+#: mqm/forms/FMStepDetails.pas:1430
+msgid "To Production"
+msgstr "到生产"
+
+#: mqm/forms/FMStepDetails.pas:1444
+msgid "From Production"
+msgstr "从生产"
+
+#: mqm/forms/FMWkcDetails.pas:70
+msgid "Alternative W.center"
+msgstr "可选的工作中心"
+
+#: mqm/forms/FMWkcDetails.pas:75
+msgid "Alternative Process"
+msgstr "可选的处理"
+
+#: mqm/forms/FMWkcDetails.pas:106
+msgid "Process Code"
+msgstr "加工编号"
+
+#: mqm/forms/FMWkcDetails.pas:107
+msgid "Process Desc"
+msgstr "加工描述"
+
+#: mqm/forms/FMWkcDetails.pas:108
+msgid "Alt W.Center"
+msgstr "可选的工作中心"
+
+#: mqm/forms/FMWkcDetails.pas:109
+msgid "Alt W.Center Desc"
+msgstr "可选的工作中心描述"
+
+#: mqm/forms/FMWkcDetails.pas:110
+msgid "Alt Process"
+msgstr "可选的加工"
+
+#: mqm/forms/FMWkcDetails.pas:111
+msgid "Alt Process Desc"
+msgstr "可选加工描述"
+
+#. Programmer's name for it: STR_PSW_LOGERR
+#: mqm/forms/FMworkstation.pas:47
+msgid "wrong password"
+msgstr "密码错误"
+
+#. Programmer's name for it: STR_PSW_CAPT
+#: mqm/forms/FMworkstation.pas:48
+msgid "Local workstation selection"
+msgstr "本地工作站选择"
+
+#. Programmer's name for it: STR_PSW_WKCODE
+#: mqm/forms/FMworkstation.pas:49
+msgid "Workstation code"
+msgstr "工作站编码"
+
+#. Programmer's name for it: STR_PSW_PSW
+#: mqm/forms/FMworkstation.pas:50
+msgid "Password"
+msgstr "密码"
+
+#. check to see if the database is ok
+#: mqm/forms/FMworkstation.pas:88
+msgid "No database data available"
+msgstr "无可用的数据库数据"
+
+#: mqm/forms/FMworkstation.pas:94
+msgid "Server load is writing , please try later"
+msgstr "正在写服务器，稍后再试"
+
+#: mqm/forms/FMworkstation.pas:247
+msgid "Stations were not defined"
+msgstr "位置没有被定义"
+
+#: mqm/lib/FMsplash.pas:79
+#: mqm/MqmConfig/FMcfgMain.pas:131
+msgid "running"
+msgstr "运行"
+
+#: mqm/lib/FMsplash.pas:81
+#: mqm/MqmConfig/FMcfgMain.pas:133
+msgid "not found"
+msgstr "没发现"
+
+#: mqm/lib/FMsplash.pas:137
+msgid "Connection failed. Database server is down please restart it, Program will be terminated"
+msgstr "连接失败，数据服务器已关闭，请重新启动，程序将会停止运行"
+
+#. mbCancel
+#: mqm/lib/FMsplash.pas:162
+msgid "Connection failed. Main MQM Database not found,Program will be terminated"
+msgstr "连接失败，主MQM数据库没有找到，程序将会停止运行"
+
+#. mbCancel
+#: mqm/lib/FMsplash.pas:188
+msgid "Connection failed. Configuration MQM Database not found,Program will be terminated"
+msgstr "连接失败，配置MQM数据库没有找到，程序将会停止运行"
+
+#: mqm/lib/UMArticle.pas:126
+msgid "Reading Article Type from Database..."
+msgstr "正在从数据库中读取物料类型"
+
+#: mqm/lib/UMArticle.pas:146
+msgid "Loading Workcenter Descriptions in Memory..."
+msgstr "内存正在加载工作中心描述"
+
+#: mqm/lib/UMAutoSched.pas:338
+msgid "No compatible resources found"
+msgstr "发现不兼容的资源"
+
+#: mqm/lib/UMCommon.pas:47
+msgid "d"
+msgstr "天"
+
+#: mqm/lib/UMCommon.pas:47
+msgid "h"
+msgstr "小时"
+
+#: mqm/lib/UMCommon.pas:47
+msgid "m"
+msgstr "月"
+
+#. Programmer's name for it: CSTR_PROPVALUE
+#: mqm/lib/UMDevPropComp.pas:95
+#: mqm/lib/UMUsrPropComp.pas:91
+#: mqm/lib/UMUsrPropComp.pas:97
+#: mqm/plan/UMPlan.pas:2218
+#: mqm/plan/UMPlan.pas:2219
+#: mqm/plan/UMPlan.pas:2220
+#: mqm/plan/UMPlan.pas:2221
+#: mqm/plan/UMPlan.pas:2222
+#: mqm/plan/UMPlan.pas:2223
+msgid "Value"
+msgstr "价格"
+
+#. Programmer's name for it: CSTR_ADDTOOCC
+#: mqm/lib/UMDevPropComp.pas:96
+msgid "Res. added to occ"
+msgstr "附加资源占用"
+
+#. Programmer's name for it: CSTR_DFLTRESOCC
+#: mqm/lib/UMDevPropComp.pas:97
+msgid "Default res. occ."
+msgstr "缺省资源占用"
+
+#. Programmer's name for it: CSTR_DFLTOCCOCC
+#: mqm/lib/UMDevPropComp.pas:98
+msgid "Default occ. occ."
+msgstr "缺省占用"
+
+#. Programmer's name for it: CSTR_CHECKSEQ
+#: mqm/lib/UMDevPropComp.pas:100
+msgid "Check sequence"
+msgstr "检查顺序"
+
+#. Programmer's name for it: CSTR_OP1
+#: mqm/lib/UMDevPropComp.pas:102
+msgid "oper. 1"
+msgstr "操作1"
+
+#. Programmer's name for it: CSTR_OP2
+#: mqm/lib/UMDevPropComp.pas:103
+msgid "oper. 2"
+msgstr "操作2"
+
+#. Programmer's name for it: CSTR_CMPVAL
+#: mqm/lib/UMDevPropComp.pas:104
+msgid "compat value"
+msgstr "兼容值"
+
+#. Programmer's name for it: CSTR_MTXTYPE
+#: mqm/lib/UMDevPropComp.pas:106
+msgid "Matrix type"
+msgstr "矩阵类型"
+
+#. Programmer's name for it: CSTR_WKCTPROC
+#: mqm/lib/UMDevPropComp.pas:107
+msgid "Workcenter process"
+msgstr "工作中心加工"
+
+#. Programmer's name for it: CSTR_RESGRP
+#: mqm/lib/UMDevPropComp.pas:108
+msgid "Resource group"
+msgstr "资源组"
+
+#. Programmer's name for it: CSTR_CMX_code
+#: mqm/lib/UMDevPropComp.pas:111
+msgid "property code"
+msgstr "属性编码"
+
+#. Programmer's name for it: CSTR_CMX_proc
+#: mqm/lib/UMDevPropComp.pas:112
+msgid "property code and process"
+msgstr "属性编码及处理"
+
+#. Programmer's name for it: CSTR_CMX_cat
+#: mqm/lib/UMDevPropComp.pas:113
+msgid "property code and group"
+msgstr "属性编码及组"
+
+#. Programmer's name for it: CSTR_CMX_prod_code
+#: mqm/lib/UMDevPropComp.pas:114
+msgid "product type and code"
+msgstr "产品类型及编码"
+
+#. Programmer's name for it: CSTR_CMX_prod_proc
+#: mqm/lib/UMDevPropComp.pas:115
+msgid "product type, code and process"
+msgstr "产品类型，编号及加工"
+
+#. Programmer's name for it: CSTR_CMX_prod_cat
+#: mqm/lib/UMDevPropComp.pas:116
+msgid "product type, code and group"
+msgstr "产品类型，编码及组"
+
+#. Programmer's name for it: CSTR_PROPCAP
+#: mqm/lib/UMDevPropComp.pas:118
+#: mqm/lib/UMRulesComp.pas:192
+#: mqm/lib/UMUsrPropComp.pas:114
+#: mqm/plan/UMRes.pas:1299
+msgid "Property"
+msgstr "属性"
+
+#. Programmer's name for it: CSTR_SUPADJ
+#: mqm/lib/UMDevPropComp.pas:120
+msgid "Setup adjustment"
+msgstr "建立调整"
+
+#. Programmer's name for it: CSTR_SUPOVER
+#: mqm/lib/UMDevPropComp.pas:122
+msgid "Setup Overlap"
+msgstr "建立重叠"
+
+#. Programmer's name for it: CSTR_SUPMUL
+#: mqm/lib/UMDevPropComp.pas:123
+msgid "Setup multiplier"
+msgstr "建立乘法器"
+
+#  Programmer's name for it: CSTR_SUPMULOVER
+#. Programmer's name for it: CSTR_SUPMULOVER
+#: mqm/lib/UMDevPropComp.pas:124
+msgid "Setup Multiplier Overlap"
+msgstr "建立可重叠的乘数"
+
+#. Programmer's name for it: CSTR_SMGRP
+#: mqm/lib/UMDevPropComp.pas:125
+#: mqm/lib/UMUsrPropComp.pas:121
+msgid "Same group"
+msgstr "相同组"
+
+#. Programmer's name for it: CSTR_TEST
+#: mqm/lib/UMDevPropComp.pas:127
+msgid "Test"
+msgstr "测试"
+
+#. for the translation extraction purpose
+#: mqm/lib/UMglobal.pas:482
+msgid "No Warning"
+msgstr "无警告信息"
+
+#: mqm/lib/UMglobal.pas:484
+msgid "Step starts before material arrival date"
+msgstr "步骤早于物料到达日期开始"
+
+#: mqm/lib/UMglobal.pas:486
+msgid "Step starts before lower limit date"
+msgstr "步骤早于最低限制日期开始"
+
+#: mqm/lib/UMglobal.pas:487
+msgid "Step ends after planned date"
+msgstr "步骤晚于计划日期结束"
+
+#: mqm/lib/UMglobal.pas:488
+msgid "Step starts before planned date"
+msgstr "步骤早于计划日期开始"
+
+#: mqm/lib/UMglobal.pas:489
+msgid "Violate overlapping rules with prev. step"
+msgstr "前面的步骤违反叠加规则"
+
+#: mqm/lib/UMglobal.pas:490
+msgid "Violate overlapping rules with next step"
+msgstr "后面的步骤违反叠加规则"
+
+#: mqm/lib/UMglobal.pas:491
+msgid "Violate overlapping rules with prev. and next step"
+msgstr "前面和后面的步骤违反叠加规则"
+
+#: mqm/lib/UMglobal.pas:493
+msgid "Continuous (Read only)"
+msgstr "持续的（只读）"
+
+#: mqm/lib/UMglobal.pas:494
+msgid "Sub resource Continuous"
+msgstr "持续的子资源"
+
+#: mqm/lib/UMglobal.pas:495
+msgid "Sub resource Continuous (Read only)"
+msgstr "持续的子资源（只读）"
+
+#: mqm/lib/UMglobal.pas:497
+msgid "Batch (Read Only)"
+msgstr "批（只读）"
+
+#: mqm/lib/UMglobal.pas:574
+#: mqm/lib/UMglobal.pas:696
+msgid "Global"
+msgstr "整体的"
+
+#: mqm/lib/UMglobal.pas:574
+#: mqm/lib/UMglobal.pas:696
+#: mqm/plan/UMRes.pas:1170
+#: mqm/plan/UMRes.pas:1291
+#: mqm/plan/UMRes.pas:1326
+#: mqm/plan/UMResCat.pas:239
+#: mqm/plan/UMResCat.pas:333
+#: mqm/plan/UMResCat.pas:361
+#: mqm/plan/UMSchedCont.pas:1170
+#: mqm/plan/UMSchedCont.pas:1180
+#: mqm/plan/UMWkCtr.pas:609
+#: mqm/plan/UMWkCtr.pas:747
+#: mqm/plan/UMWkCtr.pas:775
+msgid "Error loading property"
+msgstr "加载属性错误"
+
+#. ----------------------------------------------------------------------------//
+#: mqm/lib/UMGridComptClr.pas:138
+#: mqm/lib/UMRulesComp.pas:197
+msgid "Case"
+msgstr "事例"
+
+#: mqm/lib/UMGridComptClr.pas:139
+msgid "Internal"
+msgstr "内部的"
+
+#: mqm/lib/UMGridComptClr.pas:140
+msgid " Border"
+msgstr "边"
+
+#: mqm/lib/UMGridComptClr.pas:141
+msgid "  Text"
+msgstr "文本"
+
+#: mqm/lib/UMGridComptClr.pas:404
+msgid "Border"
+msgstr "边"
+
+#: mqm/lib/UMGridComptClr.pas:416
+msgid "Text"
+msgstr "文本"
+
+#: mqm/lib/UMGridComptClr.pas:439
+msgid "Restore Defaults"
+msgstr "恢复缺省值"
+
+#  ----------------------------------------------------------------------------//
+#. ----------------------------------------------------------------------------//
+#: mqm/lib/UMGridComptClr.pas:468
+msgid "Are you sure you want to restore the default colors ?"
+msgstr "确定要恢复缺省颜色吗？"
+
+#: mqm/lib/UMGridComptClr.pas:543
+msgid "Description change is possible only for capacity reservation"
+msgstr "生产能力预留的描述可以更改"
+
+#: mqm/lib/UMRulesComp.pas:85
+msgid "Tested value"
+msgstr "测试价格"
+
+#: mqm/lib/UMRulesComp.pas:86
+msgid "Rule"
+msgstr "规则"
+
+#: mqm/lib/UMRulesComp.pas:88
+msgid "Operand"
+msgstr "大于等于"
+
+#: mqm/lib/UMRulesComp.pas:89
+msgid "Rule value"
+msgstr "规定价格"
+
+#: mqm/lib/UMRulesComp.pas:90
+msgid "Base value"
+msgstr "基价"
+
+#: mqm/lib/UMRulesComp.pas:107
+#: mqm/lib/UMRulesComp.pas:111
+#: mqm/lib/UMRulesComp.pas:113
+#: mqm/lib/UMRulesComp.pas:233
+#: mqm/lib/UMRulesComp.pas:235
+#: mqm/lib/UMRulesComp.pas:237
+#: mqm/lib/UMRulesComp.pas:239
+msgid "Between "
+msgstr "...之间"
+
+#: mqm/lib/UMRulesComp.pas:108
+#: mqm/lib/UMRulesComp.pas:112
+#: mqm/lib/UMRulesComp.pas:114
+#: mqm/lib/UMRulesComp.pas:234
+#: mqm/lib/UMRulesComp.pas:236
+#: mqm/lib/UMRulesComp.pas:238
+#: mqm/lib/UMRulesComp.pas:240
+msgid " and "
+msgstr "和"
+
+#. m_sg.Cells[4,i+1] := '--';   Depend on value deleted
+#: mqm/lib/UMRulesComp.pas:122
+#: mqm/lib/UMRulesComp.pas:151
+#: mqm/lib/UMRulesComp.pas:157
+#: mqm/lib/UMRulesComp.pas:248
+#: mqm/lib/UMRulesComp.pas:381
+msgid "Error"
+msgstr "错误"
+
+#: mqm/lib/UMRulesComp.pas:134
+msgid "From base"
+msgstr "从基础"
+
+#: mqm/lib/UMRulesComp.pas:194
+msgid "Value on bar"
+msgstr "价格栏"
+
+#: mqm/lib/UMRulesComp.pas:198
+msgid "Setup change"
+msgstr "建立变更"
+
+#: mqm/lib/UMRulesComp.pas:201
+msgid "Setup Overlap time"
+msgstr "建立叠加时间"
+
+#. m_sg.Cells[6,i+1] := _('Global add ') + ' ' +  FloatToStr(SetupRec.supTime)
+#: mqm/lib/UMRulesComp.pas:264
+msgid "Global add "
+msgstr "整体增加"
+
+#: mqm/lib/UMRulesComp.pas:290
+msgid "Add"
+msgstr "增加"
+
+#: mqm/lib/UMRulesComp.pas:291
+msgid "Fix"
+msgstr "固定"
+
+#: mqm/lib/UMRulesComp.pas:292
+msgid "Mult."
+msgstr "乘"
+
+#. Eran//
+#: mqm/lib/UMRulesComp.pas:293
+msgid "Global add"
+msgstr "整体增加"
+
+#: mqm/lib/UMRulesComp.pas:382
+msgid "No change"
+msgstr "无变化"
+
+#: mqm/lib/UMTabcfg.pas:255
+msgid "Dynamic"
+msgstr "动态的"
+
+#. Programmer's name for it: CSTR_PROPWKCPROC
+#: mqm/lib/UMUsrPropComp.pas:89
+msgid "Wkc. proc."
+msgstr "工作中心进程"
+
+#. Programmer's name for it: CSTR_SUPMULOVER
+#: mqm/lib/UMUsrPropComp.pas:120
+msgid "Setup mult. over"
+msgstr "建立可重叠的乘数"
+
+#: mqm/lib/UMWkCtrDesc.pas:111
+msgid "Reading Workcenter Descriptions from Database..."
+msgstr "从数据库读取工作中心描述"
+
+#: mqm/MqmConfig/FMcfgMain.pas:94
+#: mqm/MqmSrv/UMsrvLoad.pas:113
+msgid "main database version not supported"
+msgstr "主数据库版本不支持"
+
+#: mqm/MqmConfig/FMcfgMain.pas:101
+#: mqm/MqmSrv/UMsrvLoad.pas:120
+msgid "configuration database version not supported"
+msgstr "配置数据库版本不支持"
+
+#: mqm/MqmConfig/FMcfgMain.pas:159
+msgid "Stored Procedures creation completed"
+msgstr "存储过程建立完成"
+
+#: mqm/MqmConfig/FMcreateTables.pas:1768
+msgid "Main Database creation completed"
+msgstr "主数据库建立完成"
+
+#: mqm/MqmConfig/FMcreateTables.pas:1782
+msgid "Config Database creation completed"
+msgstr "配置数据库建立完成"
+
+#: mqm/MqmConfig/FMViewLic.pas:95
+msgid "Different lock codes"
+msgstr "不同锁编号"
+
+#: mqm/MqmLic/FMCreateLic.pas:130
+msgid "Invalid file"
+msgstr "无效文件"
+
+#: mqm/MqmLic/FMCreateLic.pas:134
+msgid "Only lock files allowed"
+msgstr "只允许锁文件"
+
+#: mqm/MqmLic/FMLicMain.pas:54
+msgid "Add customer"
+msgstr "增加客户"
+
+#: mqm/MqmLic/FMLicMain.pas:61
+msgid "Modify customer"
+msgstr "修改客户"
+
+#: mqm/MqmLic/FMLicMain.pas:68
+msgid "Create database"
+msgstr "建立数据库"
+
+#: mqm/MqmMain/FMMainPlan.pas:477
+msgid "It is not possible to reorganize the plan"
+msgstr "不能重组计划"
+
+#: mqm/MqmMain/FMMainPlan.pas:785
+msgid " ** DEMO VERSION, NOT ALLOWED TO SAVE JOBS **"
+msgstr "** 演示版本，不允许保存作业 **"
+
+#: mqm/MqmMain/FMMainPlan.pas:786
+msgid " ** DEMO VERSION, ALLOWED TO SAVE JUST ALREADY SCHEDULED JOBS **"
+msgstr "** 演示版本，仅允许保存已预定的作业 **"
+
+#: mqm/MqmMain/FMMainPlan.pas:1029
+msgid "Not exist on active plan"
+msgstr "不存在于活动计划上"
+
+#: mqm/MqmMain/FMMainPlan.pas:1082
+#: mqm/MqmMain/FMMainPlan.pas:1125
+msgid "Start: "
+msgstr "开始："
+
+#: mqm/MqmMain/FMMainPlan.pas:1088
+msgid "Case Before: "
+msgstr "事前："
+
+#: mqm/MqmMain/FMMainPlan.pas:1089
+msgid "Case After: "
+msgstr "事后："
+
+#: mqm/MqmMain/FMMainPlan.pas:1103
+msgid "Resource: "
+msgstr "资源："
+
+#: mqm/MqmMain/FMMainPlan.pas:1106
+msgid "Sub res.: "
+msgstr "子资源："
+
+#. StBarInfo.Panels.Items[0].Text := 'Resource'
+#: mqm/MqmMain/FMMainPlan.pas:1115
+msgid "Active planning area"
+msgstr "活动计划区域"
+
+#: mqm/MqmMain/FMMainPlan.pas:1117
+msgid "End: "
+msgstr "完成："
+
+#: mqm/MqmMain/FMMainPlan.pas:1119
+msgid "Components: "
+msgstr "组成："
+
+#: mqm/MqmMain/FMMainPlan.pas:1127
+msgid "Dur: "
+msgstr "为期："
+
+#: mqm/MqmMain/FMMainPlan.pas:1132
+msgid "Capacity reservation: "
+msgstr "生产能力预留："
+
+#: mqm/MqmMain/FMMainPlan.pas:1137
+msgid "Down time: "
+msgstr "停机："
+
+#. Capres
+#: mqm/MqmMain/FMMainPlan.pas:1144
+msgid "Capacity reservation to occupation Case: "
+msgstr "生产能力预留占用情况："
+
+#: mqm/MqmMain/FMMainPlan.pas:1350
+msgid "Delete gantt tab ?"
+msgstr "删除干特图标签 ?"
+
+#: mqm/MqmMain/FMMainPlan.pas:1371
+msgid "Do you want to save the changes ?"
+msgstr "要保存更改吗？"
+
+#: mqm/MqmMain/FMMainPlan.pas:2256
+msgid "Unschedule all jobs in current bin ?"
+msgstr "在当前池中对全部作业都不进行排产吗？"
+
+#: mqm/MqmMain/FMMainPlan.pas:2307
+msgid "Not all jobs were unscheduled"
+msgstr "部分作业已排产"
+
+#. ExcelReport : TFBinToExcel;
+#: mqm/MqmMain/FMMainPlan.pas:2346
+msgid "Save bin report as:"
+msgstr "保存池报告为："
+
+#. 'Text file|*.txt|Word file|*.doc';
+#: mqm/MqmMain/FMMainPlan.pas:2354
+msgid "Bin extaction saved"
+msgstr "Bin extaction saved"
+
+#: mqm/MqmSrv/FMLoadCalendars.pas:97
+msgid "Select at least one calendar"
+msgstr "至少选择一个日历"
+
+#: mqm/MqmSrv/FMSrvSettings.pas:116
+msgid "STORED PROCEDURES CREATED"
+msgstr "已建立的存储过程"
+
+#: mqm/MqmSrv/UMASStoredProc.pas:48
+msgid "ERROR CREATING STORED PROCEDURES"
+msgstr "建立存储过程错误"
+
+#. + tbInfo.PCname);
+#: mqm/MqmSrv/UMload.pas:126
+msgid "Clearing Scheduled Progressed "
+msgstr "清除排产进程"
+
+#. + tbInfo.PCname);
+#: mqm/MqmSrv/UMload.pas:134
+msgid "Loading Scheduled Progressed"
+msgstr "加载已排产进程"
+
+#. update the server
+#: mqm/MqmSrv/UMload.pas:185
+#: mqm/MqmSrv/UMload.pas:314
+#: mqm/MqmSrv/UMload.pas:386
+#: mqm/MqmSrv/UMload.pas:479
+#: mqm/MqmSrv/UMload.pas:1079
+#: mqm/MqmSrv/UMload.pas:1431
+msgid "Loading"
+msgstr "正在加载"
+
+#: mqm/MqmSrv/UMload.pas:190
+msgid "Droping table Scheduled Progressed"
+msgstr "删除排产进程表"
+
+#. + tbInfo.ASname);
+#: mqm/MqmSrv/UMload.pas:200
+msgid "Scheduled Progressed not exist"
+msgstr "没有已排产的进程"
+
+#. select the data from AS400
+#: mqm/MqmSrv/UMload.pas:241
+#: mqm/MqmSrv/UMload.pas:465
+#: mqm/MqmSrv/UMload.pas:1065
+msgid "AS400 query"
+msgstr "AS400疑问"
+
+#. clear the table on the server
+#: mqm/MqmSrv/UMload.pas:256
+#: mqm/MqmSrv/UMload.pas:473
+#: mqm/MqmSrv/UMload.pas:1073
+#: mqm/MqmSrv/UMload.pas:1425
+#: mqm/MqmSrv/UMSave.pas:107
+msgid "Clearing"
+msgstr "正在清除"
+
+#: mqm/MqmSrv/UMload.pas:321
+#: mqm/MqmSrv/UMload.pas:504
+#: mqm/MqmSrv/UMload.pas:1146
+#: mqm/MqmSrv/UMload.pas:1456
+msgid "Loaded"
+msgstr "已装载"
+
+#: mqm/MqmSrv/UMload.pas:1417
+msgid "AS400 query "
+msgstr "AS400疑问"
+
+#: mqm/MqmSrv/UMload.pas:1733
+msgid " Update work centers "
+msgstr "更新工作中心"
+
+#: mqm/MqmSrv/UMload.pas:1742
+msgid " Update work centers not Visible"
+msgstr "更新工作中心不可见"
+
+#. Delete all MQMPS records which do not exist in MQMPR  //
+#: mqm/MqmSrv/UMload.pas:1843
+msgid "Delete not existing/historical schedules "
+msgstr "删除不存在的/历史的进度表"
+
+#. Delete all forced schedules //   to be checked
+#: mqm/MqmSrv/UMload.pas:1854
+msgid "Deleting forced schedule "
+msgstr "删除强制的排产计划"
+
+#. in production line or product type or production um.
+#: mqm/MqmSrv/UMload.pas:1866
+msgid "Delete changed request header schedules "
+msgstr "删除标题为变更需求的进度表"
+
+#. type in PD is '0'
+#: mqm/MqmSrv/UMload.pas:1889
+msgid "Delete changed request step schedules "
+msgstr "删除变更需求步骤的时间表"
+
+#. Update selected schedule work center into null //
+#: mqm/MqmSrv/UMload.pas:1943
+msgid " Blank manual selected work centers "
+msgstr " Blank manual selected work centers "
+
+#. to the pd and its not schedule yet                                         //
+#: mqm/MqmSrv/UMload.pas:1965
+msgid "Delete changed step work center "
+msgstr "删除变更步骤地工作中心"
+
+#. to the pd and the pd work center was changed                               //
+#: mqm/MqmSrv/UMload.pas:1995
+msgid "Delete changed step work center schedules 1"
+msgstr "删除变更步骤工作中心时间表1"
+
+#. to the pd and the pd work center was changed                                   //
+#: mqm/MqmSrv/UMload.pas:2028
+msgid "Delete changed step work center schedules 2"
+msgstr "删除变更步骤工作中心时间表2"
+
+#: mqm/MqmSrv/UMload.pas:2057
+msgid " Delete Property changed schedules  "
+msgstr "删除特性已改变的时间表"
+
+#. Delete all MQMPP copy without PS //
+#: mqm/MqmSrv/UMload.pas:2086
+msgid " Delete proprty copy  "
+msgstr "删除特性备份"
+
+#. select the data from AS400
+#: mqm/MqmSrv/UMSave.pas:92
+msgid "PC query "
+msgstr "PC 疑问"
+
+#. update the AS400
+#: mqm/MqmSrv/UMSave.pas:117
+msgid "Saving "
+msgstr "正在保存"
+
+#: mqm/MqmSrv/UMSave.pas:182
+msgid "saved "
+msgstr "已保存"
+
+#: mqm/MqmSrv/UMSave.pas:244
+msgid "saving"
+msgstr "正在保存"
+
+#. + tbInfo.PCname);
+#: mqm/MqmSrv/UMSave.pas:326
+msgid "Creating Production Scheduled"
+msgstr "建立排产"
+
+#. + tbInfo.PCname);
+#: mqm/MqmSrv/UMSave.pas:328
+msgid "Sending Production Scheduled"
+msgstr "发送已排产计划"
+
+#. + tbInfo.PCname);
+#: mqm/MqmSrv/UMSave.pas:415
+msgid " Production Scheduled already exist "
+msgstr "生产排产已存在"
+
+#: mqm/MqmSrv/UMsrvLoad.pas:223
+#: mqm/MqmSrv/UMsrvLoad.pas:387
+msgid "Start download cycle"
+msgstr "开始下载循环"
+
+#: mqm/MqmSrv/UMsrvLoad.pas:374
+msgid "Stop cycle"
+msgstr "停止循环"
+
+#: mqm/MqmSrv/UMsrvLoad.pas:379
+msgid "No connection available to AS400"
+msgstr "无可用连接到AS400"
+
+#: mqm/MqmSrv/UMsrvLoad.pas:428
+msgid " Sending to CAMS"
+msgstr "发送到CAMS"
+
+#: mqm/MqmSrv/UMsrvLoad.pas:429
+msgid "Loading from CAMS"
+msgstr "从CAMS上加载"
+
+#: mqm/MqmSrv/UMsrvLoad.pas:433
+msgid " Sending to AS400"
+msgstr " 发送到AS400"
+
+#: mqm/MqmSrv/UMsrvLoad.pas:516
+msgid " Next run in "
+msgstr "插入下一个"
+
+#: mqm/MqmSrv/UMsrvLoad.pas:516
+msgid " hours "
+msgstr "小时"
+
+#: mqm/MqmSrv/UMTransfer.pas:732
+msgid "Downloading Progress ..."
+msgstr "下载进程"
+
+#. check if at list one client is open
+#: mqm/MqmSrv/UMTransfer.pas:751
+msgid "Downloading all ..."
+msgstr "下载全部..."
+
+#. only the main plan files
+#: mqm/MqmSrv/UMTransfer.pas:769
+msgid "Downloading requests only ..."
+msgstr "下载需求仅..."
+
+#: mqm/MqmSrv/UMTransfer.pas:808
+msgid "Manual load failed"
+msgstr "手动加载失败"
+
+#: mqm/MqmSrv/UMTransfer.pas:851
+msgid "scheduled job load failed"
+msgstr "预定作业加载失败"
+
+#: mqm/MqmSrv/UOpThread.pas:158
+msgid "Download Completed"
+msgstr "下载完成"
+
+#: mqm/MqmSrv/UOpThread.pas:160
+msgid "Stored Procedure is not responding"
+msgstr "存储过程无响应"
+
+#: mqm/MqmSrv/UOpThread.pas:324
+#: mqm/MqmSrv/UOpThread.pas:392
+msgid "Waiting for AS400 update..."
+msgstr "等待AS400更新"
+
+#. Making a download of PS from As400   ( 2->3 )
+#: mqm/MqmSrv/UOpThread.pas:335
+msgid "Scheduled jobs download completed"
+msgstr "预定作业下载完毕"
+
+#: mqm/MqmSrv/UOpThread.pas:337
+msgid "AS closing stored failed"
+msgstr "AS 关闭存储失败"
+
+#. Making an upload of PS to As400
+#: mqm/MqmSrv/UOpThread.pas:398
+msgid "Send completed"
+msgstr "发送完毕"
+
+#: mqm/plan/UMCapResMover.pas:92
+msgid "Not compatible workcenter"
+msgstr "不兼容的工作中心"
+
+#: mqm/plan/UMPlan.pas:435
+msgid "warning"
+msgstr "警告"
+
+#  -----------
+#. -----------
+#: mqm/plan/UMPlan.pas:459
+msgid "Reading Workcenters and Process from Database..."
+msgstr "从数据库中读取工作中心及进程"
+
+#: mqm/plan/UMPlan.pas:498
+msgid "Loading Workcenters and Process in Memory..."
+msgstr "内存正在加载工作中心和进程"
+
+#: mqm/plan/UMPlan.pas:557
+msgid "Reading Production Lines from Database..."
+msgstr "正在从数据库读取生产线"
+
+#: mqm/plan/UMPlan.pas:582
+msgid "Loading Production Lines in Memory..."
+msgstr "内存正在加载生产线"
+
+#: mqm/plan/UMPlan.pas:629
+msgid "Reading Alternative Workcenters from Database..."
+msgstr "正在从数据库读取可选的工作中心"
+
+#: mqm/plan/UMPlan.pas:653
+msgid "Loading Alternative Workcenters in Memory..."
+msgstr "内存正在加载可选的工作中心"
+
+#: mqm/plan/UMPlan.pas:807
+msgid "Reading Resources from Database..."
+msgstr "正在从数据库中读取资源"
+
+#: mqm/plan/UMPlan.pas:858
+msgid "Loading Resources in Memory..."
+msgstr "内存正在加载资源"
+
+#: mqm/plan/UMPlan.pas:951
+msgid "Reading Active Planning Areas from Database..."
+msgstr "正在从数据库读取活动计划区域"
+
+#: mqm/plan/UMPlan.pas:994
+msgid "Loading Active Planning Areas in Memory..."
+msgstr "内存正在加载活动计划区域"
+
+#: mqm/plan/UMPlan.pas:1050
+msgid "Reading Capacity Reservations from Database..."
+msgstr "从数据库读取生产能力预留..."
+
+#: mqm/plan/UMPlan.pas:1071
+msgid "Loading Capacity Reservations in Memory..."
+msgstr "内存正在加载生产能力预留"
+
+#  load the global and resource category properties
+#. load the global and resource category properties
+#: mqm/plan/UMPlan.pas:1274
+msgid "Reading global and resource category properties from Database..."
+msgstr "正在从数据库读取整体和资源目录属性"
+
+#: mqm/plan/UMPlan.pas:1286
+msgid "Loading global and resource category properties in Memory..."
+msgstr "内存正在加载整体和资源目录属性"
+
+#: mqm/plan/UMPlan.pas:1296
+msgid "Property "
+msgstr "属性"
+
+#: mqm/plan/UMPlan.pas:1298
+msgid " assigned to workcenter "
+msgstr "分配到工作中心"
+
+#: mqm/plan/UMPlan.pas:1300
+msgid " assigned to resource "
+msgstr "分配到资源"
+
+#  load the properties of the workcenters
+#. load the properties of the workcenters
+#: mqm/plan/UMPlan.pas:1336
+msgid "Reading the properties of the workcenters from Database..."
+msgstr "正在从数据库读取工作中心属性"
+
+#: mqm/plan/UMPlan.pas:1348
+msgid "Loading the properties of the workcenters in Memory..."
+msgstr "内存正在加载工作中心属性"
+
+#  load the properties of the resources
+#. load the properties of the resources
+#: mqm/plan/UMPlan.pas:1381
+msgid "Reading properties of the resources from Database..."
+msgstr "正在从数据库中读取资源属性"
+
+#: mqm/plan/UMPlan.pas:1390
+msgid "Loading properties of the resources in Memory..."
+msgstr "内存正在加载资源属性"
+
+#  load the global and resource category rules
+#. load the global and resource category rules
+#: mqm/plan/UMPlan.pas:1533
+msgid "Reading global and resource category rules from Database..."
+msgstr "正在从数据库读取整体和资源目录规则"
+
+#: mqm/plan/UMPlan.pas:1544
+msgid "Loading global and resource category rules in Memory..."
+msgstr "内存正在加载整体和资源目录规则"
+
+#  load the rules of the workcenters
+#. load the rules of the workcenters
+#: mqm/plan/UMPlan.pas:1588
+msgid "Reading the rules of the workcenters from Database..."
+msgstr "正在从数据库读取工作中心规则"
+
+#: mqm/plan/UMPlan.pas:1600
+msgid "Loading the rules of the workcenters in Memory..."
+msgstr "内存正在加载工作中心规则"
+
+#  load the rules of the resources
+#. load the rules of the resources
+#: mqm/plan/UMPlan.pas:1635
+msgid "Reading the rules of the resources from Database..."
+msgstr "正在从数据库读取资源规则"
+
+#: mqm/plan/UMPlan.pas:1647
+msgid "Loading the rules of the resources in Memory..."
+msgstr "内存正在加载资源规则"
+
+#: mqm/plan/UMPlan.pas:1707
+msgid "Reading the capacity reservations priorities from Database..."
+msgstr "正在从数据库读取生产能力预留属性"
+
+#: mqm/plan/UMPlan.pas:1728
+msgid "Loading the capacity reservations priorities in Memory..."
+msgstr "内存正在加载生产能力预留属性"
+
+#: mqm/plan/UMPlan.pas:2213
+msgid "Property values"
+msgstr "属性值"
+
+#: mqm/plan/UMPlan.pas:2221
+#: mqm/plan/UMPlan.pas:2282
+#: mqm/plan/UMPlan.pas:2283
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+msgid "Resource category"
+msgstr "资源目录"
+
+#: mqm/plan/UMPlan.pas:2274
+msgid "Resource to Occupation compatibility rules"
+msgstr "资源到占用一致性规则"
+
+#: mqm/plan/UMPlan.pas:2279
+#: mqm/plan/UMPlan.pas:2281
+#: mqm/plan/UMPlan.pas:2282
+#: mqm/plan/UMPlan.pas:2283
+#: mqm/plan/UMPlan.pas:2284
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2350
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "chk. seq."
+msgstr "检查次序"
+
+#: mqm/plan/UMPlan.pas:2279
+#: mqm/plan/UMPlan.pas:2281
+#: mqm/plan/UMPlan.pas:2282
+#: mqm/plan/UMPlan.pas:2283
+#: mqm/plan/UMPlan.pas:2284
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2350
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "to base"
+msgstr "到基础"
+
+#: mqm/plan/UMPlan.pas:2279
+#: mqm/plan/UMPlan.pas:2281
+#: mqm/plan/UMPlan.pas:2282
+#: mqm/plan/UMPlan.pas:2283
+#: mqm/plan/UMPlan.pas:2284
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2350
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "value"
+msgstr "价格"
+
+#: mqm/plan/UMPlan.pas:2279
+#: mqm/plan/UMPlan.pas:2281
+#: mqm/plan/UMPlan.pas:2282
+#: mqm/plan/UMPlan.pas:2283
+#: mqm/plan/UMPlan.pas:2284
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2350
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "op"
+msgstr "op"
+
+#: mqm/plan/UMPlan.pas:2279
+#: mqm/plan/UMPlan.pas:2281
+#: mqm/plan/UMPlan.pas:2282
+#: mqm/plan/UMPlan.pas:2283
+#: mqm/plan/UMPlan.pas:2284
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2350
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "comp. value"
+msgstr "兼容值"
+
+#: mqm/plan/UMPlan.pas:2319
+msgid "yes"
+msgstr "是"
+
+#: mqm/plan/UMPlan.pas:2321
+msgid "no"
+msgstr "不"
+
+#: mqm/plan/UMPlan.pas:2344
+msgid "Occupation to Occupation compatibility rules"
+msgstr "占用到占用一致性规则"
+
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "sup.type"
+msgstr "sup.type"
+
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "sup.time"
+msgstr "sup.time"
+
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "sup.over"
+msgstr "sup.over"
+
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "sup.mult."
+msgstr "sup.mult."
+
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "sup.over.mult"
+msgstr "sup.over.mult"
+
+#: mqm/plan/UMPlan.pas:2349
+#: mqm/plan/UMPlan.pas:2351
+#: mqm/plan/UMPlan.pas:2352
+#: mqm/plan/UMPlan.pas:2353
+#: mqm/plan/UMPlan.pas:2354
+msgid "same grp."
+msgstr "相同组"
+
+#  res:     TMqmRes;
+#. res:     TMqmRes;
+#: mqm/plan/UMPlan.pas:2558
+msgid "Properties and rules defined at global level"
+msgstr "整体属性和规则定义"
+
+#: mqm/plan/UMPlan.pas:2581
+msgid "Properties and rules defined at resource category level"
+msgstr "资源目录级别的属性和规则定义"
+
+#: mqm/plan/UMPlan.pas:2618
+msgid "Properties and rules defined at workcenter level"
+msgstr "工作中心级别的属性和规则定义"
+
+#: mqm/plan/UMPlan.pas:2656
+msgid "Properties and rules defined at resource level"
+msgstr "资源级别的属性和规则定义"
+
+#: mqm/plan/UMPlanFunc.pas:43
+#: mqm/plan/UMSchedCont.pas:5070
+msgid "Undefined Error"
+msgstr "非定义错误"
+
+#: mqm/plan/UMPlanFunc.pas:58
+#: mqm/plan/UMPlanFunc.pas:111
+#: mqm/plan/UMPlanFunc.pas:117
+msgid "Not compatible"
+msgstr "不兼容的"
+
+#: mqm/plan/UMPlanFunc.pas:76
+msgid "The available quantity is not enough"
+msgstr "可用数量不够"
+
+#: mqm/plan/UMPlanFunc.pas:201
+msgid "Please input a number of jobs"
+msgstr "请输入作业号"
+
+#: mqm/plan/UMPlanFunc.pas:209
+msgid "Please input a quantity per job"
+msgstr "请输入每个作业数量"
+
+#: mqm/plan/UMPlanFunc.pas:235
+msgid "The split quantity is greater than the remaining quantity"
+msgstr "拆分数量大于剩余数量"
+
+#: mqm/plan/UMPlanFunc.pas:281
+msgid "The current job quantity must be greater than the resource minium batch size"
+msgstr "当前作业数量必须大于资源的最小批量"
+
+#: mqm/plan/UMPlanFunc.pas:296
+msgid "The split quantity must be greater than zero"
+msgstr "拆分数量必须大于零"
+
+#. write resource name centered
+#: mqm/plan/UMPlanGraph.pas:337
+msgid " Diff. WC"
+msgstr "不同的工作中心"
+
+#: mqm/plan/UMPlanGraph.pas:340
+msgid " No Times"
+msgstr "无次数"
+
+#: mqm/plan/UMPlanGraph.pas:342
+msgid " Case: "
+msgstr "事例："
+
+#: mqm/plan/UMPlanGraph.pas:362
+msgid "sub "
+msgstr "子"
+
+#: mqm/plan/UMPlanGraph.pas:1009
+msgid "Step ends after delivery date."
+msgstr "步骤在交货日期以后结束"
+
+#: mqm/plan/UMPlanGraph.pas:1010
+msgid "Step starts before material arrival date."
+msgstr "步骤早于物料到达日期开始"
+
+#: mqm/plan/UMPlanGraph.pas:1011
+msgid "Step ends after highest date."
+msgstr "步骤在最晚完成日期以后结束"
+
+#: mqm/plan/UMPlanGraph.pas:1012
+msgid "Step starts before lower limit date."
+msgstr "步骤早于最低限制日期开始"
+
+#: mqm/plan/UMPlanGraph.pas:1013
+msgid "Step ends after planned date."
+msgstr "步骤晚于计划日期结束"
+
+#: mqm/plan/UMPlanGraph.pas:1014
+msgid "Step starts before planned date."
+msgstr "步骤早于计划日期开始"
+
+#: mqm/plan/UMPlanGraph.pas:1015
+msgid "Step starts before lowest overlap limit date."
+msgstr "步骤早于最低叠加限制日期开始"
+
+#: mqm/plan/UMPlanGraph.pas:1016
+msgid "Step ends after highest overlap limit date."
+msgstr "步骤晚于最高叠加限制日期结束"
+
+#: mqm/plan/UMPlanGraph.pas:1018
+msgid "Undefined"
+msgstr "无定义"
+
+#: mqm/plan/UMPriorities.pas:68
+msgid "Reading Priorities from Database..."
+msgstr "正在从数据库中读取属性"
+
+#: mqm/plan/UMPriorities.pas:87
+msgid "Loading Priorities in Memory..."
+msgstr "内存正在加载属性"
+
+#. tbiSP:      ^TTblInfo;
+#: mqm/plan/UMProdInfo.pas:398
+msgid "Reading additional info from Database..."
+msgstr "正在从数据库中读取附加信息"
+
+#: mqm/plan/UMProdInfo.pas:442
+msgid "Loading additional info in Memory..."
+msgstr "内存正在加载附加信息"
+
+#: mqm/plan/UMRes.pas:789
+msgid "Read only resource"
+msgstr "只读资源"
+
+#: mqm/plan/UMRes.pas:798
+msgid "Resource of different process"
+msgstr "不同处理的资源"
+
+#: mqm/plan/UMRes.pas:809
+msgid "Resource of different workcenter"
+msgstr "不同工作中心的资源"
+
+#: mqm/plan/UMRes.pas:817
+msgid "Compatibility case not valid"
+msgstr "无效的兼容性事例"
+
+#: mqm/plan/UMRes.pas:824
+msgid "No Timings data for this resource"
+msgstr "此资源无定时数据"
+
+#: mqm/plan/UMRes.pas:831
+msgid "The group quantity is lower than the resource minium batch size"
+msgstr "组数量小于资源最小批量"
+
+#: mqm/plan/UMRes.pas:838
+msgid "The group quantity is greater than the resource maximum batch size"
+msgstr "组数量大于资源的最大批量"
+
+#: mqm/plan/UMRes.pas:876
+msgid "The jobs in this group are not compatible for this resource"
+msgstr "这个组中的作业与此资源不兼容"
+
+#: mqm/plan/UMRes.pas:1385
+msgid "SubResource"
+msgstr "子资源"
+
+#: mqm/plan/UMSchedCont.pas:761
+msgid "Reading scheduled Jobs from database..."
+msgstr "正在从数据库中读取预定作业"
+
+#: mqm/plan/UMSchedCont.pas:801
+msgid "Loading scheduled Jobs in memory..."
+msgstr "内存正在加载预定作业"
+
+#: mqm/plan/UMSchedCont.pas:1054
+msgid "Reading Progresses from database..."
+msgstr "正在从数据库中读取进程"
+
+#: mqm/plan/UMSchedCont.pas:1071
+msgid "Loading Progresses in memory..."
+msgstr "内存正在加载进程"
+
+#: mqm/plan/UMSchedCont.pas:1123
+msgid "Reading Jobs Properties from database..."
+msgstr "正在从数据库中读取作业属性"
+
+#: mqm/plan/UMSchedCont.pas:1147
+msgid "Loading Jobs Properties in memory..."
+msgstr "内存正在加载作业属性"
+
+#: mqm/plan/UMSchedCont.pas:1409
+msgid "Linking Jobs..."
+msgstr "链接作业"
+
+#: mqm/plan/UMSchedCont.pas:1459
+msgid "Linking Requests..."
+msgstr "链接需求"
+
+#: mqm/plan/UMSchedCont.pas:5088
+msgid "This job can't be grouped"
+msgstr "此工作不能被分组"
+
+#: mqm/plan/UMSchedCont.pas:5095
+msgid "Different step type"
+msgstr "不同步骤类型"
+
+#: mqm/plan/UMSchedCont.pas:5102
+msgid "Different workcenter"
+msgstr "不同工作中心"
+
+#: mqm/plan/UMSchedCont.pas:5109
+msgid "Different workcenter process"
+msgstr "不同工作中心进程"
+
+#: mqm/plan/UMSchedCont.pas:5150
+msgid "Can't move jobs on a read only resource"
+msgstr "不能在一个只读资源上移动作业"
+
+#: mqm/plan/UMSchedCont.pas:5159
+msgid "Can't move a progressed job or group"
+msgstr "不能移动已进行的作业或组"
+
+#: mqm/plan/UMSchedCont.pas:5177
+msgid "Can't move a closed job or group"
+msgstr "不能移动已关闭的作业或组"
+
+#: mqm/plan/UMSchedCont.pas:6001
+msgid "calculated"
+msgstr "计算过的"
+
+#: mqm/plan/UMSchedCont.pas:6029
+#: mqm/plan/UMSchedCont.pas:6067
+#: mqm/plan/UMSchedCont.pas:6086
+msgid "All"
+msgstr "全部"
+
+#: mqm/plan/UMSchedCont.pas:6033
+#: mqm/plan/UMSchedCont.pas:6071
+#: mqm/plan/UMSchedCont.pas:6090
+msgid "Many"
+msgstr "许多"
+
+#. add the groups description
+#: mqm/plan/UMSchedCont.pas:6547
+msgid "group: "
+msgstr "组："
+
+#: mqm/plan/UMSchedCont.pas:7275
+msgid "SubStep"
+msgstr "子步骤"
+
+#: mqm/plan/UMSchedCont.pas:7276
+msgid "must be scheduled before this job"
+msgstr "在此作业之前必须被预定"
+
+#: mqm/plan/UMSchedCont.pas:7374
+msgid "must be scheduled before this job because is linked"
+msgstr "因为被连接所以这个作业开始之前必须被预定"
+
+#: mqm/plan/UMSchedOnPlan.pas:284
+msgid "Request. header:"
+msgstr "需求标题："
+
+#: mqm/plan/UMSchedOnPlan.pas:474
+msgid "details:"
+msgstr "明细："
+
+#: mqm/plan/UMSchedOnPlan.pas:550
+msgid "detail data not found"
+msgstr "没有发现详细数据"
+
+#: mqm/plan/UMSchedOnPlan.pas:552
+msgid "header data not found"
+msgstr "没有发现标题数据"
+
+msgid "Italiano"
+msgstr "意大利文"
+
+msgid "Test Mqm"
+msgstr "测试MQM"
+
+msgid "Low range"
+msgstr "小范围"
+
+msgid "Realistic"
+msgstr "现实的"
+
+msgid "Test compat real"
+msgstr "测量实际兼容性"
+
+msgid "Test compat extensive"
+msgstr "测试兼容性执行"
+
+msgid "Test Stored Proc"
+msgstr "测试存储过程"
+
+msgid "FTestMemStruct"
+msgstr "F测试成员结构"
+
+msgid "Loaded type"
+msgstr "加载类型"
+
+msgid "nothing"
+msgstr "无"
+
+msgid "Memory fill"
+msgstr "内存填充"
+
+msgid "Random"
+msgstr "任意"
+
+msgid "From db"
+msgstr "从数据库"
+
+msgid "Controls"
+msgstr "控制"
+
+msgid "Test stack"
+msgstr "测试堆栈"
+
+msgid "Program interface"
+msgstr "程序接口"
+
+msgid "Show main form"
+msgstr "显示主表"
+
+msgid "Reports"
+msgstr "报告"
+
+msgid "Prod. sched. cont. hyerarchic"
+msgstr "Prod. sched. cont. hyerarchic"
+
+msgid "Prod. sched. cont. linear"
+msgstr "Prod. sched. cont. linear"
+
+msgid "Prop. sched. properties"
+msgstr "生产预定属性"
+
+msgid "Plan"
+msgstr "计划"
+
+msgid "Plan properties"
+msgstr "计划属性"
+
+msgid "Stack test"
+msgstr "堆栈测试"
+
+msgid "Change dur"
+msgstr "改变持续时间"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Exe time"
+msgstr "执行时间"
+
+msgid "Change"
+msgstr "改变"
+
+msgid "Link to group"
+msgstr "连接到组"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Link to APA"
+msgstr "连接到APA"
+
+msgid "APA"
+msgstr "APA"
+
+msgid "Link"
+msgstr "连接"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "group"
+msgstr "组"
+
+msgid "job"
+msgstr "作业"
+
+msgid "extraction"
+msgstr "摘要"
+
+#  FBin..PopUpBin..MIBinTab..MICopyCnfg..Caption
+msgid "Create New Tab (Copy Config from Active Tab)"
+msgstr "建立新标签（复制活动标签的配置）"
+
+msgid "Error Info."
+msgstr "错误信息"
+
+msgid "STRecalcExecTime"
+msgstr "STRecalcExecTime"
+
+msgid "STErrorInfo"
+msgstr "STErrorInfo"
+
+msgid "Rel."
+msgstr "Rel."
+
+msgid "MQM"
+msgstr "MQM"
+
+#  FMQMPlan..MainMenu..MIFilters..Caption
+msgid "Fi&ters"
+msgstr "&F筛选"
+
+msgid "Order Resource by  ..."
+msgstr "资源排序按..."
+
+msgid "Move to bin"
+msgstr "移动到池"
+
+msgid "Loading Mode"
+msgstr "装载样式"
+
+msgid "Saving mode"
+msgstr "保存样式"
+
+msgid "Save manually"
+msgstr "手动保存"
+
+msgid "Update manually"
+msgstr "手动更新"
+
+msgid "Unlock data area"
+msgstr "解锁数据区"
+
+msgid "TEST"
+msgstr "测试"
+
+msgid "This operation will set Work Center to the original one "
+msgstr "此操作将移动此工作中心到原工作中心"
+
+msgid "Planed setup time"
+msgstr "计划建立时间"
+
+msgid "Sched"
+msgstr "预定"
+
+msgid "Error description"
+msgstr "错误描述"
+
+msgid "Are you sure you want to move this job to work station"
+msgstr "确定要移动此作业到工作站吗？"
+
+msgid "Error!"
+msgstr "错误！"
+
+msgid "Depend on value"
+msgstr "基于价格"
+
+msgid "Setup rule"
+msgstr "建立规则"
+
+msgid "Add globally"
+msgstr "整体加入"
+
+msgid "automatic"
+msgstr "自动的"
+
+msgid "on request"
+msgstr "承索"
+
+msgid "Updating "
+msgstr "更新"
+
+msgid "Deleting from "
+msgstr "删除表"
+
+msgid " forced"
+msgstr "强制"
+
+msgid "Updating with "
+msgstr "更新用"
+
+msgid "Updating flags of "
+msgstr "升级标记"
+
+msgid "Copying "
+msgstr "正在复制"
+
+msgid "Start auto"
+msgstr "开始自动"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Start Automatic"
+msgstr "自动开始"
+
+msgid "Poll asking"
+msgstr "咨询"
+
+msgid "Poll checking"
+msgstr "Poll检查"
+
+msgid "Poll terminated"
+msgstr "Poll终止"
+
+msgid "Update completed"
+msgstr "更新完毕"
+
+msgid "No Error"
+msgstr "无错误"
+
+msgid "Reading Jobs to be scheduled from database..."
+msgstr "正在从数据库中读取被预定的作业"
+
+msgid "Loading Jobs to be scheduled in memory..."
+msgstr "内存正在加载预定作业"
+

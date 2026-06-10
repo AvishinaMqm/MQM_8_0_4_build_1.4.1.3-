@@ -1,0 +1,30 @@
+﻿
+[Exception Log]
+EurekaLog Version=8000
+934A8C7448044071A3F7A237F4461A0E="E76D5D2C7778B7CB3093EA08A54A6EB8E86D0F52400F67DC81F45D44271F1E34B0ABB9A2BA831E94F3AE9470E9D6C519"
+Activate=1
+atFixSafeCallException=1
+atVCL=1
+atWin32=1
+csoShowELThreads=1
+csoShowRTLThreads=1
+csoShowWindowsThreads=1
+DeleteMapAfterCompile=0
+dpJCL=1
+Encrypt Password=""
+GUID="{7B98DAA0-EB3E-45FB-A840-92929DC9E65D}"
+idEurekaLog=1
+idEurekaLogDetailed=1
+idMSClassic=1
+idStepsToReproduce=1
+InjectCode=1
+InjectInfo=1
+InjectOptions=1
+loCatchLeaks=0
+loCatchLeaksExceptions=0
+loWipeStackOnIdle=0
+Output Path=".\\"
+ProjectID="{DE37B64C-90D5-43E9-B45D-5676397BAF69}"
+_CustomProfile=""
+
+

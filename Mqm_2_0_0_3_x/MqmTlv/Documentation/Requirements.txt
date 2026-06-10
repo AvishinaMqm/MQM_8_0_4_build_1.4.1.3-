@@ -1,0 +1,27 @@
+Requirement hardware and software in order to install 
+MQM-Machine Queue Management
+
+Planing computer or MQM server
+·	Processor 3000Mhz Pentium 4 or better
+·	1 GB  Memory RAM 
+·	Free space on fixed disk 2 GB
+·	Operating system WINDOWS 2000 or XP Professional
+·	Screen video from 21"
+·	Client Access for Windows 4.4 or 4.5 or 5.01 + Last version of Service Pack available 
+
+
+AS/400
+·	Operating system AS/400 4.4 or 4.5 or 5.1 or better.
+	(With PTF: Product 5722SS1 - PTF N° SI02214)
+·	Client Access for WINDOWS 
+·	TIM rel. 7.2 with level updated AGG + MQM
+
+Table of correlation between operating system PC and the version of Client Access 
+compatible (With Update of the Last version of Service Pack available): 
+
+operating system PC 	   Client Access
+
+  Windows 2000	         4.4  ,  4.5 ,   5.01
+
+  XP Professional	                5.1
+

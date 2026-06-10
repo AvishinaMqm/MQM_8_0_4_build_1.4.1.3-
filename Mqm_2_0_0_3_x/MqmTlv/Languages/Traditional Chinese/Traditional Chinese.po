@@ -1,0 +1,4056 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Traditional Chinese\n"
+"POT-Creation-Date: 2005-03-22 15:35\n"
+"PO-Revision-Date: 2005-04-03 15:13+0200\n"
+"Last-Translator: Itzik Zinner <zinner@datatx.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.1.1\n"
+
+msgid "            "
+msgstr "            "
+
+msgid "  Closed"
+msgstr "  已關閉"
+
+msgid "  Connection Certainty"
+msgstr "  確定連接"
+
+msgid "  Connection Type"
+msgstr "  連接種類"
+
+msgid "  Due Date"
+msgstr " 到期日"
+
+msgid "  Entity"
+msgstr "  實體"
+
+msgid "  Group No   "
+msgstr "  群組號碼"
+
+msgid "  Highest Scheduled End"
+msgstr "  最晚的已預定完成"
+
+msgid "  Initial Qty"
+msgstr "  初始數量"
+
+msgid "  Lowest Scheduled Start"
+msgstr "  最早的已預定開始"
+
+msgid "  No"
+msgstr "  否"
+
+msgid "  Number Of Levels"
+msgstr "  層次數量"
+
+msgid "  Planned End Date"
+msgstr "  已計畫的完成日期"
+
+msgid "  Planned No. of Resources"
+msgstr "  已計劃的資源數目"
+
+msgid "  Planned Start Date"
+msgstr "  已計畫的開始日期"
+
+msgid "  Planned W.C"
+msgstr "  已計畫的工作中心"
+
+msgid "  Planned Work Station"
+msgstr "  已計畫的工作站"
+
+msgid "  Priority"
+msgstr "  優先次序"
+
+msgid "  Production Request"
+msgstr "  生產需求"
+
+msgid "  Progressed Status"
+msgstr "  已處理的狀態"
+
+msgid "  Qty to sched"
+msgstr "  產量到已預定"
+
+msgid "  Re.process. No "
+msgstr "  再加工號碼"
+
+msgid "  Relationship"
+msgstr "  關係"
+
+msgid "  Resource Code"
+msgstr "  資源代號"
+
+msgid "  Sched. Exc Time"
+msgstr "  已預定的執行時間"
+
+msgid "  Sched. Setup Time"
+msgstr "  已預定旳設置時間"
+
+msgid "  Sched. Work Station"
+msgstr "  已預定的工作站"
+
+msgid "  Sched./Progress End"
+msgstr "  預定/處理結束"
+
+msgid "  Sched./Progress Start"
+msgstr "  預定/處理開始"
+
+msgid "  Scheduled Qty"
+msgstr "  已預定數量"
+
+msgid "  Step Number"
+msgstr "  步驟號碼"
+
+msgid "  Sub Step No"
+msgstr "  子步驟號碼"
+
+msgid "  Text"
+msgstr "  文字"
+
+msgid "  Yes"
+msgstr "  是"
+
+msgid " ** DEMO VERSION, ALLOWED TO SAVE JUST ALREADY SCHEDULED JOBS **"
+msgstr "** 示範版本, 已准許儲存剛預定的工作 **"
+
+msgid " ** DEMO VERSION, NOT ALLOWED TO SAVE JOBS **"
+msgstr "** 示範版本, 不准許儲存工作 **"
+
+msgid " Blank manual selected work centers "
+msgstr " 空白手動已選擇的工作中心"
+
+msgid " Border"
+msgstr " 邊"
+
+msgid " Case: "
+msgstr "事例:"
+
+msgid " Column Orders "
+msgstr " 列的順序"
+
+msgid " Comment"
+msgstr " 注釋"
+
+msgid " Delete Property changed schedules  "
+msgstr " 刪除內容己改變的預定"
+
+msgid " Delete proprty copy  "
+msgstr " 刪除內容複製"
+
+msgid " Diff. WC"
+msgstr "不同的工作中心"
+
+msgid " Execution:"
+msgstr " 執行:"
+
+msgid " Group:"
+msgstr " 群組:"
+
+msgid " Next run in "
+msgstr "下一個執行在"
+
+msgid " No Times"
+msgstr "無次數"
+
+msgid " Planned No. of Resources"
+msgstr " 已計劃的資源數量"
+
+msgid " Priority"
+msgstr " 優先次序"
+
+msgid " Product Family:"
+msgstr " 產品系列:"
+
+msgid " Production Scheduled already exist "
+msgstr " 生產的已預定已存在"
+
+msgid " Progress Final"
+msgstr " 處理最後"
+
+msgid " Progress Final & Split"
+msgstr " 處理最後及分拆"
+
+msgid " Progress General"
+msgstr " 處理一般"
+
+msgid " Progress Start"
+msgstr " 處理開始"
+
+msgid " Progressed:"
+msgstr " 已進行:"
+
+msgid " Property Code"
+msgstr " 內容代號"
+
+msgid " Re-Process:"
+msgstr " 再加工:"
+
+msgid " Res. Code"
+msgstr " 資源代號"
+
+msgid " Scheduled: "
+msgstr " 已預定: "
+
+msgid " Search  with Job data >>"
+msgstr "用作業資料搜索 >>"
+
+msgid " Search >>"
+msgstr "搜索 >>"
+
+msgid " Sending to AS400"
+msgstr "發送到 AS400"
+
+msgid " Sending to CAMS"
+msgstr " 傳送到 CAMS"
+
+msgid " Short Desc"
+msgstr " 短描述"
+
+msgid " Starting:"
+msgstr " 開始:"
+
+msgid " Substep:"
+msgstr " 子步驟:"
+
+msgid " Update work centers "
+msgstr " 更新工作中心"
+
+msgid " Update work centers not Visible"
+msgstr " 更新工作中心不顯示"
+
+msgid " Value"
+msgstr " 數值"
+
+msgid " Value From"
+msgstr " 數值從"
+
+msgid " Value To"
+msgstr " 數值到"
+
+msgid " Values"
+msgstr " 數值"
+
+msgid " Visible Column  "
+msgstr " 可見的列"
+
+msgid " and "
+msgstr " 和 "
+
+msgid " assigned to resource "
+msgstr "分配到資源"
+
+msgid " assigned to workcenter "
+msgstr "分配到工作中心"
+
+msgid " hours "
+msgstr "小時"
+
+msgid " workstations are already working"
+msgstr " 工作站已經開始工作"
+
+msgid "\"Capacity to job\" up-most case"
+msgstr "\"生產能力與作業\" - 大多數情況"
+
+msgid "&Configuration"
+msgstr "&C配置"
+
+msgid "&Configure"
+msgstr "&C配置"
+
+msgid "&Create"
+msgstr "&C建立"
+
+msgid "&Default Configuration"
+msgstr "&D原來配置"
+
+msgid "&Exit"
+msgstr "&E退出"
+
+msgid "&File"
+msgstr "&F檔案"
+
+msgid "&Last Configuration Saved"
+msgstr "&L最後保存的設置"
+
+msgid "&Licencing"
+msgstr "&L許可"
+
+msgid "&Report"
+msgstr "&R報告"
+
+msgid "&Restore"
+msgstr "&R回復"
+
+msgid "&Service"
+msgstr "&S服務"
+
+msgid "&Show"
+msgstr "&S顯示"
+
+msgid "&Verify"
+msgstr "&V對証"
+
+msgid "*"
+msgstr "*"
+
+msgid "-"
+msgstr "-"
+
+msgid "1 Hour"
+msgstr "1 小時"
+
+msgid "1.0.1 build 0"
+msgstr "1.0.1 build 0"
+
+msgid "15 Min"
+msgstr "15 分鐘"
+
+msgid "1d"
+msgstr "1 天"
+
+msgid "1h"
+msgstr "1 小時"
+
+msgid "1w"
+msgstr "1 星期"
+
+msgid "2 Hour"
+msgstr "2 小時"
+
+msgid "30 Min"
+msgstr "30 分鐘"
+
+msgid "4 Hour"
+msgstr "4 小時"
+
+msgid "45 Min"
+msgstr "45 分鐘"
+
+msgid "4h"
+msgstr "4 小時"
+
+msgid "5  Min"
+msgstr "5 分鐘"
+
+msgid "<<-- Back"
+msgstr "<<--後退"
+
+msgid "AS closing stored failed"
+msgstr "關閉存儲失敗"
+
+msgid "AS400 ODBC alias"
+msgstr "AS400 ODBC 別名"
+
+msgid "AS400 alias"
+msgstr "AS400 別名"
+
+msgid "AS400 query"
+msgstr "AS400 查詢"
+
+msgid "AS400 query "
+msgstr "AS400 查詢"
+
+msgid "Abort"
+msgstr "中斷"
+
+msgid "Access type             : everything allowed"
+msgstr "存取種類: 全部已允許"
+
+msgid "Access type             : no save"
+msgstr "存取種類: 不保存"
+
+msgid "Access type             : no save for new PS"
+msgstr "存取種類: 不保存已預定的產品需求"
+
+msgid "Actions"
+msgstr "行動"
+
+msgid "Active Work Center from Gantt"
+msgstr "由甘特圖 (Gantt) 啟用工作中心"
+
+msgid "Active planning area"
+msgstr "有效的計畫中區域"
+
+msgid "Actual End"
+msgstr "真正結束"
+
+msgid "Actual Start"
+msgstr "真正開始"
+
+msgid "Actual Values"
+msgstr "實際數值"
+
+msgid "Actual Work Center"
+msgstr "真正的工作中心"
+
+msgid "Actual Work Center Description"
+msgstr "真的工作中心描述"
+
+msgid "Actual resource"
+msgstr "真正資源"
+
+msgid "Actual resource description"
+msgstr "真正資源描述"
+
+msgid "Add"
+msgstr "增加"
+
+msgid "Add customer"
+msgstr "增加客戶"
+
+msgid "Add to group"
+msgstr "加入到群組"
+
+msgid "Added setup"
+msgstr "附加的設置"
+
+msgid "After"
+msgstr "之後"
+
+msgid "After delivery date tolerance"
+msgstr "在送貨日期容許之後"
+
+msgid "Algorithm"
+msgstr "演算法"
+
+msgid "Algorithm gradients"
+msgstr "演算法梯度"
+
+msgid "All"
+msgstr "所有"
+
+msgid "All jobs in bin"
+msgstr "在池中的所有作業"
+
+msgid "All the modificatons of the automatic sequencing will be lost. Do you want to continue?"
+msgstr "所有更改的自動排序將被失去. 要繼續嗎?"
+
+msgid "Allowed"
+msgstr "已允許"
+
+msgid "Already belonging to a group"
+msgstr "已屬於一個群組"
+
+msgid "Already on plan"
+msgstr "已經在計畫上"
+
+msgid "Also"
+msgstr "也"
+
+msgid "Alt Process"
+msgstr "可選的加工"
+
+msgid "Alt Process Desc"
+msgstr "可選的加工描述"
+
+msgid "Alt W.Center"
+msgstr "可選的工作中心"
+
+msgid "Alt W.Center Desc"
+msgstr "可選的工作中心描述"
+
+msgid "Alternative"
+msgstr "可選的"
+
+msgid "Alternative Process"
+msgstr "可選的處理"
+
+msgid "Alternative W.center"
+msgstr "可選的工作中心"
+
+msgid "Alternatives"
+msgstr "可選的"
+
+msgid "Apply"
+msgstr "應用"
+
+msgid "April"
+msgstr "四月"
+
+msgid "Are you sure you want to restore the default colors ?"
+msgstr "肯定回復原本的顏色?"
+
+msgid "Arial"
+msgstr "Arial"
+
+msgid "At Least one column must be visible"
+msgstr "最少一列被顯示"
+
+msgid "At least one char must be enter"
+msgstr "最少輸入一個字元"
+
+msgid "Attach / Move Job to:"
+msgstr "附加/移動作業到:"
+
+msgid "August"
+msgstr "八月"
+
+msgid "Automatic download cycle"
+msgstr "自動下載循環"
+
+msgid "Automatic schedulation results"
+msgstr "自動預定結果"
+
+msgid "Automatic sequencing"
+msgstr "自動排序"
+
+msgid "Automatic sequencing configuration"
+msgstr "自動順序配置"
+
+msgid "Automatic sequencing results"
+msgstr "自動排序結果"
+
+msgid "Backward connected re-process"
+msgstr "向後已連接的再加工"
+
+msgid "Backward connected sub step"
+msgstr "向後已連接的子步驟"
+
+msgid "Bad key structure"
+msgstr "錯誤鍵結構"
+
+msgid "Bar"
+msgstr "Bar"
+
+msgid "Bar config"
+msgstr "Bar 的設置"
+
+msgid "Base algorithm"
+msgstr "基本的運算法則"
+
+msgid "Base value"
+msgstr "基本數值"
+
+msgid "Batch"
+msgstr "批"
+
+msgid "Batch (Read Only)"
+msgstr "批 (唯讀)"
+
+msgid "Batch Code"
+msgstr "批號"
+
+msgid "Batch Max"
+msgstr "最大批量"
+
+msgid "Batch Min"
+msgstr "最小批量"
+
+msgid "Batch Qty"
+msgstr "批量"
+
+msgid "Batch Quantity"
+msgstr "批量"
+
+msgid "Batch Re - Process"
+msgstr "批量再加工"
+
+msgid "Batch Std"
+msgstr "批量"
+
+msgid "Batch Um"
+msgstr "批單位"
+
+msgid "Batch quantity"
+msgstr "批量"
+
+msgid "Before"
+msgstr "之前"
+
+msgid "Before tolerance of lowest start date"
+msgstr "在容許最早開始日期之前"
+
+msgid "Below lowest start date"
+msgstr "低於最早開始日期"
+
+msgid "Between "
+msgstr "之間"
+
+msgid "Between delivery date and its tolerance"
+msgstr "在送貨日期和它的容許之間"
+
+msgid "Between higest end date and its tolerance"
+msgstr "在最後完成日期與它的容許之間"
+
+msgid "Between highest end tolerance date and delivery date"
+msgstr "在最後完成容許日期與交貨日期之間"
+
+msgid "Between lowest start date and target date"
+msgstr "在最早開始日期和目標日期之間"
+
+msgid "Between target date and higest end date"
+msgstr "在目標日期和最後完成日期之間"
+
+msgid "Between tolerance and lowest start date"
+msgstr "在容許與最早開始日期之間"
+
+msgid "Bin"
+msgstr "池"
+
+msgid "Bin Configuration"
+msgstr "池配置"
+
+msgid "Bin Tab"
+msgstr "池標籤"
+
+msgid "Bin Totals"
+msgstr "池匯總"
+
+msgid "Bin View"
+msgstr "池預覽"
+
+msgid "Bin extaction saved"
+msgstr "池中摘錄已存"
+
+msgid "Bin extraction"
+msgstr "池取出"
+
+msgid "Bin extraction saved"
+msgstr "池中摘錄已存"
+
+msgid "Bin filter"
+msgstr "池篩選"
+
+msgid "Bin properties"
+msgstr "池內容"
+
+msgid "Border"
+msgstr "邊"
+
+msgid "Button1"
+msgstr "工具按鈕 1"
+
+msgid "By both"
+msgstr "按照以上兩者"
+
+msgid "By number of jobs"
+msgstr "依作業數量"
+
+msgid "By quantity"
+msgstr "依照數量"
+
+msgid "C&reate"
+msgstr "&r建立"
+
+msgid "CFG Database"
+msgstr "配置資料庫"
+
+msgid "CFG Server status"
+msgstr "配置伺服器狀態"
+
+msgid "Ca&lendars"
+msgstr "&l日曆"
+
+msgid "Calculate"
+msgstr "計算"
+
+msgid "Calendar"
+msgstr "日曆"
+
+msgid "Calendar Code"
+msgstr "日曆編碼"
+
+msgid "Calendar Information"
+msgstr "日曆信息"
+
+msgid "Can not insert more then 30 properties"
+msgstr "不能加入多於 30 個內容"
+
+msgid "Can read from server"
+msgstr "能從伺服器中讀取"
+
+msgid "Can write to server"
+msgstr "能寫到伺服器中"
+
+msgid "Can't move a closed job or group"
+msgstr "不能移動已關閉的作業或群組"
+
+msgid "Can't move a progressed job or group"
+msgstr "不能移動已進行的作業或組"
+
+msgid "Can't move jobs on a read only resource"
+msgstr "不能在一個唯讀資源上移動作業"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Cap. res to job comp."
+msgstr "生產能力預留與作業一致性"
+
+msgid "Capacity Reservation"
+msgstr "生產能力預留"
+
+msgid "Capacity reservation"
+msgstr "生產能力預留"
+
+msgid "Capacity reservation to occupation Case: "
+msgstr "生產能力預留到佔用狀態: "
+
+msgid "Capacity reservation: "
+msgstr "生產能力預留: "
+
+msgid "Caption Title"
+msgstr "標題"
+
+msgid "Case"
+msgstr "事例"
+
+msgid "Case After: "
+msgstr "狀態之後: "
+
+msgid "Case Before: "
+msgstr "狀態之前: "
+
+msgid "Cases Found"
+msgstr "找到情況"
+
+msgid "Category"
+msgstr "種類"
+
+msgid "Category and  Resource code"
+msgstr "種類及資源代號"
+
+msgid "Center planned start date on move"
+msgstr "中心已計畫的開始日期在移動"
+
+msgid "Change Work Center"
+msgstr "變更工作中心"
+
+msgid "Change planed Work Center"
+msgstr "更改已計畫的工作中心"
+
+msgid "Check sequence"
+msgstr "檢查順序"
+
+msgid "Check step sequence"
+msgstr "檢查步驟順序"
+
+msgid "CheckBox1"
+msgstr "選項 1"
+
+msgid "CheckBox5"
+msgstr "選項 5"
+
+msgid "Chinese"
+msgstr "中文"
+
+msgid "Clear compatible in bin"
+msgstr "在池中清除一致性"
+
+msgid "Clear licence"
+msgstr "清除許可"
+
+msgid "Clearing"
+msgstr "清除中"
+
+msgid "Clearing Scheduled Progressed "
+msgstr "清除已預定的進程"
+
+msgid "Closed"
+msgstr "已關閉"
+
+msgid "Code"
+msgstr "編號"
+
+msgid "Color Description"
+msgstr "顏色定義"
+
+msgid "Colors"
+msgstr "顏色"
+
+msgid "Column Title"
+msgstr "列的標題"
+
+msgid "Comment"
+msgstr "注釋"
+
+msgid "Comments"
+msgstr "注釋"
+
+msgid "Comp"
+msgstr "相容性"
+
+msgid "Compact following entities"
+msgstr "緊接後面的實體"
+
+msgid "Compatibility"
+msgstr "相容性"
+
+msgid "Compatibility case not valid"
+msgstr "無效的相容性事例"
+
+msgid "Compatibility check results for "
+msgstr "相容性檢查結果 "
+
+msgid "Compatibility check results for resource "
+msgstr "資源的相容性檢查結果"
+
+msgid "Compatibility limits"
+msgstr "相容性限制"
+
+msgid "Compatible in bin"
+msgstr "在池內的一致性"
+
+msgid "Components: "
+msgstr "組成: "
+
+msgid "Condition"
+msgstr "條件"
+
+msgid "Config Database creation completed"
+msgstr "配置資料庫建立完成"
+
+msgid "Configuration"
+msgstr "配置"
+
+msgid "Configuration database"
+msgstr "配置資料庫"
+
+msgid "Configuration path"
+msgstr "配置路徑"
+
+msgid "Confirm"
+msgstr "確定"
+
+msgid "Connect"
+msgstr "連接"
+
+msgid "Connect next"
+msgstr "連接下一個"
+
+msgid "Connect prev."
+msgstr "聯繫前面的步驟"
+
+msgid "Connected"
+msgstr "已被連接"
+
+msgid "Connected. Request"
+msgstr "已連接的要求"
+
+msgid "Connecting jobs of next step"
+msgstr "下一個作業連接中"
+
+msgid "Connecting jobs of previous step"
+msgstr "之前的作業步驟連接中"
+
+msgid "Connection failed.     Configuration MQM Database not found,    Please browse for the DB "
+msgstr "連接失敗.  找不到配置的 MQM 資料庫, 請瀏覽資料庫"
+
+msgid "Connection failed.     Main MQM Database not found,    Please browse for the DB "
+msgstr "連接失敗. 找不到主要的 MQM 資料庫, 請瀏覽資料庫"
+
+msgid "Connection failed. Configuration MQM Database not found,Program will be terminated"
+msgstr "連接失敗 - 找不到配置的 MQM 資料庫, 程式會被中止."
+
+msgid "Connection failed. Database server is down please restart it, Program will be terminated"
+msgstr "連接失敗 - 資料庫伺服器已停止運作, 請重新啟動, 程式會被停止"
+
+msgid "Connection failed. Main MQM Database not found,Program will be terminated"
+msgstr "連接失敗 - 找不到主要的 MQM 資料庫, 程式會被中止"
+
+msgid "Connection type previous step"
+msgstr "以前步驟的連接種類"
+
+msgid "Continious"
+msgstr "持續"
+
+msgid "Continuous"
+msgstr "持續的"
+
+msgid "Continuous (Read only)"
+msgstr "持續的 (唯讀)"
+
+msgid "Control"
+msgstr "控制"
+
+msgid "Courier New"
+msgstr "Courier New"
+
+msgid "Create"
+msgstr "建立"
+
+msgid "Create Cfg Database"
+msgstr "建立配置資料庫"
+
+msgid "Create Gantt tabs"
+msgstr "建立幹特圖 (Gantt) 標籤"
+
+msgid "Create Local Tables"
+msgstr "建立本地表格"
+
+msgid "Create Main Database"
+msgstr "建立主資料庫"
+
+msgid "Create New Tab "
+msgstr "新增新標籤"
+
+msgid "Create New Tab (Duplicate Current Bin Configuration)"
+msgstr "新增新的標籤 (重複的現有池配置)"
+
+msgid "Create capacity reservation"
+msgstr "建立生產能力預留"
+
+msgid "Create database"
+msgstr "建立資料庫"
+
+msgid "Create down time"
+msgstr "建立停機時間"
+
+msgid "Create group"
+msgstr "建立群組"
+
+msgid "Create licence"
+msgstr "建立許可證"
+
+msgid "Create lock"
+msgstr "建立鎖"
+
+msgid "Create with Default"
+msgstr "依基本的建立"
+
+msgid "Creating Production Scheduled"
+msgstr "新增生產的已預定"
+
+msgid "Crossing delivery date"
+msgstr "橫越的送貨日期:"
+
+msgid "Crossing highest end date"
+msgstr "橫越最晚的結束日期"
+
+msgid "Crossing lowest start date"
+msgstr "橫越最早的開始日期"
+
+msgid "Current First Step"
+msgstr "當前第一步"
+
+msgid "Current First/Last Step"
+msgstr "當前第一/最後之步驟"
+
+msgid "Current Last Step"
+msgstr "當前最後一步"
+
+msgid "Current job quantity"
+msgstr "當前作業數量"
+
+msgid "Customer"
+msgstr "客戶"
+
+msgid "Customer                : "
+msgstr "客戶: "
+
+msgid "Customized algorithm"
+msgstr "客戶化的運算法則"
+
+msgid "D:\\Environments\\Mqm\\Mqm.gdb"
+msgstr "D:\\Environments\\Mqm\\Mqm.gdb"
+
+msgid "Dalivery date gap"
+msgstr "送貨日期的差距"
+
+msgid "Database"
+msgstr "資料庫"
+
+msgid "Database configuration"
+msgstr "資料庫配置"
+
+msgid "Database path"
+msgstr "資料庫路徑"
+
+msgid "Databases"
+msgstr "資料庫"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Date definitions"
+msgstr "日期定義"
+
+msgid "Dates Filter"
+msgstr "日期篩選"
+
+msgid "Dates warnings"
+msgstr "日期警告"
+
+msgid "Days"
+msgstr "日數"
+
+msgid "December"
+msgstr "十二月"
+
+msgid "Default"
+msgstr "原本"
+
+msgid "Default Bin Configuration"
+msgstr "原本池的配置"
+
+msgid "Default Configuration"
+msgstr "原本配置"
+
+msgid "Default occ. occ."
+msgstr "原本的佔用"
+
+msgid "Default res. occ."
+msgstr "原本的資源佔用"
+
+msgid "Default schedule type"
+msgstr "原來預定種類"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Delete Bin tab ?"
+msgstr "刪除池的標籤 ?"
+
+msgid "Delete Tab"
+msgstr "刪除標籤"
+
+msgid "Delete changed request header schedules "
+msgstr "刪除己更改的要求頁首預定"
+
+msgid "Delete changed request step schedules "
+msgstr "刪除己改變的要求步驟預定"
+
+msgid "Delete changed step work center "
+msgstr "刪除己改變的步驟工作中心"
+
+msgid "Delete changed step work center schedules 1"
+msgstr "刪除己改變的步驟工作中心預定 1"
+
+msgid "Delete changed step work center schedules 2"
+msgstr "刪除己改變的步驟工作中心預定 2"
+
+msgid "Delete gantt tab"
+msgstr "刪除幹特圖 (Gantt) 標籤"
+
+msgid "Delete gantt tab ?"
+msgstr "刪除幹特圖 (Gantt) 標籤 ?"
+
+msgid "Delete not existing/historical schedules "
+msgstr "刪除不存在/以往的預定"
+
+msgid "Deleting forced schedule "
+msgstr "已強制的預定刪除中"
+
+msgid "Delivery Date"
+msgstr "交貨日期"
+
+msgid "Delivery date"
+msgstr "送貨日期"
+
+msgid "Delivery date gap"
+msgstr "送貨日期差距"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Description change is possible only for capacity reservation"
+msgstr "生產能力預留的描述可以更改"
+
+msgid "Description entry"
+msgstr "描述入口"
+
+msgid "Destination Object"
+msgstr "目標物件"
+
+msgid "Detail"
+msgstr "明細"
+
+msgid "Details"
+msgstr "明細"
+
+msgid "Details selected"
+msgstr "明細選擇"
+
+msgid "Different lock codes"
+msgstr "不同鎖的代號"
+
+msgid "Different step type"
+msgstr "不同步驟種類"
+
+msgid "Different workcenter"
+msgstr "不同工作中心"
+
+msgid "Different workcenter process"
+msgstr "不同工作中心進程"
+
+msgid "Directories"
+msgstr "目錄"
+
+msgid "Disable Capacity Reservations"
+msgstr "不能進行生產能力預留"
+
+msgid "Disconnect"
+msgstr "非連接"
+
+msgid "Displayed status and indications columns"
+msgstr "已顯示狀態及指示列"
+
+msgid "Dispo Code"
+msgstr "生產單號碼"
+
+msgid "Dispo Details"
+msgstr "生產單內容"
+
+msgid "Division Code "
+msgstr "分區號碼"
+
+msgid "Do not modify these days"
+msgstr "不要修改這些天"
+
+msgid "Do you want to delete the configuration selected?"
+msgstr "要刪除已選擇的配置嗎?"
+
+msgid "Do you want to save the changes ?"
+msgstr "要儲存更改嗎?"
+
+msgid "Down Time"
+msgstr "停機"
+
+msgid "Down time"
+msgstr "停機"
+
+msgid "Down time: "
+msgstr "停機: "
+
+msgid "Download"
+msgstr "下載"
+
+msgid "Download Calendars"
+msgstr "下載日曆"
+
+msgid "Download Completed"
+msgstr "下載完成"
+
+msgid "Download scheduled "
+msgstr "下載已預定"
+
+msgid "Download/Upload"
+msgstr "下載 / 上傳"
+
+msgid "Downloading Progress ..."
+msgstr "下載中過程"
+
+msgid "Downloading all ..."
+msgstr "下載中所有"
+
+msgid "Downloading requests only ..."
+msgstr "下載中要求..."
+
+msgid "Droping table Scheduled Progressed"
+msgstr "中止資料表的已預定的進程"
+
+msgid "Dur: "
+msgstr "為期: "
+
+msgid "Duration"
+msgstr "為期"
+
+msgid "Dynamic"
+msgstr "動態"
+
+msgid "ERROR CREATING STORED PROCEDURES"
+msgstr "建立存儲過程錯誤"
+
+msgid "Earliest Date"
+msgstr "最早日期"
+
+msgid "Earliest date possible"
+msgstr "可能的最早日期"
+
+msgid "Earliest starting"
+msgstr "最早開始時間"
+
+msgid "Edit Calendar"
+msgstr "編輯日曆"
+
+msgid "Edit Tab"
+msgstr "編輯標籤"
+
+msgid "Edit Tabs"
+msgstr "編輯標籤"
+
+msgid "Edit1"
+msgstr "編輯 1"
+
+msgid "Edit2"
+msgstr "編輯 2"
+
+msgid "EditTabsBin"
+msgstr "編輯池標籤"
+
+msgid "Efficency"
+msgstr "效率"
+
+msgid "End"
+msgstr "元結"
+
+msgid "End Of Calendar"
+msgstr "日曆末尾"
+
+msgid "End date"
+msgstr "結束日期"
+
+msgid "End date/hour"
+msgstr "完成日期/小時"
+
+msgid "End: "
+msgstr "完成: "
+
+msgid "Ended"
+msgstr "已結朿"
+
+msgid "English"
+msgstr "英文"
+
+msgid "Enter the description:"
+msgstr "輸入描述:"
+
+msgid "Entity not scheduled"
+msgstr "實體沒有被預計"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "Error loading property"
+msgstr "載入內容錯誤"
+
+msgid "Error report"
+msgstr "錯誤報告"
+
+msgid "Errors"
+msgstr "錯誤"
+
+msgid "Errors splitting the job"
+msgstr "錯誤在分開的工作"
+
+msgid "Excel"
+msgstr "Excel"
+
+msgid "ExcelFontBold"
+msgstr "Excel 字元粗體"
+
+msgid "Exception on the EncodeTime of UGbaseCal.RoundDate"
+msgstr "Exception on the EncodeTime of UGbaseCal.RoundDate"
+
+msgid "Exclude"
+msgstr "不包括"
+
+msgid "Execution Time"
+msgstr "執行時間"
+
+msgid "Execution time"
+msgstr "執行時間"
+
+msgid "Exit"
+msgstr "離開"
+
+msgid "Expiry date"
+msgstr "到期日"
+
+msgid "Expiry date             : "
+msgstr "到期日: "
+
+msgid "Expiry date             : none"
+msgstr "到期日: 無"
+
+msgid "FBarConfig"
+msgstr "FBar 配置"
+
+msgid "FBinToExcel"
+msgstr "由池到 Excel"
+
+msgid "FLock"
+msgstr "F 鎖"
+
+msgid "FViewLic"
+msgstr "F預覽許可"
+
+msgid "February"
+msgstr "二月"
+
+msgid "Filter scheduled jobs"
+msgstr "篩選已預定的工作"
+
+msgid "Filter selection"
+msgstr "篩選選擇"
+
+msgid "Final"
+msgstr "最終"
+
+msgid "Final Quantity"
+msgstr "最後數量"
+
+msgid "Final progressed"
+msgstr "最後的已進行"
+
+msgid "Final quantity"
+msgstr "最終數量"
+
+msgid "Find job in bin"
+msgstr "在池中尋找工作"
+
+msgid "First Shift"
+msgstr "第一更份"
+
+msgid "Fix"
+msgstr "固定"
+
+msgid "Fixed"
+msgstr "已固定"
+
+msgid "Fixed scheduled"
+msgstr "已固定的已預定"
+
+msgid "Fixedsys"
+msgstr "Fixedsys"
+
+msgid "Forced"
+msgstr "強制"
+
+msgid "Forward connect re-process"
+msgstr "向前連接的再加工"
+
+msgid "Forward connected sub step"
+msgstr "向前已連接的子步驟"
+
+msgid "Fourth Shift"
+msgstr "第四更份"
+
+msgid "Fri"
+msgstr "週五"
+
+msgid "Friday"
+msgstr "週五"
+
+msgid "From"
+msgstr "從"
+
+msgid "From Date"
+msgstr "從日期"
+
+msgid "From Production"
+msgstr "從生產"
+
+msgid "From base"
+msgstr "從基礎"
+
+msgid "From date"
+msgstr "從日期"
+
+msgid "General"
+msgstr "常規"
+
+msgid "General Filter"
+msgstr "一般篩選"
+
+msgid "Generate report"
+msgstr "產生報告"
+
+msgid "Generic progress"
+msgstr "一般的進程"
+
+msgid "Global"
+msgstr "整體"
+
+msgid "Global add"
+msgstr "整體加入"
+
+msgid "Global add "
+msgstr "整體加入"
+
+msgid "Group"
+msgstr "群組"
+
+msgid "Group "
+msgstr "群組"
+
+msgid "Group Handling"
+msgstr "群組處理"
+
+msgid "Group Number"
+msgstr "群組號碼"
+
+msgid "Group detail"
+msgstr "群組明細"
+
+msgid "Group number"
+msgstr "群組號碼"
+
+msgid "Group quantity"
+msgstr "群組數量"
+
+msgid "Group type"
+msgstr "群組種類"
+
+msgid "Handle"
+msgstr "處理"
+
+msgid "Header"
+msgstr "頁首"
+
+msgid "Highest end"
+msgstr "最後完成"
+
+msgid "Highest end date"
+msgstr "最後完成日期"
+
+msgid "Highest end date gap"
+msgstr "最晚開始日期的差距"
+
+msgid "Highest limit"
+msgstr "最高限制"
+
+msgid "Horizontal Zoom"
+msgstr "水平放大"
+
+msgid "Hours"
+msgstr "小時"
+
+msgid "Html"
+msgstr "Html"
+
+msgid "Import lock"
+msgstr "匯入鎖"
+
+msgid "In one or more shifts the start date and the end date are equal"
+msgstr "一個或多個更份的開始和完成日期也是相同"
+
+msgid "Include"
+msgstr "包括"
+
+msgid "Initial Quantity"
+msgstr "初始的數量"
+
+msgid "Initial progress"
+msgstr "始初進程"
+
+msgid "Initial quantity"
+msgstr "初始數量"
+
+msgid "Install"
+msgstr "安裝"
+
+msgid "Installation type"
+msgstr "安裝種類"
+
+msgid "Instruction"
+msgstr "指引"
+
+msgid "Interbase|*.gdb"
+msgstr "Interbase | *.gdb"
+
+msgid "Internal"
+msgstr "內部"
+
+msgid "Invalid UDF"
+msgstr "無效 UDF"
+
+msgid "Invalid file"
+msgstr "無效檔案"
+
+msgid "Invalid lock code"
+msgstr "無效的鎖編號"
+
+msgid "Invalid lock configuration"
+msgstr "無效鎖配置"
+
+msgid "Is not possible to delete last configuration"
+msgstr "不能刪除上一次的配置"
+
+msgid "Is not possible to delete the Default configuration"
+msgstr "不能刪除原本的配置"
+
+msgid "Is not possible to delete the selected configuration"
+msgstr "不能刪除已選擇的配置"
+
+msgid "Is not possible to join jobs on plan"
+msgstr "不能在計畫上合併作業"
+
+msgid "Is not possible to reprocess not secheduled jobs"
+msgstr "不能再加工在非預定作業上"
+
+msgid "Is not possible to select partially working day with all shifts empty"
+msgstr "不能選擇部份的工作日 (所有更份都是沒有的)"
+
+msgid "Issuer"
+msgstr "發行者"
+
+msgid "Issuer                  : "
+msgstr "發放人: "
+
+msgid "It is not possible to reorganize the plan"
+msgstr "這是不能去重組計劃"
+
+msgid "It was not possible to unschedule this job because following jobs reorganization failed"
+msgstr "這是不可能不預定這工作, 因為以下的工作重組失敗"
+
+msgid "Italian"
+msgstr "義大利文"
+
+msgid "January"
+msgstr "一月"
+
+msgid "Job"
+msgstr "作業"
+
+msgid "Job Details"
+msgstr "工作詳述"
+
+msgid "Job To Capacity Reservation"
+msgstr "作業與生產能力預留"
+
+msgid "Job To Job"
+msgstr "作業與作業"
+
+msgid "Job handling"
+msgstr "作業處理"
+
+msgid "Job list"
+msgstr "作業列表"
+
+msgid "Job to Cap. Res. compat. case"
+msgstr "工作到共用資源共用事例"
+
+msgid "Job to Job comp."
+msgstr "作業與作業一致性"
+
+msgid "Job to Res compat. case"
+msgstr "工作到資源共用事例"
+
+msgid "Job to capacity reserv. comp."
+msgstr "作業與生產能力預留相容"
+
+msgid "Job to capacity reservation (1-98)"
+msgstr "作業與生產能力預留 (1-98)"
+
+msgid "Job to job (1-98)"
+msgstr "作業與作業 (1-98)"
+
+msgid "Job to job comp."
+msgstr "作業與作業相容"
+
+msgid "Job to job compat. case"
+msgstr "工作到工作共用事例"
+
+msgid "Job to resource (1-98)"
+msgstr "作業與資源 (1-98)"
+
+msgid "Job to resource comp."
+msgstr "作業與資源相容"
+
+msgid "Job/Cap.Res. To Resource"
+msgstr "作業/生產能力預留到資源"
+
+msgid "Jobs"
+msgstr "作業"
+
+msgid "Jobs View"
+msgstr "作業流覽"
+
+msgid "Jobs/Groups"
+msgstr "作業/群組"
+
+msgid "Join"
+msgstr "連合"
+
+msgid "July"
+msgstr "七月"
+
+msgid "June"
+msgstr "六月"
+
+msgid "Label already exist"
+msgstr "標籤已經存在"
+
+msgid "Label1"
+msgstr "標籤 1"
+
+msgid "Label10"
+msgstr "標籤 10"
+
+msgid "Label3"
+msgstr "標籤 3"
+
+msgid "Label9"
+msgstr "標籤 9"
+
+msgid "Language"
+msgstr "語言"
+
+msgid "Languages"
+msgstr "語言"
+
+msgid "Last Auto Sequencing results"
+msgstr "最後自動排序結果"
+
+msgid "Last Saved Configuration"
+msgstr "最後保存的配置"
+
+msgid "Latest Ending"
+msgstr "最後完成"
+
+msgid "Latest date possible"
+msgstr "可能的最後日期"
+
+msgid "LblObj"
+msgstr "物體標籤"
+
+msgid "LblRes"
+msgstr "資源標籤"
+
+msgid "LblSons"
+msgstr "Sons標籤"
+
+msgid "Library"
+msgstr "Library"
+
+msgid "Licence Handling"
+msgstr "許可證處理"
+
+msgid "Licence creation"
+msgstr "建立許可證"
+
+msgid "Licence type            : access"
+msgstr "許可證種類: 存取"
+
+msgid "Licence type            : lock"
+msgstr "許可証種類: 鎖"
+
+msgid "Licence version         : 1.00"
+msgstr "許可證版本: 1.00"
+
+msgid "Limits"
+msgstr "限制"
+
+msgid "Linking Jobs..."
+msgstr "連繫作業中..."
+
+msgid "Linking Requests..."
+msgstr "連繫需求中..."
+
+msgid "Load"
+msgstr "載入"
+
+msgid "Loaded"
+msgstr "已載入"
+
+msgid "Loading"
+msgstr "載入中"
+
+msgid "Loading Active Planning Areas in Memory..."
+msgstr "記憶體正在載入活動計畫區域..."
+
+msgid "Loading Alternative Workcenters in Memory..."
+msgstr "記憶體正在載入可選的工作中心..."
+
+msgid "Loading Capacity Reservations in Memory..."
+msgstr "記憶體正在載入生產能力預留..."
+
+msgid "Loading Jobs Properties in memory..."
+msgstr "記憶體正在載入作業內容..."
+
+msgid "Loading Priorities in Memory..."
+msgstr "記憶體正在載入內容"
+
+msgid "Loading Production Lines in Memory..."
+msgstr "記憶體正在載入生產線..."
+
+msgid "Loading Progresses in memory..."
+msgstr "記憶體正在載入進程..."
+
+msgid "Loading Resources in Memory..."
+msgstr "記憶體正在載入資源..."
+
+msgid "Loading Scheduled Progressed"
+msgstr "載入已預定的進程"
+
+msgid "Loading Workcenter Descriptions in Memory..."
+msgstr "在記憶體中載入工作中心描述"
+
+msgid "Loading Workcenters and Process in Memory..."
+msgstr "記憶體正在載入工作中心和進程..."
+
+msgid "Loading additional info in Memory..."
+msgstr "記憶體正在載入附加資訊"
+
+msgid "Loading from AS400"
+msgstr "從 AS400 載入"
+
+msgid "Loading from CAMS"
+msgstr "從 CAMS 載入"
+
+msgid "Loading global and resource category properties in Memory..."
+msgstr "記憶體正在載入整體和資原始目錄內容..."
+
+msgid "Loading global and resource category rules in Memory..."
+msgstr "記憶體正在載入整體和資原始目錄規則..."
+
+msgid "Loading properties of the resources in Memory..."
+msgstr "記憶體正在載入資源內容..."
+
+msgid "Loading scheduled Jobs in memory..."
+msgstr "記憶體正在載入預定作業..."
+
+msgid "Loading the capacity reservations priorities in Memory..."
+msgstr "記憶體正在載入生產能力預留內容..."
+
+msgid "Loading the properties of the workcenters in Memory..."
+msgstr "記憶體正在載入工作中心內容..."
+
+msgid "Loading the rules of the resources in Memory..."
+msgstr "記憶體正在載入資源規則..."
+
+msgid "Loading the rules of the workcenters in Memory..."
+msgstr "記憶體正在載入工作中心規則..."
+
+msgid "Local workstation selection"
+msgstr "本地工作站選擇"
+
+msgid "Lock number"
+msgstr "鎖號"
+
+msgid "Lock number             : "
+msgstr "鎖號: "
+
+msgid "Log window"
+msgstr "日誌視窗"
+
+msgid "Long Description"
+msgstr "長描述"
+
+msgid "Loop priority errors"
+msgstr "迴圈優先順序錯誤"
+
+msgid "Lowest limit"
+msgstr "最低限制"
+
+msgid "Lowest start"
+msgstr "最早開始"
+
+msgid "Lowest start date"
+msgstr "最早的開始日期"
+
+msgid "Lowest start date gap"
+msgstr "最早開始日期的差距"
+
+msgid "Lowest starting date/time :"
+msgstr "最早開始日期/時間:"
+
+msgid "MQM - bin extraction"
+msgstr "MQM - 池的摘錄"
+
+msgid "MQM Configuration"
+msgstr "MQM 配置"
+
+msgid "MQM License was valid till"
+msgstr "MQM 許可證到了有效期"
+
+msgid "MQM config enable level"
+msgstr "MQM 配置有效級別"
+
+msgid "MQM config enable level : "
+msgstr "MQM 配置有效級別: "
+
+msgid "MQM licence|*.mlc"
+msgstr "MQM 許可證 | *.mlc"
+
+msgid "MQM licence|*.mlc|MQM lock|*.lck"
+msgstr "MQM許可證 | *.mlc|MQM 鎖 | *.lck"
+
+msgid "MQM lock|*.lck"
+msgstr "MQM 鎖 | *.lck"
+
+msgid "MQM plan resources report"
+msgstr "MQM 計畫資源報告"
+
+msgid "MQM server load enabled"
+msgstr "MQM 伺服器載入已有效"
+
+msgid "MQM server load enabled : no"
+msgstr "MQM 伺服器載入已有效: 否"
+
+msgid "MQM server load enabled : yes"
+msgstr "MQM 伺服器載入有效: 是"
+
+msgid "MQMlic"
+msgstr "MQM 許可證"
+
+msgid "MQMlic.mlc"
+msgstr "MQMlic.mlc"
+
+msgid "MQMlock"
+msgstr "MQM 鎖"
+
+msgid "MS Sans Serif"
+msgstr "MS Sans Serif"
+
+msgid "Main Database"
+msgstr "主資料庫"
+
+msgid "Main Database creation completed"
+msgstr "主資料庫建立完成"
+
+msgid "Main Server status"
+msgstr "主伺服器狀態"
+
+msgid "Main and configuration string differ"
+msgstr "主要及配置行列不同"
+
+msgid "Main database"
+msgstr "主資料庫"
+
+msgid "Manual load failed"
+msgstr "手動載入失敗"
+
+msgid "Many"
+msgstr "很多"
+
+msgid "Many previous jobs"
+msgstr "很多之前的作業"
+
+msgid "March"
+msgstr "三月"
+
+msgid "Material Family"
+msgstr "物料系列"
+
+msgid "Material arrival date forced"
+msgstr "強制物料到達日期"
+
+msgid "Material family"
+msgstr "物料系列"
+
+msgid "Materials"
+msgstr "物料"
+
+msgid "Materials Arrival Date"
+msgstr "物料到達時間"
+
+msgid "Materials Family"
+msgstr "物料系列"
+
+msgid "Materials arrival date"
+msgstr "物料到達日期"
+
+msgid "Matrix type"
+msgstr "矩陣種類"
+
+msgid "Max Batch"
+msgstr "最大批量"
+
+msgid "Max contemporary users"
+msgstr "最大的同步用戶數量"
+
+msgid "Max user supported"
+msgstr "已支援最多的用戶"
+
+msgid "Maximum concurrent wkst : "
+msgstr "最多同步使用的工作站: "
+
+msgid "May"
+msgstr "五月"
+
+msgid "Min / Max Qty  "
+msgstr "最小/最大數量"
+
+msgid "Min Batch Size"
+msgstr "最小批量"
+
+msgid "Minimum compatibility levels allowed"
+msgstr "允許的最小相容級別"
+
+msgid "Minutes"
+msgstr "分鐘"
+
+msgid "Modify customer"
+msgstr "修改客戶"
+
+msgid "Mon"
+msgstr "週一"
+
+msgid "Monday"
+msgstr "週一"
+
+msgid "More workstations than supported"
+msgstr "工作站多於被支援的"
+
+msgid "Move already scheduled entities"
+msgstr "移動已預定的實體"
+
+msgid "Move final scheduled entities"
+msgstr "移動已預定的實體"
+
+msgid "Move on Plan"
+msgstr "在計畫上移動"
+
+msgid "Move on plan"
+msgstr "在計畫上移動"
+
+msgid "Mult."
+msgstr "乘"
+
+msgid "Name"
+msgstr "名稱"
+
+msgid "New Search >>"
+msgstr "新搜索 >>"
+
+msgid "New Values"
+msgstr "新數值"
+
+msgid "Next 4h"
+msgstr "下四個小時"
+
+msgid "Next 4w"
+msgstr "下四個星期"
+
+msgid "Next Conn. Re-Process"
+msgstr "下一個再加工"
+
+msgid "Next Conn. Sub-Steo"
+msgstr "下一個子步驟"
+
+msgid "Next Request"
+msgstr "下一個要求"
+
+msgid "Next day"
+msgstr "下一天"
+
+msgid "Next hour"
+msgstr "下一個小時"
+
+msgid "Next week"
+msgstr "下一周"
+
+msgid "No"
+msgstr "否"
+
+msgid "No Alternative Work Centers available"
+msgstr "沒有可供選擇的有效工作中心"
+
+msgid "No Calendars have been loaded. Do you wish to Abort or Ignore ?"
+msgstr "沒有日歷的資料載入.  希望要中止或忽略 ?"
+
+msgid "No Timings data for this resource"
+msgstr "此資源無定時資料"
+
+msgid "No Warning"
+msgstr "沒有警告"
+
+msgid "No change"
+msgstr "無改變"
+
+msgid "No compatible resources found"
+msgstr "找不到不相容的資源"
+
+msgid "No connection available to AS400"
+msgstr "無可用連接到 AS400"
+
+msgid "No database data available"
+msgstr "無可用的資料庫資料"
+
+msgid "No description"
+msgstr "無描述"
+
+msgid "No licence for the configuration"
+msgstr "無許可的配置"
+
+msgid "No licence for the main database"
+msgstr "無許可的主資料庫"
+
+msgid "No overlaps"
+msgstr "沒有重疊"
+
+msgid "No valid positions found"
+msgstr "錯誤的位置發現"
+
+msgid "No warnings"
+msgstr "沒有警告"
+
+msgid "Not Connected"
+msgstr "沒有被連接"
+
+msgid "Not Scheduled"
+msgstr "非預定的"
+
+msgid "Not a \"Version 1\" Datatex MQM licence"
+msgstr "非 \"版本 1\" Datatex MQM 許可證"
+
+msgid "Not a Datatex MQM licence"
+msgstr "非 Datatex MQM 許可證"
+
+msgid "Not all jobs were unscheduled"
+msgstr "不是所有的作業未預定"
+
+msgid "Not allowed"
+msgstr "不允許"
+
+msgid "Not compatible"
+msgstr "不相容的"
+
+msgid "Not compatible workcenter"
+msgstr "不相容的工作中心"
+
+msgid "Not exist on active plan"
+msgstr "在有效的計畫上不存在"
+
+msgid "Not scheduled"
+msgstr "未預定"
+
+msgid "Not scheduled jobs, Total quantity"
+msgstr "不是已預定的作業, 總數量"
+
+msgid "Not working day option"
+msgstr "非工作日選項"
+
+msgid "Notes"
+msgstr "注釋"
+
+msgid "November"
+msgstr "十一月"
+
+msgid "Nr. Resource Components"
+msgstr "資源組件數量"
+
+msgid "Number of jobs"
+msgstr "作業數量"
+
+msgid "Number of new job"
+msgstr "新作業的數量"
+
+msgid "OK"
+msgstr "確定"
+
+msgid "Object to be scheduled"
+msgstr "物件已被預定"
+
+msgid "Occupation"
+msgstr "佔用"
+
+msgid "Occupation move"
+msgstr "移動佔用"
+
+msgid "Occupation to Occupation compatibility rules"
+msgstr "佔用到佔用一致性規則"
+
+msgid "October"
+msgstr "十月"
+
+msgid "On Plan"
+msgstr "在計畫上"
+
+msgid "On time"
+msgstr "及時"
+
+msgid "One Resource at least must be choosen"
+msgstr "至少一個資源要選擇"
+
+msgid "One or more data are not correct"
+msgstr "一個或多個資料不正確"
+
+msgid "One previous job"
+msgstr "一個之前的作業"
+
+msgid "One to one"
+msgstr "一個到一個"
+
+msgid "Only"
+msgstr "只可"
+
+msgid "Only lock files allowed"
+msgstr "只允許鎖的檔案"
+
+msgid "Only selected job"
+msgstr "只有被選擇的作業"
+
+msgid "Open Dynamic bin view"
+msgstr "開啟活動的池預覽"
+
+msgid "Open log window"
+msgstr "開啟日誌視窗"
+
+msgid "Operand"
+msgstr "操作"
+
+msgid "Operating"
+msgstr "操作"
+
+msgid "Operation Type"
+msgstr "操作模式"
+
+msgid "Options"
+msgstr "選項"
+
+msgid "Other"
+msgstr "其他"
+
+msgid "Others"
+msgstr "其他"
+
+msgid "Over delivery date tolerance"
+msgstr "超過送貨日期容許"
+
+msgid "Over highest end date tolerance"
+msgstr "超過最後結束日期容許"
+
+msgid "Overlap not allowed"
+msgstr "重疊不准許"
+
+msgid "Overlap warnings"
+msgstr "重疊警告"
+
+msgid "Overlaped by previous step"
+msgstr "之前的步驟已重疊"
+
+msgid "Overlaping and being overlaped"
+msgstr "重疊及將被重疊"
+
+msgid "Overlaping next step"
+msgstr "下一個步驟重疊"
+
+msgid "PC query "
+msgstr "PC 查詢"
+
+msgid "Paint working hours"
+msgstr "給工時塗顏色"
+
+msgid "Panel1"
+msgstr "面板 1"
+
+msgid "Panel2"
+msgstr "面板 2"
+
+msgid "Parameters"
+msgstr "參數"
+
+msgid "Partially working day"
+msgstr "部分工作日"
+
+msgid "Password"
+msgstr "密碼"
+
+msgid "Path"
+msgstr "路徑"
+
+msgid "Plan View"
+msgstr "計畫流覽"
+
+msgid "Plan end"
+msgstr "計畫完成"
+
+msgid "Plan properties report"
+msgstr "計畫內容報告"
+
+msgid "Plan start"
+msgstr "計畫開始"
+
+msgid "Planned Ending Date"
+msgstr "計畫完成日期"
+
+msgid "Planned Nbr. of resources"
+msgstr "已計畫的資源數量"
+
+msgid "Planned Number Of Res."
+msgstr "計劃資源數量"
+
+msgid "Planned Process"
+msgstr "已計畫處理"
+
+msgid "Planned Process Description"
+msgstr "已計劃處理描述"
+
+msgid "Planned Starting Date"
+msgstr "計畫開始時間"
+
+msgid "Planned W.C. Process"
+msgstr "計畫工作中心處理"
+
+msgid "Planned Work Center"
+msgstr "計畫工作中心"
+
+msgid "Planned Work Center Descr."
+msgstr "已計畫的工作中心描述"
+
+msgid "Planned Work Station"
+msgstr "計畫工作站"
+
+msgid "Planned end"
+msgstr "計畫結束"
+
+msgid "Planned end date"
+msgstr "已計畫完成日期"
+
+msgid "Planned end date gap"
+msgstr "已計畫結束日期的差距"
+
+msgid "Planned start"
+msgstr "計畫開始"
+
+msgid "Planned start date"
+msgstr "已計畫開始日期"
+
+msgid "Planned start date gap"
+msgstr "己計畫開始日期的差距"
+
+msgid "Planned starting date/time :"
+msgstr "已計畫開始日期/時間:"
+
+msgid "Please choose an Alternative work Center"
+msgstr "請選擇可供選擇的工作中心"
+
+msgid "Please input a number of jobs"
+msgstr "請輸入作業數量"
+
+msgid "Please input a quantity per job"
+msgstr "請輸入每一個作業的數量"
+
+msgid "Please select a Work Center first"
+msgstr "請先選擇一個工作中心"
+
+msgid "Please select the properties first"
+msgstr "請先選擇內容"
+
+msgid "Please, select more than one job"
+msgstr "請選擇多於一個作業"
+
+msgid "Pos/Width Columns"
+msgstr "列的位置/寬"
+
+msgid "Position/Width Columns"
+msgstr "位置/列寬度"
+
+msgid "Preferences"
+msgstr "優先選擇"
+
+msgid "Prev. 4h"
+msgstr "前四個小時"
+
+msgid "Prev. 4w"
+msgstr "前四個星期"
+
+msgid "Prev. Conn Sub-Step"
+msgstr "返回前一子步驟"
+
+msgid "Prev. Conn. Re-Process"
+msgstr "前一個再處理"
+
+msgid "Prev. day"
+msgstr "前天"
+
+msgid "Prev. hour"
+msgstr "前一個小時"
+
+msgid "Prev. week"
+msgstr "前一周"
+
+msgid "Previous Request"
+msgstr "以前的需求"
+
+msgid "Print"
+msgstr "列印"
+
+msgid "Priority Warning"
+msgstr "優先順序的警告"
+
+msgid "Process"
+msgstr "過程"
+
+msgid "Process : "
+msgstr "進程:"
+
+msgid "Process Code"
+msgstr "加工編號"
+
+msgid "Process Desc"
+msgstr "加工代號"
+
+msgid "Process Description"
+msgstr "加工描述"
+
+msgid "Processing: "
+msgstr "正在處理:"
+
+msgid "Prod. Req. "
+msgstr "生產需求"
+
+msgid "Prod.Req delivery Date"
+msgstr "產品要求交貨日期"
+
+msgid "Prod.Req lowest date"
+msgstr "產品需求最早日期"
+
+msgid "ProdImage"
+msgstr "產品影像"
+
+msgid "Product Family"
+msgstr "產品系列"
+
+msgid "Product Type"
+msgstr "產品種類"
+
+msgid "Product family"
+msgstr "產品系列"
+
+msgid "Product type"
+msgstr "產品種類"
+
+msgid "Product type Description"
+msgstr "生產種類描述"
+
+msgid "Production Delivery date :"
+msgstr "生產交貨日期:"
+
+msgid "Production Family "
+msgstr "產品系列"
+
+msgid "Production Line"
+msgstr "生產線"
+
+msgid "Production Req."
+msgstr "生產需求"
+
+msgid "Production Request"
+msgstr "生產需求"
+
+msgid "Production Request    "
+msgstr "生產需求"
+
+msgid "Production line"
+msgstr "生產線"
+
+msgid "Production lowest dates:"
+msgstr "最早生產日期"
+
+msgid "Production um"
+msgstr "生產單位"
+
+msgid "Products"
+msgstr "產品"
+
+msgid "Progress End"
+msgstr "過程結束"
+
+msgid "Progress Quantity"
+msgstr "過程數量"
+
+msgid "Progress Start"
+msgstr "過程開始"
+
+msgid "Progress type"
+msgstr "過程種類"
+
+msgid "Progressed"
+msgstr "已進行的"
+
+msgid "Prop 1"
+msgstr "內容 1"
+
+msgid "Prop 10"
+msgstr "內容 10"
+
+msgid "Prop 11"
+msgstr "內容 11"
+
+msgid "Prop 12"
+msgstr "內容 12"
+
+msgid "Prop 13"
+msgstr "內容 13"
+
+msgid "Prop 14"
+msgstr "內容 14"
+
+msgid "Prop 15"
+msgstr "內容 15"
+
+msgid "Prop 16"
+msgstr "內容 16"
+
+msgid "Prop 17"
+msgstr "內容 17"
+
+msgid "Prop 18"
+msgstr "內容 18"
+
+msgid "Prop 19"
+msgstr "內容 19"
+
+msgid "Prop 2"
+msgstr "內容 2"
+
+msgid "Prop 20"
+msgstr "內容 20"
+
+msgid "Prop 21"
+msgstr "內容 21"
+
+msgid "Prop 22"
+msgstr "內容 22"
+
+msgid "Prop 23"
+msgstr "內容 23"
+
+msgid "Prop 24"
+msgstr "內容 24"
+
+msgid "Prop 25"
+msgstr "內容 25"
+
+msgid "Prop 26"
+msgstr "內容 26"
+
+msgid "Prop 27"
+msgstr "內容 27"
+
+msgid "Prop 28"
+msgstr "內容 28"
+
+msgid "Prop 29"
+msgstr "內容 29"
+
+msgid "Prop 3"
+msgstr "內容 3"
+
+msgid "Prop 30"
+msgstr "內容 30"
+
+msgid "Prop 4"
+msgstr "內容 4"
+
+msgid "Prop 5"
+msgstr "內容 5"
+
+msgid "Prop 6"
+msgstr "內容 6"
+
+msgid "Prop 7"
+msgstr "內容 7"
+
+msgid "Prop 8"
+msgstr "內容 8"
+
+msgid "Prop 9"
+msgstr "內容 9"
+
+msgid "Properties"
+msgstr "內容"
+
+msgid "Properties Filter"
+msgstr "內容篩選"
+
+msgid "Properties and rules defined at global level"
+msgstr "整體內容和規則定義"
+
+msgid "Properties and rules defined at resource category level"
+msgstr "資原始目錄級別的內容和規則定義"
+
+msgid "Properties and rules defined at resource level"
+msgstr "資源級別的內容和規則定義"
+
+msgid "Properties and rules defined at workcenter level"
+msgstr "工作中心級別的內容和規則定義"
+
+msgid "Property"
+msgstr "內容"
+
+msgid "Property "
+msgstr "內容"
+
+msgid "Property List"
+msgstr "內容列表"
+
+msgid "Property code already exist"
+msgstr "內容代號已存在"
+
+msgid "Property code errors , unable to create capacity reservation."
+msgstr "內容代號錯誤, 不能建立生產能力預留."
+
+msgid "Property values"
+msgstr "內容值"
+
+msgid "Qantity per job"
+msgstr "每個作業的數量"
+
+msgid "Qantity to reprocess"
+msgstr "再處理數量"
+
+msgid "Qantity to split"
+msgstr "數量分拆"
+
+msgid "Quantity"
+msgstr "數量"
+
+msgid "Quantity Progressed"
+msgstr "已生產數量"
+
+msgid "Quantity of each new job"
+msgstr "每個新作業的數量"
+
+msgid "Quantity {to} schedule"
+msgstr "數量 (到) 預計"
+
+msgid "Re Process"
+msgstr "再處理"
+
+msgid "Re-Process"
+msgstr "再加工"
+
+msgid "Read only resource"
+msgstr "唯讀資源"
+
+msgid "Reading Active Planning Areas from Database..."
+msgstr "正在從資料庫讀取活動計畫區域..."
+
+msgid "Reading Alternative Workcenters from Database..."
+msgstr "正在從資料庫讀取可選的工作中心..."
+
+msgid "Reading Article Type from Database..."
+msgstr "從資料庫內讀取貨類種類中..."
+
+msgid "Reading Capacity Reservations from Database..."
+msgstr "從資料庫讀取生產能力預留..."
+
+msgid "Reading Jobs Properties from database..."
+msgstr "正在從資料庫中讀取作業內容..."
+
+msgid "Reading Priorities from Database..."
+msgstr "正在從資料庫中讀取內容"
+
+msgid "Reading Production Lines from Database..."
+msgstr "正在從資料庫讀取生產線..."
+
+msgid "Reading Progresses from database..."
+msgstr "正在從資料庫中讀取進程..."
+
+msgid "Reading Resources from Database..."
+msgstr "正在從資料庫中讀取資源..."
+
+msgid "Reading Workcenter Descriptions from Database..."
+msgstr "從資料庫中讀取工作中心描述"
+
+msgid "Reading Workcenters and Process from Database..."
+msgstr "從資料庫中讀取工作中心及進程..."
+
+msgid "Reading additional info from Database..."
+msgstr "正在從資料庫中讀取附加資訊"
+
+msgid "Reading global and resource category properties from Database..."
+msgstr "正在從資料庫讀取整體和資原始目錄內容..."
+
+msgid "Reading global and resource category rules from Database..."
+msgstr "正在從資料庫讀取整體和資原始目錄規則..."
+
+msgid "Reading properties of the resources from Database..."
+msgstr "正在從資料庫中讀取資源內容..."
+
+msgid "Reading scheduled Jobs from database..."
+msgstr "正在從資料庫中讀取被預定的作業..."
+
+msgid "Reading the capacity reservations priorities from Database..."
+msgstr "正在從資料庫讀取生產能力預留內容..."
+
+msgid "Reading the properties of the workcenters from Database..."
+msgstr "正在從資料庫讀取工作中心內容..."
+
+msgid "Reading the rules of the resources from Database..."
+msgstr "正在從資料庫讀取資源規則..."
+
+msgid "Reading the rules of the workcenters from Database..."
+msgstr "正在從資料庫讀取工作中心規則..."
+
+msgid "Recalculated Execution Time"
+msgstr "重新計算執行時間"
+
+msgid "Related Orders"
+msgstr "相關訂單"
+
+msgid "Release"
+msgstr "釋放"
+
+msgid "Release date"
+msgstr "釋放日期"
+
+msgid "Release date            : "
+msgstr "釋放日期: "
+
+msgid "Reload From database"
+msgstr "從資料庫重新載入"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Remove search Tabs"
+msgstr "移動搜索標籤"
+
+msgid "Reprocess"
+msgstr "再處理"
+
+msgid "Request"
+msgstr "要求"
+
+msgid "Request. header:"
+msgstr "需求標題:"
+
+msgid "Res. added to occ"
+msgstr "資源已加入到佔用"
+
+msgid "Reset DB lock"
+msgstr "重置資料庫鎖"
+
+msgid "Resource"
+msgstr "資源"
+
+msgid "Resource Calendar"
+msgstr "資源日曆"
+
+msgid "Resource Cat."
+msgstr "資原始目錄"
+
+msgid "Resource Code"
+msgstr "資源代號"
+
+msgid "Resource Components"
+msgstr "資源構成"
+
+msgid "Resource Description"
+msgstr "資源描述"
+
+msgid "Resource Filter"
+msgstr "資源篩選"
+
+msgid "Resource Sub-Line"
+msgstr "資源子項"
+
+msgid "Resource category"
+msgstr "資源目錄"
+
+msgid "Resource code"
+msgstr "資源代號"
+
+msgid "Resource comp."
+msgstr "資源一致性"
+
+msgid "Resource details"
+msgstr "資源明細"
+
+msgid "Resource filter"
+msgstr "資源篩選"
+
+msgid "Resource group"
+msgstr "資源群組"
+
+msgid "Resource of different process"
+msgstr "不同處理的資源"
+
+msgid "Resource of different workcenter"
+msgstr "不同工作中心的資源"
+
+msgid "Resource report"
+msgstr "資源報告"
+
+msgid "Resource report generator"
+msgstr "資源報告生成器"
+
+msgid "Resource report saved"
+msgstr "資源報告已存"
+
+msgid "Resource to Occupation compatibility rules"
+msgstr "資源到佔用一致性規則"
+
+msgid "Resource: "
+msgstr "資源: "
+
+msgid "Resources"
+msgstr "資源"
+
+msgid "Restore"
+msgstr "回復"
+
+msgid "Restore Defaults"
+msgstr "回復原本值"
+
+msgid "Restore Pos."
+msgstr "回復位置"
+
+msgid "Restore Width"
+msgstr "回復寬度"
+
+msgid "Restore all"
+msgstr "全部回復"
+
+msgid "Return to Original Work Center"
+msgstr "回到原工作中心"
+
+msgid "Ricarica da database"
+msgstr "Ricarica da database"
+
+msgid "Row No."
+msgstr "行號"
+
+msgid "Rule"
+msgstr "規則"
+
+msgid "Rule To Connect To Prev Job"
+msgstr "連接到前一個作業的規則"
+
+msgid "Rule value"
+msgstr "規定數值"
+
+msgid "Rules O to O"
+msgstr "O 到 O 標準"
+
+msgid "Rules R to O"
+msgstr "R 到 O 標準"
+
+msgid "Running"
+msgstr "運行"
+
+msgid "S&etting"
+msgstr "&e設定"
+
+msgid "SRV_DBAS400"
+msgstr "SRV_DBAS400"
+
+msgid "STCalCode"
+msgstr "ST 計算代號"
+
+msgid "STClosed"
+msgstr "ST 已關閉"
+
+msgid "STComment"
+msgstr "ST 備註"
+
+msgid "STDeldate"
+msgstr "ST 送貨日期"
+
+msgid "STExecTime"
+msgstr "ST 執行時間"
+
+msgid "STFinalQuantity"
+msgstr "ST 最後數量"
+
+msgid "STGroupNumber"
+msgstr "ST 群組號碼"
+
+msgid "STHighestEndingDatePos"
+msgstr "ST 最晚的完成日期位置"
+
+msgid "STHighestSchedEndingDate"
+msgstr "ST 最晚的預計完成日期"
+
+msgid "STIniQty"
+msgstr "ST 始初數量"
+
+msgid "STInitialQuantity"
+msgstr "ST 初始數量"
+
+msgid "STLowestDate"
+msgstr "ST 最早日期"
+
+msgid "STLowestSchedStartingDate"
+msgstr "ST 最少的預計開始日期"
+
+msgid "STLowestStartingDatePos"
+msgstr "ST 最少的開始日期位置"
+
+msgid "STMaterialsArrivalDate"
+msgstr "ST 物料到達日期"
+
+msgid "STMaterialsFam"
+msgstr "ST 物料系列"
+
+msgid "STNextConnReProcess"
+msgstr "ST 下一個的連接再加工"
+
+msgid "STNextConnSubStep"
+msgstr "ST 下一個的連接子步驟"
+
+msgid "STORED PROCEDURES CREATED"
+msgstr "已建立的存儲過程"
+
+msgid "STPlannedEndingDate"
+msgstr "ST 已計劃的完成日期"
+
+msgid "STPlannedNumberOfRes"
+msgstr "ST 已計劃的資源數量"
+
+msgid "STPlannedStartingDate"
+msgstr "ST 已計劃的開始日期"
+
+msgid "STPlannedWCProcess"
+msgstr "ST 已計劃的工作中心流程"
+
+msgid "STPlannedWorkCenter"
+msgstr "ST 已計劃的工作中心"
+
+msgid "STPlannedWorkStation"
+msgstr "ST 已計劃的工作站"
+
+msgid "STPrevConnReProcess"
+msgstr "ST 之前的連接再加工"
+
+msgid "STPrevConnSubStep"
+msgstr "ST 之前的連接子步驟"
+
+msgid "STProdFamily"
+msgstr "ST 產品系列"
+
+msgid "STProdLine"
+msgstr "ST 生產項目"
+
+msgid "STProdType"
+msgstr "ST 生產種類"
+
+msgid "STProgEnd"
+msgstr "ST 工序結束"
+
+msgid "STProgStart"
+msgstr "ST 工序開始"
+
+msgid "STProgressed"
+msgstr "ST 己進行"
+
+msgid "STQuantity"
+msgstr "ST 數量"
+
+msgid "STQuantityProg"
+msgstr "ST 數量進程"
+
+msgid "STRePro"
+msgstr "ST 再處理"
+
+msgid "STRes"
+msgstr "ST 資訊"
+
+msgid "STResComp"
+msgstr "ST 資源計算"
+
+msgid "STResSubLine"
+msgstr "ST 資源子項目"
+
+msgid "STRuleToConnectToPrevJob"
+msgstr "ST 連接到前一個工作的規則"
+
+msgid "STSchedEnd"
+msgstr "ST 預計結束"
+
+msgid "STSchedStart"
+msgstr "ST 預計開始"
+
+msgid "STScheduleType"
+msgstr "ST 預定種類"
+
+msgid "STScheduledQuantity"
+msgstr "ST 已預計的數量"
+
+msgid "STSetupTime"
+msgstr "ST 設置時間"
+
+msgid "STSetupTime without materials"
+msgstr "ST 設置時間沒有物料"
+
+msgid "STStepType"
+msgstr "ST 步驟種類"
+
+msgid "STSubStep"
+msgstr "ST 子步驟"
+
+msgid "STTotJobs"
+msgstr "ST 作業總數"
+
+msgid "STTotalPlannedExecTime"
+msgstr "ST 總已計劃的執行時間"
+
+msgid "STTotalPlannedSetupTime"
+msgstr "ST 總已計劃的設置時間"
+
+msgid "STUmDesc"
+msgstr "ST 單位描述"
+
+msgid "STWCProcess"
+msgstr "ST 工作中心進程"
+
+msgid "STWeighUMDescription"
+msgstr "ST 重量單位描述"
+
+msgid "STWeight"
+msgstr "ST 重量"
+
+msgid "STWorkCenter"
+msgstr "ST 工作中心"
+
+msgid "STWorkStation"
+msgstr "ST 工作站台"
+
+msgid "Same group"
+msgstr "相同群組"
+
+msgid "Sat"
+msgstr "週六"
+
+msgid "Saturday"
+msgstr "週六"
+
+msgid "Save"
+msgstr "儲存"
+
+msgid "Save bin report as:"
+msgstr "儲存池的報告在:"
+
+msgid "Save file was cancelled"
+msgstr "儲存檔案已取消"
+
+msgid "Save resource report as:"
+msgstr "儲存資源報告:"
+
+msgid "Saved configurations"
+msgstr "已存的配置"
+
+msgid "Saving "
+msgstr "正在儲存"
+
+msgid "Schedule Details"
+msgstr "預定明細"
+
+msgid "Schedule Type"
+msgstr "預定種類"
+
+msgid "Schedule after highest end date"
+msgstr "預定在最後完成日期之前"
+
+msgid "Schedule after prod. req. delivery date"
+msgstr "預定在生產要求送貨日期之後"
+
+msgid "Schedule before lowest start date"
+msgstr "預定在最早開始日期之前"
+
+msgid "Schedule type"
+msgstr "預定種類"
+
+msgid "Scheduled"
+msgstr "預定的"
+
+msgid "Scheduled End"
+msgstr "預定結束"
+
+msgid "Scheduled Progressed not exist"
+msgstr "已預定的進程不存在"
+
+msgid "Scheduled Quantity"
+msgstr "預定數量"
+
+msgid "Scheduled Start"
+msgstr "預定開始"
+
+msgid "Scheduled end"
+msgstr "預定完成"
+
+msgid "Scheduled execution time"
+msgstr "已預定的執行時間"
+
+msgid "Scheduled jobs download completed"
+msgstr "預定作業下載完畢"
+
+msgid "Scheduled jobs, Total quantity"
+msgstr "已預定的作業, 總數量"
+
+msgid "Scheduled object"
+msgstr "已預定的物件"
+
+msgid "Scheduled set up time"
+msgstr "已預定的設置時間"
+
+msgid "Scheduled start"
+msgstr "預定開始"
+
+msgid "Score gap"
+msgstr "目標差距"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search By"
+msgstr "搜索依"
+
+msgid "Search Fields"
+msgstr "搜索欄位"
+
+msgid "SearchSet"
+msgstr "搜索設置"
+
+msgid "Second Shift"
+msgstr "第二更份"
+
+msgid "Select Date (From)"
+msgstr "選擇日期（從）"
+
+msgid "Select Date (To)"
+msgstr "選擇日期（到）"
+
+msgid "Select a position on the gantt first"
+msgstr "請先選擇位置 Gantt 上"
+
+msgid "Select at least one calendar"
+msgstr "至少選擇一個日曆"
+
+msgid "Select calendars"
+msgstr "選擇日曆"
+
+msgid "Select tabsheet"
+msgstr "選擇標籤表單"
+
+msgid "Selected date"
+msgstr "已選擇的日期"
+
+msgid "Send completed"
+msgstr "傳送已完成"
+
+msgid "Sending Production Scheduled"
+msgstr "傳送生產的預定"
+
+msgid "Sending to AS400"
+msgstr "發送到 AS400"
+
+msgid "September"
+msgstr "九月"
+
+msgid "Server"
+msgstr "伺服器"
+
+msgid "Server load"
+msgstr "伺服器載入"
+
+msgid "Server load is writing , please try later"
+msgstr "伺服器運載寫入中, 請稍後再試"
+
+msgid "Server load on"
+msgstr "伺服器載入"
+
+msgid "Server loader"
+msgstr "伺服器載入設備"
+
+msgid "Server status"
+msgstr "伺服器狀態"
+
+msgid "Set Bin Configuration"
+msgstr "設置池"
+
+msgid "Set color"
+msgstr "設置顏色"
+
+msgid "Set colors"
+msgstr "設置顏色"
+
+msgid "Set of values"
+msgstr "設置數值"
+
+msgid "Settings"
+msgstr "設置"
+
+msgid "Setup"
+msgstr "配置"
+
+msgid "Setup "
+msgstr "設置"
+
+msgid "Setup Multiplier Overlap"
+msgstr "設置乘數重疊"
+
+msgid "Setup Overlap"
+msgstr "設置重疊"
+
+msgid "Setup Overlap time"
+msgstr "設置重疊時間"
+
+msgid "Setup Time"
+msgstr "設置時間"
+
+msgid "Setup Time without Materials"
+msgstr "設置時間不沒有物料"
+
+msgid "Setup adjustment"
+msgstr "設置調整"
+
+msgid "Setup change"
+msgstr "設置更改"
+
+msgid "Setup mult. over"
+msgstr "Setup mult. over"
+
+msgid "Setup multiplier"
+msgstr "設置乘數"
+
+msgid "Setup overlap"
+msgstr "重疊設置"
+
+msgid "Setup time"
+msgstr "設置時間"
+
+msgid "Short Description  "
+msgstr "簡短描述"
+
+msgid "Show Alternative  Work Center"
+msgstr "顯示可選的工作中心"
+
+msgid "Show Bin"
+msgstr "顯示池"
+
+msgid "Show Closed"
+msgstr "顯示已關閉的"
+
+msgid "Show Groups"
+msgstr "顯示群組"
+
+msgid "Show On Plan"
+msgstr "在計畫上顯示"
+
+msgid "Show Only Re-Process"
+msgstr "僅顯示再加工"
+
+msgid "Show Read-Only Jobs"
+msgstr "顯示唯讀作業"
+
+msgid "Show Scheduled"
+msgstr "顯示預定的"
+
+msgid "Show bin"
+msgstr "顯示池"
+
+msgid "Show comp."
+msgstr "顯示相容性"
+
+msgid "Show the rank report of the last scheduled object"
+msgstr "顯示最後預定的物料級別報告"
+
+msgid "Show warning message when final scheduled jobs need to be moved"
+msgstr "顯示警告信息 - 當最後的已預定工作需要被移動"
+
+msgid "Simplified"
+msgstr "簡體"
+
+msgid "Sort"
+msgstr "排序"
+
+msgid "Sort Resource by "
+msgstr "資源排序依"
+
+msgid "Spanish"
+msgstr "西班牙文"
+
+msgid "Split"
+msgstr "分拆"
+
+msgid "Split type"
+msgstr "分拆種類"
+
+msgid "StCalCode"
+msgstr "St 計算代號"
+
+msgid "StCurrJobQty"
+msgstr "St 現時工業數量"
+
+msgid "StNrOfNewJob"
+msgstr "St 新工作數量"
+
+msgid "StProdReq"
+msgstr "St 生產要求"
+
+msgid "StQtyEachJob"
+msgstr "St 每作業的數量"
+
+msgid "StStepNum"
+msgstr "St 步驟數量"
+
+msgid "Standard Batch Size"
+msgstr "標準批大小"
+
+msgid "Start date"
+msgstr "開始日期"
+
+msgid "Start date/hour"
+msgstr "開始日期/小時"
+
+msgid "Start download cycle"
+msgstr "開始下載循環"
+
+msgid "Start: "
+msgstr "開始"
+
+msgid "Started"
+msgstr "已開始"
+
+msgid "Station"
+msgstr "站台"
+
+msgid "Stations were not defined"
+msgstr "工作站未被定義"
+
+msgid "Status"
+msgstr "狀態"
+
+msgid "Status and indications"
+msgstr "狀態及指引"
+
+msgid "Stay on top"
+msgstr "位於頂部"
+
+msgid "Step"
+msgstr "步驟"
+
+msgid "Step Details"
+msgstr "步驟明細"
+
+msgid "Step Group"
+msgstr "步驟群組"
+
+msgid "Step Properties"
+msgstr "步驟內容"
+
+msgid "Step Type"
+msgstr "步驟種類"
+
+msgid "Step closed"
+msgstr "步驟已關閉"
+
+msgid "Step connection"
+msgstr "步驟連接"
+
+msgid "Step ends after delivery date"
+msgstr "步驟結束在送貨期之後"
+
+msgid "Step ends after delivery date."
+msgstr "步驟在交貨日期以後結束"
+
+msgid "Step ends after highest date"
+msgstr "步驟結束在最後的完成日期"
+
+msgid "Step ends after highest date."
+msgstr "步驟在最晚完成日期以後結束"
+
+msgid "Step ends after highest overlap limit date."
+msgstr "步驟晚於最高疊加限制日期結束"
+
+msgid "Step ends after planned date"
+msgstr "在已計劃日期之後步驟完結"
+
+msgid "Step ends after planned date."
+msgstr "步驟晚於計畫日期結束"
+
+msgid "Step ends after planning date"
+msgstr "步驟結束在計畫中的日期之後"
+
+msgid "Step execution time"
+msgstr "步驟執行時間"
+
+msgid "Step initial qantity"
+msgstr "步驟始初數量"
+
+msgid "Step jobs handling"
+msgstr "步驟作業處理"
+
+msgid "Step setup time"
+msgstr "步驟設置時間"
+
+msgid "Step starts before lower limit"
+msgstr "步驟開始在最早的限制"
+
+msgid "Step starts before lower limit date"
+msgstr "在最早的限制日期前, 步驟開始"
+
+msgid "Step starts before lower limit date."
+msgstr "步驟早於最低限制日期開始"
+
+msgid "Step starts before lowest overlap limit date."
+msgstr "步驟早於最低疊加限制日期開始"
+
+msgid "Step starts before material arrival"
+msgstr "步驟開始在物料到達之前"
+
+msgid "Step starts before material arrival date"
+msgstr "物料到達日期之前, 步驟開始"
+
+msgid "Step starts before material arrival date."
+msgstr "步驟早于物料到達日期開始"
+
+msgid "Step starts before planned date"
+msgstr "在已計劃的日期前, 步驟開始"
+
+msgid "Step starts before planned date."
+msgstr "步驟早於計畫日期開始"
+
+msgid "Step starts before planning date"
+msgstr "步驟開始在計畫中的日期之前"
+
+msgid "Step type "
+msgstr "步驟種類"
+
+msgid "Step:"
+msgstr "步驟:"
+
+msgid "Steps View"
+msgstr "步驟預覽"
+
+msgid "Stop cycle"
+msgstr "停止循環"
+
+msgid "Stored Procedure"
+msgstr "已儲存程式"
+
+msgid "Stored Procedure is not responding"
+msgstr "已儲存程式沒有回應"
+
+msgid "Stored Procedures"
+msgstr "存儲程式"
+
+msgid "Stored Procedures creation completed"
+msgstr "存儲過程建立完成"
+
+msgid "Sub Step"
+msgstr "子步驟"
+
+msgid "Sub res.: "
+msgstr "子資源: "
+
+msgid "Sub resource Continuous"
+msgstr "持續的子資源"
+
+msgid "Sub resource Continuous (Read only)"
+msgstr "持續的子資源 (唯讀)"
+
+msgid "Sub step"
+msgstr "子步驟"
+
+msgid "SubResource"
+msgstr "子資源"
+
+msgid "SubStep"
+msgstr "子步驟"
+
+msgid "Subresource"
+msgstr "子資源"
+
+msgid "Sun"
+msgstr "週日"
+
+msgid "Sunday"
+msgstr "週日"
+
+msgid "Supported workstations  : "
+msgstr "支援的工作站: "
+
+msgid "TBSpcCrtCap"
+msgstr "TBSpcCrtCap"
+
+msgid "TBSpcLowWndw"
+msgstr "TBSpcLowWndw"
+
+msgid "TBtnDynamic"
+msgstr "TBtn 動態"
+
+msgid "Tab Name"
+msgstr "標籤名稱"
+
+msgid "Tab totals"
+msgstr "標籤總數"
+
+msgid "TabBin"
+msgstr "池標籤"
+
+msgid "TabMain"
+msgstr "主標籤"
+
+msgid "TabSearch"
+msgstr "標籤搜索"
+
+msgid "Tampered UDF"
+msgstr "Tampered UDF"
+
+msgid "Target Date"
+msgstr "目標日期"
+
+msgid "Target date"
+msgstr "目標日期"
+
+msgid "Target res"
+msgstr "目標資源"
+
+msgid "Temporarily"
+msgstr "臨時"
+
+msgid "Temporary"
+msgstr "臨時的"
+
+msgid "Tempotrary scheduled"
+msgstr "臨時的已預定"
+
+msgid "Test"
+msgstr "測試"
+
+msgid "Tested value"
+msgstr "已測試數值"
+
+msgid "Text"
+msgstr "文字"
+
+msgid "The Capacity reservation case"
+msgstr "生產能力預留事例"
+
+msgid "The available quantity is not enough"
+msgstr "可用數量不夠"
+
+msgid "The current job quantity must be greater than the resource minium batch size"
+msgstr "目前的作業數量必須大於資源最小的批量"
+
+msgid "The duration must be greater than zero"
+msgstr "持續定要大於 0"
+
+msgid "The group quantity is greater than the resource maximum batch size"
+msgstr "組數量大於資源的最大批量"
+
+msgid "The group quantity is lower than the resource minium batch size"
+msgstr "組數量小於資源最小批量"
+
+msgid "The hours are not in sequence"
+msgstr "小時不是順序"
+
+msgid "The job was not found in bin !"
+msgstr "這作業在池中找不到 !"
+
+msgid "The jobs in this group are not compatible for this resource"
+msgstr "這個組中的作業與此資源不相容"
+
+msgid "The reprocess quantity is greater than the job quantity"
+msgstr "再加工的數量大於作業數量"
+
+msgid "The reprocess quantity must be greater than zero"
+msgstr "再加工數量必須大過零"
+
+msgid "The split quantity is greater than the remaining quantity"
+msgstr "分拆的數量大於剩餘數量"
+
+msgid "The split quantity must be greater than zero"
+msgstr "分拆的數量必須大過零"
+
+msgid "The start date and the end date of calendar are not congruent"
+msgstr "日曆上的開始日期和結束日期不一致"
+
+msgid "The start date or/and end date of calendar are out of range"
+msgstr "日曆上的開始或/和結束日期超出範圍"
+
+msgid "There are steps in the bin that are planned to be produced on more then one resource,"
+msgstr "這是在池中的步驟, 已計畫到生產, 在多於一個的資源,"
+
+msgid "There is a non working shift before a working one"
+msgstr "在工作開始之前, 這是非工作更數"
+
+msgid "Third Shift"
+msgstr "第三更份"
+
+msgid "This Operation will put the default Order/Position , In all Bin Tabs"
+msgstr "此操作會被放進原來的訂單/位置, 在所有的池標籤"
+
+msgid "This job can't be grouped"
+msgstr "此工作不能被分組"
+
+msgid "This job must be scheduled on time"
+msgstr "作業必須在預定時間內"
+
+msgid "This job will belong to another work station, are you sure ?"
+msgstr "這作業將歸入其它的工作站, 確定嗎 ?"
+
+msgid "This job will belong to another work station, are you sure ? "
+msgstr "這作業將歸入其它的工作站, 確定嗎 ?"
+
+msgid "This operation involves final scheduled jobs to be moved. Do you want to procede?"
+msgstr "這操作包括了最後的預定作業被移動, 要進行嗎?"
+
+msgid "This step"
+msgstr "這步驟"
+
+msgid "This step is planned to be produced on"
+msgstr "這步驟已計劃在已生產上"
+
+msgid "Thu"
+msgstr "周四"
+
+msgid "Thursday"
+msgstr "週四"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "Time Bar"
+msgstr "時間 Bar"
+
+msgid "Time Scale"
+msgstr "時間比例"
+
+msgid "Time selection"
+msgstr "時間選擇"
+
+msgid "Timings"
+msgstr "定時"
+
+msgid "Title (max 16 Char.)"
+msgstr "標題 (最多 16 位元字元)"
+
+msgid "Title Columns"
+msgstr "標題欄"
+
+msgid "To"
+msgstr "到"
+
+msgid "To Date"
+msgstr "到日期"
+
+msgid "To Production"
+msgstr "到生產"
+
+msgid "To value"
+msgstr "到數值"
+
+msgid "Today"
+msgstr "今天"
+
+msgid "Tolerance days after highest end date"
+msgstr "可容許的天數在最後完成日期之後"
+
+msgid "Tolerance days after prod. req. delivery date"
+msgstr "可容許的天數在生產要求送貨日期之後"
+
+msgid "Tolerance days before lowest start date"
+msgstr "可容許的天數在最早開始日期之前"
+
+msgid "Too many characters"
+msgstr "太多字元"
+
+msgid "ToolButton1"
+msgstr "工具按鈕 1"
+
+msgid "ToolButton10"
+msgstr "工具按鈕 10"
+
+msgid "ToolButton11"
+msgstr "工具按鈕 11"
+
+msgid "ToolButton3"
+msgstr "工具按鈕 3"
+
+msgid "ToolButton4"
+msgstr "工具按鈕 4"
+
+msgid "ToolButton5"
+msgstr "工具按鈕 5"
+
+msgid "ToolButton6"
+msgstr "工具按鈕 6"
+
+msgid "ToolButton8"
+msgstr "工具按鈕 8"
+
+msgid "Total Planned Exec. Time"
+msgstr "計畫執行時間統計"
+
+msgid "Total Planned Setup Time"
+msgstr "計畫設置時間統計"
+
+msgid "Total number of jobs"
+msgstr "緦作業數量"
+
+msgid "Totally not working day"
+msgstr "非工作日統計"
+
+msgid "Totally working day"
+msgstr "工作日統計"
+
+msgid "Traditional"
+msgstr "繁體"
+
+msgid "Transfer Mode"
+msgstr "傳送模式"
+
+msgid "Tue"
+msgstr "週二"
+
+msgid "Tuesday"
+msgstr "週二"
+
+msgid "Turkish"
+msgstr "土耳其文"
+
+msgid "Type"
+msgstr "種類"
+
+msgid "Type of Working day"
+msgstr "工作日種類"
+
+msgid "USER_NAME=SYSDBA"
+msgstr "USER_NAME = SYSDBA"
+
+msgid "Um"
+msgstr "單位"
+
+msgid "Um Description"
+msgstr "單位描述"
+
+msgid "Undefined"
+msgstr "無定義"
+
+msgid "Undefined Error"
+msgstr "非定義錯誤"
+
+msgid "Undo"
+msgstr "復原"
+
+msgid "Unknown licence type"
+msgstr "未知的許可證種類"
+
+msgid "Unschedule"
+msgstr "未預定"
+
+msgid "Unschedule all jobs in current bin ?"
+msgstr "沒有預定的所有工作在池中 ?"
+
+msgid "Unschedule jobs in current bin"
+msgstr "未有預定的工作在池上"
+
+msgid "Unsupported version"
+msgstr "不支援版本"
+
+msgid "Updating Local Server"
+msgstr "正在更新本地伺服器"
+
+msgid "Updating automatically"
+msgstr "自動更新"
+
+msgid "VIP2DB2"
+msgstr "VIP2DB2"
+
+msgid "Valid positions of the resource"
+msgstr "資源的有效位置"
+
+msgid "Valid positions rank"
+msgstr "有效位置等級"
+
+msgid "Value"
+msgstr "數值"
+
+msgid "Value "
+msgstr "數值"
+
+msgid "Value on bar"
+msgstr "在 Bar 上的數值"
+
+msgid "Values"
+msgstr "數值"
+
+msgid "View current"
+msgstr "瀏覽目前"
+
+msgid "View licence"
+msgstr "瀏覽許可証"
+
+msgid "Violate overlapping rules with next step"
+msgstr "下一個步驟違反了重疊的規定"
+
+msgid "Violate overlapping rules with prev. and next step"
+msgstr "之前及下一個的步驟違反了重疊的規定"
+
+msgid "Violate overlapping rules with prev. step"
+msgstr "之前的步驟違反了重疊的規定"
+
+msgid "Visible"
+msgstr "可見"
+
+msgid "Visible Columns"
+msgstr "可見欄位"
+
+msgid "W.C. Process"
+msgstr "工作中心處理"
+
+msgid "W.center Code"
+msgstr "工作中心代號"
+
+msgid "Waiting for AS400 update..."
+msgstr "等待 AS400 更新..."
+
+msgid "Waiting for process end..."
+msgstr "等待處理完成..."
+
+msgid "Waiting time for each position tested"
+msgstr "等待時間用於每個位置的測試"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Warning Info."
+msgstr "警告資料"
+
+msgid "Warning description"
+msgstr "警告描述"
+
+msgid "Warning!"
+msgstr "警告 !"
+
+msgid "Wed"
+msgstr "周三"
+
+msgid "Wednesday"
+msgstr "週三"
+
+msgid "Weigh UM Description"
+msgstr "重量單位描述"
+
+msgid "Weight"
+msgstr "重量"
+
+msgid "Weight + Um"
+msgstr "重量 + 單位"
+
+msgid "Weights"
+msgstr "重量"
+
+msgid "Within delivery date tolerance"
+msgstr "在送貨日期容許之內"
+
+msgid "Within highest end"
+msgstr "在最後完成的範圍之內"
+
+msgid "Within highest end date tolerance"
+msgstr "在最後完成日期容許之內"
+
+msgid "Within lowest start date tolerance"
+msgstr "在最低開始日期公差之內"
+
+msgid "Within tolerance"
+msgstr "在可容許之內"
+
+msgid "Wkc. proc."
+msgstr "工作中心進程"
+
+msgid "Work Center"
+msgstr "工作中心"
+
+msgid "Work Center : "
+msgstr "工作中心:"
+
+msgid "Work Center Category and Resource"
+msgstr "工作中心種類及資源"
+
+msgid "Work Center and Resource code"
+msgstr "工作中心及資源代號"
+
+msgid "Work Center was not defined"
+msgstr "工作中心沒有被定義"
+
+msgid "Work Centers"
+msgstr "工作中心"
+
+msgid "Work Station"
+msgstr "工作站"
+
+msgid "Workcenter"
+msgstr "工作中心"
+
+msgid "Workcenter details"
+msgstr "工作中心明細"
+
+msgid "Workcenter process"
+msgstr "工作中心加工"
+
+msgid "Workstation code"
+msgstr "工作站代號"
+
+msgid "X"
+msgstr "X"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "You cannot add a group to a group"
+msgstr "你不能增加一個組群到另一個群組"
+
+msgid "Zoom"
+msgstr "放大"
+
+msgid "allow to connect jobs one to one"
+msgstr "容許去連接作業一個到一個"
+
+msgid "allow to connect many previous jobs"
+msgstr "容許連接多個之前的作業"
+
+msgid "allow to connect one previous job"
+msgstr "容許連接一個之前的作業"
+
+msgid "and has expired. MQM will abort"
+msgstr "和已經到期, MQM 將中斷"
+
+msgid "available"
+msgstr "可利用的"
+
+msgid "bad server connection"
+msgstr "與伺服器連接失敗"
+
+msgid "batch"
+msgstr "批"
+
+msgid "batch max"
+msgstr "最大批量"
+
+msgid "batch min"
+msgstr "最小批量"
+
+msgid "batch std"
+msgstr "批量"
+
+msgid "calculated"
+msgstr "計算過的"
+
+msgid "chk. seq."
+msgstr "檢查次序"
+
+msgid "comp. value"
+msgstr "相容值"
+
+msgid "compat value"
+msgstr "相容數值"
+
+msgid "configuration database version not supported"
+msgstr "配置資料庫版本不支援"
+
+msgid "connections are automatically managed"
+msgstr "連接是自動的被管理"
+
+msgid "continuous"
+msgstr "繼續"
+
+msgid "d"
+msgstr "日"
+
+msgid "detail data not found"
+msgstr "沒有發現詳細資料"
+
+msgid "details:"
+msgstr "明細:"
+
+msgid "do you want to split before proceeding?"
+msgstr "想要在進程之前分開 ?"
+
+msgid "do you want to split these steps before proceeding?"
+msgstr "想在進行之前分開這步驟 ?"
+
+msgid "don't show no timings resources"
+msgstr "不顯示非定時的資源"
+
+msgid "don't show not compatible resources"
+msgstr "不顯示不相容的資源"
+
+msgid "don't show read-only resources"
+msgstr "不顯示唯讀資源"
+
+msgid "don't show workcenter not compatible"
+msgstr "不顯示不相容的工作中心"
+
+msgid "entered in demo mode"
+msgstr "已進入示範模式"
+
+msgid "everything allowed"
+msgstr "全部允許"
+
+msgid "from"
+msgstr "從"
+
+msgid "gdb"
+msgstr "gdb"
+
+msgid "group: "
+msgstr "群組:"
+
+msgid "h"
+msgstr "小時"
+
+msgid "header data not found"
+msgstr "沒有發現標題資料"
+
+msgid "is higher than required in up most case"
+msgstr "是高於要求, 在最主要的事例"
+
+msgid "keep sorting"
+msgstr "保持排序"
+
+msgid "lck"
+msgstr "鎖"
+
+msgid "lock file|lck"
+msgstr "鎖文件 | 鎖"
+
+msgid "m"
+msgstr "分鐘"
+
+msgid "main database version not supported"
+msgstr "主資料庫版本不支援"
+
+msgid "mlc"
+msgstr "mlc"
+
+msgid "mqmLock"
+msgstr "MQM 鎖"
+
+msgid "must be scheduled before this job"
+msgstr "在此作業之前必須被預定"
+
+msgid "must be scheduled before this job because is linked"
+msgstr "因為被連接所以這個作業開始之前必須被預定"
+
+msgid "next"
+msgstr "下一個"
+
+msgid "no"
+msgstr "否"
+
+msgid "no save"
+msgstr "沒保存"
+
+msgid "no save for nw PS"
+msgstr "沒有保存新的已預定生產需求"
+
+msgid "not found"
+msgstr "找不到"
+
+msgid "op"
+msgstr "op"
+
+msgid "oper. 1"
+msgstr "操作 1"
+
+msgid "oper. 2"
+msgstr "操作 2"
+
+msgid "password=masterkey"
+msgstr "密碼 = masterkey"
+
+msgid "printing"
+msgstr "正在列印"
+
+msgid "product type and code"
+msgstr "產品種類及代號"
+
+msgid "product type, code and group"
+msgstr "產品種類代號及群組"
+
+msgid "product type, code and process"
+msgstr "產品種類代號及加工"
+
+msgid "property code"
+msgstr "內容代號"
+
+msgid "property code and group"
+msgstr "內容代號及群組"
+
+msgid "property code and process"
+msgstr "內容代號及處理"
+
+msgid "resource"
+msgstr "資源"
+
+msgid "resources,"
+msgstr "資源,"
+
+msgid "running"
+msgstr "運行"
+
+msgid "same grp."
+msgstr "相同群組"
+
+msgid "saved "
+msgstr "已儲存"
+
+msgid "saving"
+msgstr "正在儲存"
+
+msgid "scheduled job load failed"
+msgstr "預定作業載入失敗"
+
+msgid "server load not enabled"
+msgstr "伺服器不能載入"
+
+msgid "sort when moving jobs on plan"
+msgstr "在計畫上移動作業時排序"
+
+msgid "stActual1From"
+msgstr "st 確實 1 從"
+
+msgid "stActual1To"
+msgstr "st 確實 1 到"
+
+msgid "stActual2From"
+msgstr "st 確實 2 從"
+
+msgid "stActual2To"
+msgstr "st 確實 2 到"
+
+msgid "stActual3From"
+msgstr "st 確實 3 從"
+
+msgid "stActual3To"
+msgstr "st 確實 3 到"
+
+msgid "stActual4From"
+msgstr "st 確實 4 從"
+
+msgid "stActual4To"
+msgstr "st 確實 4 到"
+
+msgid "sub "
+msgstr "子"
+
+msgid "subresource"
+msgstr "子資源"
+
+msgid "sup.mult."
+msgstr "sup.mult."
+
+msgid "sup.over"
+msgstr "sup.over"
+
+msgid "sup.over.mult"
+msgstr "sup.over.mult"
+
+msgid "sup.time"
+msgstr "sup.time"
+
+msgid "sup.type"
+msgstr "sup.type"
+
+msgid "to"
+msgstr "到"
+
+msgid "to base"
+msgstr "到基礎"
+
+msgid "unknown"
+msgstr "未知"
+
+msgid "value"
+msgstr "數值"
+
+msgid "warning"
+msgstr "警告"
+
+msgid "workcenter"
+msgstr "工作中心"
+
+msgid "workstation unavailable"
+msgstr "工作站不可使用"
+
+msgid "wrong password"
+msgstr "密碼錯誤"
+
+msgid "yes"
+msgstr "是"
+
+msgid "you must apply the title modified before exit"
+msgstr "退出前必須應用修改的標題"
+

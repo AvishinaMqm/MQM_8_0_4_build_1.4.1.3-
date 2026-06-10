@@ -1,0 +1,17 @@
+[\Config]
+Server=117.0.0.6
+MainDBPath=c:\Mqm\
+CfgDBPath=c:\Mqm\
+MainDBName=MQM_Main.gdb
+CfgDBName=MQM_Cfg.gdb
+Alias=MQM_AS400_DB
+TempDBName=MQM_TEMP.gdb
+PCalias=MQM_DBPC
+PlanPropFile=D:\Environments\Mqm\PlanPropRepo.htm
+TimeLoopAouto=2
+DowloadTypMode=0
+LoopWithMqmCg=1
+
+LastWkstCode=WS1
+JobBarTextSet=Job default
+StatusBarTextSet=status test                     

@@ -1,0 +1,43 @@
+
+*************** MQM changes 1.0.0.0 -> 1.0.1.0  **************************
+
+1. BIN
+ 1.1 Static columns with icons were added to the Bin showing job statuses, 
+       date problems, overlapping problems etc..
+ 1.2 Static column was added showing the compatibility between the job to 
+       scheduled and already scheduled jobs appearing on Bin.
+ 1.3 All the Schedule fields (i.e. resource,start time, etc.) are visible
+       on bin and as a result, the planner can Sequence the BIN as the Gantt.
+ 1.4 A possibility was added to exclude scheduled jobs from the BIN filer, meaning, 
+       apply filter rules on all BIN jobs except from the jobs scheduled.
+ 1.5 It is now possible to select from the bin a job and ask to unschedule it.
+ 1.6 Selecting a menu Item, it is now possible to unschedule all jobs which are 
+       currently shown on the active BIN.
+ 1.7 A pre-defined Bin Configurations is now available, meaning, each new
+       bin will have pre-defined values.
+ 1.8 Possibility to extract the Bin as it is to a HTML file or Excel, keeping
+        the bin sort, columns etc..
+       Actually, this gives the planner a possibility to build any customized report
+       needed.
+
+
+2. GANTT
+ 2.1 Full downtime support.
+ 2.2 Display of current date/time of the mouse position in Gantt.
+ 2.3 Possibility to position the Gantt on today by a button click.
+ 2.4 When trying to move on plan a certain job - it is now optional that the
+       Gantt will position on the "Green window". This is definable in the configuration.
+ 2.5 When move on plan, automatically suggest to split the job by the planned
+        number of resources
+
+
+3. Miscellaneous
+ 3.1 It's possible to see all Icon details in the Color Settings menu and configure
+       with Icon columns to see in the configuration.
+ 3.2 Some select Icons were replaced.
+ 3.3 Some pop-up menu items were re-organized.
+ 3.4 Some Defaults were changed.
+ 3.5 Bug fixes.
+
+        
+  

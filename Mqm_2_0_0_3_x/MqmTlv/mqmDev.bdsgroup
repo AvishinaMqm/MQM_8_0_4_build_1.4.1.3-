@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{9ADCC9D5-2456-4E60-AEAE-EC6DF76E69E5}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="MqmUDF.dll">mqm\UDF\MqmUDF.bdsproj</Projects>
+      <Projects Name="MqmCustomCompat.dll">mqm\CustomCompat\MqmCustomCompat.bdsproj</Projects>
+      <Projects Name="MqmLic.exe">mqm\MqmLic\MqmLic.bdsproj</Projects>
+      <Projects Name="MqmSrvLoad.exe">mqm\MqmSrv\MqmSrvLoad.bdsproj</Projects>
+      <Projects Name="MqmConfig.exe">mqm\MqmConfig\MqmConfig.bdsproj</Projects>
+      <Projects Name="MQM.exe">mqm\MqmMain\MQM.bdsproj</Projects>
+      <Projects Name="MqmArc.exe">mqm\MqmArc\MqmArc.bdsproj</Projects>
+      <Projects Name="Targets">MqmUDF.dll MqmCustomCompat.dll MqmLic.exe MqmSrvLoad.exe MqmConfig.exe MQM.exe MqmArc.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

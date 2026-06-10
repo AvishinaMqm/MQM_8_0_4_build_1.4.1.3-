@@ -1,0 +1,484 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DE37B64C-90D5-43E9-B45D-5676397BAF69}</ProjectGuid>
+        <ProjectVersion>15.3</ProjectVersion>
+        <MainSource>MqmN.dpr</MainSource>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+        <FrameworkType>VCL</FrameworkType>
+        <Base>True</Base>
+        <Platform Condition="'$(Platform)'==''">Win64</Platform>
+        <TargetedPlatforms>3</TargetedPlatforms>
+        <AppType>Application</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win64)'!=''">
+        <Cfg_2_Win64>true</Cfg_2_Win64>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <VerInfo_Locale>2057</VerInfo_Locale>
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;FireDAC.Phys;System.Win;VCLTee;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <DCC_Define>customer;EUREKALOG;EUREKALOG_VER5;$(DCC_Define)</DCC_Define>
+        <DCC_DcpOutput>customer;EUREKALOG;EUREKALOG_VER5</DCC_DcpOutput>
+        <DCC_DcuOutput>E:\Mqm_2_0_0_3_x\MqmTlv\mqm\MqmMain\dcu</DCC_DcuOutput>
+        <DCC_ExeOutput>E:\Environments\Mqm\</DCC_ExeOutput>
+        <DCC_DependencyCheckOutputName>E:\Environments\Mqm\MqmN.exe</DCC_DependencyCheckOutputName>
+        <DCC_ImageBase>00400000</DCC_ImageBase>
+        <DCC_Platform>x86</DCC_Platform>
+        <DCC_E>false</DCC_E>
+        <DCC_N>false</DCC_N>
+        <DCC_S>false</DCC_S>
+        <DCC_F>false</DCC_F>
+        <DCC_K>false</DCC_K>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <DCC_Namespace>Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <Icon_MainIcon>MqmN_Icon.ico</Icon_MainIcon>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <DCC_Namespace>Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <Icon_MainIcon>MqmN_Icon.ico</Icon_MainIcon>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_DebugInformation>0</DCC_DebugInformation>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_MapFile>3</DCC_MapFile>
+        <DCC_Define>DEBUG;EUREKALOG_VER6;$(DCC_Define)</DCC_Define>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <DCC_Inlining>off</DCC_Inlining>
+        <DCC_Define>customer;</DCC_Define>
+        <DCC_DcpOutput>customer;</DCC_DcpOutput>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <DCC_UnitSearchPath>C:\Program Files (x86)\Embarcadero\RAD Studio\12.0\source\IBX;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
+        <DCC_UnitSearchPath>C:\Program Files (x86)\Embarcadero\RAD Studio\12.0\source\IBX;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_Inlining>off</DCC_Inlining>
+        <DCC_Define>customer;</DCC_Define>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <DCC_DcpOutput>customer;</DCC_DcpOutput>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="..\Internationalization\gnugettext.pas"/>
+        <DCCReference Include="..\plan\UMRes.pas"/>
+        <DCCReference Include="..\plan\UMPlanObj.pas"/>
+        <DCCReference Include="..\plan\UMResCat.pas"/>
+        <DCCReference Include="..\plan\UMDurObj.pas"/>
+        <DCCReference Include="..\plan\UMPlan.pas"/>
+        <DCCReference Include="..\plan\UMSchedCont.pas"/>
+        <DCCReference Include="..\db\DMsrvPc.pas">
+            <Form>DMib</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\db\UMTblDesc.pas"/>
+        <DCCReference Include="..\..\lib\UGregItf.pas"/>
+        <DCCReference Include="..\lib\UMCompatSrv.pas"/>
+        <DCCReference Include="..\lib\UMCompat.pas"/>
+        <DCCReference Include="..\plan\UMPlanGraph.pas"/>
+        <DCCReference Include="..\plan\UMActArea.pas"/>
+        <DCCReference Include="..\lib\UMpgCal.pas"/>
+        <DCCReference Include="..\..\lib\UGshiftCal.pas"/>
+        <DCCReference Include="..\lib\UMCommon.pas"/>
+        <DCCReference Include="..\plan\UMProdLine.pas"/>
+        <DCCReference Include="..\..\lib\UGganttPanel.pas"/>
+        <DCCReference Include="..\plan\UMWkCtr.pas"/>
+        <DCCReference Include="..\plan\UMProdLineActPer.pas"/>
+        <DCCReference Include="..\lib\UMPlanTbs.pas"/>
+        <DCCReference Include="..\lib\UMViewTbs.pas"/>
+        <DCCReference Include="..\lib\UMTabcfg.pas"/>
+        <DCCReference Include="..\lib\UMViewPage.pas"/>
+        <DCCReference Include="..\plan\UMCapRes.pas"/>
+        <DCCReference Include="..\bin\FMbin.pas">
+            <Form>FBin</Form>
+        </DCCReference>
+        <DCCReference Include="..\bin\UMbinGrid.pas"/>
+        <DCCReference Include="..\bin\UMBinFunc.pas"/>
+        <DCCReference Include="..\bin\UMBinTbs.pas"/>
+        <DCCReference Include="..\..\lib\UGObjListSrv.pas"/>
+        <DCCReference Include="..\bin\UMBinPanel.pas"/>
+        <DCCReference Include="..\bin\FMcfgBin.pas">
+            <Form>FConfigBin</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMObjCont.pas"/>
+        <DCCReference Include="..\forms\FMBinFiltTabs.pas">
+            <Form>TBinFilter</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\lib\UGPropComp.pas"/>
+        <DCCReference Include="..\bin\FMEditTabsBin.pas">
+            <Form>EditTabsBin</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\lib\UGconvert.pas"/>
+        <DCCReference Include="..\forms\FMresFilter.pas">
+            <Form>FResFilter</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMworkstation.pas">
+            <Form>MWkst</Form>
+        </DCCReference>
+        <DCCReference Include="..\plan\UMCmp.pas"/>
+        <DCCReference Include="..\lib\FMsplash.pas">
+            <Form>SplashForm</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\lib\UGshapeMan.pas"/>
+        <DCCReference Include="..\..\lib\UGHdrMan.pas"/>
+        <DCCReference Include="UMhdrMan.pas"/>
+        <DCCReference Include="..\..\lib\UGcal.pas"/>
+        <DCCReference Include="..\..\lib\UGbaseCal.pas"/>
+        <DCCReference Include="..\..\lib\UGprogCtrl.pas"/>
+        <DCCReference Include="..\lib\UMCompatRules.pas"/>
+        <DCCReference Include="..\db\UMStoredProc.pas"/>
+        <DCCReference Include="..\plan\UMSchedObjMover.pas"/>
+        <DCCReference Include="..\plan\UMOpStack.pas"/>
+        <DCCReference Include="..\forms\FMOccMov.pas">
+            <Form>FMOccMove</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMWkcDetails.pas">
+            <Form>FWkcDetails</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMResDetails.pas">
+            <Form>FResDetails</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMCrtDownTime.pas">
+            <Form>FCrtDownTime</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\lib\UGglobal.pas"/>
+        <DCCReference Include="..\plan\UMCapResMover.pas"/>
+        <DCCReference Include="..\lib\UMCompatClr.pas"/>
+        <DCCReference Include="..\forms\FMDispoDet.pas">
+            <Form>DispoDet</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMGroupDetail.pas">
+            <Form>TGroupDetail</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMSchedView.pas"/>
+        <DCCReference Include="..\forms\FMStepDetails.pas">
+            <Form>FStepDetails</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMDevPropComp.pas"/>
+        <DCCReference Include="..\forms\FMRORulesCase.pas">
+            <Form>FRORulesCase</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMRulesComp.pas"/>
+        <DCCReference Include="..\..\lib\FGinfo.pas">
+            <Form>InfoForm</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMCreateCapRes.pas">
+            <Form>FMCrtCapRes</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMColors.pas">
+            <Form>FColors</Form>
+        </DCCReference>
+        <DCCReference Include="..\plan\UMCalcTimings.pas"/>
+        <DCCReference Include="..\forms\FMOORulesCase.pas">
+            <Form>FOORulesCase</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMOptions.pas">
+            <Form>FOptions</Form>
+        </DCCReference>
+        <DCCReference Include="FMMainPlan.pas">
+            <Form>FMQMPlan</Form>
+        </DCCReference>
+        <DCCReference Include="..\db\UMDbFunc.pas"/>
+        <DCCReference Include="..\plan\UMPriorities.pas"/>
+        <DCCReference Include="..\lib\UMStatus.pas"/>
+        <DCCReference Include="..\plan\UMProdInfo.pas"/>
+        <DCCReference Include="..\lib\UMBatchQtyConv.pas"/>
+        <DCCReference Include="..\lib\UMDescUm.pas"/>
+        <DCCReference Include="..\lib\UMPropComp.pas"/>
+        <DCCReference Include="..\lib\UMUsrPropComp.pas"/>
+        <DCCReference Include="..\plan\UMPlanFunc.pas"/>
+        <DCCReference Include="..\lib\UMWkCtrDesc.pas"/>
+        <DCCReference Include="..\..\lib\UGgraph.pas"/>
+        <DCCReference Include="..\lib\UMGridComptClr.pas"/>
+        <DCCReference Include="..\..\lib\UGLicensing.pas"/>
+        <DCCReference Include="..\forms\FMJobHandle.pas">
+            <Form>FJobHandle</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\lib\UGDrawGrid.pas"/>
+        <DCCReference Include="..\lib\UMSearchFunc.pas"/>
+        <DCCReference Include="..\plan\UMSchedOnPlan.pas"/>
+        <DCCReference Include="..\plan\UMSchedContFunc.pas"/>
+        <DCCReference Include="..\plan\UMSchedList.pas"/>
+        <DCCReference Include="..\forms\FMAutoSchedCfg.pas">
+            <Form>FAutoSchedCfg</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMAutoSched.pas"/>
+        <DCCReference Include="..\forms\FMAutoSched.pas">
+            <Form>FAutoSched</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMRank.pas"/>
+        <DCCReference Include="..\forms\FMRankReport.pas">
+            <Form>FRankReport</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMAutoSchedReport.pas">
+            <Form>FAutoSchedRpt</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMEditCal.pas">
+            <Form>MEditCal</Form>
+        </DCCReference>
+        <DCCReference Include="..\db\UMCalDbInterface.pas"/>
+        <DCCReference Include="..\forms\FMChangeWC.pas">
+            <Form>ChangeWc</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMCapResDescription.pas">
+            <Form>FormCapResDesc</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FmBinTotals.pas">
+            <Form>FrmBintotals</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMProdImage.pas">
+            <Form>ProdImage</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMArticle.pas"/>
+        <DCCReference Include="..\bin\UMBinDefault.pas"/>
+        <DCCReference Include="..\..\lib\Excel\mxNativeExcel.pas"/>
+        <DCCReference Include="..\forms\FMBarConfig.pas">
+            <Form>FBarConfig</Form>
+        </DCCReference>
+        <DCCReference Include="..\plan\UMSimulations.pas"/>
+        <DCCReference Include="..\forms\FMSimulations.pas">
+            <Form>FSimulations</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMMsgDlgSim.pas">
+            <Form>FMsgDlgSim</Form>
+        </DCCReference>
+        <DCCReference Include="..\Materials\UMProdArt.pas"/>
+        <DCCReference Include="..\Materials\UMArticles.pas"/>
+        <DCCReference Include="..\Materials\UMBalance.pas"/>
+        <DCCReference Include="..\Materials\UMIssuedArt.pas"/>
+        <DCCReference Include="..\Materials\UMOverlap.pas"/>
+        <DCCReference Include="..\..\lib\UGCustomList.pas"/>
+        <DCCReference Include="..\plan\UMBobbins.pas"/>
+        <DCCReference Include="..\Report\UMReport.pas"/>
+        <DCCReference Include="..\forms\FMShowMaterials.pas">
+            <Form>FShowMaterials</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMBinChkBox.pas"/>
+        <DCCReference Include="..\lib\UMAutoSchedCfg.pas"/>
+        <DCCReference Include="..\forms\FMBarConfigSets.pas">
+            <Form>FBarConfigSets</Form>
+        </DCCReference>
+        <DCCReference Include="..\plan\UMCalcOverlaps.pas"/>
+        <DCCReference Include="..\forms\FMAbout.pas">
+            <Form>FAbout</Form>
+        </DCCReference>
+        <DCCReference Include="..\Materials\FMRequirements.pas">
+            <Form>FMaterialReq</Form>
+        </DCCReference>
+        <DCCReference Include="..\Materials\FMRequirementsChild.pas">
+            <Form>FReqChild</Form>
+        </DCCReference>
+        <DCCReference Include="..\Materials\FMRequirementsStepChild.pas">
+            <Form>FPrevNextStepDetails</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMViewHtml.pas">
+            <Form>FViewHtml</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMWait.pas">
+            <Form>FWait</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMglobal.pas"/>
+        <DCCReference Include="..\forms\FMReportHtmlBackColors.pas">
+            <Form>HtmlBackColors</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMResourceReport.pas">
+            <Form>FResourceReport</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMExcelReport.pas">
+            <Form>FExcelReport</Form>
+        </DCCReference>
+        <DCCReference Include="..\bin\UMReports.pas"/>
+        <DCCReference Include="..\bin\UMReportExport.pas"/>
+        <DCCReference Include="..\forms\FMcfgResList.pas">
+            <Form>FConfigResList</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMServerStatus.pas">
+            <Form>FServerStatus</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMBucketReport.pas">
+            <Form>FBucketReport</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMGroupAll.pas">
+            <Form>TGroupAllLines</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMShowColorsBar.pas">
+            <Form>ShowColor</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMlearningCurve.pas">
+            <Form>learningCurve</Form>
+        </DCCReference>
+        <DCCReference Include="..\Materials\FMBalanceChange.pas">
+            <Form>FBalanceChange</Form>
+        </DCCReference>
+        <DCCReference Include="..\Materials\FMBalanceHeaders.pas">
+            <Form>MBalanceHeadersForm</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMSearchAndFocuse.pas">
+            <Form>SearchAndFocuse</Form>
+        </DCCReference>
+        <DCCReference Include="..\bin\FMSearchAndCreateTab.pas">
+            <Form>SearchAndCreateTab</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMMsgJobHandler.pas">
+            <Form>MsgJobHandling</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMCustomizeDates.pas">
+            <Form>DatesCustomize</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMPlannerPropDefine.pas">
+            <Form>PlannerPropDefine</Form>
+        </DCCReference>
+        <DCCReference Include="..\Materials\FMStockDetails.pas">
+            <Form>StockDetails</Form>
+        </DCCReference>
+        <DCCReference Include="..\Materials\FMStockDetailsChild.pas">
+            <Form>StockDetailsChild</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\lib\FmCalShiftEffic.pas">
+            <Form>CalShiftEffic</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\lib\FmEditCapacity.pas">
+            <Form>EditCapacity</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMCalendarUserEnter.pas">
+            <Form>Calendar</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMSplitBySelectedDateTime.pas">
+            <Form>SplitBySelectedDateTime</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMAutoSchedOverridingParams.pas">
+            <Form>AutoSeqOverridingParams</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMCustomizeDatesGap.pas">
+            <Form>DatesCustomizeGap</Form>
+        </DCCReference>
+        <DCCReference Include="..\plan\UMGenericSchedulePrevStep.pas"/>
+        <DCCReference Include="..\forms\FmAutoRunDefinition.pas">
+            <Form>AutoRunDefinition</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FmAutoRunSet.pas">
+            <Form>FRowDetailsSet</Form>
+        </DCCReference>
+        <DCCReference Include="..\lib\UMAutoSchedSimulation.pas"/>
+        <DCCReference Include="..\forms\FMAutoSchedReportSimulation.pas">
+            <Form>FAutoSchedRptSimulation</Form>
+        </DCCReference>
+        <DCCReference Include="..\forms\FMGrpSplit.pas">
+            <Form>GrpSplit</Form>
+        </DCCReference>
+        <DCCReference Include="..\db\UMIBEvents.pas"/>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">MqmN.dpr</Source>
+                </Source>
+                <Parameters>
+                    <Parameters Name="UseLauncher">False</Parameters>
+                    <Parameters Name="LoadAllSymbols">True</Parameters>
+                    <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+                </Parameters>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">1</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">0</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">2057</VersionInfo>
+                    <VersionInfo Name="CodePage">1252</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclBindCompFireDAC190.bpl">LiveBinding Expression Components FireDac</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k190.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Program Files (x86)\Raize\CS5\Bin\CodeSiteExpressPkg_Design190.bpl">CodeSite Express 5.1.4</Excluded_Packages>
+                </Excluded_Packages>
+            </Delphi.Personality>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">True</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+</Project>

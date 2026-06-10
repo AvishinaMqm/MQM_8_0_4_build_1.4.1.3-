@@ -1,0 +1,40 @@
+# ---- Delphi / RAD Studio build outputs (keep repo clean) ----
+# NOTE: this project stores SOURCE in lib/ and bin/, so we exclude by
+# file EXTENSION only — never by folder name — to avoid dropping source.
+
+# Compiled units / binaries
+*.dcu
+*.exe
+*.dll
+*.bpl
+*.dcp
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.map
+*.drc
+*.rsm
+
+# IDE / per-user state (machine-specific, not source)
+*.local
+*.identcache
+*.tvsconfig
+*.dsk
+*.cfg
+*.stat
+
+# Editor / history backups
+__history/
+__recovery/
+*.~*
+*.bak
+
+# Legacy CVS metadata + lock files (not wanted in git)
+CVS/
+.#*
+
+# Misc
+*.log
+Thumbs.db

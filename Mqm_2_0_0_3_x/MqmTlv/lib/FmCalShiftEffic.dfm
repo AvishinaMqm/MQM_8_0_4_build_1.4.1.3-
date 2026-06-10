@@ -1,0 +1,352 @@
+object CalShiftEffic: TCalShiftEffic
+  Left = 0
+  Top = 0
+  Caption = 'Date range data'
+  ClientHeight = 418
+  ClientWidth = 443
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -14
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  Scaled = False
+  DesignSize = (
+    443
+    418)
+  PixelsPerInch = 96
+  TextHeight = 17
+  object Label1: TLabel
+    Left = 44
+    Top = 25
+    Width = 61
+    Height = 17
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'Start date'
+  end
+  object Label2: TLabel
+    Left = 209
+    Top = 25
+    Width = 55
+    Height = 17
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'End date'
+  end
+  object Label3: TLabel
+    Left = 46
+    Top = 126
+    Width = 60
+    Height = 17
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'Start time'
+  end
+  object Label4: TLabel
+    Left = 157
+    Top = 126
+    Width = 54
+    Height = 17
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'End time'
+  end
+  object Label5: TLabel
+    Left = 288
+    Top = 126
+    Width = 75
+    Height = 17
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'Efficiency %'
+  end
+  object TimePicker1Start: TDateTimePicker
+    Left = 22
+    Top = 161
+    Width = 117
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    Kind = dtkTime
+    TabOrder = 0
+  end
+  object TimePicker1End: TDateTimePicker
+    Left = 154
+    Top = 161
+    Width = 117
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    Kind = dtkTime
+    TabOrder = 1
+  end
+  object EditShiftEffic1: TEdit
+    Left = 282
+    Top = 161
+    Width = 131
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Color = 14803425
+    MaxLength = 5
+    TabOrder = 2
+    Text = '0'
+    OnKeyPress = EditShiftEffic1KeyPress
+  end
+  object EditShiftEffic2: TEdit
+    Left = 282
+    Top = 208
+    Width = 131
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Color = 14803425
+    MaxLength = 5
+    TabOrder = 3
+    Text = '0'
+    OnKeyPress = EditShiftEffic1KeyPress
+  end
+  object TimePicker2End: TDateTimePicker
+    Left = 154
+    Top = 208
+    Width = 117
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    Kind = dtkTime
+    TabOrder = 4
+  end
+  object TimePicker2Start: TDateTimePicker
+    Left = 22
+    Top = 208
+    Width = 117
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    Kind = dtkTime
+    TabOrder = 5
+  end
+  object TimePicker3Start: TDateTimePicker
+    Left = 22
+    Top = 258
+    Width = 117
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    Kind = dtkTime
+    TabOrder = 6
+  end
+  object TimePicker3End: TDateTimePicker
+    Left = 154
+    Top = 260
+    Width = 117
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    Kind = dtkTime
+    TabOrder = 7
+  end
+  object EditShiftEffic3: TEdit
+    Left = 282
+    Top = 259
+    Width = 131
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Color = 14803425
+    MaxLength = 5
+    TabOrder = 8
+    Text = '0'
+    OnKeyPress = EditShiftEffic1KeyPress
+  end
+  object EditShiftEffic4: TEdit
+    Left = 282
+    Top = 309
+    Width = 131
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Color = 14803425
+    MaxLength = 5
+    TabOrder = 9
+    Text = '0'
+    OnKeyPress = EditShiftEffic1KeyPress
+  end
+  object TimePicker4End: TDateTimePicker
+    Left = 153
+    Top = 309
+    Width = 118
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    Kind = dtkTime
+    TabOrder = 10
+  end
+  object TimePicker4Start: TDateTimePicker
+    Left = 22
+    Top = 309
+    Width = 117
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    Kind = dtkTime
+    TabOrder = 11
+  end
+  object DatePickerStart: TDateTimePicker
+    Left = 42
+    Top = 55
+    Width = 103
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    TabOrder = 12
+  end
+  object DatePickerEnd: TDateTimePicker
+    Left = 209
+    Top = 55
+    Width = 104
+    Height = 25
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 37886.000000000000000000
+    Time = 0.680019166698912200
+    Checked = False
+    Color = 14803425
+    DateMode = dmUpDown
+    TabOrder = 13
+  end
+  object BtnOk: TcxButton
+    Left = 22
+    Top = 363
+    Width = 97
+    Height = 30
+    Caption = 'OK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -14
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    Font.Quality = fqClearType
+    ParentFont = False
+    TabOrder = 14
+    OnClick = BtnOkClick
+  end
+  object BtnAbort: TcxButton
+    Left = 318
+    Top = 363
+    Width = 95
+    Height = 30
+    Caption = 'Abort'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -14
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    Font.Quality = fqClearType
+    ParentFont = False
+    TabOrder = 15
+    OnClick = BtnAbortClick
+  end
+  object BitBtn1: TBitBtn
+    Left = 173
+    Top = 361
+    Width = 98
+    Height = 36
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Anchors = [akRight, akBottom]
+    Kind = bkOK
+    NumGlyphs = 2
+    TabOrder = 16
+    Visible = False
+    OnClick = BitBtn1Click
+  end
+end
