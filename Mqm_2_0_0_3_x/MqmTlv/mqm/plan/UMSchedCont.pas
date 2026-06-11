@@ -20182,6 +20182,7 @@ var
   tHdr : TSCProdReqHdr;
   tDet : TSCProdReqDet;
   found : boolean;
+  JobSetupOnly, SplitJobRevert, SkipStepOverride : boolean;
 begin
   sc := TSCSchedOnPlan(m_codeList[id]);
   if not (id = sc.m_Id) then Exit;
@@ -20223,7 +20224,18 @@ begin
 
     if not found then exit;
 
-    if p_sc.GetJobNumBrothers(Id) > 1 then
+    // Changes that affect ONLY the per-job setup, never the step-level override
+    // (the override is shared by all split brothers via m_reqDet and a single
+    // row in tbl_OverrideStepParameters):
+    //  - JobSetupOnly  : on a split job the user set just a per-job setup.
+    //  - SplitJobRevert: "Back to standard" on a split job - revert only this
+    //    job's per-job setup; the other brothers keep the shared step setup.
+    // In both cases we must not wipe m_reqDet here nor write/delete the step row.
+    JobSetupOnly     := (not remove) and (NewSetupJob >= 0) and (Newspeed <= 0) and (Newsetup < 0);
+    SplitJobRevert   := remove and (p_sc.GetJobNumBrothers(Id) > 1);
+    SkipStepOverride := JobSetupOnly or SplitJobRevert;
+
+    if (p_sc.GetJobNumBrothers(Id) > 1) and not SkipStepOverride then
     begin
       tJob.p_exeMin := NewTime / p_sc.GetJobComponents(tJob.m_Id, true);
       tJob.m_reqDet.p_NewSpeed := -1;
@@ -20238,18 +20250,34 @@ begin
 
     if remove then
     begin
-      tJob.p_exeMin := NewTime / p_sc.GetJobComponents(tJob.m_Id, true);
-      tJob.m_reqDet.p_NewSpeed := -1;
-      tjob.m_reqDet.p_IsSpeedChanged := false;
+      if SplitJobRevert then
+      begin
+        // Split: revert only THIS job's per-job setup; keep the shared step
+        // override intact, and restore this job's setup back to that step value
+        // (or to standard if there is no step override).
+        tJob.p_NewSetup := -1;
+        tJob.p_NewSetupChanged := false;
+        tJob.m_status := CSS_modi;
+        if tJob.m_reqDet.p_IsSetupChanged then
+          tJob.p_supMinReal := tJob.m_reqDet.p_NewSetup
+        else
+          tJob.p_supMinReal := Newsetup;
+      end
+      else
+      begin
+        tJob.p_exeMin := NewTime / p_sc.GetJobComponents(tJob.m_Id, true);
+        tJob.m_reqDet.p_NewSpeed := -1;
+        tjob.m_reqDet.p_IsSpeedChanged := false;
 
-      tJob.p_supMinReal := Newsetup;
-      tJob.m_reqDet.p_NewSetup := -1;
-      tJob.m_reqDet.p_IsSetupChanged := false;
+        tJob.p_supMinReal := Newsetup;
+        tJob.m_reqDet.p_NewSetup := -1;
+        tJob.m_reqDet.p_IsSetupChanged := false;
 
-      tJob.p_NewSetup := -1;
-      if NewSetupJob > -1 then
-        tJob.m_status :=  CSS_modi;
-      tJob.p_NewSetupChanged := false;
+        tJob.p_NewSetup := -1;
+        if NewSetupJob > -1 then
+          tJob.m_status :=  CSS_modi;
+        tJob.p_NewSetupChanged := false;
+      end;
     end
     else
     begin
@@ -20277,6 +20305,12 @@ begin
     end;
     tJob.m_CalculatedTimes := false;
 
+    // Persist the step-level override row only when a step parameter actually
+    // changed. For a job-level-only edit (apply or revert of a per-job setup)
+    // the value is saved via the job itself (m_status = CSS_modi), so we must
+    // not write or delete the shared step row here.
+    if not SkipStepOverride then
+    begin
     tbiSPEED := @tblInfo[tbl_OverrideStepParameters];
 
     Qry := CreateQuery(Main_DB);
@@ -20410,6 +20444,7 @@ begin
 
     Qry.Transaction.commit;
     Qry.free;
+    end;
 
   end;
 

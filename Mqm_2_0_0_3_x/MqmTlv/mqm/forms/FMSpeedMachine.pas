@@ -42,6 +42,7 @@ type
     EditNewSetup: TEdit;
     GroupBoxSetUpStep: TGroupBox;
     GroupBoxSetUpJob: TGroupBox;
+    GroupBoxStepLevel: TGroupBox;
     Label2: TLabel;
     eJobNewSetup: TEdit;
     Label3: TLabel;
@@ -73,9 +74,11 @@ type
     m_OverridenSpeed : double;
     m_OverridenSetup : double;
     m_DurationOrig, m_SetupOrig, m_NewSetupJob : double;
+    m_StepSetupExists, m_JobSetupExists, m_IsSplit : Boolean;
     procedure CalcStandardSpeed;
     procedure CalcStandardSpeedNonScheduledJob;
     procedure CalcStandardSpeedAndSetupWarp;
+    procedure DisableStepLevelLook;
 
     { Private declarations }
   public
@@ -153,7 +156,27 @@ end;
 
 procedure TSpeedMachine.btnSetupOkClick(Sender: TObject);
 begin
-  
+
+end;
+
+//----------------------------------------------------------------------------//
+
+procedure TSpeedMachine.DisableStepLevelLook;
+begin
+  // Once the job is split the step-level inputs no longer apply. Restore the
+  // styled border (drop the flat black input border) AND disable each edit on
+  // its own - a disabled parent box alone still lets the style paint the edit
+  // as active (white box with a border). Disabling the edit itself makes it
+  // render grayed, exactly like the read-only fields beside it.
+  EditNewSpeed.Ctl3D := True;
+  EditNewSpeed.ParentCtl3D := True;
+  EditNewSpeed.StyleElements := [seFont, seClient, seBorder];
+  EditNewSpeed.Enabled := False;
+  EditNewSetup.Ctl3D := True;
+  EditNewSetup.ParentCtl3D := True;
+  EditNewSetup.StyleElements := [seFont, seClient, seBorder];
+  EditNewSetup.Enabled := False;
+  GroupBoxStepLevel.Enabled := False;
 end;
 
 //----------------------------------------------------------------------------//
@@ -207,11 +230,21 @@ begin
   else
     eJobSetupChanged.Text := FloatToStr(m_NewSetupJob);
 
-  if (EdtChangedSpeed.Text = EdtCurrentSpeed.Text) and (EdtChangedSetup.Text = EdtCurrentSetup.Text)
-    and (eJobNewSetup.Text = eJobSetupChanged.Text) then
-    BtnRmvOveridn.Enabled := false
+  m_StepSetupExists := (EdtChangedSetup.Text <> EdtCurrentSetup.Text);
+  m_JobSetupExists  := (m_NewSetupJob > -1);
+
+  // A split job is a group / has brothers, so step-level edits no longer apply.
+  m_IsSplit := (p_sc.IsGroup(M_id) and p_sc.CheckIfGroupChilderenContainSubSteps(M_id)) or
+               ((not p_sc.IsGroup(M_id)) and (p_sc.GetJobNumBrothers(m_Id) > 1));
+
+  // "Back to standard": with no split it reverts ANY change; once split it
+  // reverts only the per-job (job level) setup, so enable it only when a job
+  // level change actually exists.
+  if m_IsSplit then
+    BtnRmvOveridn.Enabled := m_JobSetupExists
   else
-    BtnRmvOveridn.Enabled := true;
+    BtnRmvOveridn.Enabled := (EdtChangedSpeed.Text <> EdtCurrentSpeed.Text) or
+                             m_StepSetupExists or m_JobSetupExists;
 
   if EdtChangedSpeed.Text = EdtCurrentSpeed.Text then
   begin
@@ -225,24 +258,9 @@ begin
     LblChangedsetup.Visible  := false
   end;
 
-  if p_sc.IsGroup(M_id) then
-  begin
-    if p_sc.CheckIfGroupChilderenContainSubSteps(M_id) then
-    begin
-      GroupBoxSpeedStep.Visible := false;
-      GroupBoxSetUpStep.Visible := false;
-      GroupBoxSetUpJob.Left := GroupBoxSpeedStep.Left;
-      GroupBoxSetUpJob.Top := GroupBoxSpeedStep.Top
-    end;
-  end
-  else
-  if (p_sc.GetJobNumBrothers(m_Id) > 1) then
-  begin
-    GroupBoxSpeedStep.Visible := false;
-    GroupBoxSetUpStep.Visible := false;
-    GroupBoxSetUpJob.Left := GroupBoxSpeedStep.Left;
-    GroupBoxSetUpJob.Top := GroupBoxSpeedStep.Top;
-  end;
+  // Keep every box in its original place and just disable the step-level box.
+  if m_IsSplit then
+    DisableStepLevelLook;
 end;
 
 //----------------------------------------------------------------------------//
@@ -352,11 +370,21 @@ begin
     eJobSetupChanged.Text := FloatToStr(m_NewSetupJob);
   end;
 
-  if (EdtChangedSpeed.Text = EdtCurrentSpeed.Text) and (EdtChangedSetup.Text = EdtCurrentSetup.Text)
-    and (eJobNewSetup.Text = eJobSetupChanged.Text) then
-    BtnRmvOveridn.Enabled := false
+  m_StepSetupExists := (setup <> 0);
+  m_JobSetupExists  := (m_NewSetupJob > -1);
+
+  // A split job is a group / has brothers, so step-level edits no longer apply.
+  m_IsSplit := (p_sc.IsGroup(M_id) and p_sc.CheckIfGroupChilderenContainSubSteps(M_id)) or
+               ((not p_sc.IsGroup(M_id)) and (p_sc.GetJobNumBrothers(m_Id) > 1));
+
+  // "Back to standard": with no split it reverts ANY change; once split it
+  // reverts only the per-job (job level) setup, so enable it only when a job
+  // level change actually exists.
+  if m_IsSplit then
+    BtnRmvOveridn.Enabled := m_JobSetupExists
   else
-    BtnRmvOveridn.Enabled := true;
+    BtnRmvOveridn.Enabled := (EdtChangedSpeed.Text <> EdtCurrentSpeed.Text) or
+                             m_StepSetupExists or m_JobSetupExists;
 
   if EdtChangedSpeed.Text = EdtCurrentSpeed.Text then
   begin
@@ -370,24 +398,9 @@ begin
     LblChangedsetup.Visible  := false
   end;
 
-  if p_sc.IsGroup(M_id) then
-  begin
-    if p_sc.CheckIfGroupChilderenContainSubSteps(M_id) then
-    begin
-      GroupBoxSpeedStep.Visible := false;
-      GroupBoxSetUpStep.Visible := false;
-      GroupBoxSetUpJob.Left := GroupBoxSpeedStep.Left;
-      GroupBoxSetUpJob.Top := GroupBoxSpeedStep.Top
-    end;
-  end
-  else
-  if (p_sc.GetJobNumBrothers(m_Id) > 1) then
-  begin
-    GroupBoxSpeedStep.Visible := false;
-    GroupBoxSetUpStep.Visible := false;
-    GroupBoxSetUpJob.Left := GroupBoxSpeedStep.Left;
-    GroupBoxSetUpJob.Top := GroupBoxSpeedStep.Top;
-  end;
+  // Keep every box in its original place and just disable the step-level box.
+  if m_IsSplit then
+    DisableStepLevelLook;
 
 end;
 
@@ -472,7 +485,7 @@ begin
 
      if TEdit(Sender).Name = 'EditNewSetup' then
     begin
-      if eJobNewSetup.Text <> '' then
+      if (eJobNewSetup.Text <> '') or m_JobSetupExists then
       begin
         MessageDlg(_('You cannot change because Job Setup exists'), mtError, [mbOk], 0);
         abort;
@@ -483,7 +496,10 @@ begin
 
     if TEdit(Sender).Name = 'eJobNewSetup' then
     begin
-      if EditNewSetup.Text <> '' then
+      // Without a split, a step setup and a job setup cannot coexist (it
+      // produces an invalid update). Once the job is already split the
+      // step level no longer applies, so a job setup is allowed.
+      if (not m_IsSplit) and ((EditNewSetup.Text <> '') or m_StepSetupExists) then
       begin
         MessageDlg(_('You cannot change because Step Setup exists'), mtError, [mbOk], 0);
         abort;

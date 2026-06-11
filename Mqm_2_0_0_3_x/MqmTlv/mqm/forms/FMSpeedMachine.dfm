@@ -3,7 +3,7 @@ object SpeedMachine: TSpeedMachine
   Top = 0
   BorderIcons = [biSystemMenu]
   Caption = 'Modify execution and setup'
-  ClientHeight = 300
+  ClientHeight = 320
   ClientWidth = 674
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -18,18 +18,18 @@ object SpeedMachine: TSpeedMachine
     Left = 0
     Top = 0
     Width = 674
-    Height = 300
+    Height = 320
     ActivePage = TabSheetJobSpeed
     Align = alClient
     TabOrder = 0
     object TabSheetJobSpeed: TTabSheet
-      Caption = 'Speed/Setup'
+      Caption = 'Execution and Setup'
       DesignSize = (
         666
-        272)
+        292)
       object BtnAbort: TcxButton
         Left = 589
-        Top = 241
+        Top = 255
         Width = 70
         Height = 28
         Anchors = [akRight, akBottom]
@@ -41,12 +41,12 @@ object SpeedMachine: TSpeedMachine
         Font.Style = [fsBold]
         Font.Quality = fqClearType
         ParentFont = False
-        TabOrder = 0
+        TabOrder = 3
         OnClick = BtnAbortClick
       end
       object BtnOk: TcxButton
         Left = 518
-        Top = 241
+        Top = 255
         Width = 65
         Height = 28
         Anchors = [akRight, akBottom]
@@ -58,12 +58,12 @@ object SpeedMachine: TSpeedMachine
         Font.Style = [fsBold]
         Font.Quality = fqClearType
         ParentFont = False
-        TabOrder = 1
+        TabOrder = 2
         OnClick = BtnOkClick
       end
       object BtnRmvOveridn: TcxButton
         Left = 3
-        Top = 205
+        Top = 251
         Width = 188
         Height = 28
         Caption = 'Back to standard'
@@ -74,85 +74,173 @@ object SpeedMachine: TSpeedMachine
         Font.Style = [fsBold]
         Font.Quality = fqClearType
         ParentFont = False
-        TabOrder = 2
-
+        TabOrder = 4
         OnClick = BtnOkClick
       end
-      object GroupBoxSetUpStep: TGroupBox
-        Left = 361
+      object GroupBoxStepLevel: TGroupBox
+        Left = 3
         Top = 3
-        Width = 297
-        Height = 113
-        Caption = 'Setup for Step'
-        TabOrder = 3
-        object LblChangedSetup: TLabel
-          Left = 18
-          Top = 83
-          Width = 111
-          Height = 13
-          Caption = 'Already changed setup'
-        end
-        object LblCurrentSetup: TLabel
-          Left = 18
-          Top = 54
-          Width = 108
-          Height = 13
-          Caption = 'Standard setup (Min'#39's)'
-        end
-        object LblSetUp: TLabel
-          Left = 18
-          Top = 25
-          Width = 88
-          Height = 13
-          Caption = 'New setup in min'#39's'
-        end
-        object EditNewSetup: TEdit
-          Left = 153
-          Top = 22
-          Width = 120
-          Height = 21
-          Margins.Left = 4
-          Margins.Top = 4
-          Margins.Right = 4
-          Margins.Bottom = 4
-          Color = 14803425
+        Width = 347
+        Height = 242
+        Caption = 'Step level changes'
+        TabOrder = 0
+        object GroupBoxSpeedStep: TGroupBox
+          Left = 7
+          Top = 15
+          Width = 333
+          Height = 108
+          Caption = 'Speed'
           TabOrder = 0
-          OnKeyPress = EditNewSpeedKeyPress
+          object LblUN: TLabel
+            Left = 3
+            Top = 25
+            Width = 104
+            Height = 13
+            Caption = 'New speed in Minutes'
+          end
+          object LblUM: TLabel
+            Left = 112
+            Top = 25
+            Width = 15
+            Height = 13
+            Caption = 'UM'
+          end
+          object LblChangedSpead: TLabel
+            Left = 3
+            Top = 83
+            Width = 113
+            Height = 13
+            Caption = 'Already changed speed'
+          end
+          object LblCurrentSpead: TLabel
+            Left = 3
+            Top = 54
+            Width = 76
+            Height = 13
+            Caption = 'Standard speed'
+          end
+          object EditNewSpeed: TEdit
+            Left = 153
+            Top = 22
+            Width = 120
+            Height = 21
+            Margins.Left = 4
+            Margins.Top = 4
+            Margins.Right = 4
+            Margins.Bottom = 4
+            Color = clWindow
+            Ctl3D = False
+            ParentCtl3D = False
+            StyleElements = [seFont]
+            TabOrder = 0
+            OnKeyPress = EditNewSpeedKeyPress
+          end
+          object EdtCurrentSpeed: TEdit
+            Left = 153
+            Top = 51
+            Width = 120
+            Height = 21
+            Margins.Left = 4
+            Margins.Top = 4
+            Margins.Right = 4
+            Margins.Bottom = 4
+            Color = 14803425
+            Enabled = False
+            TabOrder = 1
+          end
+          object EdtChangedSpeed: TEdit
+            Left = 153
+            Top = 80
+            Width = 120
+            Height = 21
+            Margins.Left = 4
+            Margins.Top = 4
+            Margins.Right = 4
+            Margins.Bottom = 4
+            Color = 14803425
+            Enabled = False
+            TabOrder = 2
+          end
         end
-        object EdtChangedSetup: TEdit
-          Left = 153
-          Top = 80
-          Width = 120
-          Height = 21
-          Margins.Left = 4
-          Margins.Top = 4
-          Margins.Right = 4
-          Margins.Bottom = 4
-          Color = 14803425
-          Enabled = False
+        object GroupBoxSetUpStep: TGroupBox
+          Left = 7
+          Top = 127
+          Width = 333
+          Height = 108
+          Caption = 'Setup'
           TabOrder = 1
-        end
-        object EdtCurrentSetup: TEdit
-          Left = 153
-          Top = 51
-          Width = 120
-          Height = 21
-          Margins.Left = 4
-          Margins.Top = 4
-          Margins.Right = 4
-          Margins.Bottom = 4
-          Color = 14803425
-          Enabled = False
-          TabOrder = 2
+          object LblChangedSetup: TLabel
+            Left = 18
+            Top = 83
+            Width = 111
+            Height = 13
+            Caption = 'Already changed setup'
+          end
+          object LblCurrentSetup: TLabel
+            Left = 18
+            Top = 54
+            Width = 108
+            Height = 13
+            Caption = 'Standard setup (Min'#39's)'
+          end
+          object LblSetUp: TLabel
+            Left = 18
+            Top = 25
+            Width = 88
+            Height = 13
+            Caption = 'New setup in min'#39's'
+          end
+          object EditNewSetup: TEdit
+            Left = 153
+            Top = 22
+            Width = 120
+            Height = 21
+            Margins.Left = 4
+            Margins.Top = 4
+            Margins.Right = 4
+            Margins.Bottom = 4
+            Color = clWindow
+            Ctl3D = False
+            ParentCtl3D = False
+            StyleElements = [seFont]
+            TabOrder = 0
+            OnKeyPress = EditNewSpeedKeyPress
+          end
+          object EdtChangedSetup: TEdit
+            Left = 153
+            Top = 80
+            Width = 120
+            Height = 21
+            Margins.Left = 4
+            Margins.Top = 4
+            Margins.Right = 4
+            Margins.Bottom = 4
+            Color = 14803425
+            Enabled = False
+            TabOrder = 1
+          end
+          object EdtCurrentSetup: TEdit
+            Left = 153
+            Top = 51
+            Width = 120
+            Height = 21
+            Margins.Left = 4
+            Margins.Top = 4
+            Margins.Right = 4
+            Margins.Bottom = 4
+            Color = 14803425
+            Enabled = False
+            TabOrder = 2
+          end
         end
       end
       object GroupBoxSetUpJob: TGroupBox
         Left = 361
-        Top = 122
+        Top = 3
         Width = 297
         Height = 114
-        Caption = 'Setup for step/Job'
-        TabOrder = 4
+        Caption = 'Setup for job'
+        TabOrder = 1
         object Label2: TLabel
           Left = 18
           Top = 28
@@ -176,7 +264,10 @@ object SpeedMachine: TSpeedMachine
           Margins.Top = 4
           Margins.Right = 4
           Margins.Bottom = 4
-          Color = 14803425
+          Color = clWindow
+          Ctl3D = False
+          ParentCtl3D = False
+          StyleElements = [seFont]
           TabOrder = 0
           OnKeyPress = EditNewSpeedKeyPress
         end
@@ -192,81 +283,6 @@ object SpeedMachine: TSpeedMachine
           Color = 14803425
           Enabled = False
           TabOrder = 1
-        end
-      end
-      object GroupBoxSpeedStep: TGroupBox
-        Left = 3
-        Top = 3
-        Width = 337
-        Height = 113
-        Caption = 'Speed for Step'
-        TabOrder = 5
-        object LblUN: TLabel
-          Left = 3
-          Top = 25
-          Width = 104
-          Height = 13
-          Caption = 'New speed in Minutes'
-        end
-        object LblUM: TLabel
-          Left = 112
-          Top = 25
-          Width = 15
-          Height = 13
-          Caption = 'UM'
-        end
-        object LblChangedSpead: TLabel
-          Left = 3
-          Top = 83
-          Width = 113
-          Height = 13
-          Caption = 'Already changed speed'
-        end
-        object LblCurrentSpead: TLabel
-          Left = 3
-          Top = 54
-          Width = 76
-          Height = 13
-          Caption = 'Standard speed'
-        end
-        object EditNewSpeed: TEdit
-          Left = 199
-          Top = 22
-          Width = 118
-          Height = 21
-          Margins.Left = 4
-          Margins.Top = 4
-          Margins.Right = 4
-          Margins.Bottom = 4
-          Color = 14803425
-          TabOrder = 0
-          OnKeyPress = EditNewSpeedKeyPress
-        end
-        object EdtCurrentSpeed: TEdit
-          Left = 160
-          Top = 51
-          Width = 118
-          Height = 21
-          Margins.Left = 4
-          Margins.Top = 4
-          Margins.Right = 4
-          Margins.Bottom = 4
-          Color = 14803425
-          Enabled = False
-          TabOrder = 1
-        end
-        object EdtChangedSpeed: TEdit
-          Left = 160
-          Top = 80
-          Width = 120
-          Height = 21
-          Margins.Left = 4
-          Margins.Top = 4
-          Margins.Right = 4
-          Margins.Bottom = 4
-          Color = 14803425
-          Enabled = False
-          TabOrder = 2
         end
       end
     end
@@ -337,7 +353,10 @@ object SpeedMachine: TSpeedMachine
         Margins.Top = 4
         Margins.Right = 4
         Margins.Bottom = 4
-        Color = 14803425
+        Color = clWindow
+        Ctl3D = False
+        ParentCtl3D = False
+        StyleElements = [seFont]
         TabOrder = 0
         OnKeyPress = EditNewSpeedKeyPress
       end
@@ -413,7 +432,6 @@ object SpeedMachine: TSpeedMachine
         Font.Quality = fqClearType
         ParentFont = False
         TabOrder = 5
-
         OnClick = BtnWarpOkClick
       end
       object EditStandardSetUpWarp: TEdit
@@ -451,7 +469,10 @@ object SpeedMachine: TSpeedMachine
         Margins.Top = 4
         Margins.Right = 4
         Margins.Bottom = 4
-        Color = 14803425
+        Color = clWindow
+        Ctl3D = False
+        ParentCtl3D = False
+        StyleElements = [seFont]
         TabOrder = 8
         OnKeyPress = EditNewSpeedKeyPress
       end
@@ -469,7 +490,6 @@ object SpeedMachine: TSpeedMachine
         Font.Quality = fqClearType
         ParentFont = False
         TabOrder = 9
-
         OnClick = BtnWarpOkClick
       end
     end
