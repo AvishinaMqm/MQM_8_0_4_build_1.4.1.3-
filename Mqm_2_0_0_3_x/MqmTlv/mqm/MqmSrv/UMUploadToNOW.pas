@@ -2024,10 +2024,10 @@ begin
       if ConvertDateFormat = 1 then
         srvSqlStr := srvSqlStr + 'INITIALSCHEDULEDDATE , INITIALSCHEDULEDTIME , FINALSCHEDULEDDATE ,FINALSCHEDULEDTIME  '
       else if ConvertDateFormat = 2 then
-      begin
-        srvSqlStr := srvSqlStr + 'TO_CHAR(INITIALSCHEDULEDTIME,'+ QuotedStr('HH24:MI:SS')+')' + '"INITIALSCHEDULEDTIME", ';
-        srvSqlStr := srvSqlStr + 'TO_CHAR(FINALSCHEDULEDTIME,'+ QuotedStr('HH24:MI:SS')+')' + '"FINALSCHEDULEDTIME" ';
-      end;
+        // Oracle path: select all 4 date/time columns raw (no TO_CHAR).
+        // The TO_CHAR variant omitted the DATE columns, which made the
+        // unconditional FieldByName('INITIALSCHEDULEDDATE') below crash.
+        srvSqlStr := srvSqlStr + 'INITIALSCHEDULEDDATE , INITIALSCHEDULEDTIME , FINALSCHEDULEDDATE ,FINALSCHEDULEDTIME  ';
 
       srvSqlStr := srvSqlStr + ' FROM MATERIALDETAILSCHEDULE ';
       srvSqlStr := srvSqlStr + 'WHERE COMPANYCODE = ' + QuotedStr(IniAppGlobals.CompanyCode) + ' ';

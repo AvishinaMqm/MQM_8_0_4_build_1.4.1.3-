@@ -20340,6 +20340,11 @@ begin
       end
       else
       begin
+        // Only touch OVERRIDE_STEP_PARAMETERS when there is a step speed/setup to write.
+        // When only the job-level setup (or execution time) changed, Newspeed<=0 and
+        // Newsetup<0 -> the UPDATE would emit an empty SET clause ("set  where ...") and
+        // crash on DB2 (SQL0104N PDO_IDENTIFIER). Job setup is persisted via SaveJobs.
+        if (Newspeed > 0) or (Newsetup >= 0) then
         begin
 
           Application.ProcessMessages;

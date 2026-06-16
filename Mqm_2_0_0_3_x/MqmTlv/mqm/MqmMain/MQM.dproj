@@ -118,7 +118,7 @@
         <DCC_Inlining>off</DCC_Inlining>
         <DCC_ExeOutput>E:\Environments\MqmMcm\</DCC_ExeOutput>
         <Icon_MainIcon>..\images\mqm.ico</Icon_MainIcon>
-        <DCC_Define>customer;HasAnsiStrings;EUREKALOG;EUREKALOG_VER7</DCC_Define>
+        <DCC_Define>MCM;customer;HasAnsiStrings;EUREKALOG;EUREKALOG_VER7</DCC_Define>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <DCC_DcpOutput>E:\Mqm_Compiled_unit\Mqm\main</DCC_DcpOutput>

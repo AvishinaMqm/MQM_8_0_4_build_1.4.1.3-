@@ -1961,9 +1961,9 @@ begin
     ResCatCode := Res.p_ResCat.p_ResCatCode;
     WCCode     := TMqmWrkCtr(Res.p_WrkCtr).p_WrkCtrCode;
   end;
-  p_sc.GetIdTimes(ObjToMove, WCCode, ResCatCode, ResCode, false, Duration, Setup,true);
+  p_sc.GetIdTimes(ObjToMove, WCCode, ResCatCode, ResCode, false, Duration, Setup, false);
 
-  //Duration := Duration / p_sc.GetJobComponents(ObjToMove, true); // avi 03/03/2026
+  Duration := Duration / p_sc.GetJobComponents(ObjToMove, true); // avi 15/06/2026 Parkdall
 
   if LastEndDate > planInfo.StartDate then
   begin

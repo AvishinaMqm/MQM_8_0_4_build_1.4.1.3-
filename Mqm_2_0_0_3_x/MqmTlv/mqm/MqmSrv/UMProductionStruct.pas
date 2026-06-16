@@ -12886,17 +12886,11 @@ begin
 
   NEW_PROD_REQHDR.PH_TYPE_PROD := getValueOfTheProductionColumn(MQMProductionColumnValues, 'PD_ITEMTYPEAFICODE', PD_ITEMTYPEAFICODE);
 
+  // PH_ModulHandled is a SHARED skip flag: UMSchedCont skips a demand when this = '1'
+  // in BOTH MQM and MCM (the skip is NOT gated by MCM_App). The per-module separation
+  // is done by the step flags PD_SCHED_BY_MQM / PD_SCHED_BY_MCM (below), NOT here.
+  // Keep '0' so neither app hides the request at header level (original behaviour).
   NEW_PROD_REQHDR.PH_ModulHandled := '0';
-
- { if CUR_PRODUCTIONDEMANDTEMPLATE.HANDLEDBYMCM = '1' then
-  begin
-    if CUR_PRODUCTIONDEMANDTEMPLATE.HANDLEDBYMQM = '0' then
-      NEW_PROD_REQHDR.PH_ModulHandled := '1';
-    if CUR_PRODUCTIONDEMANDTEMPLATE.HANDLEDBYMQM = '1' then
-      NEW_PROD_REQHDR.PH_ModulHandled := '2';
-    if (CUR_PRODUCTIONDEMANDTEMPLATE.HANDLEDBYMQM = '2') and ContainProductionOrderCode then
-     NEW_PROD_REQHDR.PH_ModulHandled := '2';
-  end; }
 
   NEW_PROD_REQHDR.PH_PROD_FAMILY := getFullItemKeyCode(getValueOfTheProductionColumn(MQMProductionColumnValues, 'PD_ITEMTYPEAFICODE', PD_ITEMTYPEAFICODE),
                                     SUBCODE01, SUBCODE02, SUBCODE03, SUBCODE04, SUBCODE05,
@@ -14458,7 +14452,20 @@ begin
   NEW_PROD_STEP.PD_USR_CG := 'USERNAME';
   NEW_PROD_STEP.PD_USR_TM_CG := Now;
 
-  NEW_PROD_STEP.PD_SchedulByMqm := isWorkCenterHandledByMqm;
+  // MQM ONLY: a step is scheduled by MQM only when BOTH its work center AND its demand
+  // template are handled by MQM. Previously this took only the work center flag, so
+  // MCM-only demand templates (e.g. SFL/NON quotations, MQM=No) still got
+  // PD_SchedulByMqm='1' and showed up in MQM. HANDLEDBYMQM: '0'=No, '1'=Yes, '2'=always.
+  if (CUR_PRODUCTIONDEMANDTEMPLATE.HANDLEDBYMQM = '1') or
+     (CUR_PRODUCTIONDEMANDTEMPLATE.HANDLEDBYMQM = '2') then
+    NEW_PROD_STEP.PD_SchedulByMqm := isWorkCenterHandledByMqm
+  else
+    NEW_PROD_STEP.PD_SchedulByMqm := '0';
+
+  // MCM is driven SOLELY by the work center (original behaviour). The consultant fix
+  // only narrows MQM (above); MCM must keep seeing every step that runs on an
+  // MCM-handled work center, so DO NOT gate this by the template (HANDLEDBYMCM has no
+  // '2'/always value and many MCM steps run on templates not flagged HANDLEDBYMCM='1').
   NEW_PROD_STEP.PD_SchedulByMcm := isWorkCenterHandledByMcm;
 
   if (isWorkCenterHandledByMqm <> '1') and (isWorkCenterHandledByMcm <> '1') then
